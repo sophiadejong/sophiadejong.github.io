@@ -1,6 +1,6 @@
 §@font-face {
-	font-family: 'adelon';
-	src: url('../Adelon-Regular.ttf') format('truetype');
+	font-family: 'theinhardt';
+	src: url('../Theinhardt-Thin.otf') format('truetype');
 }
 
 
@@ -10,7 +10,7 @@
 	margin: 0;
 	border: 0;
 	outline: 0; 
-	font-family: 'adelon' !important;	
+	font-family: 'theinhardt' !important;	
 }
 
 
@@ -275,8 +275,8 @@ img:hover {
 	position: fixed;
 	z-index: 2;
 	left: 41%;
-	height: 25px;
-	top: 45px;   	  
+    height: 25px;
+    top: 45px;   	  
 }
 	
 	
@@ -343,7 +343,7 @@ img:hover {
 }
 
 
-#cropimg2:hover	{
+cropimg2:hover	{
 	mix-blend-mode: difference !important; 
 }
 
