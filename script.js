@@ -105,6 +105,6 @@ var captions = {
 	'46': '"Untitled" poster design',
 	'222': '',
 	'223': '(+31) 06 14 90 65 68 sophiamarinadejongy@gmail.com https://www.facebook.com/RBDS100/ https://www.instagram.com/sophia.de.jong/ https://soundcloud.com/neithme/ ',
-	'224': 'Born and raised in Buenos Aires, Argentina, The Hague based graphic designer, visual artist and ballet dancer immersed in emotional and conceptual art, focused in the field of body movement and it’s language and the combination with experiemental sound and different media platforms.',
+	'224': 'Born and raised in Buenos Aires, Netherlands based graphic designer, visual artist and ballet dancer immersed in emotional and conceptual art, focused in the field of body movement and it’s language and the combination with experiemental sound and different media platforms.',
 	}
 
