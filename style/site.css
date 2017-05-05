@@ -146,7 +146,7 @@ body {
 
 .video-silentharbour {
 	position: absolute;
- 	margin-left: 85px;
+ 	margin-left: 100px;
  	margin-top: 5850px;	
 	z-index: 10;
 }
@@ -158,6 +158,12 @@ body {
 	z-index: 10;
 }
 
+.video-lesfleurs {
+	position: absolute;
+ 	margin-left: 630px;
+ 	margin-top: 6740px;	
+	z-index: 10;
+}
 
 a.video-link {
 	position: absolute;
@@ -188,7 +194,7 @@ a.video-link {
 #slideshow .caption {
 	position: absolute;
 	top: 115px;
-	left: 35px;
+	left: 30px;
 	color: #ffffff;
 	right: 1000px;
 	text-align: left;	
@@ -232,7 +238,7 @@ body {
 	width: 100%;
 	position: relative;
 	margin: 0 auto;
-	height: 950%;
+	height: 1000%;
 }
 
 
@@ -826,8 +832,8 @@ cropimg2:hover	{
 #cropimg26	{	
 	position: absolute;
  	margin-left: 100px;
- 	margin-top: 3355px;	
-	height: 380px;
+ 	margin-top: 3380px;	
+	height: 350px;
 }
 
 
@@ -845,7 +851,7 @@ cropimg2:hover	{
 	position: absolute;
  	margin-left: 750px;
  	margin-top: 3300px;	
-	height: 350px;
+	height: 380px;
 }
 
 
@@ -898,7 +904,7 @@ cropimg2:hover	{
 
 #cropimg30	{
 	position: absolute;
-	margin-left: 615px;
+	margin-left: 595px;
 	margin-top: 3270px; 
 	height: 350px;
 }
@@ -1135,6 +1141,40 @@ cropimg2:hover	{
 
 
 #cropimg46:hover ~ #bg	{
+	background: #ffffff;
+}
+
+#cropimg47	{	
+	position: absolute;
+ 	margin-left: 80px;
+ 	margin-top: 6300px;
+	height: 480px;
+}
+
+
+#cropimg47:hover	{
+	mix-blend-mode: difference !important;
+}
+
+
+#cropimg47:hover ~ #bg	{
+	background: #ffffff;
+}
+
+#cropimg48	{	
+	position: absolute;
+ 	margin-left: 200px;
+ 	margin-top: 6715px;
+	height: 150px;
+}
+
+
+#cropimg48:hover	{
+	mix-blend-mode: difference !important;
+}
+
+
+#cropimg48:hover ~ #bg	{
 	background: #ffffff;
 }
 
