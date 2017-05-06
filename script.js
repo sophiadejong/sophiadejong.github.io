@@ -68,7 +68,7 @@ var captions = {
 	'5': '"Tri parti" poster design, 2013',
 	'6': '"Double Exposure" poster design, 2014',
 	'7': 'Poster design for a secret location techno and experimental music party and in Moscow, Russia 2014',
-	'8': 'Poster design for a secret location techno and experimental music party and in Moscow, Russia, 2025',
+	'8': 'Poster design for a secret location techno and experimental music party and in Moscow, Russia, 2015',
 	'9': 'Poster design for a secret location techno and experimental music party and in Moscow, Russia, 2016',
 	'10': 'Newspaper design based on  the japanese view of the Cherry Blossoms flowers in the WWII, 2016',
 	'101': 'Newspaper design based on  the japanese view of the Cherry Blossoms flowers in the WWII, 2016',
