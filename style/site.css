@@ -238,7 +238,7 @@ body {
 	width: 100%;
 	position: relative;
 	margin: 0 auto;
-	height: 1010%;
+	height: 1060%;
 }
 
 
@@ -831,9 +831,9 @@ cropimg2:hover	{
 
 #cropimg26	{	
 	position: absolute;
- 	margin-left: 80px;
- 	margin-top: 3340px;	
-	height: 390px;
+ 	margin-left: 100px;
+ 	margin-top: 3380px;	
+	height: 350px;
 }
 
 
@@ -1175,6 +1175,23 @@ cropimg2:hover	{
 
 
 #cropimg48:hover ~ #bg	{
+	background: #ffffff;
+}
+
+#cropimg49	{	
+	position: absolute;
+ 	margin-left: 90px;
+ 	margin-top: 6980px;
+	height: 350px;
+}
+
+
+#cropimg49:hover	{
+	mix-blend-mode: difference !important;
+}
+
+
+#cropimg49:hover ~ #bg	{
 	background: #ffffff;
 }
 
