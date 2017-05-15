@@ -107,7 +107,7 @@ var captions = {
 	'48': '"Ampersand" poster design, 2014',
 	'49': '"Void" poster design, 2014',
 	'222': '',
-	'223': '(+31) 06 14 90 65 68 sophiamarinadejongy@gmail.com https://www.facebook.com/RBDS100/ https://www.instagram.com/sophia.de.jong/ https://soundcloud.com/neithme/ ',
+	'223': 'sophiamarinadejongy@gmail.com https://www.facebook.com/RBDS100/',
 	'224': 'Argentinian-Dutch, Netherlands based graphic designer, visual artist and ballet dancer immersed in emotional and conceptual art, focused in the field of body movement and it’s language and the combination with experiemental sound and different media platforms.',
 	}
 
