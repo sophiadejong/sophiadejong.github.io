@@ -70,6 +70,7 @@ var captions = {
 	'7': 'Poster design for a secret location techno and experimental music party and in Moscow, Russia 2014',
 	'8': 'Poster design for a secret location techno and experimental music party and in Moscow, Russia, 2015',
 	'9': 'Poster design for a secret location techno and experimental music party and in Moscow, Russia, 2017',
+	'99': 'Poster design for a secret location techno and experimental music party and in Moscow, Russia, 2017',
 	'10': 'Newspaper design based on  the japanese view of the Cherry Blossoms flowers in the WWII, 2016',
 	'101': 'Newspaper design based on  the japanese view of the Cherry Blossoms flowers in the WWII, 2016',
 	'102': 'Newspaper design based on  the japanese view of the Cherry Blossoms flowers in the WWII, 2016',
@@ -107,7 +108,7 @@ var captions = {
 	'48': '"Ampersand" poster design, 2014',
 	'49': '"Void" poster design, 2014',
 	'222': '',
-	'223': 'sophiamarinadejongy@gmail.com https://www.facebook.com/RBDS100/',
+	'223': '(+31) 06 14 90 65 68 sophiamarinadejongy@gmail.com https://www.facebook.com/RBDS100/ https://www.instagram.com/sophia.de.jong/ https://soundcloud.com/neithme/ ',
 	'224': 'Argentinian-Dutch, Netherlands based graphic designer, visual artist and ballet dancer immersed in emotional and conceptual art, focused in the field of body movement and it’s language and the combination with experiemental sound and different media platforms.',
 	}
 

@@ -485,6 +485,24 @@ cropimg2:hover	{
 }
 
 
+#cropimg99	{	
+	position: absolute;
+ 	margin-left: 225px;
+ 	margin-top: 830px;	
+	height: 400px;
+}
+
+
+#cropimg99:hover	{
+	mix-blend-mode: difference !important;
+}
+
+
+#cropimg99:hover ~ #bg	{
+	background: #ffffff;
+}
+
+
 #cropimg10	{	
 	position: absolute;
  	margin-left: 700px;
