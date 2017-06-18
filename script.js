@@ -104,7 +104,7 @@ var captions = {
 	'43': '"Anti-Art" is a fanzine based on six degrees of inpiration: ballet, constructivism, punk music, dark art, Gabriel Grün, and Les Incoherents art movement, 2016',
 	'44': '"Anti-Art" is a fanzine based on six degrees of inpiration: ballet, constructivism, punk music, dark art, Gabriel Grün, and Les Incoherents art movement, 2016',
 	'46': '"Untitled" poster design, 2017',
-	'47': '"Ampersand" poster design, 2014',
+	'47': '"Untitled Landscape" poster design, 2016 ',
 	'48': '"Ampersand" poster design, 2014',
 	'49': '"Void" poster design, 2014',
 	'222': '',
