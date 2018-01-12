@@ -16,6 +16,25 @@ $(document).ready(function(){
 			}).show();
 
 		}
+		
+	});
+	
+			$('.me').on({
+		click: function(){
+			var filename = $(this).attr('src');
+
+			var number = filename.match(/\d+/)[0];
+			var caption = captions[number];
+			console.log(caption);
+			$('#slideshow .caption').empty().text(caption);
+
+
+			$('#slideshow').css({
+				'background-image': 'url(big-images/'+number+'.jpg)'
+			}).show();
+
+		}
+		
 	});
 
 
