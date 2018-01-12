@@ -97,6 +97,10 @@ body {
 /* 	padding: 10px; */
 }
 
+.video:hover	{
+	z-index: 1000;
+} 
+
 .video-isotoop {
 	position: absolute;
  	margin-left: 660px;
@@ -105,7 +109,7 @@ body {
 }
 
 .video-isotoop:hover	{
-	z-index: 100;
+	z-index: 1000;
 }
 
 .video-urban {
@@ -116,7 +120,7 @@ body {
 }
 
 .video-urban:hover	{
-	z-index: 100;
+	z-index: 1000;
 }
 
 .video-secondskin {
@@ -127,7 +131,7 @@ body {
 }
 
 .video-secondskin:hover	{
-	z-index: 100;
+	z-index: 1000;
 }
 
 .video-forest {
@@ -160,8 +164,8 @@ body {
 
 .video-lesfleurs {
 	position: absolute;
- 	margin-left: 630px;
- 	margin-top: 6680px;	
+ 	margin-left: 550px;
+ 	margin-top: 6260px;	
 	z-index: 10;
 }
 
@@ -180,8 +184,8 @@ a.video-link {
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 100vh;
 	z-index: 10000;
+	height: 100%;
 	background-position: center;
 	background-size: contain;
 /* 	mix-blend-mode: difference !important; */
@@ -238,7 +242,7 @@ body {
 	width: 100%;
 	position: relative;
 	margin: 0 auto;
-	height: 1060%;
+	height: 100%;
 }
 
 
@@ -264,34 +268,45 @@ img:hover {
 /* About and Contact */
 
 .name {
-	z-index: 100;
+	z-index: 200;
 }
 
 
 #titlesophia   {
 	position: fixed;
 	z-index: 200;
-	left: 10%;
+	left: 3%;
     height: 25px;
-    top: 45px;   
+    top: 3%;   
 }
+
+.filter   {
+	z-index: 170;
+    height: 100%;
+    width: 100%;
+    position: static;
+    mix-blending-mode: difference;
+    
+}
+
 
 
 #contact    {	
 	position: fixed;
 	z-index: 2;
-	left: 41%;
+	right:	 3%;
     height: 25px;
-    top: 45px;   	  
+    top: 3%;    	 
+    z-index: 200; 
 }
 	
 	
 #about    {	
 	position: fixed;
-	z-index: 2;
-	left: 65%;
+	z-index: 200;
+	left: 4%;
     height: 25px;
-    top: 45px;   
+    bottom: 3%;   
 }
 
 
@@ -300,7 +315,7 @@ img:hover {
 	z-index: 200;
 	margin-left: 50%;
     height: 150px;
-    top: 45px;   	
+    bottom: 3%;  
 }
 
 
@@ -324,14 +339,15 @@ img:hover {
 
 #cropimg	{	
 	position: absolute;
- 	margin-left: 80px;
- 	margin-top: 110px;	
-	height: 420px;	
+ 	margin-left: 700px;
+ 	margin-top: 90px;	
+	height: 550px;	
 }
 
 
 .crop-img {
 	z-index: 100!important;
+	height: 100%;
 
 }
 
@@ -343,7 +359,7 @@ img:hover {
 
 #cropimg2	{	
 	position: absolute;
- 	margin-left: 305px;
+ 	margin-left: 260px;
  	margin-top: 205px;	
 	height: 350px;
 }
@@ -398,7 +414,7 @@ cropimg2:hover	{
 #cropimg5	{	
 	position: absolute;
 	margin-left: 805px;
-	margin-top: 250px;
+	margin-top: 380px;
 	height: 350px;
 }
 
@@ -415,9 +431,9 @@ cropimg2:hover	{
 
 #cropimg6	{	
 	position: absolute;
- 	margin-left: 903px;
- 	margin-top: 400px;	
-	height: 350px;
+ 	margin-left: 110px;
+ 	margin-top: 90px;	
+	height: 450px;
 }
 
 
@@ -452,7 +468,7 @@ cropimg2:hover	{
 #cropimg8	{	
 	position: absolute;
  	margin-left: 300px;
- 	margin-top: 770px;	
+ 	margin-top: 690px;	
 	height: 400px;
 }
 
@@ -469,8 +485,8 @@ cropimg2:hover	{
 
 #cropimg9	{	
 	position: absolute;
- 	margin-left: 175px;
- 	margin-top: 690px;	
+ 	margin-left: 155px;
+ 	margin-top: 770px;	
 	height: 400px;
 }
 
@@ -487,8 +503,8 @@ cropimg2:hover	{
 
 #cropimg99	{	
 	position: absolute;
- 	margin-left: 225px;
- 	margin-top: 830px;	
+ 	margin-left: 205px;
+ 	margin-top: 790px;	
 	height: 400px;
 }
 
@@ -758,9 +774,9 @@ cropimg2:hover	{
 
 #cropimg21	{	
 	position: absolute;
-	margin-left: 250px;
- 	margin-top: 2790px;
-	height: 400px;
+	margin-left: 80px;
+ 	margin-top: 2750px;
+	height: 450px;
 }
 
 
@@ -886,7 +902,7 @@ cropimg2:hover	{
 #cropimg28	{	
 	position: absolute;
 	margin-left: 940px;
-	margin-top: 3200px; 
+	margin-top: 3170px; 
 	height: 350px;
 }
 
@@ -1198,9 +1214,9 @@ cropimg2:hover	{
 
 #cropimg49	{	
 	position: absolute;
- 	margin-left: 90px;
- 	margin-top: 6980px;
-	height: 350px;
+ 	margin-left: 600px;
+ 	margin-top: 6700px;
+	height: 400px;
 }
 
 
@@ -1213,6 +1229,39 @@ cropimg2:hover	{
 	background: #ffffff;
 }
 
+#cropimg50	{	
+	position: absolute;
+ 	margin-left: 720px;
+ 	margin-top: 7100px;
+	height: 400px;
+}
+
+
+#cropimg50:hover	{
+	mix-blend-mode: difference !important;
+}
+
+
+#cropimg50:hover ~ #bg	{
+	background: #ffffff;
+}
+
+#cropimg51	{	
+	position: absolute;
+ 	margin-left: 255px;
+ 	margin-top: 850px;	
+	height: 400px;
+}
+
+
+#cropimg51:hover	{
+	mix-blend-mode: difference !important;
+}
+
+
+#cropimg51:hover ~ #bg	{
+	background: #ffffff;
+}
 
 
 .close {
