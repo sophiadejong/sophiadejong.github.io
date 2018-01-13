@@ -127,7 +127,7 @@ var captions = {
 	'48': '"Ampersand" poster design, 2014',
 	'49': '"Void" poster design, 2014',
 	'222': '',
-	'223': 'phiadejong@gmail.com https://www.facebook.com/RBDS100/',
+	'223': 'phiadejong@gmail.com              	https://www.facebook.com/RBDS100/',
 	'224': 'Argentinian-Dutch, The Hague based graphic designer, visual artist and ballet dancer immersed in emotional and conceptual art, focused in the field of body movement and it’s language and the combination with experiemental sound and different media platforms.',
 	}
 
