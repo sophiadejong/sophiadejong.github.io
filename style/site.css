@@ -11,6 +11,7 @@
 	border: 0;
 	outline: 0; 
 	font-family: 'theinhardt' !important;	
+	font-size: 3%;
 }
 
 
@@ -90,26 +91,38 @@ body {
 
 /* Video */
 
+/*
 .video {
 	position: absolute;
-	z-index: 320;
-/* 	background-color: #e6e6e6; */
-/* 	padding: 10px; */
+	z-index: 20;
+	background-color: #e6e6e6;
+	padding: 10px;
 }
 
 .video:hover	{
 	z-index: 1000;
-} 
+	mix-blending-mode: multiply !important;
+
+}
+*/ 
 
 .video-isotoop {
 	position: absolute;
  	margin-left: 660px;
  	margin-top: 1505px;
  	z-index: 10;	
+	-webkit-filter: invert(100%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+    mix-blending-mode: multiply !important;
+
 }
 
 .video-isotoop:hover	{
-	z-index: 1000;
+	z-index: 5000; 
+	mix-blend-mode: normal !important; 
+	-webkit-filter:invert(0%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');	
+	
 }
 
 .video-urban {
@@ -117,28 +130,54 @@ body {
  	margin-left: 100px;
  	margin-top: 4680px;
  	z-index: 10;	
+	-webkit-filter: invert(100%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+    mix-blending-mode: multiply !important;
 }
 
 .video-urban:hover	{
-	z-index: 1000;
+	z-index: 5000; 
+	mix-blend-mode: normal !important; 
+	-webkit-filter:invert(0%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');	
+	
 }
 
 .video-secondskin {
 	position: absolute;
  	margin-left: 75px;
  	margin-top: 2200px;	
- 	z-index: 2;
-}
+ 	z-index: 10;	
+	-webkit-filter: invert(100%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+    mix-blending-mode: multiply !important;
+    
+    }
 
 .video-secondskin:hover	{
-	z-index: 1000;
+	z-index: 5000; 
+	mix-blend-mode: normal !important; 
+	-webkit-filter:invert(0%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');	
+	
 }
 
 .video-forest {
 	position: absolute;
  	margin-left: 630px;
  	margin-top: 5120px;
- 	z-index: 10;	
+ 	z-index: 10;
+	-webkit-filter: invert(100%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+    mix-blending-mode: multiply !important;	
+}
+
+.video-forest:hover	{
+	z-index: 5000; 
+	mix-blend-mode: normal !important; 
+	-webkit-filter:invert(0%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');	
+	
 }
 
 .video-isotoopjan {
@@ -146,13 +185,36 @@ body {
  	margin-left: 640px;
  	margin-top: 2685px;	
 	z-index: 10;
+	-webkit-filter: invert(100%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+    mix-blending-mode: multiply !important;
+}
+
+.video-isotoopjan:hover	{
+	z-index: 5000; 
+	mix-blend-mode: normal !important; 
+	-webkit-filter:invert(0%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');	
+	
 }
 
 .video-silentharbour {
 	position: absolute;
  	margin-left: 100px;
  	margin-top: 5850px;	
-	z-index: 10;
+ 	z-index: 10;	
+	-webkit-filter: invert(100%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+    mix-blending-mode: multiply !important;
+    
+}
+
+.video-silentharbour:hover	{
+	z-index: 5000; 
+	mix-blend-mode: normal !important; 
+	-webkit-filter:invert(0%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');	
+	
 }
 
 .video-waveform {
@@ -166,13 +228,25 @@ body {
 	position: absolute;
  	margin-left: 550px;
  	margin-top: 6260px;	
-	z-index: 10;
+ 	z-index: 10;	
+	-webkit-filter: invert(100%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+    mix-blending-mode: multiply !important;
+    
+}
+
+.video-lesfleurs:hover	{
+	z-index: 5000; 
+	mix-blend-mode: normal !important; 
+	-webkit-filter:invert(0%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');	
+	
 }
 
 a.video-link {
 	position: absolute;
 	font-size: 15px;
-	color: #e5e5e5;
+	color: #ff0000;
 	z-index: 120;
 }
 
@@ -181,16 +255,16 @@ a.video-link {
 
 #slideshow {
 	position: fixed;
-	top: 10%;
+	top: 0%;
 	left: 0%;
 	right: 0%;
-	bottom: 10%;
+	bottom: 0%;
 	z-index: 10000;
 	height: 100%;
 	width: 100%;
 	background-position: center center;
 	background-size: contain;
-/* 	mix-blend-mode: difference !important; */
+/* 	mix-blend-mode: multiply !important; */
 	display: none;
 	background-repeat: no-repeat;
 	background-color: rgba(0,    0,    0, 0.49);
@@ -199,10 +273,10 @@ a.video-link {
 
 #slideshow .caption {
 	position: absolute;
-	top: 2%;
-	left: 2%;
+	top: 10%;
+	left: 4%;
 	color: #ffffff;
-	right: 80%;
+	right: 70%;
 	text-align: left;	
 }
 
@@ -216,7 +290,7 @@ a.video-link {
 	z-index: 10000;
 	background-position: center;
 	background-size: contain;
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 	display: none;
 	background-repeat: no-repeat;
 	background-color: rgba(0,    0,    0, 0.49);
@@ -262,7 +336,7 @@ img:hover {
     width: 100%;
     height: 520%;
     z-index: 0;
-    background: black;
+    background: #c30000;
 }
 
 
@@ -270,14 +344,13 @@ img:hover {
 /* About and Contact */
 
 .name {
-	z-index: 2000;
-		z-index: 100!important;
+	z-index: 6000 !important;
 	height: 100%;
 }
 
 .me {
-	z-index: 100!important;
 	height: 100%;
+	z-index: 6000 !important;
 
 
 }
@@ -285,7 +358,7 @@ img:hover {
 
 #titlesophia   {
 	position: fixed;
-	z-index: 200;
+	z-index: 6000 !important;
 	left: 2%;
     height: 15px;
     top: 3%;   
@@ -293,14 +366,22 @@ img:hover {
 }
 
 .filter   {
-	z-index: 170;
-    height: 100%;
-    width: 100%;
-    position: static;
-    mix-blending-mode: difference;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
     
 }
 
+#filter {
+	position: !important;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	mix-blending-mode: difference;
+	
+	
+}
 
 
 #contact    {	
@@ -309,14 +390,14 @@ img:hover {
 	right:	 2%;
     height: 15px;
     top: 3%;    	 
-    z-index: 3000; 
+	z-index: 6000 !important;
     padding: 20px;
 }
 	
 	
 #about    {	
 	position: fixed;
-	z-index: 200;
+	z-index: 6000 !important;
 	left: 2%;
     height: 15px;
     bottom: 3%;   
@@ -334,12 +415,12 @@ img:hover {
 
 
 .title    {	
-	z-index: 2000 !important;	
+	z-index: 6000 !important;
 }
 
 
 .title:hover	{
-	mix-blend-mode: difference !important; 
+	mix-blend-mode: multiply !important; 
 }
 
 
@@ -347,16 +428,10 @@ img:hover {
 /* Images */
 
 .crop-img:hover	{
-	mix-blend-mode: difference !important; 	
-}
-
-
-#cropimg	{	
-	position: absolute;
- 	margin-left: 700px;
- 	margin-top: 90px;	
-	height: 550px;	
-}
+	z-index: 5000; 
+	mix-blend-mode: normal !important; 
+	-webkit-filter:invert(0%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');	}
 
 
 .crop-img {
@@ -364,12 +439,31 @@ img:hover {
 	height: 100%;
 	-webkit-filter:invert(100%);
     filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+    mix-blend-mode: multiply; 	
+}
 
+.cropimg:hover ~ #bg	{
+	background: #c30000;	
+}
+
+#cropimg	{	
+	position: absolute;
+ 	margin-left: 700px;
+ 	margin-top: 90px;	
+	height: 550px;	
+	mix-blend-mode: multiply; 	
+}
+
+#cropimg:hover	{
+	z-index: 5000; 
+	mix-blend-mode: normal !important; 
+	-webkit-filter:invert(0%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');	
 }
 
 
 #cropimg:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;	
 }
 
 
@@ -382,12 +476,12 @@ img:hover {
 
 
 #cropimg2:hover	{
-	mix-blend-mode: difference !important; 
+	mix-blend-mode: multiply !important; 
 }
 
 
 #cropimg2:hover ~ #bg	{
-	background: #ffffff;	
+	background: #c30000;	
 }
 
 
@@ -400,12 +494,12 @@ img:hover {
 
 
 #cropimg3:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg3:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
 
 
@@ -418,12 +512,12 @@ img:hover {
 
 
 #cropimg4:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg4:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
 
 
@@ -436,12 +530,12 @@ img:hover {
 
 
 #cropimg5:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg5:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
 
 
@@ -454,14 +548,16 @@ img:hover {
 }
 
 
+/*
 #cropimg6:hover	{
-	mix-blend-mode: exclussion !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg6:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg7	{	
@@ -473,14 +569,16 @@ img:hover {
 }
 
 
+/*
 #cropimg7:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg7:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg8	{	
@@ -491,14 +589,16 @@ img:hover {
 }
 
 
+/*
 #cropimg8:hover {
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg8:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
  	
 
 #cropimg9	{	
@@ -509,14 +609,16 @@ img:hover {
 }
 
 
+/*
 #cropimg9:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg9:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg99	{	
@@ -527,14 +629,16 @@ img:hover {
 }
 
 
+/*
 #cropimg99:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg99:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg10	{	
@@ -545,14 +649,16 @@ img:hover {
 }
 
 
+/*
 #cropimg10:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg10:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
  
  
 #cropimg101	{	
@@ -563,14 +669,16 @@ img:hover {
 }
 
 
+/*
 #cropimg101:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg101:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg102	{	
@@ -581,14 +689,16 @@ img:hover {
 }
 
 
+/*
 #cropimg102:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg102:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 #cropimg103	{	
 	position: absolute;
@@ -598,14 +708,16 @@ img:hover {
 }
 
 
+/*
 #cropimg103:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg103:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 
@@ -617,14 +729,16 @@ img:hover {
 }
 
 
+/*
 #cropimg11:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg11:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg12	{	
@@ -635,14 +749,16 @@ img:hover {
 }
 
 
+/*
 #cropimg12:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg12:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg13	{	
@@ -653,15 +769,17 @@ img:hover {
 }
 
 
+/*
 #cropimg13:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg13:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
  
+*/
 
 #cropimg14	{	
 	position: absolute;
@@ -671,14 +789,16 @@ img:hover {
 }
 
 
+/*
 #cropimg14:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg14:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg15	{	
@@ -689,14 +809,16 @@ img:hover {
 }
 
 
+/*
 #cropimg15:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg15:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg16	{	
@@ -708,15 +830,17 @@ img:hover {
 	height: 400px;
 }
 
+/*
 
 #cropimg16:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg16:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg17	{	
@@ -727,13 +851,15 @@ img:hover {
 }
 
 
+/*
 #cropimg17:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 #cropimg17:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg18	{	
@@ -744,14 +870,16 @@ img:hover {
 }
 
 
+/*
 #cropimg18:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg18:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg19	{	
@@ -762,14 +890,16 @@ img:hover {
 }
 
 
+/*
 #cropimg19:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 	
 	
 #cropimg19:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg20	{	
@@ -780,14 +910,16 @@ img:hover {
 }
 
 
+/*
 #cropimg20:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg20:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg21	{	
@@ -798,14 +930,16 @@ img:hover {
 }
 
 
+/*
 #cropimg21:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg21:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg22	{	
@@ -815,15 +949,17 @@ img:hover {
 	height: 350px;
 }
 
+/*
 
 #cropimg22:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg22:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 
@@ -834,15 +970,17 @@ img:hover {
 	height: 350px;
 }
 
+/*
 
 #cropimg23:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg23:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg24	{	
@@ -853,14 +991,16 @@ img:hover {
 }
 
 
+/*
 #cropimg24:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg24:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg25	{	
@@ -871,14 +1011,16 @@ img:hover {
 }
 
 
+/*
 #cropimg25:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg25:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg26	{	
@@ -888,15 +1030,17 @@ img:hover {
 	height: 350px;
 }
 
+/*
 
 #cropimg26:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg26:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg27	{	
@@ -907,14 +1051,16 @@ img:hover {
 }
 
 
+/*
 #cropimg27:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg27:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg28	{	
@@ -924,15 +1070,17 @@ img:hover {
 	height: 350px;
 }
 
+/*
 
 #cropimg28:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg28:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg29	{	
@@ -942,16 +1090,18 @@ img:hover {
 	height: 350px;
 }
 
+/*
 
 #cropimg29:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 
 #cropimg29:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg30	{
@@ -961,14 +1111,16 @@ img:hover {
 	height: 350px;
 }
 
+/*
 #cropimg30:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg30:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg31	{	
@@ -979,14 +1131,16 @@ img:hover {
 }
 
 
+/*
 #cropimg31:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg31:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 #cropimg32	{	
 	position: absolute;
@@ -996,14 +1150,16 @@ img:hover {
 }
 
 
+/*
 #cropimg32:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg32:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 #cropimg33	{	
 	position: absolute;
@@ -1013,14 +1169,16 @@ img:hover {
 }
 
 
+/*
 #cropimg33:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg33:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg34	{	
@@ -1031,14 +1189,16 @@ img:hover {
 }
 
 
+/*
 #cropimg34:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg34:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg35	{	
@@ -1049,14 +1209,16 @@ img:hover {
 }
 
 
+/*
 #cropimg35:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg35:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg36	{	
@@ -1067,14 +1229,16 @@ img:hover {
 }
 
 
+/*
 #cropimg36:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg36:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 #cropimg37	{	
@@ -1085,14 +1249,16 @@ img:hover {
 }
 
 
+/*
 #cropimg37:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg37:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 #cropimg38	{	
 	position: absolute;
@@ -1102,14 +1268,16 @@ img:hover {
 }
 
 
+/*
 #cropimg38:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg38:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 #cropimg39	{	
 	position: absolute;
@@ -1119,14 +1287,16 @@ img:hover {
 }
 
 
+/*
 #cropimg39:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg39:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 #cropimg41	{	
 	position: absolute;
@@ -1136,14 +1306,16 @@ img:hover {
 }
 
 
+/*
 #cropimg41:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg41:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 #cropimg43	{	
 	position: absolute;
@@ -1153,14 +1325,16 @@ img:hover {
 }
 
 
+/*
 #cropimg43:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg43:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 #cropimg44	{	
 	position: absolute;
@@ -1170,14 +1344,16 @@ img:hover {
 }
 
 
+/*
 #cropimg44:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg44:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 #cropimg46	{	
 	position: absolute;
@@ -1187,14 +1363,16 @@ img:hover {
 }
 
 
+/*
 #cropimg46:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg46:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 #cropimg47	{	
 	position: absolute;
@@ -1204,14 +1382,16 @@ img:hover {
 }
 
 
+/*
 #cropimg47:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg47:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 #cropimg48	{	
 	position: absolute;
@@ -1221,14 +1401,16 @@ img:hover {
 }
 
 
+/*
 #cropimg48:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg48:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 #cropimg49	{	
 	position: absolute;
@@ -1237,15 +1419,17 @@ img:hover {
 	height: 400px;
 }
 
+/*
 
 #cropimg49:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg49:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 #cropimg50	{	
 	position: absolute;
@@ -1255,14 +1439,16 @@ img:hover {
 }
 
 
+/*
 #cropimg50:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg50:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 #cropimg51	{	
 	position: absolute;
@@ -1272,14 +1458,16 @@ img:hover {
 }
 
 
+/*
 #cropimg51:hover	{
-	mix-blend-mode: difference !important;
+	mix-blend-mode: multiply !important;
 }
 
 
 #cropimg51:hover ~ #bg	{
-	background: #ffffff;
+	background: #c30000;
 }
+*/
 
 
 .close {
