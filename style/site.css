@@ -186,7 +186,7 @@ a.video-link {
 	right: 0%;
 	bottom: 10%;
 	z-index: 10000;
-	height: 80%;
+	height: 100%;
 	width: 100%;
 	background-position: center center;
 	background-size: contain;
@@ -286,9 +286,10 @@ img:hover {
 #titlesophia   {
 	position: fixed;
 	z-index: 200;
-	left: 3%;
-    height: 25px;
+	left: 2%;
+    height: 15px;
     top: 3%;   
+    padding: 20px;
 }
 
 .filter   {
@@ -305,20 +306,21 @@ img:hover {
 #contact    {	
 	position: fixed;
 	z-index: 2;
-	right:	 3%;
-    height: 25px;
+	right:	 2%;
+    height: 15px;
     top: 3%;    	 
     z-index: 3000; 
+    padding: 20px;
 }
 	
 	
 #about    {	
 	position: fixed;
 	z-index: 200;
-	left: 3%;
-    height: 25px;
+	left: 2%;
+    height: 15px;
     bottom: 3%;   
-    align-self: left;
+    padding: 20px;
 }
 
 
