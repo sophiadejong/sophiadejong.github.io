@@ -111,17 +111,11 @@ body {
  	margin-left: 660px;
  	margin-top: 1505px;
  	z-index: 10;	
-	-webkit-filter: invert(100%);
-    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
-    mix-blending-mode: multiply !important;
 
 }
 
 .video-isotoop:hover	{
 	z-index: 5000; 
-	mix-blend-mode: normal !important; 
-	-webkit-filter:invert(0%);
-    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');	
 	
 }
 
@@ -130,16 +124,12 @@ body {
  	margin-left: 100px;
  	margin-top: 4680px;
  	z-index: 10;	
-	-webkit-filter: invert(100%);
-    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
-    mix-blending-mode: multiply !important;
+
 }
 
 .video-urban:hover	{
 	z-index: 5000; 
-	mix-blend-mode: normal !important; 
-	-webkit-filter:invert(0%);
-    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');	
+
 	
 }
 
@@ -148,17 +138,12 @@ body {
  	margin-left: 75px;
  	margin-top: 2200px;	
  	z-index: 10;	
-	-webkit-filter: invert(100%);
-    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
-    mix-blending-mode: multiply !important;
     
     }
 
 .video-secondskin:hover	{
 	z-index: 5000; 
-	mix-blend-mode: normal !important; 
-	-webkit-filter:invert(0%);
-    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');	
+	
 	
 }
 
@@ -167,16 +152,13 @@ body {
  	margin-left: 630px;
  	margin-top: 5120px;
  	z-index: 10;
-	-webkit-filter: invert(100%);
-    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
-    mix-blending-mode: multiply !important;	
+
 }
 
 .video-forest:hover	{
 	z-index: 5000; 
 	mix-blend-mode: normal !important; 
-	-webkit-filter:invert(0%);
-    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');	
+	
 	
 }
 
@@ -185,16 +167,12 @@ body {
  	margin-left: 640px;
  	margin-top: 2685px;	
 	z-index: 10;
-	-webkit-filter: invert(100%);
-    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
-    mix-blending-mode: multiply !important;
+
 }
 
 .video-isotoopjan:hover	{
 	z-index: 5000; 
-	mix-blend-mode: normal !important; 
-	-webkit-filter:invert(0%);
-    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');	
+
 	
 }
 
@@ -203,17 +181,12 @@ body {
  	margin-left: 100px;
  	margin-top: 5850px;	
  	z-index: 10;	
-	-webkit-filter: invert(100%);
-    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
-    mix-blending-mode: multiply !important;
+
     
 }
 
 .video-silentharbour:hover	{
-	z-index: 5000; 
-	mix-blend-mode: normal !important; 
-	-webkit-filter:invert(0%);
-    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');	
+	z-index: 5000; 	
 	
 }
 
@@ -229,17 +202,13 @@ body {
  	margin-left: 550px;
  	margin-top: 6260px;	
  	z-index: 10;	
-	-webkit-filter: invert(100%);
-    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
-    mix-blending-mode: multiply !important;
+
     
 }
 
 .video-lesfleurs:hover	{
 	z-index: 5000; 
-	mix-blend-mode: normal !important; 
-	-webkit-filter:invert(0%);
-    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');	
+	
 	
 }
 
