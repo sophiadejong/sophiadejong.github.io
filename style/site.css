@@ -1,6 +1,6 @@
 §@font-face {
 	font-family: 'theinhardt';
-	src: url('../Theinhardt-Thin.otf') format('truetype');
+	src: url('Theinhardt-Thin.ttf');
 }
 
 
@@ -729,7 +729,7 @@ img:hover {
 
 #cropimg11	{
 	position: absolute;
- 	left: 70vw;
+ 	left: 55vw;
  	top: 220vh;	
 	height: 50vh;
 }
@@ -1287,7 +1287,7 @@ img:hover {
 
 #cropimg39	{	
 	position: absolute;
- 	left: 7vw;
+ 	left: 5vw;
  	top: 305vh;	
 	height: 70vh;
 }
@@ -1382,7 +1382,7 @@ img:hover {
 
 #cropimg47	{	
 	position: absolute;
- 	left: 10vw;
+ 	left: 7vw;
  	top: 205vh;	
 	height: 80vh;
 
