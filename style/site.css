@@ -11,7 +11,7 @@
 	border: 0;
 	outline: 0; 
 	font-family: 'theinhardt' !important;	
-	font-size: 3%;
+/* 	font-size: 10%; */
 }
 
 
@@ -19,7 +19,7 @@
 /* Basic height of both  HTML and Body tag */
 
 html, body { 
-	height: 100%;
+	height: 273%;
 	width: 100%;
 }
 
@@ -108,8 +108,8 @@ body {
 
 .video-isotoop {
 	position: absolute;
- 	margin-left: 660px;
- 	margin-top: 1505px;
+ 	left: 50vw;
+ 	top: 240vh;	
  	z-index: 10;			
  	box-shadow: 0 0 40px black;
 	
@@ -121,12 +121,42 @@ body {
 	
 }
 
+.video-isotoopjan {
+	position: absolute;
+ 	left: 50vw;
+ 	top: 340vh;	
+ 	z-index: 10;
+ 	box-shadow: 0 0 40px black;
+
+}
+
+.video-isotoopjan:hover	{
+	z-index: 5000; 
+
+	
+}
+
+.video-silentharbour {
+	position: absolute;
+ 	left: 50vw;
+ 	top: 290vh;	
+ 	z-index: 10;	
+ 	box-shadow: 0 0 40px black;
+
+    
+}
+
+.video-silentharbour:hover	{
+	z-index: 5000; 	
+	
+}
+
 .video-urban {
 	position: absolute;
- 	margin-left: 100px;
- 	margin-top: 4680px;
- 	z-index: 10;	
- 	 	box-shadow: 0 0 40px black;
+ 	left: 48vw;
+ 	top: 610vh;	
+	z-index: 10;
+	box-shadow: 0 0 40px black;
 
 
 }
@@ -154,8 +184,8 @@ body {
 
 .video-forest {
 	position: absolute;
- 	margin-left: 630px;
- 	margin-top: 5120px;
+ 	left: 10vw;
+ 	top: 525vh;	
  	z-index: 10;
  	box-shadow: 0 0 40px black;
 
@@ -168,35 +198,7 @@ body {
 	
 }
 
-.video-isotoopjan {
-	position: absolute;
- 	margin-left: 640px;
- 	margin-top: 2685px;	
-	z-index: 10;
- 	box-shadow: 0 0 40px black;
 
-}
-
-.video-isotoopjan:hover	{
-	z-index: 5000; 
-
-	
-}
-
-.video-silentharbour {
-	position: absolute;
- 	margin-left: 100px;
- 	margin-top: 5850px;	
- 	z-index: 10;	
- 	box-shadow: 0 0 40px black;
-
-    
-}
-
-.video-silentharbour:hover	{
-	z-index: 5000; 	
-	
-}
 
 .video-waveform {
 	position: absolute;
@@ -209,8 +211,8 @@ body {
 
 .video-lesfleurs {
 	position: absolute;
- 	margin-left: 600px;
- 	margin-top: 6260px;	
+ 	left: 10vw;
+ 	top: 685vh;		
  	z-index: 10;	
  	box-shadow: 0 0 40px black;
 
@@ -228,7 +230,7 @@ a.video-link {
 	position: absolute;
 	font-size: 15px;
 	color: #ff0000;
-	z-index: 120;
+/* 	z-index: 120; */
 }
 
 
@@ -262,6 +264,7 @@ a.video-link {
 	width: 20vw;
 	text-align: left;	
 	text-shadow: #d70000;
+	font-size: 10;
 	
 }
 
@@ -295,7 +298,9 @@ a.video-link {
 /* Body */
 
 body {	
-	background: #c30000;	
+	background: #c30000;
+/* 	background: #baa6c2;	 */
+	
 }
 
 
@@ -322,6 +327,7 @@ img:hover {
     height: 520%;
     z-index: 0;
     background: #c30000;
+
 }
 
 
@@ -336,6 +342,7 @@ img:hover {
 .me {
 	height: 100%;
 	z-index: 6000 !important;
+
 
 
 }
@@ -355,6 +362,7 @@ img:hover {
     bottom: 0%;
     right: 0%;
     left: 0%;
+    z-index: 8000;
     
 }
 
@@ -379,6 +387,7 @@ img:hover {
     top: 3%;    	 
 	z-index: 6000 !important;
     padding: 20px;
+
 }
 	
 	
@@ -431,6 +440,7 @@ img:hover {
 	-webkit-filter:invert(100%);
     filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
     mix-blend-mode: multiply; 	
+/*     display: inline-block; */
 }
 
 .cropimg:hover ~ #bg	{
@@ -440,10 +450,15 @@ img:hover {
 
 #cropimg	{	
 	position: absolute;
+/*
  	margin-left: 700px;
  	margin-top: 90px;	
 	height: 550px;	
-	mix-blend-mode: multiply; 	
+*/
+/* 	mix-blend-mode: multiply;  */
+	left: 60vw;
+ 	top: 15vh;	
+ 	height: 75vh;	
 }
 
 #cropimg:hover	{
@@ -462,8 +477,8 @@ img:hover {
 
 #cropimg2	{	
 	position: absolute;
- 	margin-left: 260px;
- 	margin-top: 205px;	
+ 	left: 260px;
+ 	top: 205px;	
 	height: 350px;
 
 }
@@ -515,16 +530,18 @@ img:hover {
 */
 
 
+/*
 #cropimg4:hover ~ #bg	{
 	background: #c30000;
 }
+*/
 
 
 #cropimg5	{	
 	position: absolute;
-	margin-left: 805px;
-	margin-top: 380px;
-	height: 350px;
+ 	left: 70vw;
+ 	top: 75vh;	
+	height: 40vh;
 }
 
 
@@ -542,9 +559,9 @@ img:hover {
 
 #cropimg6	{	
 	position: absolute;
- 	margin-left: 110px;
- 	margin-top: 90px;	
-	height: 450px;
+ 	left: 10vw;
+ 	top: 15vh;	
+	height: 70vh;
 
 }
 
@@ -563,9 +580,9 @@ img:hover {
 
 #cropimg7	{	
 	position: absolute;
- 	margin-left: 77px;
- 	margin-top: 800px;	
-	height: 400px;
+ 	left: 15vw;
+ 	top: 105vh;	
+	height: 60vh;
 
 }
 
@@ -584,10 +601,10 @@ img:hover {
 
 #cropimg8	{	
 	position: absolute;
- 	margin-left: 300px;
- 	margin-top: 690px;	
-	height: 400px;
-}
+ 	left: 30vw;
+ 	top: 100vh;	
+	height: 60vh;
+	}
 
 
 /*
@@ -604,9 +621,9 @@ img:hover {
 
 #cropimg9	{	
 	position: absolute;
- 	margin-left: 130px;
- 	margin-top: 750px;	
-	height: 400px;
+ 	left: 5vw;
+ 	top: 120vh;	
+	height: 60vh;
 }
 
 
@@ -644,9 +661,9 @@ img:hover {
 
 #cropimg10	{	
 	position: absolute;
- 	margin-left: 700px;
- 	margin-top: 870px;	
-	height: 520px;
+ 	left: 60vw;
+ 	top: 110vh;	
+	height: 80vh;
 }
 
 
@@ -664,9 +681,9 @@ img:hover {
  
 #cropimg101	{	
 	position: absolute;
- 	margin-left: 955px;
- 	margin-top: 950px;	
-	height: 200px;
+ 	left: 73vw;
+ 	top: 135vh;	
+	height: 30vh;
 }
 
 
@@ -684,9 +701,9 @@ img:hover {
 
 #cropimg102	{	
 	position: absolute;
- 	margin-left: 900px;
- 	margin-top: 1050px;	
-	height: 200px;
+ 	left: 76vw;
+ 	top: 155vh;	
+	height: 30vh;
 }
 
 
@@ -703,9 +720,9 @@ img:hover {
 
 #cropimg103	{	
 	position: absolute;
- 	margin-left: 930px;
- 	margin-top: 1150px;	
-	height: 200px;
+ 	left: 73vw;
+ 	top: 170vh;	
+	height: 30vh;
 }
 
 
@@ -724,9 +741,9 @@ img:hover {
 
 #cropimg11	{
 	position: absolute;
- 	margin-left: 700px;
- 	margin-top: 1555px;	
-	height: 400px;
+ 	left: 70vw;
+ 	top: 220vh;	
+	height: 50vh;
 }
 
 
@@ -784,9 +801,9 @@ img:hover {
 
 #cropimg14	{	
 	position: absolute;
- 	margin-left: 105px;
- 	margin-top: 2080px;	
-	height: 550px;
+ 	left: 15vw;
+ 	top: 30vh;	
+	height: 80vh;
 }
 
 
@@ -1046,9 +1063,9 @@ img:hover {
 
 #cropimg27	{	
 	position: absolute;
- 	margin-left: 750px;
- 	margin-top: 3300px;	
-	height: 380px;
+ 	left: 10vw;
+ 	top: 450vh;	
+	height: 50vh;
 }
 
 
@@ -1066,9 +1083,9 @@ img:hover {
 
 #cropimg28	{	
 	position: absolute;
-	margin-left: 940px;
-	margin-top: 3170px; 
-	height: 350px;
+ 	left: 7vw;
+ 	top: 410vh;	
+	height: 50vh;
 }
 
 /*
@@ -1107,9 +1124,9 @@ img:hover {
 
 #cropimg30	{
 	position: absolute;
-	margin-left: 595px;
-	margin-top: 3270px; 
-	height: 350px;
+ 	left: 20vw;
+ 	top: 460vh;	
+	height: 50vh;
 }
 
 /*
@@ -1126,9 +1143,9 @@ img:hover {
 
 #cropimg31	{	
 	position: absolute;
- 	margin-left: 640px;
- 	margin-top: 3450px;	
-	height: 350px;
+ 	left: 17vw;
+ 	top: 440vh;	
+	height: 50vh;
 }
 
 
@@ -1145,9 +1162,9 @@ img:hover {
 
 #cropimg32	{	
 	position: absolute;
- 	margin-left: 800px;
- 	margin-top: 3530px;	
-	height: 350px;
+ 	left: 25vw;
+ 	top: 430vh;	
+	height: 50vh;
 }
 
 
@@ -1164,9 +1181,9 @@ img:hover {
 
 #cropimg33	{	
 	position: absolute;
- 	margin-left: 900px;
- 	margin-top: 3600px;	
-	height: 350px;
+ 	left: 15vw;
+ 	top: 420vh;	
+	height: 50vh;
 }
 
 
@@ -1184,9 +1201,9 @@ img:hover {
 
 #cropimg34	{	
 	position: absolute;
-	margin-left: 110px;
-	margin-top: 3900px; 
-	height: 500px;
+ 	left: 55vw;
+ 	top: 405vh;	
+	height: 80vh;
 }
 
 
@@ -1244,9 +1261,9 @@ img:hover {
 
 #cropimg37	{	
 	position: absolute;
- 	margin-left: 300px;
- 	margin-top: 4540px;	
-	height: 300px;
+ 	left: 60vw;
+ 	top: 590vh;	
+ 	height: 40vh;
 }
 
 
@@ -1263,9 +1280,9 @@ img:hover {
 
 #cropimg38	{	
 	position: absolute;
- 	margin-left: 810px;
- 	margin-top: 4480px;	
-	height: 450px;
+ 	left: 65vw;
+ 	top: 500vh;	
+	height: 70vh;
 }
 
 
@@ -1282,9 +1299,9 @@ img:hover {
 
 #cropimg39	{	
 	position: absolute;
- 	margin-left: 740px;
- 	margin-top: 5550px;	
-	height: 500px;
+ 	left: 7vw;
+ 	top: 305vh;	
+	height: 70vh;
 }
 
 
@@ -1301,9 +1318,9 @@ img:hover {
 
 #cropimg41	{	
 	position: absolute;
- 	margin-left: 940px;
- 	margin-top: 5650px;	
-	height: 200px;
+ 	left: 20vw;
+ 	top: 320vh;	
+	height: 30vh;
 }
 
 
@@ -1320,9 +1337,9 @@ img:hover {
 
 #cropimg43	{	
 	position: absolute;
- 	margin-left: 900px;
- 	margin-top: 5750px;	
-	height: 200px;
+ 	left: 15vw;
+ 	top: 340vh;	
+	height: 30vh;
 }
 
 
@@ -1339,9 +1356,9 @@ img:hover {
 
 #cropimg44	{	
 	position: absolute;
- 	margin-left: 940px;
- 	margin-top: 5890px;	
-	height: 200px;
+ 	left: 20vw;
+ 	top: 360vh;	
+	height: 30vh;
 }
 
 
@@ -1358,9 +1375,9 @@ img:hover {
 
 #cropimg46	{	
 	position: absolute;
- 	margin-left: 140px;
- 	margin-top: 5180px;
-	height: 550px;
+ 	left: 7vw;
+ 	top: 590vh;	
+ 	height: 80vh;
 }
 
 
@@ -1377,14 +1394,9 @@ img:hover {
 
 #cropimg47	{	
 	position: absolute;
-/*
- 	margin-left: 80px;
- 	margin-top: 6300px;
-	height: 480px;
-*/
- 	margin-left: 110px;
- 	margin-top: 1380px;	
-	height: 550px;
+ 	left: 10vw;
+ 	top: 205vh;	
+	height: 80vh;
 
 }
 
@@ -1432,9 +1444,9 @@ img:hover {
  	margin-top: 6700px;
 	height: 400px;
 */
-	margin-left: 135px;
- 	margin-top: 6270px;
-	height: 240px;
+ 	left: 63vw;
+ 	top: 675vh;	
+ 	height: 45vh;
 }
 
 /*
@@ -1470,9 +1482,9 @@ img:hover {
 
 #cropimg51	{	
 	position: absolute;
- 	margin-left: 255px;
- 	margin-top: 850px;	
-	height: 400px;
+ 	left: 20vw;
+ 	top: 130vh;	
+	height: 60vh;
 }
 
 
