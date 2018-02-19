@@ -196,19 +196,17 @@ body {
 
 }
 
-.video-lesfleurs {
+	.video-lesfleurs {
 	position: absolute;
  	left: 10vw;
  	top: 675vh;		
  	z-index: 10;	
- 	box-shadow: 0 0 40px black;
 
     
 }
 
 .video-lesfleurs:hover	{
-	z-index: 5000; 
-	
+	z-index: 5000; 	
  	box-shadow: 0 0 40px black;
 	
 }
