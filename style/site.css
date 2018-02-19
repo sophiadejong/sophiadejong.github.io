@@ -196,7 +196,7 @@ body {
 
 }
 
-	.video-lesfleurs {
+.video-lesfleurs {
 	position: absolute;
  	left: 10vw;
  	top: 675vh;		
@@ -224,12 +224,12 @@ a.video-link {
 #slideshow {
 	position: fixed;
 	top: 10%;
-	left: 4%;
+	left: 3%;
 	right: 4%;
 	bottom: 10%;
 	z-index: 10000;
 	height: 80%;
-	width: 92%;
+	width: 94%;
 	background-position: center center;
 	background-size: contain;
 /* 	mix-blend-mode: multiply !important; */
@@ -243,8 +243,8 @@ a.video-link {
 
 #slideshow .caption {
 	position: absolute;
-	top: 10%;
-	left: 4%;
+	top: 4%;
+	left: 2%;
 	color: #ffffff;
 	width: 20vw;
 	text-align: left;	
