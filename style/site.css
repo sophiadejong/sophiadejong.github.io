@@ -481,46 +481,9 @@ img:hover {
 }
 
 
-/*
-#cropimg3	{	
-	position: absolute;
- 	margin-left: 695px;
- 	margin-top: 375px;	
-	height: 350px;
-}
-
-
-#cropimg3:hover	{
-	mix-blend-mode: multiply !important;
-}
-*/
-
-
 #cropimg3:hover ~ #bg	{
 	background: #c30000;
 }
-
-
-/*
-#cropimg4	{	
-	position: absolute;
- 	margin-left: 850px;
- 	margin-top: 110px;	
-	height: 350px;
-}
-
-
-#cropimg4:hover	{
-	mix-blend-mode: multiply !important;
-}
-*/
-
-
-/*
-#cropimg4:hover ~ #bg	{
-	background: #c30000;
-}
-*/
 
 
 #cropimg5	{	
@@ -530,80 +493,27 @@ img:hover {
 	height: 40vh;
 }
 
-
-/*
-#cropimg5:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg5:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
-
 #cropimg6	{	
 	position: absolute;
  	left: 10vw;
  	top: 15vh;	
 	height: 70vh;
-
 }
-
-
-/*
-#cropimg6:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg6:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 
 #cropimg7	{	
 	position: absolute;
  	left: 15vw;
  	top: 105vh;	
 	height: 60vh;
-
 }
-
-
-/*
-#cropimg7:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg7:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 
 #cropimg8	{	
 	position: absolute;
  	left: 30vw;
  	top: 100vh;	
 	height: 60vh;
-	}
-
-
-/*
-#cropimg8:hover {
-	mix-blend-mode: multiply !important;
 }
 
-
-#cropimg8:hover ~ #bg	{
-	background: #c30000;
-}
-*/
- 	
 
 #cropimg9	{	
 	position: absolute;
@@ -612,19 +522,6 @@ img:hover {
 	height: 60vh;
 }
 
-
-/*
-#cropimg9:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg9:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
-
 #cropimg99	{	
 	position: absolute;
  	margin-left: 205px;
@@ -632,98 +529,33 @@ img:hover {
 	height: 400px;
 }
 
-
-/*
-#cropimg99:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg99:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
-
 #cropimg10	{	
 	position: absolute;
  	left: 60vw;
  	top: 110vh;	
 	height: 80vh;
-}
-
-
-/*
-#cropimg10:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg10:hover ~ #bg	{
-	background: #c30000;
-}
-*/
- 
+} 
  
 #cropimg101	{	
 	position: absolute;
  	left: 73vw;
  	top: 135vh;	
-	height: 30vh;
+	height: 25vh;
 }
-
-
-/*
-#cropimg101:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg101:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 
 #cropimg102	{	
 	position: absolute;
  	left: 76vw;
  	top: 155vh;	
-	height: 30vh;
+	height: 25vh;
 }
-
-
-/*
-#cropimg102:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg102:hover ~ #bg	{
-	background: #c30000;
-}
-*/
 
 #cropimg103	{	
 	position: absolute;
  	left: 73vw;
  	top: 170vh;	
-	height: 30vh;
+	height: 25vh;
 }
-
-
-/*
-#cropimg103:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg103:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
-
 
 #cropimg11	{
 	position: absolute;
@@ -732,38 +564,12 @@ img:hover {
 	height: 50vh;
 }
 
-
-/*
-#cropimg11:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg11:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
-
 #cropimg12	{	
 	position: absolute;
  	margin-left: 650px;
  	margin-top: 1610px;	
 	height: 200px;
 }
-
-
-/*
-#cropimg12:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg12:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 
 #cropimg13	{	
 	position: absolute;
@@ -772,19 +578,6 @@ img:hover {
 	height: 350px;
 }
 
-
-/*
-#cropimg13:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg13:hover ~ #bg	{
-	background: #c30000;
-}
- 
-*/
-
 #cropimg14	{	
 	position: absolute;
  	left: 15vw;
@@ -792,38 +585,12 @@ img:hover {
 	height: 80vh;
 }
 
-
-/*
-#cropimg14:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg14:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
-
 #cropimg15	{	
 	position: absolute;
  	margin-left: 75px;
  	margin-top: 1415px;	
 	height: 275px;
 }
-
-
-/*
-#cropimg15:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg15:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 
 #cropimg16	{	
 	position: absolute;
@@ -834,37 +601,12 @@ img:hover {
 	height: 400px;
 }
 
-/*
-
-#cropimg16:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg16:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
-
 #cropimg17	{	
 	position: absolute;
  	margin-left: 240px;
  	margin-top: 1400px;	
 	height: 400px;
 }
-
-
-/*
-#cropimg17:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-#cropimg17:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 
 #cropimg18	{	
 	position: absolute;
@@ -873,38 +615,12 @@ img:hover {
 	height: 400px;
 }
 
-
-/*
-#cropimg18:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg18:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
-
 #cropimg19	{	
 	position: absolute;
  	margin-left: 730px;
  	margin-top: 2080px;	
 	height: 430px;
 }
-
-
-/*
-#cropimg19:hover	{
-	mix-blend-mode: multiply !important;
-}
-	
-	
-#cropimg19:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 
 #cropimg20	{	
 	position: absolute;
@@ -913,19 +629,6 @@ img:hover {
 	height: 350px;
 }
 
-
-/*
-#cropimg20:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg20:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
-
 #cropimg21	{	
 	position: absolute;
 	margin-left: 80px;
@@ -933,38 +636,12 @@ img:hover {
 	height: 450px;
 }
 
-
-/*
-#cropimg21:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg21:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
-
 #cropimg22	{	
 	position: absolute;
  	margin-left: 80px;
  	margin-top: 2740px;	
 	height: 350px;
 }
-
-/*
-
-#cropimg22:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg22:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 
 
 #cropimg23	{	
@@ -974,37 +651,12 @@ img:hover {
 	height: 350px;
 }
 
-/*
-
-#cropimg23:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg23:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
-
 #cropimg24	{	
 	position: absolute;
  	margin-left: 890px;
  	margin-top: 2750px;	
 	height: 400px;
 }
-
-
-/*
-#cropimg24:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg24:hover ~ #bg	{
-	background: #c30000;
-}
-*/
 
 
 #cropimg25	{	
@@ -1014,38 +666,12 @@ img:hover {
 	height: 350px;
 }
 
-
-/*
-#cropimg25:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg25:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
-
 #cropimg26	{	
 	position: absolute;
  	margin-left: 100px;
  	margin-top: 3380px;	
 	height: 350px;
 }
-
-/*
-
-#cropimg26:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg26:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 
 #cropimg27	{	
 	position: absolute;
@@ -1054,37 +680,12 @@ img:hover {
 	height: 50vh;
 }
 
-
-/*
-#cropimg27:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg27:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
-
 #cropimg28	{	
 	position: absolute;
  	left: 7vw;
  	top: 410vh;	
 	height: 50vh;
 }
-
-/*
-
-#cropimg28:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg28:hover ~ #bg	{
-	background: #c30000;
-}
-*/
 
 
 #cropimg29	{	
@@ -1094,19 +695,6 @@ img:hover {
 	height: 350px;
 }
 
-/*
-
-#cropimg29:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-
-#cropimg29:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 
 #cropimg30	{
 	position: absolute;
@@ -1114,17 +702,6 @@ img:hover {
  	top: 460vh;	
 	height: 50vh;
 }
-
-/*
-#cropimg30:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg30:hover ~ #bg	{
-	background: #c30000;
-}
-*/
 
 
 #cropimg31	{	
@@ -1134,36 +711,12 @@ img:hover {
 	height: 50vh;
 }
 
-
-/*
-#cropimg31:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg31:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 #cropimg32	{	
 	position: absolute;
  	left: 25vw;
  	top: 430vh;	
 	height: 50vh;
 }
-
-
-/*
-#cropimg32:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg32:hover ~ #bg	{
-	background: #c30000;
-}
-*/
 
 #cropimg33	{	
 	position: absolute;
@@ -1172,38 +725,12 @@ img:hover {
 	height: 50vh;
 }
 
-
-/*
-#cropimg33:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg33:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
-
 #cropimg34	{	
 	position: absolute;
  	left: 55vw;
  	top: 405vh;	
 	height: 80vh;
 }
-
-
-/*
-#cropimg34:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg34:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 
 #cropimg35	{	
 	position: absolute;
@@ -1212,38 +739,12 @@ img:hover {
 	height: 250px;
 }
 
-
-/*
-#cropimg35:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg35:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
-
 #cropimg36	{	
 	position: absolute;
  	margin-left: 640px;
  	margin-top: 4200px;	
 	height: 170px;
 }
-
-
-/*
-#cropimg36:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg36:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 
 #cropimg37	{	
 	position: absolute;
@@ -1252,36 +753,12 @@ img:hover {
  	height: 40vh;
 }
 
-
-/*
-#cropimg37:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg37:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 #cropimg38	{	
 	position: absolute;
  	left: 65vw;
  	top: 500vh;	
 	height: 70vh;
 }
-
-
-/*
-#cropimg38:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg38:hover ~ #bg	{
-	background: #c30000;
-}
-*/
 
 #cropimg39	{	
 	position: absolute;
@@ -1290,36 +767,12 @@ img:hover {
 	height: 70vh;
 }
 
-
-/*
-#cropimg39:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg39:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 #cropimg41	{	
 	position: absolute;
  	left: 20vw;
  	top: 320vh;	
 	height: 30vh;
 }
-
-
-/*
-#cropimg41:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg41:hover ~ #bg	{
-	background: #c30000;
-}
-*/
 
 #cropimg43	{	
 	position: absolute;
@@ -1328,18 +781,6 @@ img:hover {
 	height: 30vh;
 }
 
-
-/*
-#cropimg43:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg43:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 #cropimg44	{	
 	position: absolute;
  	left: 20vw;
@@ -1347,36 +788,12 @@ img:hover {
 	height: 30vh;
 }
 
-
-/*
-#cropimg44:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg44:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 #cropimg46	{	
 	position: absolute;
  	left: 7vw;
  	top: 580vh;	
  	height: 80vh;
 }
-
-
-/*
-#cropimg46:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg46:hover ~ #bg	{
-	background: #c30000;
-}
-*/
 
 #cropimg47	{	
 	position: absolute;
@@ -1386,66 +803,19 @@ img:hover {
 
 }
 
-
-/*
-#cropimg47:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg47:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 #cropimg48	{	
 	position: absolute;
-/*
- 	margin-left: 200px;
- 	margin-top: 6715px;
-	height: 150px;
-*/
-	 	margin-left: 565px;
+	margin-left: 565px;
  	margin-top: 4060px;	
 	height: 290px;
-
 }
-
-
-/*
-#cropimg48:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg48:hover ~ #bg	{
-	background: #c30000;
-}
-*/
 
 #cropimg49	{	
 	position: absolute;
-/*
- 	margin-left: 600px;
- 	margin-top: 6700px;
-	height: 400px;
-*/
  	left: 63vw;
  	top: 670vh;	
  	height: 35vh;
 }
-
-/*
-
-#cropimg49:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg49:hover ~ #bg	{
-	background: #c30000;
-}
-*/
 
 #cropimg50	{	
 	position: absolute;
@@ -1454,37 +824,12 @@ img:hover {
 	height: 400px;
 }
 
-
-/*
-#cropimg50:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg50:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 #cropimg51	{	
 	position: absolute;
  	left: 20vw;
  	top: 130vh;	
 	height: 60vh;
 }
-
-
-/*
-#cropimg51:hover	{
-	mix-blend-mode: multiply !important;
-}
-
-
-#cropimg51:hover ~ #bg	{
-	background: #c30000;
-}
-*/
-
 
 .close {
 	width: 20px;
