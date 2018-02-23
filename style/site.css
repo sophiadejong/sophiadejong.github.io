@@ -96,7 +96,7 @@ body {
  	left: 50vw;
  	top: 240vh;	
  	z-index: 10;
- 	width: 20vw;
+
 }
 
 .video-isotoop:hover	{
@@ -685,17 +685,18 @@ img:hover {
 
 #cropimg34	{	
 	position: absolute;
- 	left: 58vw;
+ 	left: 65vw;
  	top: 405vh;	
-	width: 30vw;
+	width: 20vw;
 	height: auto;
 }
 
 #cropimg35	{	
 	position: absolute;
- 	margin-left: 550px;
- 	margin-top: 4070px;	
-	height: 250px;
+ 	left: 60vw;
+ 	top: 475vh;	
+	width: 30vw;
+	height: auto;
 }
 
 #cropimg36	{	
