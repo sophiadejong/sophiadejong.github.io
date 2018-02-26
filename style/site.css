@@ -91,7 +91,14 @@ body {
 ::-moz-selection {
 	background: black; 
 }
+/*Music 8*/
 
+.memento {
+	position: absolute;
+	top: 10vh;
+	right: 50vw;
+	z-index: 10000 !important;
+}
 
 /* Video */
 
@@ -481,7 +488,7 @@ img:hover {
     padding: 20px;
 }
 
-#sc   {	
+.sc   {	
 	position: fixed;
 	z-index: 2;
 	right: 1.5%;
