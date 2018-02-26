@@ -10,7 +10,8 @@
 	margin: 0;
 	border: 0;
 	outline: 0; 
-	font-family: 'theinhardt' !important;	
+	font-family: 'theinhardt' !important;
+		
 /* 	font-size: 10%; */
 }
 
@@ -21,6 +22,8 @@
 html, body { 
 	height: 100%;
 	width: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
@@ -29,7 +32,8 @@ body {
 	overflow-y: scroll;
 	overflow-x: hidden;
 	margin: 0;
-	cursor: url('../images/fcursor4copyy2.png'), default;	
+	cursor: url('../images/fcursor4copyy2.png'), default;]
+
 }
 
 
@@ -91,12 +95,142 @@ body {
 
 /* Video */
 
+.embed-container1 { 
+	position: relative; 
+	padding-bottom: 56.25vh inherit; 
+	height: 0; 
+	overflow: !important; 
+	max-width: 100%; 
+	
+}
+ 
+.embed-container1 iframe, .embed-container1 object, .embed-container1 embed { 
+	position: absolute; 
+ 	left: 50vw;
+ 	top: 250vh;	
+ 	z-index: 10;
+ 	height: 40vh;
+ 	width: 45vw;
+ 	}
+ 	
+.embed-container1:hover	{
+	z-index: 5000; 
+}
+	
+.embed-container2 { 
+	position: relative; 
+	padding-bottom: 56.25vh inherit; 
+	height: 0; 
+	overflow: !important; 
+	max-width: 100%; 
+}
+ 
+.embed-container2 iframe, .embed-container2 object, .embed-container2 embed { 
+	position: absolute; 
+ 	left: 50vw;
+ 	top: 295vh;	
+ 	z-index: 10;
+ 	height: 40vh;
+ 	width: 45vw;
+ 	display: inherit;
+}
+
+.embed-container2:hover	{
+	z-index: 5000; 
+}
+
+.embed-container5 { 
+	position: relative; 
+	padding-bottom: 56.25vh inherit; 
+	height: 0; 
+	overflow: !important; 
+	max-width: 100%; 	
+}
+ 
+.embed-container5 iframe, .embed-container5 object, .embed-container5 embed { 
+	position: absolute; 
+ 	left: 50vw;
+ 	top: 340vh;	
+ 	z-index: 10;
+ 	height: 40vh;
+ 	width: 45vw;
+}
+
+.embed-container5:hover	{
+	z-index: 5000; 
+}
+
+.embed-container3 { 
+	position: relative; 
+	padding-bottom: 56.25vh inherit; 
+	height: 0; 
+	overflow: !important; 
+	max-width: 100%; 	
+}
+ 
+.embed-container3 iframe, .embed-container3 object, .embed-container3 embed { 
+	position: absolute; 
+ 	left: 50vw;
+ 	top: 610vh;	
+ 	z-index: 10;
+ 	height: 40vh;
+ 	width: 45vw;
+}
+
+.embed-container3:hover	{
+	z-index: 5000; 
+}
+
+
+.embed-container4 { 
+	position: relative; 
+	padding-bottom: 56.25vh inherit; 
+	height: 0; 
+	overflow: !important; 
+	max-width: 100%; 
+}
+ 
+.embed-container4 iframe, .embed-container4 object, .embed-container4 embed { 
+	position: absolute; 
+ 	left: 7vw;
+ 	top: 530vh;	
+ 	z-index: 10;
+ 	height: 40vh;
+ 	width: 45vw;
+}
+
+.embed-container4:hover	{
+	z-index: 5000; 
+}
+
+.embed-container6 { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: !important; 
+	max-width: 100%; 
+	
+}
+ 
+.embed-container6 iframe, .embed-container6 object, .embed-container6 embed { 
+	position: absolute; 
+ 	left: 10vw;
+ 	top: 685vh;	
+ 	z-index: 10;
+ 	height: 40vh;
+ 	width: 45vw;
+}
+	
+.embed-container6:hover	{
+	z-index: 5000; 
+}
+
+/*
 .video-isotoop {
 	position: absolute;
  	left: 50vw;
  	top: 240vh;	
  	z-index: 10;
-
 }
 
 .video-isotoop:hover	{
@@ -183,13 +317,13 @@ body {
 	z-index: 5000; 	
  	box-shadow: 0 0 40px black;	
 }
+*/
 
 a.video-link {
 	position: absolute;
 	font-size: 15px;
 	color: #ff0000;
 }
-
 
 /* Slideshow */
 
@@ -202,15 +336,20 @@ a.video-link {
 	z-index: 10000;
 	height: 80%;
 	width: 94%;
-	background-position: center center;
+	background-position: 70% center;
 	background-size: contain;
 /* 	mix-blend-mode: multiply !important; */
 	display: none;
 	background-repeat: no-repeat;
-	background-color: rgba(0,    0,    0, 0.49);
-	box-shadow: 0 0 50px #b09b9e;
+	background-color: rgba(0, 0, 0, 0.49);
+/* 	box-shadow: 0 0 50px #b09b9e; */
+	box-shadow: 0 0 50px white;
+	
+	
+
 
 }
+
 
 
 #slideshow .caption {
@@ -218,10 +357,11 @@ a.video-link {
 	top: 4%;
 	left: 2%;
 	color: #ffffff;
-	width: 20vw;
+	width: 17vw;
 	text-align: left;	
 	text-shadow: #d70000;
-	font-size: 12	;
+	font-size: 12;
+	font-family: 'theinhardt' !important;	
 	
 }
 
@@ -255,8 +395,9 @@ a.video-link {
 /* Body */
 
 body {	
-	background: #c30000;
+	background: #b29cb2;
 /* 	background: #baa6c2;	 */
+
 	
 }
 
@@ -266,6 +407,7 @@ body {
 	position: relative;
 	margin: 0 auto;
 	height: 750%;
+	
 }
 
 
@@ -284,6 +426,7 @@ img:hover {
     height: 520%;
     z-index: 0;
     background: #c30000;
+    
 
 }
 
@@ -299,17 +442,13 @@ img:hover {
 .me {
 	height: 100%;
 	z-index: 6000 !important;
-
-
-
 }
-
 
 #titlesophia   {
 	position: fixed;
 	z-index: 6000 !important;
 	left: 1.5%;
-    height: 15px;
+    height: 2.2%;
     top: 1.5%;   
     padding: 20px;
 }
@@ -329,34 +468,37 @@ img:hover {
 	width: 100%;
 	height: 100%;
 	mix-blending-mode: difference;
-	opacity: 10;
-
-	
-	
+	opacity: 10;	
 }
-
 
 #contact    {	
 	position: fixed;
 	z-index: 2;
 	right:	 1.5%;
-    height: 15px;
+    height: 2.2%;
     top: 1.5%;    	 
 	z-index: 6000 !important;
     padding: 20px;
-
 }
-	
+
+#sc   {	
+	position: fixed;
+	z-index: 2;
+	right: 1.5%;
+    height: 2.2%;
+    bottom: 1.5%;    	 
+	z-index: 6000 !important;
+    padding: 20px;
+}
 	
 #about    {	
 	position: fixed;
 	z-index: 6000 !important;
 	left: 1.5%;
-    height: 15px;
+    height: 2.2%;
     bottom: 1.5%;   
     padding: 20px;
 }
-
 
 #logo	{
 	position: fixed;
@@ -366,7 +508,6 @@ img:hover {
     bottom: 3%;  
 }
 
-
 .title    {	
 	z-index: 6000 !important;
 }
@@ -375,7 +516,6 @@ img:hover {
 .title:hover	{
 	mix-blend-mode: multiply !important; 
 }
-
 
 
 /* Images */
@@ -414,18 +554,8 @@ img:hover {
 	height: auto;
 }
 
-#cropimg:hover	{
-	z-index: 5000; 
-	mix-blend-mode: normal !important; 
-	-webkit-filter:invert(0%);
-    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');	
-}
 
 
-#cropimg:hover ~ #bg	{
-	background: #c30000;	
-	
-}
 
 
 #cropimg2	{	
@@ -471,7 +601,7 @@ img:hover {
 #cropimg9	{	
 	position: absolute;
  	left: 5vw;
- 	top: 120vh;	
+ 	top: 115vh;	
 	width: 22vw;
 	height: auto;
 }
@@ -634,12 +764,19 @@ img:hover {
 
 #cropimg28	{	
 	position: absolute;
- 	left: 7vw;
- 	top: 410vh;	
+ 	left: 10vw;
+ 	top: 417vh;	
 	width: 20vw;
 	height: auto;
 }
 
+#cropimg288	{	
+	position: absolute;
+ 	left: 5vw;
+ 	top: 410vh;	
+	width: 20vw;
+	height: auto;
+}
 
 #cropimg29	{	
 	position: absolute;
@@ -685,9 +822,9 @@ img:hover {
 
 #cropimg34	{	
 	position: absolute;
- 	left: 65vw;
- 	top: 405vh;	
-	width: 20vw;
+ 	left: 67vw;
+ 	top: 400vh;	
+	width: 22vw;
 	height: auto;
 }
 
@@ -758,7 +895,7 @@ img:hover {
 	position: absolute;
  	left: 7vw;
  	top: 585vh;	
-	width: 30vw;
+	width: 35vw;
 	height: auto;
 }
 
