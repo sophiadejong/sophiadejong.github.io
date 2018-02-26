@@ -80,7 +80,7 @@ $(document).ready(function(){
 
 
 var captions = {
-	'1': '"Flora&Corpo" poster, 2015',
+	'1': '"Flora&Corpo" poster, 2015§',
 	'2': '"El cielo" poster design, 2013',
 	'3': '"My baby is an idiot" poster design 2014',
 	'4': '"Lost" poster design, 2014',
@@ -109,6 +109,7 @@ var captions = {
 	'26': '"Consumed-Self" Plaster, oil, acrylic, cigarettes sculpture, 2016',
 	'27': 'Metamorph is a New York based immersive experience that utilizes music and live visuals to incubate a shift in perception in the field of experimental music. http://www.metamorph.nyc',
 	'28': 'Metamorph is a New York based immersive experience that utilizes music and live visuals to incubate a shift in perception in the field of experimental music. http://www.metamorph.nyc',
+	'288': 'Metamorph is a New York based immersive experience that utilizes music and live visuals to incubate a shift in perception in the field of experimental music. http://www.metamorph.nyc',
 	'29': 'Metamorph is a New York based immersive experience that utilizes music and live visuals to incubate a shift in perception in the field of experimental music. http://www.metamorph.nyc',
 	'30': 'Metamorph is a New York based immersive experience that utilizes music and live visuals to incubate a shift in perception in the field of experimental music. http://www.metamorph.nyc',
 	'31': 'Metamorph is a New York based immersive experience that utilizes music and live visuals to incubate a shift in perception in the field of experimental music. http://www.metamorph.nyc',
@@ -116,19 +117,20 @@ var captions = {
 	'33': 'Metamorph is a New York based immersive experience that utilizes music and live visuals to incubate a shift in perception in the field of experimental music. http://www.metamorph.nyc',
 	'34': '"Tango" poster, 2014',
 	'35':'Monument 91: +plattform. Podcast series',
-	'36':'Monument 87: I/Y. Podcast series https://soundcloud.com/monument-podcast/monument-87-iy ',
+	'36':'Monument 87: I/Y. Podcast series <a href="https://soundcloud.com/monument-podcast/monument-87-iy">here</a> ',
 	'37': 'Urban Sound/Landscape project based on the experience of sound and its architecture made by a translation of a sound recording of Den Haag Central Station in a rush hour, converted to a spectrogram with relief and the sound is the interpretation of the spectrogram.',
 	'38': 'Publication based on hidden Nuclear Weapons in the Netherlands after WWII, 2017',
 	'39': '"Anti-Art" is a fanzine based on six degrees of inpiration: Ballet, Constructivism, Punk Music, Dark Art, Gabriel Grün, and Les Incoherents art movement, 2016',
 	'41': '"Anti-Art" is a fanzine based on six degrees of inpiration: Ballet, Constructivism, Punk Music, Dark Art, Gabriel Grün, and Les Incoherents art movement, 2016',
 	'43': '"Anti-Art" is a fanzine based on six degrees of inpiration: Ballet, Constructivism, Punk Music, Dark Art, Gabriel Grün, and Les Incoherents art movement, 2016',
 	'44': '"Anti-Art" is a fanzine based on six degrees of inpiration: Ballet, Constructivism, Punk Music, Dark Art, Gabriel Grün, and Les Incoherents art movement, 2016',
-	'46': '"Untitled" poster, 2017',
+	'46': '"Axis Magazine" collaboration with Auke Lanskin & Carolina Pinto, 2016',
 	'47': '"Ampersand" poster, 2017',
 	'48': '"Ampersand" poster, 2017',
 	'49': 'Unmasked poster April edition, London, UK, 2017',
 	'222': '',
-	'223': 'phiadejong@gmail.com +31614906568',
+	
+	'3333': 'soundcloud.com/neithme',
 	'224': 'Argentinian-Dutch, The Hague based graphic designer, visual artist and ballet dancer immersed in emotional and conceptual art, focused in the field of body movement and it’s language and the combination with experiemental sound and different media platforms.',
 	}
 
