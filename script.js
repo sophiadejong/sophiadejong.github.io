@@ -131,6 +131,6 @@ var captions = {
 	'222': '',
 	'223': 'sophiamarinadejongy@gmail.com +31614906568',	
 	'3333': 'soundcloud.com/neithme',
-	'224': 'Argentinian-Dutch, The Hague based graphic designer, visual artist and ballet dancer immersed in emotional and conceptual art, focused in the field of body movement and it’s language and the combination with experiemental sound and different media platforms.',
+	'224': 'Argentinian-Dutch, Netherlands based Graphic Designer, Visual Artist and Ballet teacher and dancer immersed in emotional and conceptual art, focused in the field of body movement and its language, embodiment, the rave scene and the fusion of experiemental sound and mixed media platforms.',
 	}
 
