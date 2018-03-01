@@ -623,7 +623,7 @@ img:hover {
 #cropimg10	{	
 	position: absolute;
  	left: 60vw;
- 	top: 120vh;	
+ 	top: 115vh;	
 	width: 28vw;
 	height: auto;
 } 
@@ -771,15 +771,15 @@ img:hover {
 
 #cropimg28	{	
 	position: absolute;
- 	left: 10vw;
- 	top: 417vh;	
+ 	left: 25vw;
+ 	top: 420vh;	
 	width: 20vw;
 	height: auto;
 }
 
 #cropimg288	{	
 	position: absolute;
- 	left: 5vw;
+ 	left: 35vw;
  	top: 410vh;	
 	width: 20vw;
 	height: auto;
@@ -805,24 +805,24 @@ img:hover {
 
 #cropimg31	{	
 	position: absolute;
- 	left: 18vw;
- 	top: 440vh;	
+ 	left: 17vw;
+ 	top: 450vh;	
 	width: 20vw;
 	height: auto;
 }
 
 #cropimg32	{	
 	position: absolute;
- 	left: 25vw;
- 	top: 430vh;	
+ 	left: 5vw;
+ 	top: 440vh;	
 	width: 20vw;
 	height: auto;
 }
 
 #cropimg33	{	
 	position: absolute;
- 	left: 15vw;
- 	top: 420vh;	
+ 	left: 10vw;
+ 	top: 430vh;	
 	width: 20vw;
 	height: auto;
 }
