@@ -432,7 +432,7 @@ img:hover {
     width: 100%;
     height: 520%;
     z-index: 0;
-    background: #c30000;
+    background: #bea7a7;
     
 
 }
@@ -465,7 +465,7 @@ img:hover {
     bottom: 0%;
     right: 0%;
     left: 0%;
-    z-index: 8000;
+    z-index: 8000 !important;
     
 }
 
@@ -490,7 +490,7 @@ img:hover {
 
 .sc   {	
 	position: fixed;
-	z-index: 2;
+	z-index: 6000;
 	right: 1.5%;
     height: 2.2%;
     bottom: 1.5%;    	 
@@ -533,23 +533,28 @@ img:hover {
 	-webkit-filter:invert(0%);
     filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
     box-shadow: 0 0 60px black;
-
-
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+	filter: grayscale(0%); /* FF 35+ */
 }
 
 
 .crop-img {
 	z-index: 100!important;
 	height: 100%;
-	
 	-webkit-filter:invert(100%);
     filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
-    mix-blend-mode: multiply; 	
-/*     display: inline-block; */
+mix-blend-mode: multiply;
+ 	transition: filter .3s ease-in-out;
+ 	-webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+
 }
+
+
 
 .cropimg:hover ~ #bg	{
 	background: #c30000;	
+/* 	background: #846880;	 */
 
 }
 
