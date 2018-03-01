@@ -125,7 +125,7 @@ var captions = {
 	'43': '"Anti-Art" is a fanzine based on six degrees of inpiration: Ballet, Constructivism, Punk Music, Dark Art, Gabriel Grün, and Les Incoherents art movement, 2016',
 	'44': '"Anti-Art" is a fanzine based on six degrees of inpiration: Ballet, Constructivism, Punk Music, Dark Art, Gabriel Grün, and Les Incoherents art movement, 2016',
 	'46': '"Index Magazine" containing a bunch of Essays on Typography and equality, Typefaces and Human Rights Album by Sophia de Jong. Collaboration with Auke Lanskin & Carolina Pinto, 2016',
-	'47': '"Ampersand" mixed media poster (ink, photography, Photoshop), 2017',
+	'47': '"Horizonte Vertical" mixed media poster, 2017',
 	'48': '"Ampersand" poster, 2017',
 	'49': 'Unmasked London, Founded in 2015 by avid and visionary minds, London based techno organisation: Unmasked, is born. Bringing together and uniting as one the people with the music. A journey into a nocturnal space, which glides through the confines between electronic, industrial techno music. Showcased through the transcendent sound system of Funktion One and a live visual sense, each without compromise. Proposing rising artists, selected for their quality of sound and performance. Delivering DJ sets synergising cdj with vinyl, live hybrid performances and authenticity behind the console.. Unmasked poster April edition, London, UK, 2017',
 	'222': '',
