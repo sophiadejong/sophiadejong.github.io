@@ -116,7 +116,7 @@ var captions = {
 	'32': 'Metamorph is a New York based immersive experience that utilizes music and live visuals to incubate a shift in perception in the field of experimental music. http://www.metamorph.nyc',
 	'33': 'Metamorph is a New York based immersive experience that utilizes music and live visuals to incubate a shift in perception in the field of experimental music. http://www.metamorph.nyc',
 	'34': '"Tango" poster, 2014',
-	'35':'Monument 91: +plattform. Podcast series',
+	'35':'Monument 91: +plattform. Norwegian Podcast series',
 	'36':'Monument 87: I/Y. Podcast series <a href="https://soundcloud.com/monument-podcast/monument-87-iy">here</a> ',
 	'37': 'Urban Sound/Landscape project based on the experience of sound and its architecture made by a translation of a sound recording of Den Haag Central Station in a rush hour, converted to a spectrogram with relief and the sound is the interpretation of the spectrogram.',
 	'38': 'Publication based on hidden Nuclear Weapons in the Netherlands after WWII, 2017',
