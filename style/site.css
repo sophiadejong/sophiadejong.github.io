@@ -1,16 +1,17 @@
 §@font-face {
-	font-family: 'theinhardt';
-	src: url('../Theinhardt-Thin.ttf') format('truetype');
+	font-family: 'Work Sans', sans-serif;
+	font-weight: normal;
+
 }
 
-
+  
 /* Basic CSS Reset */
 * { 	
 	padding: 0; 
 	margin: 0;
 	border: 0;
 	outline: 0; 
-	font-family: 'theinhardt' !important;
+	font-family: 'Philosopher', sans-serif;
 		
 /* 	font-size: 10%; */
 }
@@ -32,6 +33,7 @@ body {
 	overflow-y: scroll;
 	overflow-x: hidden;
 	margin: 0;
+	font-family: 'Philosopher', sans-serif;
 /* 	cursor: url('../images/fcursor4copyy2.png'), default;] */
 
 }
@@ -232,99 +234,6 @@ body {
 	z-index: 5000; 
 }
 
-/*
-.video-isotoop {
-	position: absolute;
- 	left: 50vw;
- 	top: 240vh;	
- 	z-index: 10;
-}
-
-.video-isotoop:hover	{
-	z-index: 5000; 
-	box-shadow: 0 0 40px black;	
-}
-
-.video-isotoopjan {
-	position: absolute;
- 	left: 50vw;
- 	top: 340vh;	
- 	z-index: 10;
-}
-
-.video-isotoopjan:hover	{
-	z-index: 5000; 
-	box-shadow: 0 0 40px black;	
-}
-
-.video-silentharbour {
-	position: absolute;
- 	left: 50vw;
- 	top: 290vh;	
- 	z-index: 10;	    
-}
-
-.video-silentharbour:hover	{
-	z-index: 5000; 
-	box-shadow: 0 0 40px black;	
-}
-
-.video-urban {
-	position: absolute;
- 	left: 48vw;
- 	top: 610vh;	
-	z-index: 10;
-}
-
-.video-urban:hover	{
-	z-index: 5000; 
-	box-shadow: 0 0 40px black;	
-}
-
-.video-secondskin {
-	position: absolute;
- 	margin-left: 75px;
- 	margin-top: 2200px;	
- 	z-index: 10;	
-}
-
-.video-secondskin:hover	{
-	z-index: 5000; 
-	box-shadow: 0 0 40px black; 	
-}
-
-.video-forest {
-	position: absolute;
- 	left: 10vw;
- 	top: 525vh;	
- 	z-index: 10;
-}
-
-.video-forest:hover	{
-	z-index: 5000; 
-	box-shadow: 0 0 40px black;		
-}
-
-.video-waveform {
-	position: absolute;
- 	margin-left: 550px;
- 	margin-top: 6260px;	
-	z-index: 10;
- 	box-shadow: 0 0 40px black;
-}
-
-.video-lesfleurs {
-	position: absolute;
- 	left: 10vw;
- 	top: 680vh;		
- 	z-index: 10;	    
-}
-
-.video-lesfleurs:hover	{
-	z-index: 5000; 	
- 	box-shadow: 0 0 40px black;	
-}
-*/
 
 a.video-link {
 	position: absolute;
@@ -368,7 +277,7 @@ a.video-link {
 	text-align: left;	
 	text-shadow: #d70000;
 	font-size: 12;
-	font-family: 'theinhardt' !important;	
+	font-family: 'Philosopher', sans-serif;
 	
 }
 
@@ -381,7 +290,7 @@ a.video-link {
 	text-align: left;	
 	text-shadow: #d70000;
 	font-size: 20;
-	font-family: 'theinhardt' !important;	
+	font-family: 'Philosopher', sans-serif;
 	
 }
 
@@ -603,7 +512,7 @@ mix-blend-mode: multiply;
 
 #cropimg7	{	
 	position: absolute;
- 	left: 15vw;
+ 	left: 16vw;
  	top: 25vh;	
 	width: 22vw;
 	height: auto;
@@ -611,7 +520,7 @@ mix-blend-mode: multiply;
 
 #cropimg8	{	
 	position: absolute;
- 	left: 30vw;
+ 	left: 32vw;
  	top: 40vh;	
 	width: 22vw;
 	height: auto;
@@ -619,7 +528,7 @@ mix-blend-mode: multiply;
 
 #cropimg51	{	
 	position: absolute;
- 	left: 20vw;
+ 	left: 24vw;
  	top: 55vh;	
 	width: 22vw;
 	height: auto;
@@ -627,7 +536,7 @@ mix-blend-mode: multiply;
 
 #cropimg9	{	
 	position: absolute;
- 	left: 5vw;
+ 	left: 8vw;
  	top: 15vh;	
 	width: 22vw;
 	height: auto;
