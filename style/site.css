@@ -249,7 +249,7 @@ a.video-link {
 	left: 2.2%;
 	right: 2.2%;
 	bottom: 10%;
-	z-index: 900;
+	z-index: 970 !important;
 	height: auto;
 	width: auto;
 	background-position: 70% center;
@@ -277,6 +277,7 @@ a.video-link {
 	text-shadow: #d70000;
 	font-size: 12;
 	font-family: 'Arimo', sans-serif;
+	z-index: !important;
 }
 
 #slideshow .caption2 {
