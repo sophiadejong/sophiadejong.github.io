@@ -14,6 +14,8 @@ $(document).ready(function(){
 			$('#slideshow').css({
 				'background-image': 'url(big-images/'+number+'.jpg)'
 			}).show();
+			
+			$('.closebtn').show();
 
 		}
 		
@@ -41,6 +43,13 @@ $(document).ready(function(){
 	$('#slideshow').on({
 		click: function(){
 			$(this).hide();
+
+		}
+	});
+	
+	$('.closebtn').on({
+		click: function(){
+			$('#slideshow').hide();
 
 		}
 	});
