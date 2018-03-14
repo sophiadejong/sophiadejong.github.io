@@ -259,7 +259,7 @@ a.video-link {
 /* 	mix-blend-mode: multiply !important; */
 	display: none;
 	background-repeat: no-repeat;
-	background-color: rgba(0, 0, 0, 0.49);
+	background-color: rgba(0,  0,  0, 0.71);
 	box-shadow: inset 0 0 50px black;
 /* 	box-shadow: 0 0 50px e8e8e7; */
 /*
@@ -272,7 +272,7 @@ a.video-link {
 #slideshow .caption {
 	position: absolute;
 	top: 10%;
-	left: 4%;
+	left: 2.5%;
 	color: #e8e8e7;
 	width: 17vw;
 	text-align: left;	
