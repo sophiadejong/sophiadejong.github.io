@@ -190,7 +190,6 @@ body {
 	z-index: 5000; 
 }
 
-
 .embed-container4 { 
 	position: relative; 
 	padding-bottom: 56.25vh inherit; 
@@ -202,7 +201,7 @@ body {
 .embed-container4 iframe, .embed-container4 object, .embed-container4 embed { 
 	position: absolute; 
  	left: 7vw;
- 	top: 52vh;	
+ 	top: 520vh;	
  	z-index: 10;
  	height: 40vh;
  	width: 45vw;
@@ -823,7 +822,7 @@ mix-blend-mode: multiply;
 #cropimg46	{	
 	position: absolute;
  	left: 7vw;
- 	top: 585vh;	
+ 	top: 580vh;	
 	width: 32vw;
 	height: auto;
 }
