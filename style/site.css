@@ -332,7 +332,7 @@ body {
 	width: 100%;
 	position: relative;
 	margin: 0 auto;
-	height: 795%;
+	height: 845%;
 	
 }
 
@@ -758,7 +758,7 @@ mix-blend-mode: multiply;
 #cropimg35	{	
 	position: absolute;
  	left: 62vw;
- 	top: 753vh;	
+ 	top: 810vh;	
  	height: auto;
  	width: 30vw;
 }
@@ -859,11 +859,20 @@ mix-blend-mode: multiply;
 
 #cropimg52	{	
 	position: absolute;
- 	left: 15vw;
- 	top: 735vh;	
+ 	left: 57vw;
+ 	top: 753vh;	
  	z-index: 10;
  	height: auto;
- 	width: 35vw;
+ 	width: 33vw;
+}
+
+#cropimg60	{	
+	position: absolute;
+ 	left: 15vw;
+ 	top: 740vh;	
+ 	z-index: 10;
+ 	height: auto;
+ 	width: 30vw;
 }
 
 
