@@ -94,7 +94,9 @@ var captions = {
 	'3': '"My baby is an idiot" poster design 2014',
 	'4': '"Lost" poster design, 2014',
 	'5': '"Tri parti" poster design, 2013',
-	'6': '"No Spiritual Surrender - No Spiritual Surrender" Vinyl Hardcover, 2017',
+	'6': '"The Truth Will Set You Dead" Publication about corrupted countries, 2017',
+
+// 	'6': '"No Spiritual Surrender - No Spiritual Surrender" Vinyl Hardcover, 2017',
 	'7': 'Poster design for a secret location techno and experimental music party and in Moscow, Russia 2018',
 	'8': 'Poster design for a secret location Techno and Experimental music party and in Moscow, Russia, 2017',
 	'9': 'Poster design for a secret location Techno and Experimental music party and in Moscow, Russia, 2018',
@@ -138,6 +140,7 @@ var captions = {
 	'48': '"Ampersand" poster, 2017',
 	'49': 'Unmasked London, Founded in 2015 by avid and visionary minds, London based techno organisation: Unmasked, is born. Bringing together and uniting as one the people with the music. A journey into a nocturnal space, which glides through the confines between electronic, industrial techno music. Showcased through the transcendent sound system of Funktion One and a live visual sense, each without compromise. Proposing rising artists, selected for their quality of sound and performance. Delivering DJ sets synergising cdj with vinyl, live hybrid performances and authenticity behind the console. Unmasked poster April edition, London, UK, 2017',
 	'52': '"Υποβρύχια", 2018',	
+	'60': 'Deviant 4th Anniversary witg Vladw, Zedje & Arseny [Live], Unfinished Portraits [Live] and Ceremonial Use of Light [Live] at Cocoliche, Buenos Aires, Argentina, 2018',
 	'222': '',
 	'223': 'sophiamarinadejongy@gmail.com +31614906568',	
 	'3333': 'soundcloud.com/neithme',
