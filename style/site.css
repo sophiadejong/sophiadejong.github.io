@@ -512,7 +512,7 @@ mix-blend-mode: multiply;
 #cropimg8	{	
 	position: absolute;
  	left: 32vw;
- 	top: 40vh;	
+ 	top: 35vh;	
 	width: 22vw;
 	height: auto;
 }
@@ -520,6 +520,14 @@ mix-blend-mode: multiply;
 #cropimg51	{	
 	position: absolute;
  	left: 24vw;
+ 	top: 42.5vh;	
+	width: 22vw;
+	height: auto;
+}
+
+#cropimg61	{	
+	position: absolute;
+ 	left:14vw;
  	top: 55vh;	
 	width: 22vw;
 	height: auto;
