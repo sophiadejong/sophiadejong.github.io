@@ -94,9 +94,9 @@ var captions = {
 	'3': '"My baby is an idiot" poster design 2014',
 	'4': '"Lost" poster design, 2014',
 	'5': '"Tri parti" poster design, 2013',
-	'6': '"The Truth Will Set You Dead" Publication about corrupted countries, 2017',
+// 	'6': '""',
 
-// 	'6': '"No Spiritual Surrender - No Spiritual Surrender" Vinyl Hardcover, 2017',
+	'6': '"No Spiritual Surrender - No Spiritual Surrender" Vinyl Hardcover, 2017',
 	'7': 'Poster design for a secret location techno and experimental music party and in Moscow, Russia 2018',
 	'8': 'Poster design for a secret location Techno and Experimental music party and in Moscow, Russia, 2017',
 	'9': 'Poster design for a secret location Techno and Experimental music party and in Moscow, Russia, 2018',
