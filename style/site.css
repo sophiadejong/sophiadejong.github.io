@@ -233,6 +233,29 @@ body {
 	z-index: 5000; 
 }
 
+.embed-container7 { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: !important; 
+	max-width: 100%; 
+	
+}
+ 
+.embed-container7 iframe, .embed-container6 object, .embed-container6 embed { 
+	position: absolute; 
+ 	left: 50vw;
+ 	top: 685vh;	
+ 	z-index: 10;
+ 	height: 40vh;
+ 	width: 45vw;
+}
+	
+.embed-container7:hover	{
+	z-index: 5000; 
+}
+
+
 a.video-link {
 	position: absolute;
 	font-size: 15px;
@@ -765,10 +788,10 @@ mix-blend-mode: multiply;
 
 #cropimg35	{	
 	position: absolute;
- 	left: 62vw;
- 	top: 810vh;	
+ 	left: 60vw;
+ 	top: 760vh;	
  	height: auto;
- 	width: 30vw;
+ 	width: 25vw;
 }
 
 #cropimg36	{	
@@ -876,7 +899,7 @@ mix-blend-mode: multiply;
 
 #cropimg60	{	
 	position: absolute;
- 	left: 15vw;
+ 	left: 10vw;
  	top: 740vh;	
  	z-index: 10;
  	height: auto;
