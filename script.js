@@ -89,7 +89,7 @@ $(document).ready(function(){
 
 
 var captions = {
-	'1': '"Flora & Corpo" poster, 2015',
+	'1': 'Amores Perros poster, Paris, 2018',
 	'2': '"El cielo" poster design, 2013',
 	'3': '"My baby is an idiot" poster design 2014',
 	'4': '"Lost" poster design, 2014',
