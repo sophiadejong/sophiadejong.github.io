@@ -374,7 +374,7 @@ img:hover {
     width: 100%;
     height: 100%;
     z-index: 0;
-    background: #bea7a7;
+    background: white;
     
 
 }
@@ -466,7 +466,7 @@ img:hover {
 	mix-blend-mode: normal !important; 
 	-webkit-filter:invert(0%);
     filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
-    box-shadow: 0 0 60px #e8e8e7;
+    box-shadow: 0 0 60px black;
     -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
 	filter: grayscale(0%); /* FF 35+ */
 }
