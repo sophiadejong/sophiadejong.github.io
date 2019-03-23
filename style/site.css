@@ -355,7 +355,7 @@ body {
 	width: 100%;
 	position: relative;
 	margin: 0 auto;
-	height: 800%;
+	height: 820%;
 	
 }
 
@@ -917,7 +917,7 @@ mix-blend-mode: multiply;
 #cropimg78	{	
 	position: absolute;
     left: 60vw;
-    top: 530vh;
+    top: 528vh;
     width: 35vw;
 	height: auto;
 }
