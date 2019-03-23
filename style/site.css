@@ -783,6 +783,7 @@ mix-blend-mode: multiply;
     left: 55vw;
     top: 475vh;
     width: 40vw;
+	height: auto;
 }
 
 #cropimg35	{	
