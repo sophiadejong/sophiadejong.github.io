@@ -780,8 +780,16 @@ mix-blend-mode: multiply;
 
 #cropimg34	{	
 	position: absolute;
+ 	left: 50vw;
+ 	top: 485vh;	
+	width: 40vw;
+	height: auto;
+}
+
+#cropimg78	{	
+	position: absolute;
  	left: 55vw;
- 	top: 505vh;	
+ 	top: 545vh;	
 	width: 40vw;
 	height: auto;
 }
