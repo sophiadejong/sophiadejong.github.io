@@ -147,7 +147,7 @@ var captions = {
 	'465': '"Archive Fever, Jacques Derida / Mothers of Plaza de Mayo" Publication about the importance of the archive and the paralelism between the Dirty War in Argentina. Images from the International Institute of Social History - (287 x 197 mm) 2018.',
 	'466': '"Archive Fever, Jacques Derida / Mothers of Plaza de Mayo" Publication about the importance of the archive and the paralelism between the Dirty War in Argentina. Images from the International Institute of Social History - (287 x 197 mm) 2018.',
 	// 	'47': '"Horizonte Vertical" mixed media poster, 2017',
-	'47': '	"Veil of Ignorance - Uun" No Future but What We Make Records - Vinyl Hardcover, 2018',	
+	'47': '	"Veil of Ignorance - Uun" No Future but What We Make Records - Vinyl Hardcover - Berlin, Germany, 2018.',	
 	'48': '"Ampersand" poster, 2017',
 	'49': '"Index" is a tote bag magazine containing a bunch of Essays on Typography and equality, Typefaces and Human Rights Album by Sophia de Jong. Collaboration with Auke Lanskin & Carolina Pinto (420 x 270 mm), 2016',
 	'52': '',	
