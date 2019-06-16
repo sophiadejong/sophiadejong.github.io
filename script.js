@@ -133,7 +133,7 @@ var captions = {
 	'351': 'Isotoop with Forest Drive West, Ben Buitendijk Van Anh @ WORM Rotterdam - Poster Design - February 16th 2019',
 	'36':'Monument 87: I/Y. Podcast series <a href="https://soundcloud.com/monument-podcast/monument-87-iy">here</a> ',
 	'37': 'Urban Sound/Landscape project based on the experience of sound and its architecture made by a translation of a sound recording of Den Haag Central Station in a rush hour, converted to a spectrogram with relief and the sound is the interpretation of the spectrogram, 2016',
-	'38': 'Typographical exploration of Blackletters and body painting, 2015.',
+	'38': 'Royal Academy of Arts, The Hague Soundscape IST Lunch lecture - Poster - 2017.',
 // '38': 'Unmasked London, Founded in 2015 by avid and visionary minds, London based techno organisation: Unmasked, is born. Bringing together and uniting as one the people with the music. A journey into a nocturnal space, which glides through the confines between electronic, industrial techno music. Showcased through the transcendent sound system of Funktion One and a live visual sense, each without compromise. Proposing rising artists, selected for their quality of sound and performance. Delivering DJ sets synergising cdj with vinyl, live hybrid performances and authenticity behind the console. Unmasked poster April edition, London, UK, 2017',
 
 	'39': '"Anti-Art" is a fanzine based on six degrees of inpiration: Ballet, Constructivism, Punk Music, Dark Art, Gabriel Grün, and Les Incoherents art movement (148 x 210 mm), 2016.',
