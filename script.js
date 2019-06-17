@@ -167,7 +167,8 @@ var captions = {
 	'600' : '"Hanami" Video game based on the japanese cherry blossom season, 2016.',
 	'601' : '"Hanami" Video game based on the japanese cherry blossom season, 2016.',
 	'602' : '"Hanami" Video game based on the japanese cherry blossom season, 2016.',
-	'603' : '"Untitled" Paint (580 x 420 mm, Acrylic, wood, photography), 2016.',
+// 	'603' : '"Untitled" Paint (580 x 420 mm, Acrylic, wood, photography), 2016.',
+	'603' : '"Ausencia de Mi" Movie by Melina Terribili uses this treasure trove of material to paint an original picture of the pain of living in exile of Alfredo Zitarrosa - Movie Poster designed with NicoRisso Estudio, 2018.',
 
 	'222': '',
 	'223': 'sophiamarinadejongy@gmail.com +31614906568',	
