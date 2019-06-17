@@ -1113,6 +1113,7 @@ mix-blend-mode: multiply;
  	z-index: 10;
  	height: auto;
  	width: 27vw;
+ 	margin-bottom: 7%;
 }
 /*
 .close {
