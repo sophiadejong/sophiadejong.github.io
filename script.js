@@ -160,7 +160,7 @@ var captions = {
 	'73' : '"The Truth Will Set You Dead" Publication based on the assesination of the Argentinian judge Natalio Alberto Nisman and the corruption behind his murder - Publication (290 x 200mm, japanese binding), 2016.',
 	'74' : '"The Truth Will Set You Dead" Publication based on the assesination of the Argentinian judge Natalio Alberto Nisman and the corruption behind his murder - Publication (290 x 200mm, japanese binding), 2016.',
 	'75' : '"The Truth Will Set You Dead" Publication based on the assesination of the Argentinian judge Natalio Alberto Nisman and the corruption behind his murder - Publication (290 x 200mm, japanese binding), 2016.',
-	'81' : '',
+	'81' : 'Skin Textures exploration, 2019.',
 	'82' : '"Fjólublátt - Hugarró" Vinyl Hardcover - Reykjavík, Iceland, 2016.',
 	'83' : 'Video game characters, 2019.',
 	'84' : 'Video game characters, 2019.',
