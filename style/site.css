@@ -186,7 +186,7 @@ img {
 .embed-container3 iframe, .embed-container3 object, .embed-container3 embed { 
 	position: absolute; 
  	left: 50vw;
- 	top: 625vh;	
+ 	top: 645vh;	
  	z-index: 10;
  	height: 40vh;
  	width: 45vw;
@@ -1010,8 +1010,24 @@ mix-blend-mode: multiply;
 
 #cropimg83	{	
 	position: absolute;
+ 	left: 47vw;
+ 	top: 560vh;		
+	width: 28vw;
+	height: auto;
+}
+
+#cropimg833	{	
+	position: absolute;
+ 	left: 60vw;
+ 	top: 595vh;	
+	width: 35vw;
+	height: auto;
+}
+
+#cropimg8333	{	
+	position: absolute;
  	left: 50vw;
- 	top: 542vh;	
+ 	top: 542vh;
 	width: 28vw;
 	height: auto;
 }
