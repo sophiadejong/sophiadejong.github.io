@@ -583,27 +583,36 @@ mix-blend-mode: multiply;
 #cropimg10	{	
 	position: absolute;
  	left: 50vw;
- 	top: 110vh;	
+ 	top: 115vh;	
 	width: 28vw;
 	height: auto;
 } 
  
-#cropimg101	{	
+#cropimg102	{	
 	position: absolute;
- 	left: 73vw;
+ 	left: 70vw;
  	top: 135vh;	
 	width: 20vw;
 	height: auto;
 }
 
-#cropimg102	{	
+#cropimg103	{	
 	position: absolute;
- 	left: 76vw;
+ 	left: 72.5vw;
  	top: 155vh;	
 	width: 20vw;
 	height: auto;
 }
 
+#cropimg104	{	
+	position: absolute;
+ 	left: 72.5vw;
+ 	top: 115vh;	
+	width: 20vw;
+	height: auto;
+}
+
+/*
 #cropimg103	{	
 	position: absolute;
  	left: 73vw;
@@ -612,14 +621,7 @@ mix-blend-mode: multiply;
 	width: 20vw;
 	height: auto;
 }
-
-#cropimg104	{	
-	position: absolute;
- 	left: 76vw;
- 	top: 115vh;	
-	width: 20vw;
-	height: auto;
-}
+*/
 
 #cropimg11	{
 	position: absolute;
