@@ -179,6 +179,6 @@ var captions = {
 	'222': '',
 	'223': 'sophiamarinadejongy@gmail.com +31614906568',	
 	'3333': 'soundcloud.com/neithme',
-	'224': 'Argentine-Dutch Visual Artist and Graphic Designer immersed in emotional and conceptual art, focused in the field of body language, embodiment and the fusion of experiemental sound and mixed media.',
+	'224': 'Argentinian-Dutch Visual Artist and Graphic Designer immersed in emotional and conceptual art, focused in the field of body language, embodiment and the fusion of experiemental sound and mixed media.',
 	}
 
