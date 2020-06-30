@@ -170,8 +170,8 @@ var captions = {
 	'600' : '"Hanami" Video game based on the japanese cherry blossom season, 2016.',
 	'601' : '"Hanami" Video game based on the japanese cherry blossom season, 2016.',
 	'602' : '"Hanami" Video game based on the japanese cherry blossom season, 2016.',
-	'900' : '3D Muscle anatomy study. CGI experimentation, 2020.',
-	'901' : '3D Muscle anatomy study. CGI experimentation, 2020.',
+	'900' : '3D Muscle prototype - CGI anatomy study, 2020.',
+	'901' : '3D Muscle prototype - CGI anatomy study, 2020.',
 
 // 	'603' : '"Untitled" Paint (580 x 420 mm, Acrylic, wood, photography), 2016.',
 	'603' : '"Ausencia de Mi" Alfredo Zitarrosa documentary by Melina Terribili - Movie Poster - Collaboration with NicoRisso Estudio, 2018.',
