@@ -122,10 +122,10 @@ img {
 .embed-container1 iframe, .embed-container1 object, .embed-container1 embed { 
 	position: absolute; 
  	left: 50vw;
- 	top: 305vh;	
+ 	top: 345vh;	
  	z-index: 10;
- 	height: 40vh;
- 	width: 45vw;
+ 	height: 50vh;
+ 	width: 50vw;
  	}
  	
 .embed-container1:hover	{
@@ -134,7 +134,7 @@ img {
 	
 .embed-container2 { 
 	position: relative; 
-	padding-bottom: 56.25vh inherit; 
+/* 	padding-bottom: 56.25vh inherit;  */
 	height: 0; 
 	overflow: !important; 
 	max-width: 100%; 
@@ -142,11 +142,11 @@ img {
  
 .embed-container2 iframe, .embed-container2 object, .embed-container2 embed { 
 	position: absolute; 
- 	left: 50vw;
- 	top: 295vh;	
+ 	left: 47.5vw;
+ 	top: 10vh;	
  	z-index: 10;
- 	height: 40vh;
- 	width: 45vw;
+ 	height: 50vh;
+ 	width: 50vw;
  	display: inherit;
 }
 
@@ -364,7 +364,7 @@ body {
 	width: 100%;
 	position: relative;
 	margin: 0 auto;
-	height: 820%;
+	height: 730%;
 	
 }
 
@@ -407,7 +407,7 @@ img:hover {
 	z-index: 6000 !important;
 	left: 1%;
     height: 2.2%;
-    top: 1.5%;   
+    top: 0.2%;   
     padding: 20px;
 }
 
@@ -433,7 +433,7 @@ img:hover {
 	z-index: 2;
 	right:	 1%;
     height: 2.2%;
-    top: 1.5%;    	 
+    top: 0.2%;    	 
 	z-index: 6000 !important;
     padding: 20px;
 }
@@ -453,7 +453,7 @@ img:hover {
 	z-index: 6000 !important;
 	left: 1%;
     height: 2.2%;
-    bottom: 1.5%;   
+    bottom: 0.2%;   
     padding: 20px;
 }
 
@@ -527,17 +527,17 @@ mix-blend-mode: multiply;
 
 #cropimg47	{	
 	position: absolute;
-     left: 5vw;
-    top: 130vh;
-    width: 37vw;
+     left: 8vw;
+    top: 115vh;
+    width: 32vw;
 	height: auto;
 }
 
 #cropimg7	{	
 	position: absolute;
- 	left: 13vw;
- 	top: 25vh;	
-	width: 22vw;
+ 	left: 12.5vw;
+ 	top: 40vh;	
+	width: 30vw;
 	height: auto;
 }
 
@@ -569,7 +569,7 @@ mix-blend-mode: multiply;
 	position: absolute;
  	left: 5vw;
  	top: 15vh;	
-	width: 22vw;
+	width: 30vw;
 	height: auto;
 }
 
@@ -583,7 +583,7 @@ mix-blend-mode: multiply;
 #cropimg10	{	
 	position: absolute;
  	left: 50vw;
- 	top: 115vh;	
+ 	top: 145vh;	
 	width: 28vw;
 	height: auto;
 } 
@@ -591,7 +591,7 @@ mix-blend-mode: multiply;
 #cropimg102	{	
 	position: absolute;
  	left: 70vw;
- 	top: 140vh;	
+ 	top: 170vh;	
 	width: 20vw;
 	height: auto;
 }
@@ -599,7 +599,7 @@ mix-blend-mode: multiply;
 #cropimg103	{	
 	position: absolute;
  	left: 72.5vw;
- 	top: 160vh;	
+ 	top: 190vh;	
 	width: 20vw;
 	height: auto;
 }
@@ -607,7 +607,7 @@ mix-blend-mode: multiply;
 #cropimg104	{	
 	position: absolute;
  	left: 72.5vw;
- 	top: 120vh;	
+ 	top: 150vh;	
 	width: 20vw;
 	height: auto;
 }
@@ -625,9 +625,9 @@ mix-blend-mode: multiply;
 
 #cropimg11	{
 	position: absolute;
- 	left: 56vw;
- 	top: 285vh;	
-	width: 20vw;
+ 	left: 60vw;
+ 	top: 307vh;	
+	width: 30vw;
 	height: auto;
 }
 
@@ -799,8 +799,8 @@ mix-blend-mode: multiply;
 
 #cropimg34	{	
 	position: absolute;
-    left: 55vw;
-    top: 483vh;
+    left: 52.5vw;
+    top: 485vh;
     width: 40vw;
 	height: auto;
 }
@@ -830,41 +830,41 @@ mix-blend-mode: multiply;
 
 #cropimg38	{	
 	position: absolute;
-    left: 65vw;
-    top: 406vh;
-    width: 23vw;
+    left: 62.5vw;
+    top: 405vh;
+    width: 32vw;
 	height: auto;
 }
 
 #cropimg39	{	
 	position: absolute;
- 	left: 5vw;
- 	top: 315vh;	
-	width: 30vw;
+ 	left: 25vw;
+ 	top: 330vh;	
+	width: 20vw;
 	height: auto;
 }
 
 #cropimg41	{	
 	position: absolute;
- 	left: 20vw;
- 	top: 320vh;	
-	width: 22vw;
+ 	left: 15vw;
+ 	top: 315vh;	
+	width: 20vw;
 	height: auto;
 }
 
 #cropimg43	{	
 	position: absolute;
- 	left: 18vw;
- 	top: 340vh;	
-	width: 22vw;
+ 	left: 10vw;
+ 	top: 300vh;	
+	width: 20vw;
 	height: auto;
 }
 
 #cropimg44	{	
 	position: absolute;
- 	left: 20vw;
- 	top: 360vh;	
-	width: 22vw;
+ 	left: 30vw;
+ 	top: 345vh;	
+	width: 20vw;
 	height: auto;
 }
 
@@ -920,9 +920,9 @@ mix-blend-mode: multiply;
 
 #cropimg	{	
 	position: absolute;
-    left: 10vw;
+    left: 5vw;
     top: 217vh;
-    width: 23vw;
+    width: 35vw;
 	height: auto;
 
 }
@@ -936,11 +936,11 @@ mix-blend-mode: multiply;
 
 #cropimg603	{	
     position: absolute;
-    left: 60vw;
-    top: 777vh;
+    left: 7.5vw;
+    top: 615vh;
     width: 32vw;
     height: auto;
-    margin-bottom: 15vh;
+/*     margin-bottom: 15vh; */
 }
 
 #cropimg50	{	
@@ -986,8 +986,8 @@ mix-blend-mode: multiply;
 
 #cropimg80	{	
     position: absolute;
-    left: 42vw;
-    top: 220vh;
+    left: 47.5vw;
+    top: 245vh;
     width: 47vw;
     height: auto;
 }
@@ -1004,31 +1004,31 @@ mix-blend-mode: multiply;
 
 #cropimg82	{	
 	position: absolute;
- 	left:7vw;
- 	top: 618vh;		
+ 	left:60vw;
+ 	top: 540vh;		
 	width: 35vw;
 	height: auto;
 }
 
 #cropimg83	{	
 	position: absolute;
- 	left: 47vw;
- 	top: 560vh;		
-	width: 28vw;
+ 	left: 70vw;
+ 	top: 75vh;		
+	width: 22.5vw;
 	height: auto;
 }
 
 #cropimg833	{	
 	position: absolute;
- 	left: 60vw;
- 	top: 595vh;	
-	width: 35vw;
+ 	left: 55vw;
+ 	top: 70vh;	
+	width: 30vw;
 	height: auto;
 }
 
 #cropimg8333	{	
 	position: absolute;
- 	left: 50vw;
+ 	left: 60vw;
  	top: 542vh;
 	width: 28vw;
 	height: auto;
@@ -1042,28 +1042,28 @@ mix-blend-mode: multiply;
 	height: auto;
 }
 
-#cropimg69	{	
+#cropimg71	{	
 	position: absolute;
- 	left: 8vw;
- 	top: 788vh;	
- 	z-index: 10;
- 	height: auto;
- 	width: 30vw;
-}
-
-#cropimg70	{	
-	position: absolute;
- 	left: 25vw;
- 	top: 795vh;	
+ 	left: 55vw;
+ 	top: 650vh;	
  	z-index: 10;
  	height: auto;
  	width: 22.5vw;
 }
 
-#cropimg71	{	
+#cropimg70	{	
 	position: absolute;
- 	left: 35vw;
- 	top: 805vh;	
+ 	left: 47.5vw;
+ 	top: 620vh;	
+ 	z-index: 10;
+ 	height: auto;
+ 	width: 45vw;
+}
+
+#cropimg69	{	
+	position: absolute;
+ 	left: 65vw;
+ 	top: 660vh;	
  	z-index: 10;
  	height: 22.5vw;
  	width: auto;
@@ -1076,13 +1076,13 @@ mix-blend-mode: multiply;
  	z-index: 10;
  	height: auto;
  	width: 22.5vw;
-	margin-bottom: 15vh;
+/* 	margin-bottom: 15vh; */
 }
 
 #cropimg73	{	
 	position: absolute;
- 	left: 30vw;
- 	top: 830vh;	
+ 	left: 75vw;
+ 	top: 670vh;	
  	z-index: 10;
  	height: auto;
  	width: 22.5vw;
@@ -1090,7 +1090,7 @@ mix-blend-mode: multiply;
 
 #cropimg74	{	
 	position: absolute;
- 	left: 65vw;
+ 	left: 55vw;
  	top: 850vh;	
  	z-index: 10;
  	height: auto;
@@ -1122,7 +1122,7 @@ mix-blend-mode: multiply;
  	z-index: 10;
  	height: auto;
  	width: 40vw;
- 	margin-bottom: 7%;
+/*  	margin-bottom: 7%; */
 }
 
 #cropimg49	{	
@@ -1132,7 +1132,7 @@ mix-blend-mode: multiply;
  	z-index: 10;
  	height: auto;
  	width: 27vw;
- 	margin-bottom: 7%;
+/*  	margin-bottom: 7%; */
 }
 /*
 .close {
