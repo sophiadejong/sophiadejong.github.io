@@ -118,14 +118,17 @@ img {
 	max-width: 100%; 
 	
 }
+
  
 .embed-container1 iframe, .embed-container1 object, .embed-container1 embed { 
 	position: absolute; 
  	left: 50vw;
  	top: 345vh;	
- 	z-index: 10;
+ 	z-index: 1000;
+/*
  	height: 50vh;
  	width: 50vw;
+*/
  	}
  	
 .embed-container1:hover	{
@@ -631,6 +634,29 @@ mix-blend-mode: multiply;
 	height: auto;
 }
 
+.videovideo {
+	mix-blend-mode: multiply !important;
+
+	position: absolute;
+ 	left: 50vw;
+ 	z-index: 10;
+ 	top: 341vh;	
+/*  	position: relative;  */
+/* 	padding-bottom: 56.25vh inherit;  */
+	overflow: !important; 
+/* 	max-width: 100%;  */
+/*
+	width: 40vw;
+	height: auto;
+*/
+}
+
+.videovideo:hover	{
+	z-index: 5000; 
+	mix-blend-mode: normal !important;
+
+}
+
 #cropimg12	{	
 	position: absolute;
  	margin-left: 650px;
@@ -838,7 +864,7 @@ mix-blend-mode: multiply;
 
 #cropimg39	{	
 	position: absolute;
- 	left: 25vw;
+ 	left: 15vw;
  	top: 330vh;	
 	width: 20vw;
 	height: auto;
@@ -846,7 +872,7 @@ mix-blend-mode: multiply;
 
 #cropimg41	{	
 	position: absolute;
- 	left: 15vw;
+ 	left: 10vw;
  	top: 315vh;	
 	width: 20vw;
 	height: auto;
@@ -854,7 +880,7 @@ mix-blend-mode: multiply;
 
 #cropimg43	{	
 	position: absolute;
- 	left: 10vw;
+ 	left: 5vw;
  	top: 300vh;	
 	width: 20vw;
 	height: auto;
@@ -862,7 +888,7 @@ mix-blend-mode: multiply;
 
 #cropimg44	{	
 	position: absolute;
- 	left: 30vw;
+ 	left: 20vw;
  	top: 345vh;	
 	width: 20vw;
 	height: auto;
@@ -1012,9 +1038,9 @@ mix-blend-mode: multiply;
 
 #cropimg83	{	
 	position: absolute;
- 	left: 70vw;
- 	top: 75vh;		
-	width: 22.5vw;
+ 	left: 76.5vw;
+ 	top: 77vh;		
+	width: 20vw;
 	height: auto;
 }
 
@@ -1025,6 +1051,30 @@ mix-blend-mode: multiply;
 	width: 30vw;
 	height: auto;
 }
+
+.videovideo2 {
+	mix-blend-mode: multiply !important;
+
+	position: absolute;
+ 	left: 55vw;
+ 	z-index: 10;
+ 	top: 72vh;	
+/*  	position: relative;  */
+/* 	padding-bottom: 56.25vh inherit;  */
+	overflow: !important; 
+/* 	max-width: 100%;  */
+/*
+	width: 40vw;
+	height: auto;
+*/
+}
+
+.videovideo:hover	{
+	z-index: 5000; 
+	mix-blend-mode: normal !important;
+
+}
+
 
 #cropimg8333	{	
 	position: absolute;
