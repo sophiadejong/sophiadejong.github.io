@@ -1069,6 +1069,13 @@ mix-blend-mode: multiply;
 */
 }
 
+.videovideo2:hover	{
+	z-index: 5000; 
+	mix-blend-mode: normal !important;
+
+}
+
+
 .videovideo:hover	{
 	z-index: 5000; 
 	mix-blend-mode: normal !important;
