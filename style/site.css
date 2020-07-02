@@ -657,6 +657,10 @@ mix-blend-mode: multiply;
 
 }
 
+.controls {
+	color: black;
+}
+
 #cropimg12	{	
 	position: absolute;
  	margin-left: 650px;
@@ -1171,6 +1175,27 @@ mix-blend-mode: multiply;
  	height: auto;
  	width: 40vw;
 }
+
+
+#cropimg910 {
+	position: absolute;
+	left: 50vw;
+ 	top: 15vh;	
+ 	z-index: 10;
+ 	height: auto;
+ 	width: 40vw;
+}
+
+#cropimg911 {
+	position: absolute;
+	left: 70vw;
+ 	top: 35vh;	
+ 	z-index: 10;
+ 	height: auto;
+ 	width: 25vw;
+}
+
+
 
 #cropimg602	{	
 	position: absolute;
