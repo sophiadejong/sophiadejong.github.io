@@ -8,7 +8,7 @@
     
 <style>
 body {
-	background-color: #8298ac;	
+	background-color: lavender;	
 }
 
 .container {
@@ -27,6 +27,10 @@ iframe {
 /* 	padding: 1rem;	 */
 }
 
+.ytp-title-channel-logo {
+	display: none;
+}
+
 h1 {
 	width: auto;
 /* 	padding: 3rem; */
@@ -42,7 +46,7 @@ h2 {
 	font-family: sans-serif;
 	display: inline;
 	background-color: #8298ac;	
-    font-size: 8.95vw;
+    font-size: 8.79vw;
     font-family: 'Syne Mono', monospace;
 }
 
@@ -51,8 +55,16 @@ h3 {
 	font-family: sans-serif;
 /* 	display: inline; */
 /* 	background-color: #8298ac;	 */
-    font-size: 3vw;
+    font-size: 1.5vw;
 /*     position: absolute; */
+}
+
+h4 {
+	font-family: 'Syne Mono', monospace;
+}
+
+#doi {
+	font-size: 0.7vw;
 }
 
 #year {
@@ -66,38 +78,63 @@ h3 {
 
 #questions {
 	width: 19.7%;
-	display: inherit;
-	background-color: #ccfff7;
-	color: #8298ac;	
+	display: table-cell;
+	background-color: black;
+	color: white;
+	box-shadow: -1px -1px 20px 4px rgba(96,255,0,1);
+-webkit-box-shadow: -1px -1px 20px 4px rgba(96,255,0,1);
+-moz-box-shadow: -1px -1px 20px 4px rgba(96,255,0,1);	
 }
 
 #topics {
-	width: 19.7%;
+	width: 37.7%;
+	width: 57.7%;
+	padding: 1%;
 	display: inherit;
 	background-color: #000000;
 	color: #8298ac;	
+	margin-top: 2%;
+	margin-bottom: 1%;
 }
 	
-#research-link  {
-	width: 19.7%;
+#research-link, #article  {
+/* 	width: 17.7%; */
+width: auto;
 	height: auto;
 	display: inherit;
+	padding: 1%;
 	background-color: white;
-	text-decoration: underline;
 	font-family: sans-serif;
 	color: black;
 }
 
-#article {
-	width: 19.7%;
-	height: auto;
-	display: inherit;
-	background-color: white;
-	text-decoration: underline;
-	font-family: sans-serif;
-	color: black;
-	font-style: italic;
-} 
+#research-link:hover, #article:hover {
+	text-decoration: underline;	
+	transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+/* 	animation: zoom-in-zoom-out 1s ease infinite; */
+	transition: all .5s;
+	box-shadow: inset 0 0 0 5px black, inset 0 0 0 10px white;
+
+
+}
+
+/*
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1.5, 1.5);
+  }
+*/
+/*
+  100% {
+    transform: scale(1, 1);
+  }
+}*/
+
 
 a:link, a:visited,  a:hover, a:active
 {
@@ -106,7 +143,7 @@ a:link, a:visited,  a:hover, a:active
 }
 
 .links-container {
-	display: inline-block;
+	display: inline-flex;
 
 }
 	  
@@ -114,11 +151,23 @@ a:link, a:visited,  a:hover, a:active
   </head>
   <body>
 	 <h2>TFM RESEARCH PROCESS</h2>
-	 <h3> Keywords: Genetic Engineering, Animal Domestication, Organs Transplant, Transhumanism</h3>
 	  <div class="container">
 		  		  
-		  <div id="questions"><h1>Will God ever give me another body?</h1></div>
+		  <div id="questions"><h1>Organs xenotransplantation: Extending the human body</h1></div>
+		  <div id="topics"><h1>The crisis of organ shortage for transplantation</h1></div>
 		  
+
+<div class="links-container">
+ 	   <div id="article"><a href="https://journals.sagepub.com/doi/10.1177/0263276407085156">Clough, P. T. (2008). <i>The Affective Turn: Political Economy, Biomedia and Bodies.</i> SAGE, Volume: 25 issue: 1, 1-22. <p id="doi">https://doi.org/10.1177/0263276407085156</p></a></div>		  
+ 	   <div id="article"><a href="https://www.semanticscholar.org/paper/Posthumanist-Performativity%3A-Toward-an-of-How-Comes-Barad/38462c1ed106c55ac6f4a2729ef639d9b4e83537">Barad, K. (2003). Posthumanist Performativity: Toward an Understanding of How Matter Comes to Matter. <i>Signs: Journal of Women in Culture and Society, 28.</i> 801 - 831. <p id="doi">https://doi.org/10.1086/345321</p></a></div>	   
+ 	   <div id="article"><a href="https://www.nature.com/articles/d41586-022-00111-9#:~:text=In%202021%2C%20surgeons%20at%20New,recipients%20were%20sustained%20on%20ventilators.">Reardon, S. (2022, 14 January). First pig-to-human heart transplant: what can scientists learn?. <i>Nature.</i> www.nature.com</a></div> 	  
+ 	   	  <div id="research-link"><a href="https://newmaterialism.eu/almanac/v/viscosity.html">Tuana, N. (2008). “Viscous Porosity: Witnessing Katrina.” In <i>Material Feminisms</i>, edited by Stacy Alaimo and Susan Hekman, 188–213. Bloomington: Indiana University Press.</a></div>
+<!--  	  <div id="research-link"><a href="https://newmaterialism.eu/updates/cfp-technology-matters.html">Call for Papers - Technology Matters and Matters of Technology: Exploring Theories of "Materiality" for Technology Research - June 25, 2018</a></div> -->
+ 	  <div id="article"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1312205/">Levy M. F. (2000). Animal organs for human transplantation: how close are we?. <i>Proceedings (Baylor University. Medical Center), 13</i>(1), 3–6. <p id="doi">https://doi.org/10.1080/08998280.2000.11927634</p></a></div>
+<!--  	   <div id="research-link"><a href="https://newmaterialism.eu/output/ethics-of-coding.html">Ethics of Coding - A Report on the Algorithmic Condition (2018)</a></div> -->
+ 	   <div id="article"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2563415/">McNamee, M. J. & Edwards, S. D. (2006). Transhumanism, medical technology and slippery slopes.<i> J Med Ethics. 2006 Sep; 32</i>(9): 513–518. <p id="doi">https://doi.org/10.1136/jme.2005.013789</p></a></div>
+	  </div>
+		
 	   <iframe src="https://www.youtube.com/embed/_SqVKPcNK24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	   <iframe src="https://www.youtube.com/embed/FqvTDWYEI8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	  <iframe src="https://www.youtube.com/embed/Qf-4agnLNb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -127,62 +176,79 @@ a:link, a:visited,  a:hover, a:active
 	  
 	  <iframe src="https://www.youtube.com/embed/3VqxtG_7DIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
 	  
-	  <div class="links-container">
- 	   	  <div id="article"><a href="https://www.nature.com/articles/d41586-022-00111-9#:~:text=In%202021%2C%20surgeons%20at%20New,recipients%20were%20sustained%20on%20ventilators.">First pig-to-human heart transplant: what can scientists learn?</a></div> 	  <div id="research-link"><a href="https://newmaterialism.eu/almanac/v/viscosity.html">Viscosity - Lauren B Wagner</a></div>
- 	  <div id="research-link"><a href="https://newmaterialism.eu/updates/cfp-technology-matters.html">Call for Papers - Technology Matters and Matters of Technology: Exploring Theories of "Materiality" for Technology Research - June 25, 2018</a></div>
- 	  <div id="article"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1312205/">Animal organs for human transplantation: how close are we? - Marlon F. Levy</a></div>
- 	   <div id="research-link"><a href="https://newmaterialism.eu/output/ethics-of-coding.html">Ethics of Coding - A Report on the Algorithmic Condition (2018)</a></div>
- 	   <div id="article"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2563415/">Transhumanism, medical technology and slippery slopes</a></div>
-	  </div>
-
- 	  
-
-	  <iframe src="https://www.youtube.com/embed/3VqxtG_7DIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
-	  <iframe src="https://www.youtube.com/embed/MKsXmEpXubY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	  <iframe src="https://www.youtube.com/embed/oRHxX9OW9ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	    
-	  <iframe src="https://www.youtube.com/embed/-z_W3yRA9I8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	  
-	<div id="questions"><h1>New achievements in animal's genetic domestication?</h1></div>
-
+	<div id="questions"><h1>Breeding transgenic pigs</h1></div>
+	<div id="topics"><h1>New achievements in animal's genetic domestication?</h1></div>
 	  	  
 	  <div class="links-container">
- 	   	  <div id="article"><a href="https://www.frontiersin.org/articles/10.3389/fevo.2020.00103/full">The Domestication Makeup: Evolution, Survival, and Challenges</a></div> 	  
- 	   	  <div id="article"><a href="https://www.nature.com/articles/s41576-020-0225-0">Animal domestication in the era of ancient genomics</a></div>
- 	  <div id="research-link"><a href="https://www.jstor.org/stable/10.1086/658401?seq=1#metadata_info_tab_contents">Genetics and Domestication: Important Questions for New Answers Greger Larson</a></div>
-	  </div>
-	  	
+ 	   	  <div id="article"><a href="https://www.frontiersin.org/articles/10.3389/fevo.2020.00103/full">Ahmad, H. I., Ahmad, M. J., Jabbir, F., Ahmar, S., Ahmad, N, Elokil, A. A. & Chen, J. (2020, May 08). The Domestication Makeup: Evolution, Survival, and Challenges.<i> Front. Ecol. Evol.</i><p id="doi">https://doi.org/10.3389/fevo.2020.00103</p></a></div> 	  
+ 	   	  <div id="article"><a href="https://www.nature.com/articles/s41576-020-0225-0">Frantz, L.A.F., Bradley, D.G., Larson, G. et al. (2020). Animal domestication in the era of ancient genomics. <i>Nat Rev Genet</i> <b>21</b>, 449–460 (2020). <p id="doi">https://doi.org/10.1038/s41576-020-0225-0</p></a></div>
+ 	  <div id="research-link"><a href="https://www.jstor.org/stable/10.1086/658401?seq=1#metadata_info_tab_contents">Larson, G. (2011). Genetics and Domestication: Important Questions for New Answers. <i>Current Anthropology, 52</i>(S4), S485–S495. <p id="doi">https://doi.org/10.1086/658401</p></a></div>
+ 	  <div id="article"><a href="https://read.dukeupress.edu/the-minnesota-review/article-abstract/2017/88/59/28581/Corpor-e-al-Cartographies-of-New?redirectedFrom=fulltext">Rogowska-Stangret, M. (2017). Corpor(e)al Cartographies of New Materialism: Meeting the Else-where Halfway. <i>The Minnesota Review</i> (88): 59–68. <p id="doi">https://doi.org/10.1215/00265667-3787390</p></a></div>
+ 	   	  <div id="article"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4603525/">Wright D. (2015). The Genetic Architecture of Domestication in Animals. Bioinformatics and biology insights, 9(Suppl 4), 11–20. <p id="doi">https://doi.org/10.4137/BBI.S28902</p></a></div>
+ 	  	 
+ 	   </div>
+ 	   
+		<iframe src="https://www.youtube.com/embed/KJ-5dmEH8VA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	  	
 	  <iframe src="https://www.youtube.com/embed/qCBukp41gyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	  <iframe src="https://www.youtube.com/embed/Q2vKMNLXxuc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	  
 	  <iframe src="https://www.youtube.com/embed/3VqxtG_7DIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
 	  
 	  <iframe src="https://www.youtube.com/embed/3VqxtG_7DIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  <iframe src="https://www.youtube.com/embed/NNnIGh9g6fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  <iframe src="https://www.youtube.com/embed/3VqxtG_7DIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+	  <iframe src="https://www.youtube.com/embed/MKsXmEpXubY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  <iframe src="https://www.youtube.com/embed/oRHxX9OW9ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	    
+	  <iframe src="https://www.youtube.com/embed/-z_W3yRA9I8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 	  	  
-		  <div id="questions"><h1>Self-invention through technology?</h1></div>
-		  	  <iframe src="https://www.youtube.com/embed/3j1zaryCPhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		  <div id="questions"><h1>How does this affect anthropological research?</h1></div>
+<!-- 		  <div id="questions"><h1>Self-invention through technology?</h1></div> -->
+		  <div id="questions"><h1>Animal-human-technology relationship</h1></div>		  
+		  <div id="topics"><h1>Humanizing animals or dehumanizing humans</h1></div>
+
+		  	  <div class="links-container">			  	  
+		<div id="article"><a href="https://grattoncourses.files.wordpress.com/2016/12/the-animal-that-therefore-i-am-jacques-derrida-ed-marie-louis-mallet-tr-david-wills.pdf">Derrida, J. (2008). <i>The Animal That Therefore I Am.</i> New York: Fordham University Press.</a></div> 		  	  
+		<div id="article"><a href="https://muse.jhu.edu/article/572121/pdf">Haraway, D. J. (2007). <i>When Species Meet.</i> University of Minnesota Press.</a></div>
+				<div id="article"><a href="https://read.dukeupress.edu/differences/article/21/2/1/60618/A-Report-on-the-Animal-Turn">Weil, K. (2010). A Report on the Animal Turn. <i>differences 21</i>(2): 1–23. <p id="doi">https://doi.org/10.1215/10407391-2010-001</p></a></div>  
+		<div id="article"><a href="http://ewa.home.amu.edu.pl/Agamben,%20The%20Open.pdf">Agamben, G. (2002). <i>The Open: Man and Animal</i> Standford University Press.</a></div>				
+		
+				<div id="article"><a href="https://muse.jhu.edu/article/572121/pdf">Pettit M. (2012). The queer life of a lab rat. <i>History of psychology, 15</i>(3), 217–227. <p id="doi">https://doi.org/10.1037/a0027269</p></a></div> 
+		<div id="article"><a href="https://muse.jhu.edu/article/572121/pdf">Deleuze, G. & Guattari, F. (2007). <i>The Thousand Plateau: Capitalism and Schizophrenia.</i> Translated by Brian Massumi. Minneapolis: University of 25 Minnesota Press.</a></div> 		
+ 	   	<div id="article"><a href="https://cvm.msu.edu/news/perspectives-magazine/perspectives-fall-2018/the-human-animal-bond-throughout-time">Michigan State University, Collage of Veterinary. (2018, December 07). <i>The Human-Animal Bond throughout Time</i> <p id="doi">https://cvm.msu.edu/news/perspectives-magazine/perspectives-fall-2018/the-human-animal-bond-throughout-time</p></a></div> 
+  	   	<div id="article"><a href="https://muse.jhu.edu/article/572121/pdf">Soppelsa, P. (2015). Reviving Animals as Technology: Ann Norton Greene, Horses at Work<i>Technology and Culture, Volume 56, Number 1, </i>January 2015, pp. 252-260. Johns Hopkins University Press. <p id="doi">https://doi.org/10.1353/tech.2015.0007</p></a></div>
+  
+  	   		 </div>
 		  
-		  <div id="topics"><h1>Genetic chimerism:</h1></div>			  
+	   <iframe src="https://www.youtube.com/embed/3j1zaryCPhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	   <iframe src="https://www.youtube.com/embed/jjxAewIBYJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	   <iframe src="https://www.youtube.com/embed/ZDFKvCL_JC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		  		  	  	
+
+
+		  <div id="questions"><h1>Genetic chimerism & interspecies</h1></div>		  
+<!-- 		  <div id="topics"><h1>Genetic chimerism:</h1></div> -->
 		  
 	  <div class="links-container">
- 	   <div id="research-link"><a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/chimera-genetics">Chimera (Genetics), From: Methods in Cell Biology, 2011</a></div> 	  
- 	   	  <div id="article"><a href="https://www.scientificamerican.com/article/3-human-chimeras-that-already-exist/">3 Human Chimeras That Already Exist</a></div>
- 	   	<div id="article"><a href="https://muse.jhu.edu/article/255362">Which Half is Mommy?: Tetragametic Chimerism and Trans-Subjectivity - Aaron T. Norton, Ozzie Zehner</a></div>
- 	  <div id="research-link"><a href="https://www.researchgate.net/publication/261884501_The_Relationship_between_Types_of_Human-Animal_Interaction_and_Attitudes_about_Animals_An_Exploratory_Study#:~:text=Following%20a%20sociological%20approach%2C%20a,personal%2C%20and%20close%20personal).">The Relationship between Types of Human–Animal Interaction and Attitudes about Animals: An Exploratory Study - Megan K. Mueller</a></div>
- 	   <div id="research-link"><a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/chimera-genetics">Biodiversity (1988) - Chapter: Part 2</a></div> 	  
- 	   	  <div id="research-link"><a href="https://www.scientificamerican.com/article/3-human-chimeras-that-already-exist/">3 Human Chimeras That Already Exist</a></div>
- 	   	<div id="article"><a href="https://cvm.msu.edu/news/perspectives-magazine/perspectives-fall-2018/the-human-animal-bond-throughout-time">The Human-Animal Bond throughout Time</a></div> 	  
- 	  
-	  </div> 	  
- 	  
- 	  
- 	  
-	  </div>	  
+<!--  	   <div id="research-link"><a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/chimera-genetics">Chimera (Genetics), From: Methods in Cell Biology, 2011</a></div>  -->	  
+ 	   	  <div id="article"><a href="https://www.scientificamerican.com/article/3-human-chimeras-that-already-exist/">Rettner, R. (2016, August 08). <i>3 Human Chimeras That Already Exist</i> Scientific American. <p id="doi">https://www.scientificamerican.com/article/3-human-chimeras-that-already-exist/</p></a></div>
+ 	   	<div id="article"><a href="https://muse.jhu.edu/article/255362">Norton, A.T., & Zehner, O. (2008). Which Half is Mommy?: Tetragametic Chimerism and Trans-Subjectivity. <i>WSQ: Women's Studies Quarterly 36</i>(3), 106-125. <p id="doi">https://doi:10.1353/wsq.0.0115.</p></a></div>
+ 	  <div id="research-link"><a href="https://www.researchgate.net/publication/261884501_The_Relationship_between_Types_of_Human-Animal_Interaction_and_Attitudes_about_Animals_An_Exploratory_Study#:~:text=Following%20a%20sociological%20approach%2C%20a,personal%2C%20and%20close%20personal).">Mueller, M. K. (2014). The Relationship between Types of Human–Animal Interaction and Attitudes about Animals: An Exploratory Study. <i>Anthrozoös.</i> (2014) 27:295–308. <p id="doi">doi:10.2752/175303714X1390382748772821</p></a></div>
+ 	   <div id="research-link"><a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/chimera-genetics">National Academy of Sciences. (1988). <i>Biodiversity.</i> Washington, DC: The National Academies Press. <p id="doi">https://doi.org/10.17226/989.</p></a></div	  
+	  </div>
+	  	
+	 </div>	  
 	    
   </div>
-  
+ 	 <h3>Keywords: Xenotransplantation, Genetic Engineering, Animal Domestication, Animal-human-technology relatioship</h3>
+	 
+	 <div class="word">		
+	 <iframe src="https://docs.google.com/document/d/e/2PACX-1vTIWMGXAvE3uttAYTN9dQYxx9qklVJ17l4ZbMaLMyH8Nf-XXHBSJK0Cz_RsyESWhIIgUPJgVfEF3Gwn/pub?embedded=true"></iframe>
+	 <a href="https://docs.google.com/document/d/14KHG3Uc7Ks6cp3iZDDqNxJ7F1TLobuqpiiG_ZlM7cSI/edit?usp=sharing"><h3>TFM LINK</h3></a>
+	 </div> 	 		
+	 
+<!-- 	 <a href="https://libguides.csudh.edu/citation/apa-7">APA7 Citations</a>   -->
  	 <h3>Sophia de Jong - 2022</h3>
 <!-- 	 <h3 id="year">2022</h3> -->
+
   </body>
 </html>
