@@ -1,0 +1,314 @@
+body {
+	background: #c3b0b0;
+}
+
+	    
+@font-face {	
+	font-family: 'akzidenz';	
+	src: url('agnextmedium.ttf');
+}
+
+@font-face {	
+	font-family: 'minion';	
+	src: url('minionprobold.ttf');
+}
+
+	
+.pages {
+	position: absolute;
+	background: transparent;
+	overflow: hidden;
+	display: inline-block;
+	bottom: 1.2vh;
+	height: 4vh;
+	width: auto;
+	left: 26.5%;
+	font-family: sans-serif;
+	color: white;
+	font-size: 2.2vh;
+	font-family: 'akzidenz';	
+
+}
+
+.pagesleft {
+	float: left;
+	overflow: scroll;
+	display: inline-block;
+	width: 10vw;
+	bottom: 1.5vh;
+	background: transparent;
+	overflow: scroll;
+}
+
+.pages2 {
+	position: absolute;
+	background: transparent;
+	overflow: hidden;
+	display: inline-block;
+	bottom: 0.8vh;
+	height: 4vh;
+	width: auto;
+	right: 0%;
+	margin-right: 22.5vw;
+	font-family: serif;
+	color: white;
+	font-size: 2.3vh;
+	font-family: 'minion';	
+
+	
+}
+
+.pagesright {
+	float: right;
+	overflow: scroll;
+	display: inline-block;
+	width: 10vw;
+	bottom: 1.5vh;
+	float: center;
+	background: transparent;
+	overflow: scroll;
+}
+
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.museum {
+	background: transparent;
+	color: white;
+/* 	height: 2.5vh; */
+	width: auto;
+	
+}
+
+.mus1 {
+	position: fixed;
+	float: left;
+	top: 0;
+	margin-top: 0.5;
+	margin-left: 11%;
+	left: 0%;
+	font-family: sans-serif;
+	font-size: 2.2vh;
+	align-content: left;
+	color: white;
+	font-family: 'akzidenz';	
+
+}
+
+
+.mus2 {
+	position: fixed;
+	float: right;
+	top: 0;
+	margin-top: 0.4vh;
+	margin-right: 11%;
+	right: 0%;
+	font-family: serif;
+	font-size: 2.3vh;
+	align-content: right;
+	color: white;
+	font-family: 'minion';	
+
+
+}
+
+.mus3 {
+	position: fixed;
+	float: left;
+	top: 0.5vh;
+	margin-left: 42%;
+	left: 0%;
+	font-family: serif;
+	font-size: 2.3vh;
+	align-content: left;
+	color: white;
+	font-family: 'minion';	
+}
+
+.mus4 {
+	position: fixed;
+	display: inline-block;
+	width: auto;
+	top: 4vh;
+	font-family: sans-serif;
+	font-size: 2.2vh;
+	color: white;
+	font-family: 'minion';		
+}
+
+.mus5 {
+	position: fixed;
+	float: left;
+	top: 1vh;
+	margin-left: 11%;
+	left: 0%;
+	font-family: serif;
+	font-size: 2.3vh;
+	align-content: right;
+	color: white;
+	font-family: 'minion';	
+
+}
+
+.mus7 {
+	position: fixed;
+	float: left;
+	top: 1vh;
+	margin-top: 0.4vh;
+	margin-left: 45%;
+	left: 0%;
+	font-size: 2.3vh;
+	align-content: center;
+	color: white;
+	font-family: 'minion';	
+
+}
+
+#mus6 {
+	position: fixed;
+	bottom: 2.7vh;
+	left: 11%;
+	height: 17px;	
+}
+
+#mus7 {
+	position: absolute;
+	bottom: 2.5vh;
+	right: 11%;
+	height: 17px;	
+}
+
+#mus8 {
+	position: absolute;
+	left: 11vw;	
+	height: 85vh;
+	top: 7.5vh;
+	z-index: 100;
+
+}
+
+#mus9 {
+	position: absolute;
+	right: 10.7vw;	
+	height: 85vh;
+	top: 7.5vh;
+	z-index: 100;	
+}
+
+.container {
+	position: absolute;
+	width: 78vw;
+	height: 85vh;
+	background: transparent; /* black; */
+	left: 50%;
+	top: 7.5vh;
+/* 	height: 94vh; */
+/* 	top: 3vh; */
+	transform: translate(-50%, 0);
+	overflow: hidden;
+	display: inline-block;
+	box-shadow: 0 0 10px #ff7800;
+}
+
+.leftcol {
+	float: left;
+	width: 50%;
+	background: transparent; /* black; */
+	height: 100%;
+	overflow: scroll;
+}
+
+
+
+.rightcol {
+	float: left;
+	width: 50%;
+	height: 100%;
+	background: transparent; /* white; */
+	overflow: scroll;
+}
+
+
+.leftcol-content img,
+.pagesleft img,
+.pagesright img,
+.rightcol-content img { 
+	margin-bottom: 1px;
+	display: block 
+}
+
+
+.leftcol-content div,
+.rightcol-content div { 
+	position: relative;
+}
+
+.leftcol-content video,
+.rightcol-content video { 
+	position: absolute;
+	left: 10%;
+	width: 80%;
+}
+
+
+.leftcol-content audio,
+.rightcol-content audio { 
+	position: absolute;
+	left: 10%;
+	width: 80%;
+}
+
+.leftmap {
+	position: absolute;
+	background: transparent; /* black; */
+	width: 7%;
+
+	height: 100vh;
+	top: 0;
+	left: 2vw;
+	overflow: scroll;	
+}
+
+.leftmap-content {
+	background: transparent; /* black; */
+	width: 100%;
+	height: auto;
+}
+
+.rightmap {
+	position: absolute;
+	background: transparent; /* white; */
+	width: 7%;
+	height: 100vh;
+	top: 0;
+	right: 2vw;
+	overflow: scroll;	
+}
+
+.rightmap-content {
+	background: transparent; /* white; */
+	width: 100%;
+	height: auto;
+}
+
+.leftmap-content img,
+.rightmap-content img { 
+	margin-bottom: 1px;
+	display: block;
+}
