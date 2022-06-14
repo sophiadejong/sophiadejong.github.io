@@ -5,6 +5,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="./style.css"> -->
 
 <style>
 html, body {
@@ -148,7 +149,7 @@ h2 {
   visibility: visible;
 }
 
-.images {
+.images-thesis {
 	width: 48%;
 	margin-right: 2%;
 	-webkit-filter: invert(100%);	
@@ -220,13 +221,32 @@ h2 {
 	font-size: 1.8rem;	
 }
 
+.radial-gradient {
+  position:fixed;
+  top:0px;
+  left:0px;
+  height:100%;
+  width:100%;
+  
+  /*Fallback if gradeints don't work */
+  background: #9b59b6;
+  /*Linear gradient... */
+  background: 
+    radial-gradient(
+     at center, #3498db, #9b59b6
+    );
+}
+
 </style>
 </head>
 
 <body>
-<!-- <img class="images" style="transform: rotate(90deg); width: 20vw; position: absolute; top: 1vh;" src="https://media.istockphoto.com/photos/chest-scars-one-month-after-heart-surgery-picture-id885571148?k=20&m=885571148&s=612x612&w=0&h=1FnBrG1bZWfTI5z59Aae916OsG1C8m5LrWYgkiYVMUo=" > -->
+<!-- <img class="images-thesis" style="transform: rotate(90deg); width: 20vw; position: absolute; top: 1vh;" src="https://media.istockphoto.com/photos/chest-scars-one-month-after-heart-surgery-picture-id885571148?k=20&m=885571148&s=612x612&w=0&h=1FnBrG1bZWfTI5z59Aae916OsG1C8m5LrWYgkiYVMUo=" > -->
+
+<!-- <div class="radial-gradient"></div>  -->
 
 <body style="text-align:center;">
+
 
 <div class="title-site"><h2><div id="title1">Genetic <br>chimerism:</div><div id="title2">Body configurations from <br>organs xenotransplantation<br></div><div id="title1">Long live the <br>New Flesh</div></h2></div>
 
@@ -274,13 +294,13 @@ The last artwork I will mention is the ballet â€˜body_remix/goldberg_variationsâ
 
 </div>
 <div class ='child_div_2'>
-	<img class="images" style="margin-top: 10%;" src="images/agi-haines.jpg">
+	<img class="images-thesis" style="margin-top: 10%;" src="images-thesis/agi-haines.jpg">
 	<div id="figure">Fig. 2. Agi Haines. (2013) Circumventive Organs. [3d bioprinting material] Science Gallery, Dublin, Ireland.</div><br>
-<img class="images" src="images/paccini.png">
+<img class="images-thesis" src="images-thesis/paccini.png">
 <div id="figure">Fig. 3. Patricia Piccinini. (2002). The Young Family. [Silicone, fibreglass, leather, human hair, and plywood]. National Museum of Women in the Arts, Washington, United States.</div><br><br>
 
-<img class="images" src="https://live-production.wcms.abc-cdn.net.au/b8e8d77bdc0007dbcfe6b46003617927?impolicy=wcms_crop_resize&cropH=769&cropW=1368&xPos=0&yPos=0&width=862&height=485">
-<img class="images" src="https://thefinchandpea.files.wordpress.com/2015/05/earmouse1.jpg?w=840">
+<img class="images-thesis" src="https://live-production.wcms.abc-cdn.net.au/b8e8d77bdc0007dbcfe6b46003617927?impolicy=wcms_crop_resize&cropH=769&cropW=1368&xPos=0&yPos=0&width=862&height=485">
+<img class="images-thesis" src="https://thefinchandpea.files.wordpress.com/2015/05/earmouse1.jpg?w=840">
 
 <div id="figure">Fig. 4 & 5. Stelarc. (2008). The Ear on Arm. [3D bioprinting material, human arm, mice]. Melbourne, Australia.</div><br><br>
 </div>
@@ -315,8 +335,12 @@ Another factor further aggravates the situation. Although very favourable in the
 <div class="finalthoughts">Final thoughts</div>
 <div class="references">References</div>
 
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="script.js"></script>
+
 
 </body>
+
+
 </html>
 
 
