@@ -31,7 +31,18 @@ html, body {
     src: url("fonts/Anthony.otf");
 }
 
-.abstract, .background, .introduction, .framework, .agency, .interspecies, .hybridbodies, .methodology, .methods, .interviews, .data, .finalthoughts, .references  {
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(174, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+.abstract, .background, .introduction, .framework, .agency, .interspecies, .hybridbodies, .methodology, .methods, .interviews, .data, .theorising, .finalthoughts, .references  {
 	  background-image: url("images-thesis/heart.png");
 	    background-size: 40%;
 	      background-repeat: no-repeat;
@@ -91,22 +102,26 @@ position: absolute;
 }
 
 .data {
-	left: 20%; top:78%;		
+	left: 23%; top:82%;		
+}
+
+.theorising {
+	left: 12%; top: 70%;		
 }
 
 .finalthoughts {
-	left: 12%; top: 70%;
+	left: 6%; top: 60%;
 }
 
 .references {
-	left: 6%; top: 60%;
+	left: 85%; top: 80%;
 }
 
 h2 {
 	margin: 0;
 }
 
-.tooltiptext, .tooltiptext2 {
+.tooltiptext, .tooltiptext2, .tooltiptext3 {
   visibility: hidden;
   width: 80vw;
   height: 80vh;
@@ -117,29 +132,24 @@ h2 {
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  left: -17.5vw;
   cursor: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png') auto;	
   text-align: justify;
+}
+
+.tooltiptext {
+	left: -17.5vw;	
 }
 
 .tooltiptext2 {
-	visibility: hidden;
-  width: 80vw;
-  height: 80vh;
-  background-color: white;
-  color: black;
-  text-align: center;
-  border-radius: 50px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: -80vh;
-  left: -27.5vw;
-  cursor: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png') auto;	
-  text-align: justify;
+	top: -80vh; left: -27.5vw;
 }
 
-.tooltiptext .tooltiptext2 .column {
+.tooltiptext3 {
+	top: -61vh;left: -2.5vw;
+}
+
+
+.tooltiptext, .tooltiptext2, .tooltiptext3, .column {
 	overflow-y: auto;
 }
 
@@ -163,6 +173,17 @@ h2 {
   border-color: black transparent transparent transparent;	
 }
 
+.theorising .tooltiptext3::after {
+content: "";
+  position: absolute;
+  top: 100%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;	
+	
+}
+
 .background {
 	opacity: 0.7;
 }
@@ -177,12 +198,21 @@ h2 {
 	z-index: 1000;
 }
 
+.theorising:hover {
+	opacity: 1;
+	z-index: 1000;
+}
+
 .background:hover .tooltiptext {
   visibility: visible;
 }
 
 .interviews:hover .tooltiptext2 {
   visibility: visible;
+}
+
+.theorising:hover .tooltiptext3 {
+	visibility: visible;
 }
 
 .images-thesis {
@@ -217,21 +247,22 @@ h2 {
 
 #parent_div_1, #parent_div_2 {
     width: 100%;
-    height: 30%;
+/*     height: 30%; */
 /*     border:1px solid red; */
-    margin-right: 3%;
+/*     margin-right: 3%; */
+	font-size: 4%;
     float:left;
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 
 .child_div_1{
     float:left;
     width: 46%;
-    height: 78vh;
+    height: 70vh;
     overflow-y: scroll;
-	margin-left: 2%; 
-	margin-right: 2%; 
-	font-size: 0.8rem;
+/* 	margin-left: 2%;  */
+/* 	margin-right: 2%;  */
+	font-size: 0.7rem;
 	font-family: 'Syne Mono', monospace;   	
 }
 
@@ -302,6 +333,22 @@ svg text {
    cursor: url(images-thesis/ovo-nero.png), auto;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+
+}
+.grid-item {
+  background-color: white;
+  border: 1px dotted #bc0000;  
+  margin: 1%;
+  padding: 3%;
+  font-size: 0.6rem;
+  text-align: left;
+    border-radius: 15px;
+/*   color: white; */
+}
+
 </style>
 </head>
 
@@ -349,7 +396,6 @@ Attempts to treat people using animal material, such as tissues or organs, are n
   	</span>
   </div>	
   	
-
 <div class="abstract">Abstract and keywords<br>Resumen y palabras claves</div>
 <div class="introduction">Introduction<br>Research questions<br>Where interest in the<br> topic comes from</div>
 <div class="framework">Theoretical framework: Weaving <br>post-humanism and new materialism <br>perspectives with xenotransplantation, <br>genetic chimerism and interspecies</div>
@@ -362,10 +408,10 @@ Attempts to treat people using animal material, such as tissues or organs, are n
 <div class="interviews">Interviews: Entanglement <br>of voices without organs	
 <span class="tooltiptext2">   
   <div> 
+	    
 	  <iframe src="https://docs.google.com/document/d/e/2PACX-1vTzDFvJsTbOW4sZSSCQfFHrDae4JxFTFq-57Lwt9I8HFLMLlS9h-ZONmgBT6pA24lUGD7nekbmrouZu/pub?embedded=true"></iframe>
   	<div id='parent_div_1'>
 <div class ='child_div_1' style="text-align:left; margin-top: 3%; text-align: justify; width: 100%;"><div class="subtitles">Interviews: Entanglement of voices without organs</div><br><br>
-
   <div class="column">
     <h2>Didier Cournelle</h2>
     <p></p>
@@ -385,9 +431,122 @@ Attempts to treat people using animal material, such as tissues or organs, are n
   	</span>
   </div>
 
+  	
+<div class="data">Data analysis</div>
+
+<div class="theorising">Theorising data,<br>rather than theory
+	<span class="tooltiptext3">
+	
+	<div style="padding: 3%">
+		
+<div class="subtitles">Theorising data, rather than theory</div><br><br>
+	Theorizing is the moulding, shaping and/or forming of a theory or theories about a specific topic. Theorizing rather than theory and transforming the data from the interviews and theoretical papers into a new space of reflexivity that allows exchange, pushes relationality that is necessary to generate science and knowledge (Mckinley, 2020). Theorizing produces a new material and articulated body of knowledge so that the researcher remains in the state of in-betweenness. Theorizing not from a static state or approach, but instead letting the fluctuations and their variations of movements during the research period and its entangled tensions lead its own process and rhizomatic diverse outcomes and conclusions.
+
+Xenotransplantation is such a controversial topic and it’s very important to denote that meanwhile doing research i understood that the subjective opinions (or voices) should all be included and heard because we are talking about sensitive topics related to animal and human rights, and he meaning, the creation and the extension of human and non-human lifeforms. Theorizing from different and sometimes quite opposite points of view let me understand my research topic on a global scale.<br><br>
+
+
+I didn’t conduct the research process by seeking a fixed conclusion but instead I looked for reflections. What I realized during the research process is that more I investigated about the topic, more questions were generated based on the research itself:<br><br>
+
+Is human life more relevant than any other life forms? Why yes or no?<br>
+How much will we be able to replace body parts to extend lives and / or borrow biological time from xenotransplantation?<br>
+If other species kill each other for food and protection, what does xenotransplantation and taking the survival of the fittest theory (reference) into human hands mean for the future of biodiversity and transpecies relations?<br>
+If we get to a point that the rejection of xenotransplantation organs is totally reduced, does this mean that we could become closer to animals genetically speaking or are we vanishing the meaning of the human species?<br>
+What are the variables or the intra-actions that bound the biological and psychosocial aspects of the construction and configurations of a body?<br>
+How much can we reject our own biological predestination and body?<br>
+How much does it affect what we think about ourselves more than what we “actually” are?<br>
+How can this dissertation might later on become a PhD research topic to keep on inquiring about?<br>
+
+<div id='parent_div_1'>
+<div class ='child_div_1' style="text-align:left; margin-top: 3%; text-align: justify; width: 100%;">
+  <div class="column">
+    <h2>Didier Cournelle</h2>
+    <p>Didier Cournelle: The average lifespan is rising for people all around the world but the maximal lifespan is not rising. Big Data in healthcare is a tool that binds all the information from quantified bodies and what can bind bodies information and the relation to one another. A web of thousands and millions of input data from humans all around the world. The issue with Big Data is the shared knowledge if private companies decide to not make public or share their research health data that could and or should be a common public good. There’s no public organization in the world that has officially the goal to fight against diseases of old age or that make people live longer and big companies like Google are working in the field of genetics and rejuvenation but there’s still no big progress. Altos Labs is something very new, they work specially in the rejuvenation of cells and they are starting with big names in the genetic field there is hope that it would be useful. <br><br>
+
+Gene therapy, cell rejuvenation or other body modification practices will have to do with having a longer life but still it will not be enough to trick it. Your body is changing all the time and from his point of view, the fact that xenotransplantation is put to practice on humans does not change the definition of the concept of ‘human being’ and does not make it something else. Our body can be seen as an interchangeable object in which you can add or subtract parts of or to it but would still remain the same as in the ‘Ship of Theseus’ paradox. The quest of life is in itself to have a longer and healthier life using all technological progress to realize this. <br><br>
+
+Why is it good  to live longer and healthier? Living longer and health care is positive in many aspects because we have more time to love each other and to discover things. We have more time for empathy and so on but it's also good for society in general because  when people live longer, they are more careful with each other. They are more careful with the environment and maybe even more important because they are less violent. Technological progress can be a very positive, but also very dangerous thing relating to the history of humanity, but today is also the most dangerous day of the history of humanity. From the interviewee’s point of view xenotransplantation is very promising but it is not yet to be used against ageing because of course ageing is a multiple aspect phenomenon and therefore we die of diseases related to old age. It might provide a better quality of life but not longevity per se.</p>
+  </div>
+  <div class="column">
+    <h2>Jaime del Val</h2>
+    <p>From a metahumanist point of view we should raise questions about the abuse of animals that are bred for xenotransplantation as well as other forms of animal sacrifice. Since the healthcare system and the idea that we have to extend human life using any technological means is based on the conception of human supremacy over other species. Not only that but an elitist human supremacy because the human lives that need to be extended as much as possible would be mainly of the rich euro-white-anglo-american. It is related with an implicit eugenics that ignores the fact that this human suprematism is grounded on a massive planetary killing and it's associated with an heteronormative oppression that paradoxically leads us to mass extinction. It all is the same domination system, expansion of nation states, empires, imperialism, etc.<br><br> 
+
+The governing healthcare system ignores the structural cause of most of the diseases,  that is the result of toxic lifestyles that human beings have created for themselves and that originate in bipedalism and agriculture. The result of this is the current overpopulation of the earth. This as well has to do with man's obsession with technological progress that is against the flows of the earth when playing with biodiversity and creating evolutionary paralysis in the entire planet that entails a human un-enhancement. Big Data culture has resulted in the annihilation of ‘Body Intelligence’ because it atrophies the sensory motor and movements. It makes us incapable of listening to the body, of varying our movement and senses, of relating to the world and its indeterminacy. We are making ourselves dependent on algorithmic, pharmaceutical, and other technical and technological systems that are actually at the core or our discomforts and are part of the extinction system. We are creating a ‘Planetary Holocaust’ so devastating that we are threatening our own species.<br><br> 
+
+From this perspective the notion of genetic chimeras does not matter because we already are chimeras. It is possible to imagine a future in which transpecies families of humans and non-humans are an established fact and all animal abuse is abolished with a much lower human population. The interviewee could think of the possibility of having xenotransplantation from our transpecies kinship when they naturally or accidentally die, just as is done with human transplantation, as perhaps the only acceptable option. Then xenotransplantation could help further undo the species gap, but this is of course far from what happens today.</p>
+  </div>
+  <div class="column">
+    <h2>Benjamin Smith</h2>
+    <p>The participant was involved with the first-ever heart transplantation surgeon Dr. Chris Barnard, and he was taking care of the patients after surgery after working on the preservation of hearts for transplantation. He realized back then that the shortage of organs was a big issue in the transplantation field. Firstly he did trials on baboons but later on he became interested in doing research on pigs as hosts and donors due to logistical reasons and as well from an immunological point of view they are much closer to humans. Since then he does not do any clinical work anymore but he does work testing transgenic pigs for xenotransplantation by transplanting a heart or a kidney from the pig into a monkey or a baboon. Human serum and pig cells are tested to see if the human serum kills the pig cells in the lab so the human serum will kill the pig organ if that particular genetic modification is rejected in the serum cell combination.<br><br>  
+
+A human heart transplant would take seven days to be rejected by the recipient. Instead the genetically engineered organs from the pigs are transplanted in young baboons which will take five minutes to have an immunological response against it. The bred pigs have ten genetic modifications before the be can donors and the more they are engineered to be compatible with the recipient the less you have to expose the patient to immunosuppressant drugs therapy. In the lab you can structure antigens on a pig cell so the patients no longer have antibodies against the pig because the animal it’s designed to suit that particular patient. There are all sorts of potential ways that eventually will make pig organs a much better source of organs than human ones for the majority of patients.<br><br>  
+
+Babies have a weaker immunological response and their immune system is much more flexible and plastic. They have a lower response to both pig cells and to human cells than adults do and those patients do better than any other patients with any type of organ transplant. A heart xenotransplantation done on babies could allow them to extend their lives while they wait for another baby human donor to die. There are a lot of adult patients who will be dead or be taken off the waiting list within five years because they are no longer suitable. Xenotransplantation could be a great solution for kidney diseased patients that are in dialysis treatment because their organs deteriorate at such a rapid pace that putting a pig's kidney meanwhile they wait for a human resource could keep them alive.<br><br>  
+
+Pigs for xenotransplantation are bred in very clean facilities so that they won't carry any infections with them. The staff who look after them put on a sort of space suit every day so they don't give the pig any infections for themselves. The pigs are tested every month to make sure they've not got any infectious organisms that you could transfer with the graft whereas most with human donors you have literally a few hours to check. The transgenic pigs will be housed under very clean, ideal conditions, given the perfect diet and instead of being slaughtered by having their throats cut like in other food facilities they will be anaesthetized and they will die under the anaesthesia when taking the organs out. So from a pig's point of view it's a much more humane life and death than the average pig.<br><br> 
+
+The psychological and sociological aspects of a genetic chimerism based on pig to human xenotransplantation is what is more relevant than the concept of a genetic chimera in itself and it’s similar to when a human to human organ transplantation is performed. In adults the reactions of xenotransplantation could be managed with a conscious and mature approach with psychotherapy. In children the topic should be supervised in a private and discreet manner so they won't be exposed to the possibility of bullying or other psychological problems. They don’t need to know about the details until they are older enough to understand and accept what was performed on their bodies to preserve their lives. Most people would accept xenotransplantation if it's going to be life-saving for them. Patients would accept the doubts they have in their mind if they know it's the only way they can stay alive even though they may still have some deep-seated concerns that they're not entirely human.</p>
+  </div>
   
-  	  	
-<div class="data">Data analysis<br>Theorising data, <br>rather than theory</div>
+</div>
+
+	<p style="font-size: 0.7rem">Making a table of content based on the comparison of the voices of the interviewees and the topics and criteria that are manifested related to the xenotransplantation, allows to establish an entanglement of them which is the results of concepts that sometimes overlap and sometimes oppose:<br><br></p>
+    
+<div class="grid-container">
+	
+  <div class="grid-item"></div>
+  <div class="grid-item">Xenotransplantation</div>
+  <div class="grid-item">Animals treatment</div>  
+  <div class="grid-item">Longevity</div>
+  <div class="grid-item">Human supremacy</div>
+  <div class="grid-item">Body configurations</div>  
+  <div class="grid-item">Didier<br>Cournelle</div>
+  <div class="grid-item">Is a positive technology that allows us to live a longer and better life.</div>
+  <div class="grid-item">Implicitly the interviewee agrees with the use of animals for experimentation in the laboratory although he doesn't refer directly to it.</div> 
+  <div class="grid-item">Xenotransplantation and other technological advances may not manage to increase longevity but rather to extend life for a greater number of people in the world.</div>
+  <div class="grid-item">Technoprogressism is related to having more time for empathy and love for each other. </div>
+  <div class="grid-item">The body is changing all the time and  the fact that xenotransplantation is put to practice on humans does not change the definition of the concept of ‘human being’ and does not make it something else. </div>  
+  <div class="grid-item">Jaime<br>del Val</div>
+  <div class="grid-item">Not killing any animals and expecting them to die naturally would be the only way xenotransplantation would be acceptable.<br><br>Xenotransplantation is related to implicit eugenics. </div>
+  <div class="grid-item">Animal abuse related to xenotransplantation should be questioned.<br><br>It is always a cruel animal slavery and sacrifice. </div>  
+  <div class="grid-item">Obsession of technological progress and human life extension is against the natural flow of biodiversity. </div>
+  <div class="grid-item">Human supremacy is the core of technological means to extend human life.<br><br>Toxic lifestyles lead to diseases and mass extinction of human and other species. </div>
+  <div class="grid-item">The concept of chimeras does not matter because we already are chimeras as we used so much technology to change our bodies.<br><br>The man does not listen to his own body and stops relating to the world and results in an atrophied body.</div> 
+  <div class="grid-item">Benjamin<br>Smith</div>
+  <div class="grid-item">It is a solution to the shortage of organs from human donors.<br>The most important is to avoid immunological and social rejection.</div>
+  <div class="grid-item">Pigs that are bred for xenotransplantation are well taken care of in laboratory facilities and have a better life quality than pigs used for agricultural purposes. </div>  
+  <div class="grid-item">There are a lot of patients who will be dead or be taken off the waiting list within five years because they are no longer suitable for the transplant.</div>
+  <div class="grid-item">Implicitly the interviewee agrees with speciesism although it is important to avoid unnecessary cruelty practices to the animal donor.</div>
+  <div class="grid-item">Patients would accept a xenotransplantation if they understand that it is their only way of survival even though they may have doubts as to whether or not they will remain fully human.<br><br>The psychological and sociological aspects of xenotransplantation are more relevant than the concept of a genetic chimera.</div>  
+
+</div>
+
+<div style="font-size: 0.7rem"><br><br>After considering what was manifested in the interviews, my own reflections about the topic are the following: Man is the only animal that is aware of the certainty that he is going to die, so there are great concerns that have to do with extending life and fighting against diseases seeking a subjective good life quality. The longevity of life, although it has extended to part of the population of the planet, has not increased significantly or radically. “Long live the New Flesh” is a concept that has not to do with longevity itself, but with the idea of a human borrowing extra years from becoming a genetic chimera by using xenotransplantation. The United States Food and Drug Administration allows xenotransplantation research conducted in research facilities only if the mutations can’t be transmitted to reproductive cells, therefore the offspring of the chimeras will not have a genetic alteration (Benjamin, personal communication, 6th June 2022). Even though techno progressivism has altruistic ideals to put into practice, those to make technologies available for everyone is somehow questionable.<br><br> 
+
+We have to see the long term effects of the results of pig to human xenotransplantation and I believe that it won’t be possible without testing the organs in even more humans and not in baboons. This also makes me question how much we can quantify our bodies, till where can we add, subtract and any parts of the body. Also I can reflect on the concept of ‘divide and conquer’ as the human obsession with controlling himself and everything that surrounds him can now be taken with the help of genetic engineering technologies to define DNA, the source of all living lifeforms. This possibility of replacing our body with a new body can give rise to the idea of avoiding death, that is, that the human being could somehow 'be eternal'.<br><br>
+
+Trying to define what body type or configuration is generated in xenotransplantation brought to my attention even more questions than answers. How much can humans extend themselves by putting their DNA into other living forms, in this case pigs that become hosts of our DNA to generate organs for xenotransplantation? Does this make us become closer to animals or grow more apart from other humans? The genetic chimeras that result from xenotransplantation risk having more struggles to know who they might be themselves, which is their identity and this is a very personal and subjective journey. Even though we humans try to control our life path, we can do it within a limited time and space frame. The possibility that more people in the world can have a healthier and longer life can allow us to have an optimistic vision about the care that human beings will and could give to the planet, to themselves and to other species. <br><br>
+
+From this thoughts I propose a new concept of body that is generated upon the creation of a xenotransplanted human:<br><br>
+
+Xeno-in-bodied:The meaning of bodied is “having a body of a specified kind — used in combination” (reference). From this premise I argue that the body is seen as a quantifiable matter and can be self-organized or organised by agency forces from humans even at a genetic level. We are striving for designed bodies where DNA is put in another host and the human is genetically living in another body. A body that is gestated in a lab and it grows inside an animal, a non-human body. This reflects on a question: are we our DNA? To explain the term ‘Xeno-in-bodied’ I used the term ‘xeno’ because the organs develop outside the human, ‘in’ because it comes back to the human body, and ‘bodied’ because it’s a quantifiable organised and controlled matter, a voluntary body modification of the individual. The transferred encoded data becomes a new flesh in which structures are interchangeable from outside sources. The body can be understood as a systematic organism with modular structures with mechanical assistance. The xenotransplanted human is a new material that is an assemblage directed and the. The reconfiguration of the human body that is created upon using the pig as a technological tool that is inserted into the human by xenotransplantation, changes the definition of pigs and the notion of their animal nature as well. A limitless and boundless encoded body emerges among the expansion of DNA xeno-living where sub-organisms create a whole-organism system. This creates a report to ecological and evolutionary success, in which human supremacy is a core concept of the created body and animal sacrifice is due to speciesism hierarchy. If we get to a point where immunological response from xenotransplants is nonexistent, the biological barrier that exists in between transgenic pigs and humans will disappear.<br><br> 
+
+Ambivalent body configuration from a social standpoint: Socially speaking, pigs can be seen as repulsive or dirty animals. There are two important issues related to both the societal and individual response to xenotransplantation and the xenotransplanted person. The individual may be aware that this is the only resource that will allow him to survive, in which case his positive reaction will contribute to the success of the surgical intervention. This can vary according to the life experience, ideas and emotions of each individual. On the other hand, the collective social reaction towards a xenotransplanted being will vary rhizomatically. For example: a person whose criterion is to equate animals with human beings will reject any intervention of this type, considering it cruel towards the former. The opposite will happen if human life is considered the most relevant in the chain of species. In any case, the xenotransplanted human will be seen as an ambivalent and new being. In addition, one of the possible results is mockery, bullying or bewilderment towards the unknown.<br><br>
+
+The age of genetic-chimeras: The creation of human-pig chimeras highlights speciesism as an ethical ideal and the concept of human and animal dignity. Scientific possibilities allow the combination of human and non-human species and that does not rely on categorization into human and nonhuman categories. As xenotransplantation procedures progress the definitions of human will mutate and vary depending on the immunological response. The xenotransplanted person will be considered in the scientific field as a human being, and will not be treated as an animalistic creature. The idea of the mythological chimeric creature will lose its power as xenotransplantation becomes a not so extraordinary process. This changed the human-animal relationship to the core, where the pigs now are not companion species anymore but they are a tool for human life extension.<br><br>   
+
+Long live the new flesh: Another concept that emerges is a post-cyborg body. Petkovsek & Zalec say that “cyborgization is the connection of mechanic and organic, as two autonomous systems benefiting the host system. Contemporary technology can combine the artificial mechanic parts and the artificial biological parts in some medical operations such as a sex limb change, prosthetic ears or skin implantation made by using 3D bioprinting. In this way cyborgization spread from combining artificial machine systems to connecting the body with artificial systems, where both the biological and mechanical can be artificially produced by technology. Still, this does not include transplantation or any chemical influence to the psychological or emotional state of a human” (Petkovsek & Zalec, 2021).<br><br>
+
+What can be argued about the premises of the previously mentioned authors is that transplantation does not take part in the cyborgization process, but xenotransplantation does. Due to the fact that the pigs that are being bred for hosting human organs are technology in itself, the xenotransplanted human would become a post-cyborg even though the organ is a biological material. A xenotransplanted human would not be separate from the designed organ which is technology in itself but he would be actually a part of it. This body is thoughtfully controlled and escapes randomness and nature’s adversity. Genetically engineering technologies create a different quest for immortalisation where death due to degenerative organs is not inevitable. If a new organ is needed, it can be created in a laboratory and will replace the failed organ.<br><br> 
+
+</div> 
+
+</div>
+  	</div>
+  </div>
+  	</span>
+</div>
+
+	</div>
 <div class="finalthoughts">Final thoughts</div>
 <div class="references">References</div>
 
