@@ -6,21 +6,24 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
 <!-- <link rel="stylesheet" href="./style.css"> -->
-
-<script>
-   // DRAG IMAGES
-  $( function() {
-    $( ".draggable" ).draggable();
-  } );
-  
-  </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   
 <style>
 html, body {
    height: 100%;
    margin: 0em;
    font-family: sans-serif;
-   background: radial-gradient(closest-side,  #880808, #c80000, #d3f7ff, #d3f7ff, white, #d3f7ff);
+   background: radial-gradient(closest-side,  black, #c80000, black, #880808)
+}
+
+
+#gradient {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  box-shadow: inset 0 0 200px hsla(0,0%,0%,.4);
+  z-index: 1;
 }
 
 @font-face {
@@ -28,18 +31,24 @@ html, body {
     src: url("fonts/Anthony.otf");
 }
 
-.abstract, .introduction, .framework, .agency, .interspecies, .hybridbodies, .methodology, .methods, .interviews, .data, .finalthoughts, .references  {
+.abstract, .background, .introduction, .framework, .agency, .interspecies, .hybridbodies, .methodology, .methods, .interviews, .data, .finalthoughts, .references  {
+	  background-image: url("images-thesis/heart.png");
+	    background-size: 40%;
+	      background-repeat: no-repeat;
+	          background-position: center center;    
 position: absolute;
   display: inline-block;
   border: 1px dotted #880808;
   box-shadow: 0 0 30px #880808;
   background-color: #d3f7ff,;
-  color: black;
+  color: white;
   padding: 1%;
   border-radius: 50px;
   font-size: 0.7rem;
   font-family: 'Syne Mono', monospace;	
   text-align:center;
+  z-index: 10;
+  transition: 1.5s; 
 }
 
 .abstract {
@@ -93,24 +102,11 @@ position: absolute;
 	left: 6%; top: 60%;
 }
 
-	
 h2 {
 	margin: 0;
 }
 
-.background {
-  position: absolute;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-  background-color: black;
-  color: white;
-  padding: 1%;
-  border-radius: 50px;
-  font-size: 0.7rem;
-  font-family: 'Syne Mono', monospace;
-}
-
-.background .tooltiptext {
+.tooltiptext, .tooltiptext2 {
   visibility: hidden;
   width: 80vw;
   height: 80vh;
@@ -121,37 +117,63 @@ h2 {
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-/*   bottom: 10%; */
   left: -17.5vw;
-/*   margin-left: -60px; */
   cursor: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png') auto;	
-    text-align: justify;
+  text-align: justify;
 }
 
-.tooltiptext {
+.tooltiptext2 {
+	visibility: hidden;
+  width: 80vw;
+  height: 80vh;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 50px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -80vh;
+  left: -27.5vw;
+  cursor: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png') auto;	
+  text-align: justify;
+}
+
+.tooltiptext .tooltiptext2 .column {
 	overflow-y: auto;
 }
+
 .background .tooltiptext::after {
   content: "";
   position: absolute;
   top: 100%;
-/*   left: 50%; */
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
   border-color: black transparent transparent transparent;
-/*   visibility: hidden;  */
+}
+
+.interviews .tooltiptext2::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;	
 }
 
 .background {
-	transition: 0.3s;
-	opacity: 1;
-	color: white;
+	opacity: 0.7;
 }
 
 .background:hover {
 	opacity: 1;
-/* 	-webkit-filter: invert(100%);	 */
+	z-index: 1000;
+}
+
+.interviews:hover {
+	opacity: 1;
 	z-index: 1000;
 }
 
@@ -159,15 +181,19 @@ h2 {
   visibility: visible;
 }
 
+.interviews:hover .tooltiptext2 {
+  visibility: visible;
+}
+
 .images-thesis {
 	width: 48%;
 	margin-right: 2%;
-/* 	-webkit-filter: invert(100%);	 */
 }
 
 .title-site {
-	position: relative;
+	position: absolute;
 	top: 21.5vh;
+	left: 27.5vw;
 	display: block;
   margin-left: auto;
   margin-right: auto;
@@ -178,7 +204,6 @@ h2 {
 	font-family: 'Syne Mono', monospace;
 	font-size: 3.4rem;
 	-webkit-text-stroke: 1px white;
-/*   text-shadow: -5px -5px red, 5px -5px 0 red, -5px 5px 0 red, 5px 5px 0 red; */
 	text-shadow: 5px 5px 10px white;
 }
 
@@ -190,39 +215,24 @@ h2 {
 	margin-top: -1%;
 }
 
-/*
-.center {
-  &:hover {
-    color: $purple;
-  }
-
-  &::before,
-  &::after {
-    top: 0;
-    left: 0;
-    height: 100%;
+#parent_div_1, #parent_div_2 {
     width: 100%;
-    transform-origin: center; 
-  }
-}
-*/
-
-#parent_div_1, #parent_div_2, {
-    width: 20%;
     height: 30%;
-    border:1px solid red;
+/*     border:1px solid red; */
     margin-right: 3%;
     float:left;
+    overflow-y: auto;
 }
+
 .child_div_1{
     float:left;
     width: 46%;
-/*     margin-right:5px; */
+    height: 78vh;
+    overflow-y: scroll;
 	margin-left: 2%; 
 	margin-right: 2%; 
 	font-size: 0.8rem;
-	font-family: 'Syne Mono', monospace;   
-	
+	font-family: 'Syne Mono', monospace;   	
 }
 
 .subtitles {
@@ -246,26 +256,6 @@ h2 {
     );
 }
 
-/*
-.draggable:hover{
-	filter: grayscale(0%);
-	transform: scale(1);
-	-webkit-transition: opacity 1s ease-in-out;
-	-webkit-transition: transform .2s;
-	margin-left: 0;
-	margin-right: 0;
-}
-
-.draggable { 
-	filter: grayscale(100%);	
-	background-color: black;
-	transform: scale(0.7);
-	display: block;
-	transition: transform .2s;
-	animation: glow .5s infinite alternate;	
-}
-*/
-
 path {
   fill: transparent;
 }
@@ -274,100 +264,91 @@ text {
   fill: #FF9800;
 }
 
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+/*   background-color: black; */
+  border-radius: 15px;
+/*   color: white; */
+  border: 1px dotted #bc0000;
+  width: 28%;
+  padding: 10px;
+  margin: 1%;
+  height: 60vh; /* Should be removed. Only for demonstration */
+}
+
+svg {
+  transform: rotate(-45deg);
+}
+
+svg text {
+  text-anchor: middle;
+  fill: white;
+  font-size: 0.8rem;
+  font-family: 'Syne Mono', monospace;
+}
+
+.voice-didier {
+	position: absolute;
+	left: -8%;
+	top:5%;
+	color: white;
+}
+
+.soundTrigger {
+/* 	width: 7em; */
+	padding: 1em;
+/* 	background-color: #fabeb7; */
+   cursor: url(images-thesis/ovo-nero.png), auto;
+}
+
 </style>
 </head>
 
 <body>
 <!-- <img class="images-thesis" style="transform: rotate(90deg); width: 20vw; position: absolute; top: 1vh;" src="https://media.istockphoto.com/photos/chest-scars-one-month-after-heart-surgery-picture-id885571148?k=20&m=885571148&s=612x612&w=0&h=1FnBrG1bZWfTI5z59Aae916OsG1C8m5LrWYgkiYVMUo=" > -->
 
-<!-- <div class="radial-gradient"></div>  -->
+<!-- <div id="gradient"></div>  -->
 
-<body style="">
+<!-- <body style=""> -->
 
+  
 
 <div class="title-site" style="text-align:center;"><h2><div id="title1">Genetic <br>chimerism:</div><div id="title2">Body configurations from <br>organs xenotransplantation<br></div><div id="title1">Long Live the <br>New Flesh</div></h2></div>
-  
-<div class="background draggable">Background of the research <br>problem and state of the art		
-  
-  <span class="tooltiptext">   
+ 
+<div class="voice-didier soundTrigger">  
+	
+<svg>
+  <defs>
+    <path id="line1" d="
+            M 0,300 
+            A 200,200 0 0 1 400,300"
+     />
+    <path id="line2" d="
+            M 0,300 
+            A 200.75,200 0 0 1 400,300"
+     />
+  </defs>
+  <text>
+    <textPath startOffset="50%" xlink:href="#line1">Interview with Didier Cournelleee</textPath>
+<!--     <textPath startOffset="50%" xlink:href="#line2">Some extra text</textPath> -->
+  </text>
+</svg>
+</div>
+
+<div class="background draggable">Background of the research <br>problem and state of the art
+	
+<span class="tooltiptext">   
   <div> 
   	<div id='parent_div_1'>
 <div class ='child_div_1' style="text-align:left; margin-top: 3%; text-align: justify;"><div class="subtitles">Background of the research problem and state of the art</div><br><br>Attempts to treat people using animal material, such as tissues or organs, are not new. In 1628, Colle de Belluno of Padua performed the first human blood transfusions, and in 1682, a doctor attempted to transplant a part of a dog's skull onto a Russian man who had been injured. The earliest verified attempts at xenotransplantation were made as early as the 18th century, and the first dog or cat corneal transplants were unsuccessfully attempted to heal patients who eventually went blind (Ullman, 1902). The U.S. Food and Drug Administration defines xenotransplantation as “any procedure that involves the transplantation, implantation, or infusion into a human recipient of either (a) live cells, tissues, or organs from a nonhuman animal source, or (b) human body fluids, cells, tissues, or organs that have had ex vivo contact with live nonhuman animal cells, tissues, or organs” (U.S. FDA, 2021).<br><br>
-
-Grafts of animal skin tissue were accomplished around the end of the nineteenth century. It was particularly around the early 1900s when the trials multiplied. Mathieu Jaboulay, in 1906, accomplished the first two animal organ transplants on humans. The first patient was a woman who had kidney failure by transplanting. A pig kidney was placed outside the human body, at the bend of the elbow, but the graft did not work. He repeated the experiment a few months later using a goat kidney, which was also a failure. It was then the turn of monkeys reputed to be close to humans to serve as raw material for Serge Voronoff for tissue grafts from their testicles on men in order to restore their vitality. It was then necessary to wait until the beginning of the 1960s for new xenografts to be attempted. (Hamilton, 2012) In 1954, the first human organs successful transplant was from the identical twin brother kidney’s deceased patient Richard Herrick. Previously this would be considered a deadly illness, but with the help of the new transplant the first recipient could live eight more years (Powell, 2011).<br><br> 
-
-From Friday January 7, 2022, a 57-year-old man lived with a genetically modified pig's heart for two months (Rabin, 2022). The xenotransplantation on this patient was announced Monday, January 10 by a team from the University of Maryland School of Medicine in the United States of America. (University of Maryland School, 2022). David Bennett, a sufferer of an end-stage heart failure and arrhythmia, was ineligible for a conventional heart transplant, or even an artificial heart pump system. The U.S. Food and Drug Administration (FDA) therefore authorised this experimental strategy on a compassionate basis, in this consenting patient and without any other therapeutic option. He became the first human being whose life could have been saved thanks to a xenotransplantation.<br><br> 
-
-Nicholas L. Tilney in his book ‘Transplant: From Myth to Reality’ wrote: “When I got here in 1964, the early mortality rate following transplantation was as high as 50 percent. By the end of the year, there were virtually no survivors. Now, if someone dies, it’s a cause of great angst” (Tilney, 2003, p. 86). What kind of questions can the author ask now that with the help of genome editing technologies is it possible to design a molecular fairy-tale in the field of genetic engineering to end the battle of immunological response in organ transplantation and create a personalised bio-formulated and controlled one in a lab?<br><br> 
-
-In practice, the pig currently appears to be the most appropriate animal species as a source of cultivation of organs for humans. The porcine species has many advantages in this respect because: Uncontroversial use for the human species; easy breeding; possible to breed germ-free or organ-free animals; suitable size and similar physiology of transplantable organs compared to humans (Klymiuk et al., 2010). The advantages of xenografts appear as a good fit for breeded organs. Xenografts would make it possible to definitively solve the problem of the shortage of organs; they would also bring a radical answer to all the ethical questions relating to the removal of human organs, whether removal from a living donor or from a corpse.<br><br>
- 
-Another factor further aggravates the situation. Although very favourable in the short term, the percentage of success of organ transplants gradually decreases over time by the destruction of an increasing proportion of graft; there is an unlimited availability of xenografts; organ transplantation becomes an elective intervention (a controllable / malleable bodily feature); guarantee of organs quality and the use of donors germ-free of specific pathogens.<br><br> 
- 
-Although it will be important to review, map and understand the technological processes and the scientific processes that xenotransplantation entails, the study problem focuses on the body theme and the ethic-onto-epistemological implications that bio-constructed xenotransplanted bodies can have beyond the human. Hence, my references will not include just science theoretical scholars, but also philosophers, artists and researchers who have analysed these topics from different fields of study. To relate science socio historical event to artistic practice I will now mention artists from diverse fields that work on topics and create artworks related to body modification, morphological freedom, mutations, and human body (re)design:<br><br> 
-
-Agi Haines’ work is focused on human body speculative design and “the weird and wonderful things that exist inside us” (Haines, n.d). She questions the social response to new bodies that can be seen as malleable material and looks at the human body as a system of interchangeable parts. As you can see in the figure 2, her artwork ‘​​Circumventive Organs’ (Haines, 2013) refers to a speculative future anatomical lesson or a natural sciences museum. It questions how bioprinting can make it possible for new organs to become a part of our reality:<br><br> 
- 
-[T]he ability to replicate and print cells in complex structures could mean different cells with various functions could be put together in new ways to create new organs we would take millions of years to evolve naturally. Frankenstein-esque hybrid organs could then be put together using cells from different body parts or even different species. (Haines, n.d.)<br><br>   
- 
-Patricia Piccinini’s sculptures make us reimagine our relationship with nature and animals through her art. The display of her artwork ‘The Young Family’ in figure 3 (Piccinini, 2002) resembles animals that were bred in a laboratory. A chimera who’s new materialisation comes from the combination of creative thinking, speculative design and scientific research. She thinks the body, human and / or animal as an artistic interface and she sculpts “life forms that don’t exist” (Badham, 2017) and envisions a hyper-realistic view of hypothetical hybrid bodies.<br><br> 
- 
- 
-The Australian performance artist, Stelarc, makes art out of the human body. His project, a combination of divergence of using his body as an artistic tool and interface combining robotics and cybernetics. ‘The Ear of Arm’ (Stelarc, 2008) in figures 4 and 5 is an example of how a hybrid body can be constructed where he implanted a “third ear” in his forearm that grew in a mouse (Stelarc, n.d.). This also questions how the body can be cropped into pieces, adding, and subtracting organs, cells, tissues - a body with an interchangeable character. The artist describes the body as a thing that from the biological point is not properly organised and that “[t] he body needs to be Internet enabled in more intimate ways. THE EAR ON ARM project suggests an alternate anatomical architecture - the engineering of a new organ for the body: an available, accessible, and mobile organ for other bodies in other places, enabling people to locate and listen in to another body elsewhere. (Stelarc, n.d.)<br><br> 
-
-The provocative artist Wim Delvoye began to tattoo live pigs in the 1990s. He began to experiment with tattooing the skin of dead pigs. Seven years later, he transitioned to work with a new material: the skin or pigs that were alive as a canvas for his artworks. He raised the pigs in a farm in the outskirts of Beijing, China and created the concept of art farm, a place where he would develop his artistic practice with the help of veterinarians to put pigs to sleep to be tattooed. As well to take care of the scars and wounds that their skin would suffer from the tattoos (Sweet, n.d).<br><br> 
- 
-In an interview the artist explained, “I show the world works of art that are so alive, they have to be vaccinated…It lives, it moves, it will die. Everything is real.” (Carpentier, 2012). His work ‘Drawings and Models’ in figures 6 and 7 questions the value of material, as western inspired drawings made by the artists are placed into a pig's skin and become a decorative ornament who has no other purpose than to shock. In this respect, these pieces are not just limited to the never-ending question of what art is, but also worth reflecting on the ethical implications of some artistic practices. Is everything acceptable in the name of art?<br><br> 
-
-To explore the insides, what scares us in the unknown, the concepts of opening the body, the tangible self, the artist’s Anish Kapoor artworks ‘All inside myself’ (Kapoor, 2012) and ‘Shooting into the Corner’ (Kapoor, 2008-2009) (Kapoor, n.d) are an example of the the eagerness to discover and fantasises about a body without a human body. The material exploration that resembles a quartered body and breaks the bounds between physicality and the limits of the body form and figure.<br><br> 
-
-Sarah Sitkin in her artwork ‘Bodysuits’ (Sitkin, 2018) as in figure 10 uses her special effects materials to create hyper-realistic figures of human torsos that function as a vest that allows you to experience another body. It also questions whether the body somehow defines our identity, making the suit function as a garment and not as a person. With her interactive art, the artist makes it possible for people who use her artwork to try on several different bodies and be surprised first by the visual impact, and then realise that the person wearing it is still the same (Holowaty Krales, 2019).<br><br> 
-
-Umberto Boccioni’s famous futurist sculpture ‘Unique Forms of Continuity with Space’ (Boccioni, 1913-1931) in figure 11 depicts a hybrid of human forms and mechanical ones. How to time and space, meaning the environment and the actions, a body becomes in movement and (re)shapes the human form. The material is inorganic yet the shapes look like a mixture of organic bodily movements.<br><br> 
-
-The last artwork I will mention is the ballet ‘body_remix/goldberg_variations’ by choreographer Marie Chouinard (Compagnie Marie Chouinard, 2005). In figures 12 and 13 the dancers use crutches and other technological devices that are made for disabled people. Their movements and bodily tensions are based on the interaction with this apparatus and as well, how the lack of this interaction as well, makes another discovery of how their bodies should or can move in a different way: a desired relationship with the non-human.<br><br> 
-<br><br>
-
-</div>
-<div class ='child_div_2'>
-	<img class="images-thesis" style="margin-top: 10%;" src="images-thesis/agi-haines.jpg">
-	<div id="figure">Fig. 2. Agi Haines. (2013) Circumventive Organs. [3d bioprinting material] Science Gallery, Dublin, Ireland.</div><br>
-<img class="images-thesis" src="images-thesis/paccini.png">
-<div id="figure">Fig. 3. Patricia Piccinini. (2002). The Young Family. [Silicone, fibreglass, leather, human hair, and plywood]. National Museum of Women in the Arts, Washington, United States.</div><br><br>
-
-<img class="images-thesis" src="https://live-production.wcms.abc-cdn.net.au/b8e8d77bdc0007dbcfe6b46003617927?impolicy=wcms_crop_resize&cropH=769&cropW=1368&xPos=0&yPos=0&width=862&height=485">
-<!--
-<img class="images-thesis" src="https://thefinchandpea.files.wordpress.com/2015/05/earmouse1.jpg?w=840">
-
-<div id="figure">Fig. 4 & 5. Stelarc. (2008). The Ear on Arm. [3D bioprinting material, human arm, mice]. Melbourne, Australia.</div><br><br>
-</div>
--->
-
-<img class="images-thesis" src="https://thefinchandpea.files.wordpress.com/2015/05/earmouse1.jpg?w=840">
-
-<div id="figure">Fig. 4 & 5. Stelarc. (2008). The Ear on Arm. [3D bioprinting material, human arm, mice]. Melbourne, Australia.</div><br><br>
-
-<iframe width="50%" height="100%" src="https://www.youtube.com/embed/OwCoSxi9TJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</div>
-
+Attempts to treat people using animal material, such as tissues or organs, are not new. In 1628, Colle de Belluno of Padua performed the first human blood transfusions, and in 1682, a doctor attempted to transplant a part of a dog's skull onto a Russian man who had been injured. The earliest verified attempts at xenotransplantation were made as early as the 18th century, and the first dog or cat corneal transplants were unsuccessfully attempted to heal patients who eventually went blind (Ullman, 1902). The U.S. Food and Drug Administration defines xenotransplantation as “any procedure that involves the transplantation, implantation, or infusion into a human recipient of either (a) live cells, tissues, or organs from a nonhuman animal source, or (b) human body fluids, cells, tissues, or organs that have had ex vivo contact with live nonhuman animal cells, tissues, or organs” (U.S. FDA, 2021).<br><br>
+Attempts to treat people using animal material, such as tissues or organs, are not new. In 1628, Colle de Belluno of Padua performed the first human blood transfusions, and in 1682, a doctor attempted to transplant a part of a dog's skull onto a Russian man who had been injured. The earliest verified attempts at xenotransplantation were made as early as the 18th century, and the first dog or cat corneal transplants were unsuccessfully attempted to heal patients who eventually went blind (Ullman, 1902). The U.S. Food and Drug Administration defines xenotransplantation as “any procedure that involves the transplantation, implantation, or infusion into a human recipient of either (a) live cells, tissues, or organs from a nonhuman animal source, or (b) human body fluids, cells, tissues, or organs that have had ex vivo contact with live nonhuman animal cells, tissues, or organs” (U.S. FDA, 2021).<br><br></div>
   	</div>
-  	</div>
-
-<!--
-<div id='parent_div_2'>
-<div class ='child_div_1'>In practice, the pig currently appears to be the most appropriate animal species as a source of cultivation of organs for humans. The porcine species has many advantages in this respect because: Uncontroversial use for the human species; easy breeding; possible to breed germ-free or organ-free animals; suitable size and similar physiology of transplantable organs compared to humans (Klymiuk et al., 2010). The advantages of xenografts appear as a good fit for breeded organs. Xenografts would make it possible to definitively solve the problem of the shortage of organs; they would also bring a radical answer to all the ethical questions relating to the removal of human organs, whether removal from a living donor or from a corpse.
-
-Another factor further aggravates the situation. Although very favourable in the short term, the percentage of success of organ transplants gradually decreases over time by the destruction of an increasing proportion of graft; there is an unlimited availability of xenografts; organ transplantation becomes an elective intervention (a controllable / malleable bodily feature); guarantee of organs quality and the use of donors germ-free of specific pathogens.</div>
-<div class ='child_div_2'>asd</div>
-</div>	
--->
-
   </div>
-
-</span>
-
-</div>
+  	</span>
+  </div>	
+  	
 
 <div class="abstract">Abstract and keywords<br>Resumen y palabras claves</div>
 <div class="introduction">Introduction<br>Research questions<br>Where interest in the<br> topic comes from</div>
@@ -377,14 +358,137 @@ Another factor further aggravates the situation. Although very favourable in the
 <div class="hybridbodies">Bio-constructed/hybrid bodies:<br>The quantification of organic matter<br>Longevity: Seeking human expansion <br>or retraction through pigs?</div>
 <div class="methodology">Methodology</div>
 <div class="methods">Research methods and decisions<br>of a rhizomatic methodology</div>
-<div class="interviews">Interviews: Entanglement <br>of voices without organs</div>
+
+<div class="interviews">Interviews: Entanglement <br>of voices without organs	
+<span class="tooltiptext2">   
+  <div> 
+	  <iframe src="https://docs.google.com/document/d/e/2PACX-1vTzDFvJsTbOW4sZSSCQfFHrDae4JxFTFq-57Lwt9I8HFLMLlS9h-ZONmgBT6pA24lUGD7nekbmrouZu/pub?embedded=true"></iframe>
+  	<div id='parent_div_1'>
+<div class ='child_div_1' style="text-align:left; margin-top: 3%; text-align: justify; width: 100%;"><div class="subtitles">Interviews: Entanglement of voices without organs</div><br><br>
+
+  <div class="column">
+    <h2>Didier Cournelle</h2>
+    <p></p>
+  </div>
+  <div class="column">
+    <h2>Jaime del Val</h2>
+    <p></p>
+  </div>
+  <div class="column">
+    <h2>Benjamin</h2>
+    <p></p>
+  </div>
+  
+</div>
+  	</div>
+  </div>
+  	</span>
+  </div>
+
+  
+  	  	
 <div class="data">Data analysis<br>Theorising data, <br>rather than theory</div>
 <div class="finalthoughts">Final thoughts</div>
 <div class="references">References</div>
 
+<script>
+	
+var colors = new Array(
+  [138,3,3],
+  [110,2,2],
+  [0,0,0],
+  [250,250,250],
+  [138,3,3],
+  [0,0,0]);
+
+var step = 0;
+//color table indices for: 
+// current color left
+// next color left
+// current color right
+// next color right
+var colorIndices = [0,1,2,3];
+
+//transition speed
+var gradientSpeed = .0015;
+
+function updateGradient()
+{
+var c0_0 = colors[colorIndices[0]];
+var c0_1 = colors[colorIndices[1]];
+var c1_0 = colors[colorIndices[2]];
+var c1_1 = colors[colorIndices[3]];
+
+var istep = 1 - step;
+var r1 = Math.round(istep * c0_0[0] + step * c0_1[0]);
+var g1 = Math.round(istep * c0_0[1] + step * c0_1[1]);
+var b1 = Math.round(istep * c0_0[2] + step * c0_1[2]);
+var color1 = "#"+((r1 << 16) | (g1 << 8) | b1).toString(16);
+
+var r2 = Math.round(istep * c1_0[0] + step * c1_1[0]);
+var g2 = Math.round(istep * c1_0[1] + step * c1_1[1]);
+var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
+var color2 = "#"+((r2 << 16) | (g2 << 8) | b2).toString(16);
+
+$('#gradient').css({
+   
+   
+   background: "-webkit-radial-gradient(center, circle cover, "+color1+","+color2+")"});
+  
+  step += gradientSpeed;
+  if ( step >= 1 )
+  {
+    step %= 1;
+    colorIndices[0] = colorIndices[1];
+    colorIndices[2] = colorIndices[3];
+    
+    //pick two new target color indices
+    //do not pick the same as the current one
+    colorIndices[1] = ( colorIndices[1] + Math.floor( 1 + Math.random() * (colors.length - 1))) % colors.length;
+    colorIndices[3] = ( colorIndices[3] + Math.floor( 1 + Math.random() * (colors.length - 1))) % colors.length;
+    
+  }
+}
+
+setInterval(updateGradient,5);
+
+
+/*
+   // DRAG IMAGES
+  $( function() {
+    $( ".draggable" ).draggable();
+  } );
+  }
+*/
+
+</script>
+
+<script>
+
+//DOM cache:
+const soundTrigger = document.querySelector(".soundTrigger");
+
+// initialize audio object:
+const audio = new Audio('test.wav');
+
+// play sound on hover (mouseover)
+soundTrigger.addEventListener("mouseover", function (e) {
+	audio.play();
+});
+
+// pause sound on mouseleave
+soundTrigger.addEventListener("mouseleave", function (e) {
+	// console.log(audio.duration);
+	audio.pause();
+	audio.currentTime = 0;
+});
+
+
+</script>
 
 
 </body>
+
 
 
 </html>
