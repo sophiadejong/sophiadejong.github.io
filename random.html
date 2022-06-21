@@ -126,7 +126,7 @@ h2 {
 	margin: 0;
 }
 
-.tooltiptext, .tooltiptext2, .tooltiptext3, .tooltiptext4, .tooltiptext5 {
+.tooltiptext, .tooltiptext2, .tooltiptext3, .tooltiptext4, .tooltiptext5, .tooltiptext6, .tooltiptext7, .tooltiptext8, .tooltiptext9, .tooltiptext10, .tooltiptext11, .tooltiptext12, .tooltiptext13 {
   visibility: hidden;
   width: 80vw;
   height: 80vh;
@@ -147,7 +147,7 @@ h2 {
 }
 
 .tooltiptext2 {
-	top: -80vh; left: -27.5vw;
+	top: -80vh; left: -24vw;
 }
 
 .tooltiptext3 {
@@ -163,35 +163,35 @@ h2 {
 }
 
 .tooltiptext6 {
-	top: -30vh;left: 5.5vw;
+	top: 6vh;left: -40vw;
 }
 
 .tooltiptext7 {
-	top: -30vh;left: 5.5vw;
+	top: -10vh;left: -65vw;
 }
 
 .tooltiptext8 {
-	top: -30vh;left: 5.5vw;
+	top: -25vh;left: -60vw;
 }
 
 .tooltiptext9 {
-	top: -30vh;left: 5.5vw;
+	top: -46vh;left: -59vw;
 }
 
 .tooltiptext10 {
-	top: -30vh;left: 5.5vw;
+	top: -66vh;left: -60vw;
 }
 
 .tooltiptext11 {
-	top: -30vh;left: 5.5vw;
+	top: -75vh;left: -43vw;
 }
 
 .tooltiptext12 {
-	top: -30vh;left: 5.5vw;
+	top: -72vh;left: -13vw;
 }
 
 .tooltiptext13 {
-	top: -30vh;left: 5.5vw;
+	top: -48vh;left: 4vw;
 }
 
 .tooltiptext14 {
@@ -211,7 +211,7 @@ h2 {
 }
 
 
-.tooltiptext, .tooltiptext2, .tooltiptext3, .tooltiptext4, .tooltiptext5, .tooltiptext6, .tooltiptext7, .tooltiptext8, .tooltiptext9, .tooltiptext10, .tooltiptext11, .tooltiptext12, .tooltiptext13, .tooltiptext14, .tooltiptext15, .tooltiptext16, .tooltiptext17, .column {
+.tooltiptext, .tooltiptext2, .tooltiptext3, .tooltiptext4, .tooltiptext5, .tooltiptext6, .tooltiptext7, .tooltiptext8, .tooltiptext9, .tooltiptext10, .tooltiptext11, .tooltiptext12, .column {
 	overflow-y: auto;
 }
 
@@ -265,7 +265,58 @@ content: "";
   border-color: black transparent transparent transparent;	
 }
 
-.background, .theorising, .abstract, .introduction {
+.framework .tooltiptext6::after {
+content: "";
+  position: absolute;
+  top: 100%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;	
+}
+
+.agency .tooltiptext7::after {
+content: "";
+  position: absolute;
+  top: 100%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;	
+}
+
+.interspecies .tooltiptext8::after {
+content: "";
+  position: absolute;
+  top: 100%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;	
+}
+
+.hybridbodies .tooltiptext9::after {
+content: "";
+  position: absolute;
+  top: 100%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;	
+}
+
+.hybridbodies .tooltiptext9::after {
+content: "";
+  position: absolute;
+  top: 100%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;	
+}
+
+
+.background, .theorising, .abstract, .introduction, .framework, .agency, .interspecies, .hybridbodies, .methodology, .methods, .interviews, .data, .theorising, .finalthoughts {
 	opacity: 0.8;
 }
 
@@ -294,6 +345,56 @@ content: "";
 	z-index: 1000;
 }
 
+.framework:hover {
+	opacity: 1;
+	z-index: 1000;	
+}
+
+.agency:hover {
+	opacity: 1;
+	z-index: 1000;	
+}
+
+.interspecies:hover {
+	opacity: 1;
+	z-index: 1000;	
+}
+
+.interspecies:hover {
+	opacity: 1;
+	z-index: 1000;	
+}
+
+.hybridbodies:hover {
+	opacity: 1;
+	z-index: 1000;	
+}
+
+.methodology:hover {
+	opacity: 1;
+	z-index: 1000;	
+}
+
+.methods:hover {
+	opacity: 1;
+	z-index: 1000;		
+}
+
+.interviews:hover {
+	opacity: 1;
+	z-index: 1000;		
+}
+
+.data:hover {
+	opacity: 1;
+	z-index: 1000;		
+}
+
+.finalthoughts:hover {
+	opacity: 1;
+	z-index: 1000;		
+}
+
 .background:hover .tooltiptext {
   visibility: visible;
 }
@@ -313,6 +414,40 @@ content: "";
 .introduction:hover .tooltiptext5 {
 	visibility: visible;
 }
+
+.framework:hover .tooltiptext6 {
+	visibility: visible;	
+}
+
+.agency:hover .tooltiptext7 {
+	visibility: visible;	
+}
+
+.interspecies:hover .tooltiptext8 {
+	visibility: visible;	
+}
+
+.hybridbodies:hover .tooltiptext9 {
+	visibility: visible;	
+}
+
+.methodology:hover .tooltiptext10 {
+	visibility: visible;	
+}
+
+.methods:hover .tooltiptext11 {
+	visibility: visible;	
+}
+
+.data:hover .tooltiptext12 {
+	visibility: visible;	
+}
+
+.finalthoughts:hover .tooltiptext13 {
+	visibility: visible;	
+}
+
+
 
 .images-thesis {
 	width: 100%;
@@ -338,19 +473,16 @@ content: "";
 	font-family: 'Syne Mono', monospace;
 	font-size: 2.8rem;
 	-webkit-text-stroke: 1px white;
-		text-shadow: #ffffff 1px 0 5px;
-	text-shadow: 5px 5px 10px white;
-	
+	text-shadow: #ffffff 1px 0 5px;
+	text-shadow: 5px 5px 10px white;	
 }
 
 #title2 {
 	font-family: anthony, monospace;
 	font-size: 2.2rem;
 	color: white;
-		text-shadow: #ffffff 1px 0 5px;
-/* 	text-shadow: 5px 5px 10px black; */
+	text-shadow: #ffffff 1px 0 5px;
 	margin-top: -1%;
-
 }
 
 .one-row:after {
@@ -378,15 +510,13 @@ content: "";
   top:0px;
   left:0px;
   height:100%;
-  width:100%;
-  
+  width:100%; 
   /*Fallback if gradeints don't work */
   background: #9b59b6;
   /*Linear gradient... */
   background: 
     radial-gradient(
-     at center, #3498db, #9b59b6
-    );
+    at center, #3498db, #9b59b6);
 }
 
 path {
@@ -478,7 +608,7 @@ svg text {
 <body>
 <!-- <img class="images-thesis" style="transform: rotate(90deg); width: 20vw; position: absolute; top: 1vh;" src="https://media.istockphoto.com/photos/chest-scars-one-month-after-heart-surgery-picture-id885571148?k=20&m=885571148&s=612x612&w=0&h=1FnBrG1bZWfTI5z59Aae916OsG1C8m5LrWYgkiYVMUo=" > -->
 
-<div id="gradient"></div> 
+<!-- <div id="gradient"></div>  -->
 
 <!-- <body style=""> -->
 
@@ -591,7 +721,14 @@ Attempts to treat people using animal material, such as tissues or organs, are n
 <div class="abstract">Abstract and keywords<br>Resumen y palabras claves
 <span class="tooltiptext4">   
  
-	<div class="abstract-content">
+	<div class="abstract-content" style="padding: 3%;">
+	Abstract:<br>
+This final master's project focuses on analyzing and trying to understand what kind of body configurations result from a xenotransplanted human and thus detect what types of concepts around the body are generated from these beings beyond the human. To do this, various onto-epistemological, ethical and scientific-technological questions related to cross-species organ xenotransplantation and the creation of pig-human genetic chimeras are addressed, based on a bibliographic review and interviews with three experts on the subject from different perspectives. areas of study: 1) the vice president of the French Transhumanist Association: Technoprog; 2) a post-queer and metahumanist philosopher, transdisciplinary and digital artist, activist and ontohacker; and 3) a pioneer xenotransplantation researcher and heart transplant surgeon.<br><br>
+
+This research presents a post-humanist approach that intertwines the new materialisms and the deleuze-guattari theory of assemblage (assemblage theory) to reveal the various positions on a subject whose ethical implications intersect with multiple philosophical, scientific and social perspectives. This research unfolds a series of rhizomatic methods and post-qualitative principles that help to deal with the data framework that is built from interviews with specialists, the literature that frames this work and my reflective gaze as a researcher, trying to capture the uniqueness and the agency of each of the actors in this network, as well as their potentiality and intra-action as a whole. For this, I created a web page that accounts for the entire process and where the intra-actions, displacements, connections and different paths and drifts experienced throughout the investigation are reflected. The reader will be able to review this website as he reads the text and re-visit it as many times as necessary, as a result of the hyperlinks that are placed throughout the text.<br><br>
+
+Keywords: Xenotransplantation, genetic chimerism, bodies, posthumanism, new materialisms, assembly theory.<br><br>
+	
 	</div>
 </span>
 </div>
@@ -686,7 +823,15 @@ Attempts to treat people using animal material, such as tissues or organs, are n
   </div>
 
   	
-<div class="data">Data analysis</div>
+<div class="data">Data analysis	
+	<span class="tooltiptext12">   
+ 
+		<div>
+		</div>
+		
+	</span>	
+</div>
+
 
 <div class="theorising">Theorising data,<br>rather than theory
 	<span class="tooltiptext3">
@@ -803,7 +948,7 @@ What can be argued about the premises of the previously mentioned authors is tha
 	</div>
 
 <div class="finalthoughts">Final thoughts
-	<span class="tooltiptext12">   
+	<span class="tooltiptext13">   
  
 		<div>
 		</div>
