@@ -13,7 +13,8 @@ html, body {
    height: 100%;
    margin: 0em;
    font-family: sans-serif;
-   background: radial-gradient(closest-side,  black, #c80000, black, white)
+   background: radial-gradient(closest-side,  black, #c80000, black, white);
+   font-family: monospace;
 }
 
 #gradient {
@@ -164,6 +165,7 @@ h2 {
 
 .tooltiptext6 {
 	top: 6vh;left: -40vw;
+/* 	padding: 3vw; */
 }
 
 .tooltiptext7 {
@@ -456,8 +458,8 @@ content: "";
 
 .title-site {
 	position: absolute;
-	top: 25vh;
-	left: 33vw;
+	top: 30vh;
+	left: 37vw;
 	display: block;
   margin-left: auto;
   margin-right: auto;
@@ -527,6 +529,10 @@ text {
   fill: #FF9800;
 }
 
+#text-margin {
+	padding-left: 5%;
+}
+
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
@@ -547,37 +553,38 @@ svg {
 svg text {
   text-anchor: middle;
   fill: black;
-  font-size: 1.2rem;
+  font-size: 0.95rem;
   background-color: white;
 }
 
 .voice-didier, .voice-jaime, .voice-benjamin, .voice-references {
 	text-shadow: #ffffff 1px 0 5px;
 }
+
 .voice-didier {
 	position: absolute;
-	left: -8%;
-	top:5%;
+	left: -10%;
+	top: 3%;
 }
 
 .voice-jaime {
 	position: absolute;
-	left: 76.5vw;
-	top:-5%;
+	left: 78.5vw;
+	top:-8%;
 	transform: rotate(90deg);
 }
 
 .voice-benjamin {
 	position: absolute;
-	left: -2%;
-	top:77%;
+	left: -4%;
+	top:79%;
 	transform: rotate(270deg);
 }
 
 .voice-references {
 	position: absolute;
-	left: 82%;
-	top:67%;
+	left: 84%;
+	top:69%;
 	transform: rotate(-180deg);
 }
 
@@ -608,7 +615,7 @@ svg text {
 <body>
 <!-- <img class="images-thesis" style="transform: rotate(90deg); width: 20vw; position: absolute; top: 1vh;" src="https://media.istockphoto.com/photos/chest-scars-one-month-after-heart-surgery-picture-id885571148?k=20&m=885571148&s=612x612&w=0&h=1FnBrG1bZWfTI5z59Aae916OsG1C8m5LrWYgkiYVMUo=" > -->
 
-<!-- <div id="gradient"></div>  -->
+<div id="gradient"></div> 
 
 <!-- <body style=""> -->
 
@@ -721,13 +728,13 @@ Attempts to treat people using animal material, such as tissues or organs, are n
 <div class="abstract">Abstract and keywords<br>Resumen y palabras claves
 <span class="tooltiptext4">   
  
-	<div class="abstract-content" style="padding: 3%;">
+	<div class="abstract-content" style="padding: 5%;">
 	Abstract:<br>
 This final master's project focuses on analyzing and trying to understand what kind of body configurations result from a xenotransplanted human and thus detect what types of concepts around the body are generated from these beings beyond the human. To do this, various onto-epistemological, ethical and scientific-technological questions related to cross-species organ xenotransplantation and the creation of pig-human genetic chimeras are addressed, based on a bibliographic review and interviews with three experts on the subject from different perspectives. areas of study: 1) the vice president of the French Transhumanist Association: Technoprog; 2) a post-queer and metahumanist philosopher, transdisciplinary and digital artist, activist and ontohacker; and 3) a pioneer xenotransplantation researcher and heart transplant surgeon.<br><br>
 
 This research presents a post-humanist approach that intertwines the new materialisms and the deleuze-guattari theory of assemblage (assemblage theory) to reveal the various positions on a subject whose ethical implications intersect with multiple philosophical, scientific and social perspectives. This research unfolds a series of rhizomatic methods and post-qualitative principles that help to deal with the data framework that is built from interviews with specialists, the literature that frames this work and my reflective gaze as a researcher, trying to capture the uniqueness and the agency of each of the actors in this network, as well as their potentiality and intra-action as a whole. For this, I created a web page that accounts for the entire process and where the intra-actions, displacements, connections and different paths and drifts experienced throughout the investigation are reflected. The reader will be able to review this website as he reads the text and re-visit it as many times as necessary, as a result of the hyperlinks that are placed throughout the text.<br><br>
 
-Keywords: Xenotransplantation, genetic chimerism, bodies, posthumanism, new materialisms, assembly theory.<br><br>
+Keywords: Xenotransplantation, genetic chimerism, bodies, posthumanism, new materialisms, assemblage theory.<br><br>
 	
 	</div>
 </span>
@@ -737,7 +744,46 @@ Keywords: Xenotransplantation, genetic chimerism, bodies, posthumanism, new mate
 <div class="introduction">Introduction<br>Research questions<br>Where interest in the<br> topic comes from
 	<span class="tooltiptext5">   
  
-		<div>
+		<div class="introduction-content" style="padding: 5%;"><div class="subtitles">Introduction</div>
+
+The increasing scarcity of available organs is the biggest problem in transplantology; therefore, it is necessary to find new and alternative sources for organ transplantation. A promising breakthrough solution is xenotransplantation using genetic engineering technologies to create a high-throughput engineering of human compatibility, that is, the use of animal cells, tissues and organs inserted into the human body. The domesticated pig raised in a laboratory is the optimal donor for this type of transplant, since its DNA is similar to that of the human being and the size of its organs is also similar. However, xenogeneic transplantation from pigs to humans involved high immunological incompatibility and a complex rejection process. The rapid development of genetic engineering techniques allows genome modifications in pigs that reduce the immune barrier between species.<br><br>
+
+Starting from the hypothesis that the definition of the human body can no longer be applied as such in the case of chimera xenotransplanted human beings, this paper focuses on paying attention to the concepts and categories of body that may arise from this, taking into account the human-animal-machine relationship. As well as analyse the implications that this entails both in the study of the body and ethically from the perspective of new materialism, posthumanism, assemblage theory and what Karen Barad calls “agential realism" (Barad, 2007). Additionally this thesis will be complemented with a website in which the reader can find all the content and have access to it in an interactive way. I will explain this further in the methodology section.<br><br>  
+
+Thus, this thesis is oriented towards how genetic chimerism can generate a definition of "human body" and "human nature" that is divergent and more open than the conception rooted in the humanist and positivist tradition. In this bodily problem, it must be conceived, both from the ontological, epistemological, and ethical aspect, to avoid the single understanding of its biological and psychosocial status and being open to its relational dimension, as a human and non-human bond (animals for xenotransplantation).<br><br> 
+
+From this point, the primary research question, and some secondary questions that I wanted to explore the answers for were generated. I understood that a research question is not an arrival point, but a starting point, which opens the door to unexpected events that emerge during the research process.<br><br> 
+
+<div class="subtitles">Research Questions:</div><br><br>
+Primary research question:<br>
+What kind of body conceptions or configurations are generated based on xenotransplanted humans?<br><br> 
+
+
+Secondary questions:<br>
+- What happens to the category of the human body and what ethical scope does the human-animal-technology relationship entail?<br>
+- What significance does the relationship between human and non-human animals have in biotechnological advances? And how has it evolved/changed in recent years?<br> 
+- If body parts represent who someone “is” then how do changes, additions and subtractions alter the sense of the self from a biological and psychosocial perspective?<br><br> 
+
+To explore these questions and see where the research is taking out, I set out  certain objectives to outline the trajectory of this work.<br><br>
+
+Main objective: To reveal the diversity of body conceptions and configurations, emerged from xenotransplanted humans’ discussion.<br><br>
+
+Specific objectives:<br>
+To conduct an exhaustive theoretical and bibliographical literature review.<br>
+To perform a set of interviews with specialists in the field of my research topic.<br>
+To generate knowledge based on the combination of the outcomes of the interviews and the theoretical and bibliographical literature.<br>
+To think rhizomatically about the concepts and conclusions.<br> 
+To create a website where the intra-actions, displacements, connections and different paths and drifts throughout the research are captured, with the purpose of visually representing the body of work of the thesis with a new materialist and post-human approach.<br><br>
+
+<div class="subtitles">Where interest in the topic comes from</div><br><br>
+My interest in the human body and its modifications or physical transformations has been generated from my personal experience with my own body while practising ballet for almost twenty years. I began to dance when I was four years old and I spent my childhood watching ballet plays instead of cartoons, making performances in my living room and since then I just can’t shake off the perception of my own bodily presence. My dream was to be a swan, the animal that in the famous Tchaikovsky ballet takes a human-like form by day and becomes a swan at night. I remember being in front of the mirror and trying to replicate the movement of the wings of a swan.
+Fig. 1 - Gabriel Grün. (2003). Ovo Nero. [oil on paint]. Museo Sivori, Buenos Aires, Argentina.<br><br>
+My half-brother is a painter. In his early years as an artist, he met his girlfriend,a sculpture artist. Her art at that point was
+related to mortality and materiality as when she was younger, she was diagnosed with a brain tumour, which she healed properly from, yet it defined a noticeable relationship with the terms of her own death. This fear or bodily finitude was translated into her artworks. As my brother’s and his girlfriend's art was my first approximation to the field of the Fine Arts and this has had a great impact on me as I can now observe from my own work and research interests. <br><br>
+My brother’s girlfriend would take life casting moulds of me as a child and then transform them into body horror sculptures. I remember very clearly that once I went to the art gallery where she was exhibiting her work and a copy of my bent legs was transformed into a hyper realistic birth of a mutilated baby. As well, once I helped him with a performance in which I had to wear a mask similar to the painting Ovo Nero from figure 1 (Grün, 2003). It had four mutilated and joined faces which were the participants of the collective my brother was part of and whose name was the same as the painting. I remember that when I saw my reflection in the mirror, I confronted myself with the lack of my own face, that now was one with four faces, or fundamentally, another body.<br><br> 
+When I was twenty-one years old, I got an undiagnosed injury which left me questioning my whole existence as an artist and performer. Transiting the unknown (not being able to dance) was tough and painful. Who would I be if I constructed my identity as a dancer swan-like-wanna-be? What if what I knew was only a little part of what life and bodily existence can mean in my life? At this moment I had to let go of my previous conceptions and mutate into what I am now actually, now writing this thesis.<br><br>  
+In 2019 I decided to confront my own body, my autonomy, and the control I exert over it by trying to heal my injury, which years later would still bother me. I began to do scientific research and use myself as a guinea pig, or in other words, I would try to dictate my life from a biohacking perspective. Quantifying my bodily inputs and outputs, I became my own research project and was eager to know more about the self, the body, and the intimate construction of it until I found the source of it all: the DNA. Since we live in a world with great advances in genetic engineering technologies that allow physical transformations, my interest in the thesis research topic is an entanglement of life and performative experiences.
+
 		</div>
 		
 	</span>
@@ -746,8 +792,20 @@ Keywords: Xenotransplantation, genetic chimerism, bodies, posthumanism, new mate
 
 <div class="framework">Theoretical framework: Weaving <br>post-humanism and new materialism <br>perspectives with xenotransplantation, <br>genetic chimerism and interspecies
 	<span class="tooltiptext6">   
- 
-	<div>
+	<div style="padding: 5%">
+<div class="subtitles">Theoretical framework</div> 
+Weaving post-humanism and new materialism perspectives with xenotransplantation, genetic chimerism and interspecies.
+The body understood as the inhuman, beyond the human and more than human, is directly related to the outside, to the world and to everything that surrounds it, breaking in this way with the exterior-interior dualistic division when thinking about it human-animal as oppositions (Rogoswka-Strangret, 2017). The concepts will be analysed from the ‘ethico-onto-epistem-ology’, posthumanism, new materialism and assemblage theories perspectives. I will aim to create, analyse, and define new conceptions based on interdisciplinary thinking in the process of Deleuzian becoming (Deleuze & Guattari, 1987). Breaking the biological barrier from observations of cartesian post-dualism that separates mind and body since I observe genetic chimerism as a single being that entangles a double genomic identity. What Barad calls "matter and meaning are not separate elements" (Barad, 2007, p. 3) as of what it means to breed life / bodies in a lab. I will proceed to describe the theories and the bibliographical bases from where my research questions begin to get answers and generate new concepts.<br><br>
+
+Posthumanism:<br><br> 
+
+<div id="text-margin">[...] is often defined as a posthumanism and a post-anthropocentrism: it is "post" to the concept of the human and to the historical occurrence of humanism, both based, as we have previously seen, on hierarchical social constructs and human centric assumptions. Speciesism has turned into an integral aspect of the posthuman critical approach. The posthuman overcoming of human primacy, though, is not to be replaced with other types of primacies (such as the one of the machines). Posthumanism can be seen as a post-exclusivism: an empirical philosophy of mediation which offers a reconciliation of existence in its broadest significations. (Ferrando, 2013, p. 4)</div><br>
+	
+The word agency is understood as the ability to modify, intervene, displace, or serve to create something or a situation (Coole & Frost, 2010). Things always appear in relation to other things. Independent movement of any of these apparently separate bodies results in a change to generate other movements and tensions or stresses. Anthropocentricity is left behind as there is a hybrid between the human and the non-human. The non-human has to do with what surrounds us in our existence, in this particular study, the relationship with the genetically modified pigs. The distributive agency understands power as something much more complex and infinitely intertwined. Power is actually between all material bodies, both human and non-human or more than human, and therefore does not belong to the bodies independently, but occurs because material and human bodies always depend on each other. From the new materialist theory:<br><br>
+
+<div id="text-margin">Agency is a core term used in new materialist theory, but different theorists put the notion to work in a myriad of ways. Rosi Braidotti refers to agency as synonymous with 'political subjectivity' in terms of her call for the creation of new forms of ethical agency (Braidotti, 2012, p. 31-5). Karen Barad stresses the non-human aspect of agency; insisting that agency is understood as 'an enactment.' Barad's theory is one that describes the physics of the observation of a world where: "Agential intra-actions are causal enactments." (2007, p. 176) For Barad, 'agency' is not an attribute of something or someone; rather it is the process of cause and effect in "enactment" (p. 214): "Agency is 'doing' or 'being' in its intra-activity. It is the enactment of iterative changes to particular practices – interactive reconfigurings of topological manifolds of space-time-matter relations ­– through the dynamics of intra-activity." (p. 178). Like Braidotti, Barad's position also argues that in and through the entanglements of matter, agency also refers to the "possibilities for worldly re-configurings". (Barad, 2012, p. 55, quoted in Colman, 2018, n.d.)</div><br>
+
+New materialisms and post-human thinking allow me to create new possibilities of my narration writing and to critically think from a broader sense the materialisation of it.  They propose a non-dualist and co-constitutive approach to understanding the intra-actions and agency of all concepts, terms, materials, organic and mechanical materiality that opens new paths of inquiry questions in and throughout the research process.<br><br>		
 	</div>
 		
 	</span>
