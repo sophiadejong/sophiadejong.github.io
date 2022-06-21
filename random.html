@@ -60,7 +60,7 @@ position: absolute;
   text-align:center;
   z-index: 10;
   transition: 1.5s; 
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 .abstract, .introduction, .framework, .agency, .interspecies, .hybridbodies, .methodology, .methods, .interviews, .data, .finalthoughts, .references  {
@@ -87,7 +87,7 @@ position: absolute;
 }
 
 .interspecies {
-	left: 77%; top: 38%;	
+	left: 77%; top: 35%;	
 }
 
 .hybridbodies {
@@ -139,6 +139,7 @@ h2 {
   z-index: 1;
   cursor: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png') auto;	
   text-align: justify;
+  line-height: 1.5;
 }
 
 .tooltiptext {
@@ -221,55 +222,48 @@ content: "";
 }
 
 .images-thesis {
-	width: 48%;
+	width: 100%;
 	margin-right: 2%;
 }
 
 .title-site {
 	position: absolute;
-	top: 21.5vh;
-	left: 27.5vw;
+	top: 25vh;
+	left: 33vw;
 	display: block;
   margin-left: auto;
   margin-right: auto;
-  font-size: 2rem;
+/*   font-size: 2rem; */
 }
 
 #title1 {
 	font-family: 'Syne Mono', monospace;
-	font-size: 3.4rem;
+	font-size: 2.8rem;
 	-webkit-text-stroke: 1px white;
 	text-shadow: 5px 5px 10px white;
 }
 
 #title2 {
 	font-family: anthony, monospace;
-	font-size: 3rem;
+	font-size: 2.2rem;
 	color: white;
 	text-shadow: 5px 5px 10px black;
 	margin-top: -1%;
 }
 
-#parent_div_1, #parent_div_2 {
-    width: 100%;
-/*     height: 30%; */
-/*     border:1px solid red; */
-/*     margin-right: 3%; */
-	font-size: 4%;
-    float:left;
-    overflow-y: scroll;
+.one-row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.child_div_1{
+.two-columns {
     float:left;
-    width: 46%;
+    width: 50%;
     height: 70vh;
     overflow-y: scroll;
-/* 	margin-left: 2%;  */
-/* 	margin-right: 2%;  */
 	font-size: 1rem;
-/* 	font-family: 'Syne Mono', monospace;   	 */
-}
+ }
 
 .subtitles {
 	font-family: anthony;
@@ -320,18 +314,21 @@ svg {
 svg text {
   text-anchor: middle;
   fill: black;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
+  background-color: white;
 }
 
 .voice-didier {
 	position: absolute;
 	left: -8%;
 	top:5%;
+/* 	font-size: 1.5rem; */
+	text-shadow: #FC0 1px 0 10px;
 }
 
 .voice-jaime {
 	position: absolute;
-	left: 77.5vw;
+	left: 76.5vw;
 	top:-5%;
 	transform: rotate(90deg);
 }
@@ -341,6 +338,13 @@ svg text {
 	left: -2%;
 	top:77%;
 	transform: rotate(270deg);
+}
+
+.voice-references {
+	position: absolute;
+	left: 82%;
+	top:67%;
+	transform: rotate(-180deg);
 }
 
 .soundTrigger {
@@ -370,7 +374,7 @@ svg text {
 <body>
 <!-- <img class="images-thesis" style="transform: rotate(90deg); width: 20vw; position: absolute; top: 1vh;" src="https://media.istockphoto.com/photos/chest-scars-one-month-after-heart-surgery-picture-id885571148?k=20&m=885571148&s=612x612&w=0&h=1FnBrG1bZWfTI5z59Aae916OsG1C8m5LrWYgkiYVMUo=" > -->
 
-<div id="gradient"></div> 
+<!-- <div id="gradient"></div>  -->
 
 <!-- <body style=""> -->
 
@@ -438,17 +442,46 @@ svg text {
 </svg>
 </div>
 
-<div class="background draggable">Background of the research <br>problem and state of the art
+<div class="voice-references soundTrigger">  
+	
+<svg>
+  <defs>
+    <path id="line1" d="
+            M 0,300 
+            A 200,200 0 0 1 400,300"
+     />
+    <path id="line2" d="
+            M 0,300 
+            A 200.75,200 0 0 1 400,300"
+     />
+  </defs>
+  <text>
+    <textPath startOffset="50%" xlink:href="#line1">Bibliographical References</textPath>
+<!--     <textPath startOffset="50%" xlink:href="#line2">Some extra text</textPath> -->
+  </text>
+</svg>
+</div>
+
+
+
+<div class="background">Background of the research <br>problem and state of the art
 	
 <span class="tooltiptext">   
   <div> 
-  	<div id='parent_div_1'>
-<div class ='child_div_1' style="text-align:left; margin-top: 3%; text-align: justify;"><div class="subtitles">Background of the research problem and state of the art</div><br><br>Attempts to treat people using animal material, such as tissues or organs, are not new. In 1628, Colle de Belluno of Padua performed the first human blood transfusions, and in 1682, a doctor attempted to transplant a part of a dog's skull onto a Russian man who had been injured. The earliest verified attempts at xenotransplantation were made as early as the 18th century, and the first dog or cat corneal transplants were unsuccessfully attempted to heal patients who eventually went blind (Ullman, 1902). The U.S. Food and Drug Administration defines xenotransplantation as “any procedure that involves the transplantation, implantation, or infusion into a human recipient of either (a) live cells, tissues, or organs from a nonhuman animal source, or (b) human body fluids, cells, tissues, or organs that have had ex vivo contact with live nonhuman animal cells, tissues, or organs” (U.S. FDA, 2021).<br><br>
+  	<div class="one-row">
+<div class="two-columns" style="text-align:left; margin-top: 3%; text-align: justify;"><div class="subtitles">Background of the research problem and state of the art</div><br><br>Attempts to treat people using animal material, such as tissues or organs, are not new. In 1628, Colle de Belluno of Padua performed the first human blood transfusions, and in 1682, a doctor attempted to transplant a part of a dog's skull onto a Russian man who had been injured. The earliest verified attempts at xenotransplantation were made as early as the 18th century, and the first dog or cat corneal transplants were unsuccessfully attempted to heal patients who eventually went blind (Ullman, 1902). The U.S. Food and Drug Administration defines xenotransplantation as “any procedure that involves the transplantation, implantation, or infusion into a human recipient of either (a) live cells, tissues, or organs from a nonhuman animal source, or (b) human body fluids, cells, tissues, or organs that have had ex vivo contact with live nonhuman animal cells, tissues, or organs” (U.S. FDA, 2021).<br><br>
 Attempts to treat people using animal material, such as tissues or organs, are not new. In 1628, Colle de Belluno of Padua performed the first human blood transfusions, and in 1682, a doctor attempted to transplant a part of a dog's skull onto a Russian man who had been injured. The earliest verified attempts at xenotransplantation were made as early as the 18th century, and the first dog or cat corneal transplants were unsuccessfully attempted to heal patients who eventually went blind (Ullman, 1902). The U.S. Food and Drug Administration defines xenotransplantation as “any procedure that involves the transplantation, implantation, or infusion into a human recipient of either (a) live cells, tissues, or organs from a nonhuman animal source, or (b) human body fluids, cells, tissues, or organs that have had ex vivo contact with live nonhuman animal cells, tissues, or organs” (U.S. FDA, 2021).<br><br>
 Attempts to treat people using animal material, such as tissues or organs, are not new. In 1628, Colle de Belluno of Padua performed the first human blood transfusions, and in 1682, a doctor attempted to transplant a part of a dog's skull onto a Russian man who had been injured. The earliest verified attempts at xenotransplantation were made as early as the 18th century, and the first dog or cat corneal transplants were unsuccessfully attempted to heal patients who eventually went blind (Ullman, 1902). The U.S. Food and Drug Administration defines xenotransplantation as “any procedure that involves the transplantation, implantation, or infusion into a human recipient of either (a) live cells, tissues, or organs from a nonhuman animal source, or (b) human body fluids, cells, tissues, or organs that have had ex vivo contact with live nonhuman animal cells, tissues, or organs” (U.S. FDA, 2021).<br><br></div>
-  	</div>
+
+ <div div class="two-columns">
+ 	<img class="images-thesis" src="images-thesis/agi-haines.jpg">
+</div> 
+
+  	</div> 
+  	
   </div>
   	</span>
+  
   </div>	
   	
 <div class="abstract">Abstract and keywords<br>Resumen y palabras claves</div>
@@ -603,7 +636,7 @@ What can be argued about the premises of the previously mentioned authors is tha
 
 	</div>
 <div class="finalthoughts">Final thoughts</div>
-<div class="references">References</div>
+<!-- <div class="references">References</div> -->
 
 <script>
 	
