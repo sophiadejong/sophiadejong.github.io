@@ -13,7 +13,7 @@ html, body {
    height: 100%;
    margin: 0em;
    font-family: sans-serif;
-   background: radial-gradient(closest-side,  black, #c80000, black, #880808)
+   background: radial-gradient(closest-side,  black, #c80000, black, white)
 }
 
 #gradient {
@@ -48,10 +48,11 @@ html, body {
 	          background-position: center center;    
 position: absolute;
   display: inline-block;
+  background-color: white;
   border: 1px dotted #880808;
   box-shadow: 0 0 30px #880808;
-  background-color: #d3f7ff,;
-  color: white;
+/*   background-color: #d3f7ff,; */
+/*   color: white; */
   padding: 1%;
   border-radius: 50px;
   font-size: 1rem;
@@ -318,22 +319,32 @@ svg {
 
 svg text {
   text-anchor: middle;
-  fill: white;
+  fill: black;
   font-size: 0.8rem;
-/*   font-family: 'Syne Mono', monospace; */
 }
 
 .voice-didier {
 	position: absolute;
 	left: -8%;
 	top:5%;
-	color: white;
+}
+
+.voice-jaime {
+	position: absolute;
+	left: 77.5vw;
+	top:-5%;
+	transform: rotate(90deg);
+}
+
+.voice-benjamin {
+	position: absolute;
+	left: -2%;
+	top:77%;
+	transform: rotate(270deg);
 }
 
 .soundTrigger {
-/* 	width: 7em; */
 	padding: 1em;
-/* 	background-color: #fabeb7; */
    cursor: url(images-thesis/ovo-nero.png), auto;
 }
 
@@ -359,7 +370,7 @@ svg text {
 <body>
 <!-- <img class="images-thesis" style="transform: rotate(90deg); width: 20vw; position: absolute; top: 1vh;" src="https://media.istockphoto.com/photos/chest-scars-one-month-after-heart-surgery-picture-id885571148?k=20&m=885571148&s=612x612&w=0&h=1FnBrG1bZWfTI5z59Aae916OsG1C8m5LrWYgkiYVMUo=" > -->
 
-<!-- <div id="gradient"></div>  -->
+<div id="gradient"></div> 
 
 <!-- <body style=""> -->
 
@@ -381,7 +392,47 @@ svg text {
      />
   </defs>
   <text>
-    <textPath startOffset="50%" xlink:href="#line1">Interview with Didier Cournelleee</textPath>
+    <textPath startOffset="50%" xlink:href="#line1">Interview with Didier Cournelle</textPath>
+<!--     <textPath startOffset="50%" xlink:href="#line2">Some extra text</textPath> -->
+  </text>
+</svg>
+</div>
+
+<div class="voice-jaime soundTrigger">  
+	
+<svg>
+  <defs>
+    <path id="line1" d="
+            M 0,300 
+            A 200,200 0 0 1 400,300"
+     />
+    <path id="line2" d="
+            M 0,300 
+            A 200.75,200 0 0 1 400,300"
+     />
+  </defs>
+  <text>
+    <textPath startOffset="50%" xlink:href="#line1">Interview with Jaime del Val</textPath>
+<!--     <textPath startOffset="50%" xlink:href="#line2">Some extra text</textPath> -->
+  </text>
+</svg>
+</div>
+
+<div class="voice-benjamin soundTrigger">  
+	
+<svg>
+  <defs>
+    <path id="line1" d="
+            M 0,300 
+            A 200,200 0 0 1 400,300"
+     />
+    <path id="line2" d="
+            M 0,300 
+            A 200.75,200 0 0 1 400,300"
+     />
+  </defs>
+  <text>
+    <textPath startOffset="50%" xlink:href="#line1">Interview with Benjamin Smith</textPath>
 <!--     <textPath startOffset="50%" xlink:href="#line2">Some extra text</textPath> -->
   </text>
 </svg>
@@ -403,7 +454,7 @@ Attempts to treat people using animal material, such as tissues or organs, are n
 <div class="abstract">Abstract and keywords<br>Resumen y palabras claves</div>
 <div class="introduction">Introduction<br>Research questions<br>Where interest in the<br> topic comes from</div>
 <div class="framework">Theoretical framework: Weaving <br>post-humanism and new materialism <br>perspectives with xenotransplantation, <br>genetic chimerism and interspecies</div>
-<div class="agency">Agency and assemblage theory</div>
+<div class="agency">Agency and <br>assemblage theory</div>
 <div class="interspecies">Genetic chimerism and interspecies: <br>Bridges between human, pig and machine.<br>Breeding transgenic pigs:<br>Animals that are technology.</div>
 <div class="hybridbodies">Bio-constructed/hybrid bodies:<br>The quantification of organic matter<br>Longevity: Seeking human expansion <br>or retraction through pigs?</div>
 <div class="methodology">Methodology</div>
