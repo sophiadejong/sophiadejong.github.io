@@ -126,7 +126,7 @@ h2 {
 	margin: 0;
 }
 
-.tooltiptext, .tooltiptext2, .tooltiptext3 {
+.tooltiptext, .tooltiptext2, .tooltiptext3, .tooltiptext4, .tooltiptext5 {
   visibility: hidden;
   width: 80vw;
   height: 80vh;
@@ -154,8 +154,64 @@ h2 {
 	top: -61vh;left: -2.5vw;
 }
 
+.tooltiptext4 {
+	top: -30vh;left: 5.5vw;
+}
 
-.tooltiptext, .tooltiptext2, .tooltiptext3, .column {
+.tooltiptext5 {
+	top: -9vh;left: -2vw;
+}
+
+.tooltiptext6 {
+	top: -30vh;left: 5.5vw;
+}
+
+.tooltiptext7 {
+	top: -30vh;left: 5.5vw;
+}
+
+.tooltiptext8 {
+	top: -30vh;left: 5.5vw;
+}
+
+.tooltiptext9 {
+	top: -30vh;left: 5.5vw;
+}
+
+.tooltiptext10 {
+	top: -30vh;left: 5.5vw;
+}
+
+.tooltiptext11 {
+	top: -30vh;left: 5.5vw;
+}
+
+.tooltiptext12 {
+	top: -30vh;left: 5.5vw;
+}
+
+.tooltiptext13 {
+	top: -30vh;left: 5.5vw;
+}
+
+.tooltiptext14 {
+	top: -30vh;left: 5.5vw;
+}
+
+.tooltiptext15 {
+	top: -30vh;left: 5.5vw;
+}
+
+.tooltiptext16 {
+	top: -30vh;left: 5.5vw;
+}
+
+.tooltiptext17 {
+	top: -30vh;left: 5.5vw;
+}
+
+
+.tooltiptext, .tooltiptext2, .tooltiptext3, .tooltiptext4, .tooltiptext5, .tooltiptext6, .tooltiptext7, .tooltiptext8, .tooltiptext9, .tooltiptext10, .tooltiptext11, .tooltiptext12, .tooltiptext13, .tooltiptext14, .tooltiptext15, .tooltiptext16, .tooltiptext17, .column {
 	overflow-y: auto;
 }
 
@@ -186,11 +242,30 @@ content: "";
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: black transparent transparent transparent;	
-	
+  border-color: black transparent transparent transparent;		
 }
 
-.background, .theorising {
+.abstract .tooltiptext4::after {
+content: "";
+  position: absolute;
+  top: 100%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;	
+}
+
+.introduction .tooltiptext5::after {
+content: "";
+  position: absolute;
+  top: 100%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;	
+}
+
+.background, .theorising, .abstract, .introduction {
 	opacity: 0.8;
 }
 
@@ -209,6 +284,16 @@ content: "";
 	z-index: 1000;
 }
 
+.abstract:hover {
+	opacity: 1;
+	z-index: 1000;	
+}
+
+.introduction:hover {
+	opacity: 1;
+	z-index: 1000;
+}
+
 .background:hover .tooltiptext {
   visibility: visible;
 }
@@ -218,6 +303,14 @@ content: "";
 }
 
 .theorising:hover .tooltiptext3 {
+	visibility: visible;
+}
+
+.abstract:hover .tooltiptext4 {
+	visibility: visible;
+}
+
+.introduction:hover .tooltiptext5 {
 	visibility: visible;
 }
 
@@ -233,11 +326,13 @@ content: "";
 	display: block;
   margin-left: auto;
   margin-right: auto;
+/*
 		-webkit-animation: heartbeat 1.4s linear infinite;
     	-o-animation: heartbeat 1.4s linear infinite;
     	-moz-animation: heartbeat 1.4s linear infinite;
     	-ms-animation: heartbeat 1.4s linear infinite;
-	animation: heartbeat 1.4s linear infinite;}
+	animation: heartbeat 1.4s linear infinite;
+*/}
 
 #title1 {
 	font-family: 'Syne Mono', monospace;
@@ -257,83 +352,6 @@ content: "";
 	margin-top: -1%;
 
 }
-
-@keyframes heartbeat {
-  0% {	-webkit-transform: scale(1);
-    	-o-transform: scale(1);
-    	-moz-transform: scale(1);
-    	-ms-transform: scale(1);
-	transform: scale(1);}
-
-  2% {	-webkit-transform: scale(1);
-    	-o-transform: scale(1);
-    	-moz-transform: scale(1);
-    	-ms-transform: scale(1);
-	transform: scale(1);}
-
-  4% {	-webkit-transform: scale(1.08);
-    	-o-transform: scale(1.08);
-    	-moz-transform: scale(1.08);
-    	-ms-transform: scale(1.08);
-	transform: scale(1.08);}
-
-  8% {	-webkit-transform: scale(1.1);
-    	-o-transform: scale(1.1);
-    	-moz-transform: scale(1.1);
-    	-ms-transform: scale(1.1);
-	transform: scale(1.1);}
-
-  20% {	-webkit-transform: scale(.96);
-    	-o-transform: scale(.96);
-    	-moz-transform: scale(.96);
-    	-ms-transform: scale(.96);
-	transform: scale(.96);}
-
-  24% {	-webkit-transform: scale(1.1);
-    	-o-transform: scale(1.1);
-    	-moz-transform: scale(1.1);
-    	-ms-transform: scale(1.1);
-	transform: scale(1.1);}
-
-  32% {	-webkit-transform: scale(1.08);
-    	-o-transform: scale(1.08);
-    	-moz-transform: scale(1.08);
-    	-ms-transform: scale(1.08);
-	transform: scale(1.08);}
-
-  40% {	-webkit-transform: scale(1);
-    	-o-transform: scale(1);
-    	-moz-transform: scale(1);
-    	-ms-transform: scale(1);
-	transform: scale(1);}
-}
-
-@-webkit-keyframes heartbeat {
-  0% {	-webkit-transform: scale(1);
-	transform: scale(1);}
-
-  2% {	-webkit-transform: scale(1);
-	transform: scale(1);}
-
-  4% {	-webkit-transform: scale(1.08);
-	transform: scale(1.08);}
-
-  8% {	-webkit-transform: scale(1.1);
-	transform: scale(1.1);}
-
-  20% {	-webkit-transform: scale(.96);
-	transform: scale(.96);}
-
-  24% {	-webkit-transform: scale(1.1);
-	transform: scale(1.1);}
-
-  32% {	-webkit-transform: scale(1.08);
-	transform: scale(1.08);}
-
-  40% {	-webkit-transform: scale(1);
-	transform: scale(1);}
-}
-
 
 .one-row:after {
   content: "";
@@ -566,18 +584,80 @@ Attempts to treat people using animal material, such as tissues or organs, are n
   	</div> 
   	
   </div>
-  	</span>
-  
-  </div>	
-  	
-<div class="abstract">Abstract and keywords<br>Resumen y palabras claves</div>
-<div class="introduction">Introduction<br>Research questions<br>Where interest in the<br> topic comes from</div>
-<div class="framework">Theoretical framework: Weaving <br>post-humanism and new materialism <br>perspectives with xenotransplantation, <br>genetic chimerism and interspecies</div>
-<div class="agency">Agency and <br>assemblage theory</div>
-<div class="interspecies">Genetic chimerism and interspecies: <br>Bridges between human, pig and machine.<br>Breeding transgenic pigs:<br>Animals that are technology.</div>
-<div class="hybridbodies">Bio-constructed/hybrid bodies:<br>The quantification of organic matter<br>Longevity: Seeking human expansion <br>or retraction through pigs?</div>
-<div class="methodology">Methodology</div>
-<div class="methods">Research methods and decisions<br>of a rhizomatic methodology</div>
+  	</span>  
+</div>	
+ 
+ 	
+<div class="abstract">Abstract and keywords<br>Resumen y palabras claves
+<span class="tooltiptext4">   
+ 
+	<div class="abstract-content">
+	</div>
+</span>
+</div>
+
+
+<div class="introduction">Introduction<br>Research questions<br>Where interest in the<br> topic comes from
+	<span class="tooltiptext5">   
+ 
+		<div>
+		</div>
+		
+	</span>
+
+</div>
+
+<div class="framework">Theoretical framework: Weaving <br>post-humanism and new materialism <br>perspectives with xenotransplantation, <br>genetic chimerism and interspecies
+	<span class="tooltiptext6">   
+ 
+	<div>
+	</div>
+		
+	</span>
+</div>
+<div class="agency">Agency and <br>assemblage theory
+	<span class="tooltiptext7">   
+ 
+		<div>
+		</div>
+		
+	</span>
+</div>
+
+<div class="interspecies">Genetic chimerism and interspecies: <br>Bridges between human, pig and machine.<br>Breeding transgenic pigs:<br>Animals that are technology.
+	<span class="tooltiptext8">   
+ 
+		<div>
+		</div>
+		
+	</span>
+</div>
+
+<div class="hybridbodies">Bio-constructed/hybrid bodies:<br>The quantification of organic matter<br>Longevity: Seeking human expansion <br>or retraction through pigs?
+		<span class="tooltiptext9">   
+ 
+		<div>
+		</div>
+		
+	</span>
+</div>
+
+<div class="methodology">Methodology
+		<span class="tooltiptext10">   
+ 
+		<div>
+		</div>
+		
+	</span>
+</div>
+<div class="methods">Research methods and decisions<br>of a rhizomatic methodology
+		<span class="tooltiptext11">   
+ 
+		<div>
+		</div>
+		
+	</span>
+</div>
 
 <div class="interviews">Interviews: Entanglement <br>of voices without organs	
 <span class="tooltiptext2">   
@@ -721,7 +801,15 @@ What can be argued about the premises of the previously mentioned authors is tha
 </div>
 
 	</div>
-<div class="finalthoughts">Final thoughts</div>
+
+<div class="finalthoughts">Final thoughts
+	<span class="tooltiptext12">   
+ 
+		<div>
+		</div>
+		
+	</span>
+</div>
 <!-- <div class="references">References</div> -->
 
 <script>
