@@ -234,6 +234,35 @@ h2 {
 	top: -30vh;left: 5.5vw;
 }
 
+.tooltip-ref {
+  display: inline;
+  position: relative;
+}
+.tooltip-ref:hover:after{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  background: #444;
+  border-radius: 8px;
+  color: #fff;
+  content: attr(title);
+  margin: -82px auto 0;
+  font-size: 16px;
+  padding: 13px;
+  width: 220px;
+  
+}
+.tooltip-ref:hover:before{
+  border: solid;
+  border-color: #444 transparent;
+  border-width: 12px 6px 0 6px;
+  content: "";
+  left: 45%;
+  bottom: 30px;
+  position: absolute;
+}
+
 
 .tooltiptext, .tooltiptext2, .tooltiptext3, .tooltiptext4, .tooltiptext5, .tooltiptext6, .tooltiptext7, .tooltiptext8, .tooltiptext9, .tooltiptext10, .tooltiptext11, .tooltiptext12, .tooltiptext13, .tooltiptext14, .tooltiptext15, .tooltiptext16, .tooltiptext17, .column {
 	overflow-y: auto;
@@ -677,13 +706,107 @@ figcaption {
 	font-size: 0.8rem;
 }
 
+.tooltip-ref {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip-ref .tooltiptext-ref {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip-ref:hover .tooltiptext-ref {
+  visibility: visible;
+}
+
+.tooltip-didier {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip-didier .tooltiptext-didier {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip-didier:hover .tooltiptext-didier {
+  visibility: visible;
+}
+
+.tooltip-jaime {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip-jaime .tooltiptext-jaime {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip-jaime:hover .tooltiptext-jaime {
+  visibility: visible;
+}
+
+.tooltip-benjamin {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip-benjamin .tooltiptext-benjamin {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip-benjamin:hover .tooltiptext-benjamin {
+  visibility: visible;
+}
 </style>
 </head>
 
 <body>
 <!-- <img class="images-thesis" style="transform: rotate(90deg); width: 20vw; position: absolute; top: 1vh;" src="https://media.istockphoto.com/photos/chest-scars-one-month-after-heart-surgery-picture-id885571148?k=20&m=885571148&s=612x612&w=0&h=1FnBrG1bZWfTI5z59Aae916OsG1C8m5LrWYgkiYVMUo=" > -->
 
-<!-- <div id="gradient"></div>  -->
+<div id="gradient"></div> 
 
 <!-- <body style=""> -->
 
@@ -1167,16 +1290,28 @@ What can be argued about the premises of the previously mentioned authors is tha
 	</span>
 </div>
 
+
 <!--
-<div class="references">Bio-constructed/hybrid bodies:<br>The quantification of organic matter<br>Longevity: Seeking human expansion <br>or retraction through pigs?
-	<span class="tooltiptext14">   
-		<div style="padding: 5%">
-		</div>
-		
-	</span>
+<div class="tooltip-didier">DIDIER COURNELLLE
+  <span class="tooltiptext-didier">Tooltip text</span>
+</div>
+
+<div class="tooltip-jaime">JAIME DEL VAL
+  <span class="tooltiptext-jaime">Tooltip text</span>
+</div>
+
+<div class="tooltip-benjamin">BENJAMIN SMITH
+  <span class="tooltiptext-benjamin">Tooltip text</span>
+</div>
+
+<div class="tooltip-ref">BIBLIOGRAPHICAL REF
+  <span class="tooltiptext-ref">Tooltip text</span>
 </div>
 -->
-<div class="references">References</div>
+
+
+
+<!-- <div class="references">References</div> -->
 
 
 
