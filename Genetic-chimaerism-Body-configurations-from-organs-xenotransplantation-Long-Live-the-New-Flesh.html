@@ -169,6 +169,8 @@ h2 {
   cursor: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png') auto;	
   text-align: justify;
   line-height: 1.5;
+    box-shadow: inset 10px 10px 10px 0 rgba(199, 0, 0, 0.7), inset -10px -10px 10px rgba(90, 0, 0, 0.7);
+
 }
 
 .tooltiptext {
@@ -674,6 +676,10 @@ svg text {
   position: absolute;
   z-index: 10000;	
   top: 105%;
+  background-color: white;
+  border: 1px solid black;
+  margin-bottom: 5%;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .captions {
@@ -721,8 +727,8 @@ figcaption {
 .tooltip-ref {
   position: relative;
   display: inline-block;
-  top: 82%;
-  left: 67%;
+  top: 81%;
+  left: 65%;
   text-align: right;
   color: transparent;
 }
@@ -733,19 +739,23 @@ figcaption {
   color: black;
   text-align: center;
   border-radius: 50px;
-  left: -75vw;
+  left: -76vw;
   text-align: justify;
   visibility: hidden;
-  width: 74vw;
+  width: 80vw;
   height: 76vh;
   color: black;
   text-align: center;
   padding: 5px 0;
-  top: -70vh;
+  top: -69vh;
   /* Position the tooltip */
   position: absolute;
   z-index: 10000;
+    overflow-y: scroll;
+    text-align: left;
   line-height: 1.5;
+    box-shadow: inset 10px 10px 10px 0 rgba(199, 0, 0, 0.7), inset -10px -10px 10px rgba(90, 0, 0, 0.7);
+
 }
 
 .tooltip-ref:hover .tooltiptext-ref {
@@ -756,8 +766,8 @@ figcaption {
   position: relative;
   display: inline-block;
   color: transparent;
-    top: 10vh;
-  left: 3%;
+  top: 10vh;
+  left: 4%;
 }
 
 .tooltip-didier .tooltiptext-didier {
@@ -766,10 +776,10 @@ figcaption {
   color: black;
   text-align: center;
   border-radius: 50px;
-  left: 9vw;
+  left: 6vw;
   text-align: justify;
   visibility: hidden;
-  width: 74vw;
+  width: 80vw;
   height: 76vh;
   color: black;
   text-align: center;
@@ -779,6 +789,9 @@ figcaption {
   position: absolute;
   z-index: 10000;
   line-height: 1.5;
+  overflow-y: scroll;
+/*    -moz-box-shadow: 2px 2px 10px rgba(0,0,0,.25) inset, -2px -2px 10px white inset; */
+  box-shadow: inset 10px 10px 10px 0 rgba(199, 0, 0, 0.7), inset -10px -10px 10px rgba(90, 0, 0, 0.7);
 }
 
 .tooltip-didier:hover .tooltiptext-didier {
@@ -790,7 +803,7 @@ figcaption {
   display: inline-block;
   top: 10%;
   text-align: right;
-  left: 82%;
+  left: 80%;
    color: transparent;
 }
 
@@ -803,7 +816,7 @@ figcaption {
   left: -78vw;
   text-align: justify;
   visibility: hidden;
-  width: 74vw;
+  width: 80vw;
   height: 76vh;
   color: black;
   text-align: center;
@@ -813,6 +826,9 @@ figcaption {
   position: absolute;
   z-index: 10000;
   line-height: 1.5;
+    overflow-y: scroll;
+      box-shadow: inset 10px 10px 10px 0 rgba(199, 0, 0, 0.7), inset -10px -10px 10px rgba(90, 0, 0, 0.7);
+
 }
 
 .tooltip-jaime:hover .tooltiptext-jaime {
@@ -822,8 +838,8 @@ figcaption {
 .tooltip-benjamin {
   position: relative;
   display: inline-block;
-  top: 84%;
-  left: -10%;
+  top: 80%;
+  left: -9%;
   color: transparent;
 }
 
@@ -833,19 +849,22 @@ figcaption {
   color: black;
   text-align: center;
   border-radius: 50px;
-  left: 8vw;
+  left: 5vw;
   text-align: justify;
   visibility: hidden;
-  width: 74vw;
+  width: 80vw;
   height: 76vh;
   color: black;
   text-align: center;
   padding: 5px 0;
-  top: -72vh;
+  top: -68vh;
   /* Position the tooltip */
   position: absolute;
   z-index: 10000;
   line-height: 1.5;
+    overflow-y: scroll;
+      box-shadow: inset 10px 10px 10px 0 rgba(199, 0, 0, 0.7), inset -10px -10px 10px rgba(90, 0, 0, 0.7);
+
 }
 
 .tooltip-benjamin:hover .tooltiptext-benjamin {
@@ -1262,11 +1281,13 @@ The fonts used are two because it reflects back on the cross-species or interspe
 -->
 
 <!-- SUBMITTING FORM -->
-<div class="subtitles">Leave your own outcome or comments below</div>
+<div class="subtitles" style="margin-bottom: 2%;">Leave your own outcome or comments below</div>
 
 <div class="content3">
 <button id="edit_content">Submit</button>
 </div>
+
+<div class="space" style="height: 5vh; width: 80%; position: absolute; margin-bottom: 5%;"></div>
   
 </div>
   	</div>
@@ -1442,20 +1463,639 @@ Having Sara Carrasco Segovia as a tutor has allowed the formation and moulding o
 
 
 <div class="tooltip-didier">DIDIER<br>COURNELLLE
-  <span class="tooltiptext-didier">Tooltip text</span>
+  <span class="tooltiptext-didier">
+  <div style="padding: 5%; text-align: justify; margin-left: 5%; margin-right: 5%;">Date: 11th April 2022<br>
+<div class="subtitles">Interviewee: Didier Cournelle</div><br>
+
+<b>Sophia de Jong:</b> What are the methods that you consider for a longer and healthier life? Because I read the things in your website and there was no specification. You talk about technology and the global good for society, but can you please briefly let me know what you study or what you know about the topic?<br><br>
+
+<b>Didier Cournelle:</b> Interesting that you say that is not clear on the website because it’s something that I’m going to ask somebody that will work for the organisation. Answering your question completely I will try to make it short as possible, and I will only speak about longevity because it is the main thing I’m following. Concerning longevity, the first thing I want to say is that at the moment there are no drugs, products or therapies that are able or make possible for people to live much longer and healthier lives, otherwise it could be great but it’s not the case. There are many people and organisations saying that they found a solution but there’s nothing more than what your grandmother said to you like “don’t smoke, don’t eat this, exercise but don’t go too far” and so on. There are drugs that maybe make it possible to have a little bit longer and healthier life like Metformin, probably the number one, Rapamycin the second one. But even with these products they’re not really sure it’s working because there's not enough studies for this. So not enough studies on humans and not enough studies even on mice. You probably know the mice is the animal that many people use to try to make studies and going further than that one very important thing is that the average lifespan is rising for people all around the world, but the maximal lifespan is not rising. So the first person to reach the age of 100 years was very probably Terencia, the wife of Cicerón and she died when she was 103 years old about more than 2000 years ago. And the oldest person at the moment is a Japanese woman. She's 119 years old and she became the second oldest person ever but it’s still three years less than Jeanne Calment who died 25 years ago and lived till he was 122 years old. I wasn’t directly answering your question but I was giving you a brief introduction. I think that the most hopeful aspect at the moment is related to gene therapies related to rejuvenation of cells and there are quite a few scientists that are trying to progress in this direction but, once again, nothing yet available at the moment. There are organisations that have this goal to go further for healthier longevity like Altos Labs, Google (). Two big companies that have a lot of money to progress for longevity but no big results yet and there’s no public organisation in the world who has officially as a goal fight against diseases of old age or that make people live longer.<br><br>
+
+<b>SdJ:</b> You said this company is from Google?<br><br>
+
+<b>DC:</b> Yes, it’s coming from Google. They are already working for I think more than seven years and there’s still no big progress. Altos Labs is something very new, they work specially in the rejuvenation of cells and they are starting with big names in the genetic field and I hope it would be useful<br><br>
+
+<b>SdJ:</b> It’s so interesting that actually the company that has more information about people is working on the genetic engineering and big data field.<br><br>
+
+<b>DC:</b> So you speak about big data and it is one important aspect concerning longevity but it will not be enough. Even if we know everything about whole research there’s still this absolute limit of 120 years and to go further we will need to change some really important aspects of the way that we are working. So it can be gene therapy, cell rejuvenation or it could be something else but with big data it will not be enough in my opinion. And I would like to say that at the moment if you give even ten million dollars to the best scientist in the field of longevity and you also give them hundred miles or hundred labs they will not be able to make rats or mice live longer four or five years. And if you give the same amount of money to humans it will be the same, but they will not be able to live longer than 100 years. For humans the best thing is to be a woman, like you, but even in the perfect conditions, more than 100 years is not possible. Almost not possible, a little bit more for women than men but just a difference of a few years.<br><br> 
+
+<b>SdJ:</b> Do you know why it stops at one point? Why did people before have such a short lifespan and now we can see people alive in their 120 years of age? What happened in the middle?<br><br>
+
+<b>DC:</b> It was indeed about three or four centuries ago that it was only 30 or 40 years of age but the maximal lifespan is not rising. People were dying even before they reached adulthood, that was one big part and for people that were reaching adulthood a big part was dying of diseases not related to old age like plagues, pandemic infection diseases and violence and so on. Even three or four hundred years ago one part of the population was reaching old age and for these people when they arrive to, let’s say, 60 or 70 their life expectancy when they were reaching that age was already 10 to 20 years. Now it is 20 to 30 years, so it’s better but not much better. So we can say that life expectancy is still rising and continuous but the maximal life expectancy is almost not rising. And this is important to know also, there were people trying to fly in the beginning of the 20th century very hard till it was a success in 1903. From 1903, the first thing heavier than air was in 1920, the first commercial plane.<br><br>
+
+<b>SdJ:</b> So your work is about trying to make technology accessible for the people, the world and how to make longevity accessible for everyone. So I’m thinking about xenotransplantation because we’re talking about data here in a way so if we think about it. If the body becomes a quantifiable and assemblage thing, like there are things that you can add or subtract, what do you think from the longevity point of view about this body that can be interchangeable. For example, in 50 years you can have a body or a liver and then you can change it, and then you have a  bad heart and you can change it, and then all of your insides are changed. What do you think about this from the longevity point of view?<br><br>
+
+<b>DC:</b> Do you know about the Ship of Theseus? You know, it is a philosophical concept. Actually, your body is changing all the time and your body. Actually, your body, I don’t know how old you are but not so old<br><br>
+
+<b>SdJ:</b> I’m 29.<br><br>
+
+<b>DC:</b> 29, Ok. Except for the cells from your brain, they are different from when you were 15. Of course, they were different from when you were a child but even for a young adult almost everything changed. There’s also this expression “we never swim at the same rhythm; everything is changing all the time”. So that’s the first thing. Things are not changing because we are in continuity. Even if you go to sleep, the next day you are not the same person. Another example is when you have an operation: you disappear and you then come back. I had a serious operation which lasted five hours and for me it was one second. The fact that we have xenotransplantation is not changing a lot of the human in itself. It's not making us something else. Concerning transplantation in general there are people that are saying that the fact that we have transplants that are related to heart and soul, that changed you psychologically, but I’m not convinced. For me xenotransplantation, you already know, with the transplant of the pig<br><br>
+
+<b>SdJ:</b> David Bennet <br><br>
+
+<b>DC:</b> Yeah, he died after two months but still it’s very promising. Almost incredible that they could save this guy for only two months. There was already a very similar operation many years ago with the heart of a baboon, but the baby is more flexible.<br><br>
+
+For me this is very promising cause gene therapy is the future and changing genes of animals for transplantation also. But this has not been used yet related to aging. Of course, aging is a phenomenon. Well, when we die of diseases related to age. There are three categories. One is cancer, and that is related to genes. We are progressing in a country like France, mortality related to cancers is decreasing for the same category of age about one percent each year. Then you have cardiovascular diseases, that also we are progressing even faster as in the last thirty years mortality at the same level of age has decreased by fifteen percent but after that we have neurodegenerative diseases but in that area I would say that there’s no big progress. And transplantation of a brain would be a thing of tomorrow. For the anecdote I will say that there’s this kind of crazy scientist talking about head transplant. It would be more body transplant but even if you do that, it doesn’t make you stop aging. <br><br>
+
+Anyway, this is very promising because I think that gene therapies are the future. And here you were changing the genes of animals so efficiently that it was possible to have transplantation. So it's very promising, yeah, but it's not yet to be used against aging because of course aging is a multiple aspect phenomenon and most well, when we die of diseases related to old age, we die of diseases. Well, there are three categories. One is cancer. Okay. And there, cancer is related to genes. And we are progressing in a country like France. Mortality related to cancers is decreasing for the same category of about 1% each year, then you have cardiovascular diseases there also, we are progressing even faster. The last 30 years, the mortality at the same level of age was decreasing by 50%. But after that we have neurodegenerative diseases. And there is, I would not, I will not say no progress, but no big progress and transplantation of a brain that's not for tomorrow. And that would be kind of, yeah. For the anecdote, I would say there is one kind of crazy, well, in my opinion, kind of crazy scientist speaking about head transplant, you know, actually it would be the other way around, it would be more body transplant, but okay. Even if you had a full body transplant, it doesn't make your brain not aging. So maybe it would make your brain aging less fast, but okay. Anyway, we are, we are not even close from a head or full body transplant. Not, not even, we are miles away from that.<br><br>
+
+<b>SdJ:</b> Yeah.
+
+<b>DC:</b> So, coming back to, so there's this one big limit is what I said about this maximum life one. Yeah. And one other big limit is what I know I'm not saying about neuro diseases, but maybe<br><br>
+
+<b>SdJ:</b> You said Neuro? What did you say? Last word, sorry, neuro?<br><br>
+
+<b>DC:</b> Neuro degenerative diseases, Alzheimer’s, Parkinson. Well, the first one is Alzheimer’s.<br><br> 
+
+<b>SdJ:</b> Perfect.<br><br>
+
+<b>DC:</b> Public institutions are more active in these fields, but not progressing so much. Probably the only one working on this is Elon Musk with Neuralink.<br><br>
+
+<b>SdJ:</b> So, this is another question, but it's kind of the same that we were already talking about. So what does the overwhelmingly new genetically engineered technologies that are being produced mean for society and the meaning of the human body?<br><br>
+
+<b>DC:</b> Once again, because there is, there is again, one word that I didn't get. Okay.<br><br>
+
+<b>SdJ:</b> What does the overwhelmingly new genetically engineering technologies that are being produced mean for society and the human body?<br><br>
+
+<b>DC:</b> Oh, yeah. Well, I was, yeah, I was indeed speaking about gene therapies. But I don't think that there are, you mean what's, what's already available now? Nothing. I would say nothing. I mean yeah. You know I, once again, I'm only speaking about longevity, but I think yeah, I'm only speaking about longevity because gene therapies and things you have things some things were spectacularly good concerning sight, for example, but that's you can use gene therapy to, to make people think again, [inaudible] again. Okay. And the fact that you are seeing less good is related to aging in many cases. Okay. But you cannot stop aging with that. So, concerning stopping aging, there is nothing more than what we are, we are discussing already.<br><br>
+
+<b>SdJ:</b> I mean, similar transplantation, the only thing is like, is stopping or kind of cutting stopping disease. You know, that is kind of actually<br><br>
+
+<b>DC:</b> But we were speaking about that. Yeah. Yeah.<br><br>
+
+<b>SdJ:</b> Okay.<br><br>
+
+<b>DC:</b> Nothing more as far as I know, as yeah. And you are not asking that, but I want to say that's one big problem concerning longevity at the moment. So to test, if a therapy is working, you have two categories, you are trying on humans, or you are trying on mice and rats. Concerning mice and rats, one of the big problems is you have quite often big articles saying, oh, we found some something. But actually in the most cases,<br><br>
+
+<b>SdJ:</b> It's not like going to work at a human size.<br><br>
+
+<b>DC:</b> Sorry. That is just on mice, and it will not work in human size. No.  But even then, when they test on mice and rats, very often, they just test a product or something, and then they kill the mice or the rats. So they don't even check if the rats and the mice are living longer.<br><br>
+
+<b>SdJ:</b> Hmm. That's interesting.<br><br>
+
+<b>DC:</b> But that's, yeah, that's depressing in my opinion. And probably there are many reasons, but one of the reasons is it's cheaper, you know? But also, well, but also, I, I cannot understand because the, the, the final goal is to make people live longer. So if you don't check out mice, for example, there´s nonsense<br><br>
+
+<b>SdJ:</b> Has totally no sense because you don't know, like the long term.<br><br>
+
+<b>DC:</b> Yeah. Precisely I don't, I don't get that. For example, there are tests on blood, you know blood is supposed to age. And they are rich people who pay to have their blood renewed or something like that, but they don't pay to test on mice. You know, if I was very rich and wanted to live longer, I would at least ask to do at the same time a test on mice, you know, to know if it is working.<br><br>
+
+<b>SdJ:</b> Yeah.<br><br>
+
+<b>DC:</b> Because, and also because mice, they don't have long lives. So, if you take old mice, 18 months old, you know about the results in less than two years.<br><br>
+
+<b>SdJ:</b> Wow. So it's ridiculous they actually didn't, you know, follow up. <br><br>
+
+<b>DC:</b> I don't, so I don't understand why more people are not doing that, but again okay. Then that, that was about mice and rats and after that you have humans and for humans, there are many, many rules making it very difficult to test even for people who are volunteers informed, you know, like I can say that I'm kind of a volunteer informed and so on, but if I decide to, to test something, it's kind of, well, not kind of, it's prohibited [inaudible] because of so many rules. So like that yeah, but I want to protect you against yourself, you know, like, but okay. If I want to, okay. If I go to the supermarket and I buy cigarettes and alcohol, I can binge drinking. Okay. But if I want to take some well informed risk by taking Metformin it's not allowed. And even let's say, if it is allowed for me, it's not allowed for the scientist because the, the, the publishers will refuse to publish the article because it's not respecting laws. And like I say, always joking, but it's not a joke if I'm sitting in the street and I'm taking a look at the people going on. Okay. It's okay. Nothing against the law, if I'm taking a look at the people who are getting old during a few months and I don't ask their consent, I'm making something illegal. You know, what's totally crazy for me, even if I'm just thinking a look at them at these people, you know, even if I, I don't ask, I mean even if I'm just taking a look at these people and they don't know about it, you know, so for me, that's a, a strange world and concerning this because you spoke about big data, and so on I advise you to take a look at this text from, do you know probably you don't know Stephan So and so<br><br>
+
+<b>SdJ:</b> No<br><br>
+
+<b>DC:</b> No. Stephan So and so, I give you the first name.<br><br>
+
+<b>SdJ:</b> Yeah. Because like, I remember I, I saw an interview from you like a talk, sorry. That it was about longevity, artificial<br><br> intelligence and health data right, I don't know if you remember.<br><br>
+
+<b>DC:</b> Yeah. Yes. But I wasn't probably speaking about this guy yet, because the article I will show is quite recent. So here, I give you the title. That's one. So then maybe she's from, I don't know, maybe you, you're from Argentina,<br><br>
+
+<b>SdJ:</b> Argentinian Dutch, yeah<br><br>
+
+<b>DC:</b> Yeah, yeah, yeah. And so you speak Spanish, of course. Yeah. But I think that she's Spanish speaking this woman, but I'm not sure, not so important. Anyway, what I need is the link. Where is the link? Okay. Google is your friend. I will Google this file. Okay. Okay. Or it's a link. You have to go to the link, but it's okay. Now disclaimer, I probably don't agree with everything that this guy is saying, but I have to go further to understand, because he's kind of a provocative person that if you to summarize in, well, to summarize what I understand about this, his text is we should not care about privacy. We should only care about using data for health and about freedom of doing what we want, but privacy sorry, the right to privacy is not the important thing because, you know actually there's this idea at the moment, the privacy is very important, but like if you take a look at the situation just a few, 10 years ago, or 20 years ago, maybe when you were, for example, let's say the right for people to have sex with other people and so on is the important thing. It Is not the right to privacy. The important thing is the right to have sex or to have to get married to it, you know, and this, this is a change in the perception. So 20 years ago, if you wanted to get married, you had to, let's say, declare it officially. Yeah. But nobody was thinking, oh, this is against privacy. You know, the fact that marriage was a public and still kind of a public event. So there's no, you, you, at the, I think at the moment it's still a public event, and it's still, but probably in a few years  private you know. Yeah. Okay. And for me, there's a, there is a kind of let's say not logical changing things in the way that people understand. And one, people consider the right to privacy and one of the biggest consequences is the fact that people don't want to share their data and especially the health data, because they consider this like being against privacy.<br><br>
+
+<b>SdJ:</b> Wow, this is true. Like we're gonna get some new ethical questions and<br><br>
+
+<b>DC:</b> Yeah, yeah, yeah.<br><br>
+
+<b>SdJ:</b> And stuff like this.<br><br>
+
+<b>DC:</b> And also, you know, this idea of how I can say that the fact that people don't want to share the health data is kind of a paradox against solidarity. Yeah. And in Belgium. Well, but that's more, that's also, so we were speaking about transplantation. So there is also the, the classical transportation is from my body to your body if I die. Okay. [inaudible] Because I'm too old, but okay. Anyway, in Belgium, theoretically if I die, I don't have to give my authorization for people to use my body.<br><br>
+
+<b>SdJ:</b> They will just use it.<br><br>
+
+<b>DC:</b> They can, the doctors can use it without my authorization, but particularly it's not that way. And I heard that it was the same in Spain. I dunno, Argentina, it is kind of strange, you know,<br><br>
+
+<b>SdJ:</b> You can choose. Actually, I don't remember in Argentina,<br><br>
+<b>DC:</b> The big question is this one opting it's called like this opting in versus opting out.<br><br>
+
+<b>SdJ:</b> Hmm.<br><br>
+
+<b>DC:</b> In theory, it's quite the same. So, opting in this you say, I want to be able to share and opting out is saying, I don't want to share. So normally it's the same, but particularly if you have an opting system, most people will not ask. And if you have an opting out system so if you have an opting in system particularly most people will not share<br><br>
+
+<b>SdJ:</b> Hmm, it's funny. Right. And it's also funny that for example, like health data is also used for, to know, make probabilities and know how like other bodies are,<br><br>
+
+<b>DC:</b> Again, one word that, that in the get for example<br><br>
+
+<b>SdJ:</b> That's actually health data that would help everybody.<br><br>
+
+<b>DC:</b> Yes, yes, yes.<br><br>
+
+<b>SdJ:</b> You know? <br><br>
+
+<b>DC:</b> Yeah. And it's not working and with the COVID it was of course, very, very, well for me, there is, there are all problems related to privacy, but also there are all problems related to Parkinson’s and, and sometimes there are patents. Do you understand them? Yeah. Patents. Yeah. sometimes they are kind of related people don't want to share their health data because they don't want to give to a big company<br><br>
+
+<b>SdJ:</b> Well, that's actually as well. <br><br>
+
+<b>DC:</b> Yeah, yeah. I can understand. But on the other side,<br><br>
+
+<b>SdJ:</b> If we don't have it like,<br><br>
+
+<b>DC:</b> Well, I don't okay. Let's say, let's imagine, let's imagine that, yeah. Google or apple or yeah, big pharma is using my health data without let's say without any consequences for me they will win more money. And even, even if it is not positive for the, for the other people, I don't care so much, you know, but okay. But the most, but the most important thing is that it's useful for other people. And the big, one of the big problems is in the system at the moment. Because there are so many private companies, it's almost impossible to share without also giving money to big companies in a way. You understand what I mean? So yeah. You share your health data, if you say, and they<br><br>
+
+<b>SdJ:</b> Make money out of you<br><br>
+
+<b>DC:</b> It's also for big companies and, and even more problem is sometimes big companies will take it and say, oh, it's for us only, you know, so they will share, they use it and they take it for themself and not share any data. But yeah. So, so for me so for me, my solution would be health data is a common public good that you cannot own. Yeah. And that all that private companies can also not own.<br><br>
+
+<b>SdJ:</b> Everyone else is for everyone. Public source, open source.<br><br>
+
+<b>DC:</b> Yes. Open source] but not a good word because open source is more for software for, but okay. Yeah. Open<br><br>
+
+<b>SdJ:</b> Sorry I have gone into programming. So,<br><br>
+
+<b>DC:</b> Yeah.<br><br>
+<b>SdJ:</b> So, but other question related to you know, longevity in itself, like, what do you think about like the overwhelming, like, if we all, for example, I know like you are, you are promoting that, you know, if, if someone wants to leave, they can leave, but if they don't, they don't. Right. So it's up to you. If you wanna have , live a longer life. But what it would mean for like, you know, having so much old people in general, like how do<br><br>
+
+<b>DC:</b> We, well, for me, okay. So, when we speak about old people, we speak about people who have lived longer and who are in decline in health. But the goal of longevity is not to make people live longer. And decreasing health, the goal is to make people live longer. So people would be let's say, would live longer, but would not be older that's older in the say in the, in the sense of yeah, in less good state as before. Well, of course, well, not of course. Well, okay. No, let's see, of course if there are relatively important improvements, but not enough to make, to stop aging, it'll be kind of a process, you know, but, but people who are against fight aging, they, they very often say, oh yes, but people are living longer, but in worse health, but that's not true. There was recently one study of that, it's called a kind of global burden. There was a big study. And in short they say for each three or four years, no, for each four or five years of longevity, more, you have three or four years in good health. So when the life expectancy, let's say when the life expectancy is rising with five years, you have four years in good health and one year in bad health. But of course, it's not like it's, it's more complicated and in my feeling I mean, we probably win more healthy years than even then. Let's say people before they had probably, let's say 60 years in good health and 10 years in bad health, no, it's more like, 62 years in good health and eight years in, in bad health. So it's improving except for neurodegenerative diseases.<br><br>
+
+<b>SdJ:</b> Hmm.<br><br>
+
+<b>DC:</b> The progress is really bad health mostly. And this progress, because we don't progress concerning let's say, fighting disease and because we progress concerning all other aspects, caring for old people in what's the name in English, retiring houses yeah. You know all these things. Hmm. But for example, one symbol of old people is, I dunno how you call that, people who are like that, you don't see so many people like that who cannot work and so on. Yeah. you see less than that.<br><br>
+
+<b>SdJ:</b> So why do you think that there's no, so much research made on neuro degenerative disorders?<br><br>
+
+<b>DC:</b> No, it's not that there is not much research, it’s that we don't progress.<br><br>
+
+<b>SdJ:</b> Oh, we don't progress.<br><br>
+<b>DC:</b> Yeah. Yeah. There is a lot of research, but we don't progress. And so why don't we don't progress? That's,<br><br>
+
+<b>SdJ:</b> The big question.<br><br>
+
+<b>DC:</b> If you have an answer, I'm ready to give you all my money tomorrow, but I mean yeah. Why but it's kind of fascinating, depressing, because since probably 20 years or something like that, sometimes there are new things, new drugs that seem to give good results on mice and they have good models. Okay. And after that, they test on the human cells all great. And then they test on humans. Nothing, almost nothing.<br><br>
+
+<b>SdJ:</b> Yeah.<br><br>
+
+<b>DC:</b> So, we, well, it would be a long story, but the short story is we don't progress actually. There are less when you take a look at the number of people having Alzheimer disease at the same age it's decreasing, but it's probably only decreasing because people smoke less,  have better homes, not because we have products. So once again, here, the same, like I said, you give $2 billion to the best specialist of neurological diseases, you take 20 people with mild, maybe not mild, but okay. Already advance on one side and 20 other people on the other side. And you said, okay, $2 billion for these people. There will be no big difference between the two groups. They will probably die more or less at the same time and be in bad health and so on. Yeah.<br><br>
+
+<b>SdJ:</b> Okay. I, this is so interesting. Then I, I have another question, but this has to do with kind of like the thing that you just talk about, the mice, and then how we kill them. But I didn't know actually about this, and now I'm very surprised, but relating this in a way to a kind of single transplantation. So, I was thinking about what is the significance? Oh, what significance does the interaction or relationship between humans and animals have with these technological advances?<br><br>
+
+<b>DC:</b> Yeah.<br><br>
+ 
+<b>SdJ:</b> So, what significance does the interaction between humans and animals have in bio technological advances because before animals helped us to, you know, they were for company and now we are using them for, for biological, for, for technology. So we're actually making animal technology right. In a way.<br><br>
+
+<b>DC:</b> Yeah.<br><br>
+
+<b>SdJ:</b> So,<br><br>
+
+CD: And what, what do I think about that?<br><br>
+
+<b>SdJ:</b> Yeah, so it, like, is it like that are, are we actually making animals technology now in a way, are this animals technology?<br><br>
+
+<b>DC:</b> Let me think. No, no, not, not. We are using technology to transform these animals and to make it possible to study them for longevity, for humans, but they are not, I would say not more technology that like if you make an experiment on water, I dunno, water is not technology. But after that, of course there are many let's say questions with the use of animals and to say a few words about that I always say, yeah, when, when you test on animals to make them live longer, you test actually something you can quite good for them, but I said this problem that they, at the moment, they sacrifice the animals at the end, so, okay. But that's the first thing I want to say. The second thing I want to say about this ethical aspect is if I had to, if I was a mouse, and I had to choose between life in the world and life in the lab, I would probably choose life in the lab because my life expectancy would be at least for a long life experiment. Well, I would die. I would die probably shorter than normal anyway, but longer than animals in the world. Hmm. After that also for rats and mice it's a strange situation that we care so much more about what's better for them, than when we use poison to kill them in our streets or yeah. Yeah. Where we don't. Yeah. That's yeah. So that's it.<br><br>
+
+<b>SdJ:</b> Okay. Thank you for your opinion. And I think I kind of spoke almost everything I wanted to know about this, but is there anything else that you actually think is important for me to know about, you know, comes to your mind to be related to my topic?<br><br>
+
+<b>DC:</b> I will, sorry, I will read again, you precise to your first email to see if I have something we didn't speak about all  let's say social and moral aspects. Why is it good to live longer and healthier?  So, you can find on the newsletters that are online still in one. Yeah. Still in one, in a few sentences.  For me, it's very clear that living longer and healthcare is positive in many aspects and is positive for people individually. Well, because we have more time to love each other. We have more time to discover things. We have more time for empathy and so on but it's also good for society in general because when people live longer, they are more careful with each other. They are more careful with the environment and maybe even more important because they are less violent people who live longer and technological progress can be dangerous, has many dangers. And if we had, we use technological progress with a priority of residents´ longevity in general, but longevity specifically, but also residents in general  the risk  for us are less important than other technological progress. I will not say that there are no risks, but more hope and especially using artificial intelligence for this is better than using artificial intelligence for well, of course, yeah, I would say, but also that using artificial intelligence for let's say things who are not related directly related to our resilience once again, because artificial intelligence can be a danger, especially if we don't have human goals. Okay. Sometimes people say, yeah, they want progress, any progress. They think that everything will be beautiful in the end. Elon Musk is one of them. I'm not a fan of Elon Musk, but one of the things that people don't understand about Elon Musk is that he thinks that technological progress is very positive, but also very dangerous. Yeah, of course. So in the same way, I say very often today is the best day of the history of humanity, but today is also the most dangerous day of the history of humanity, but both things together. So that was, that was what I wanted to say. And now I'm taking a look at your first email, just to see if I forgot something interview questions, yeah, yeah. Internal quantified self, sorry. But we spoke about that. Yeah. We asked so much about bio, do it yourself and so on, but yeah, I don't have so much to say about this for me, I like doing everything by myself for longevity. Like you understood for the rest I don't care. Well, I don't care. It's easier. Well, okay.<br><br>
+
+<b>SdJ:</b> Do you, do you personally use any, anything, or like for yourself, for longevity or<br><br>
+
+<b>DC:</b> Not? Not really, I, so two and a half years ago, I had, and half heart in fact with five bypasses. So and since then I take Metformin, but, and I mean yeah, I take Metformin. That is supposed to be the best for longevity that thinks that already exists, but I would take Metformin anyway. So no, once again, there is nothing at the moment. What I'm doing for longevity is to try to yeah. To push for longevity for everybody. So, and me also and 1, 2, 3, 4 days ago, I turned 60 years. And so it's difficult.<br><br>
+<b>SdJ:</b> Happy birthday<br><br>
+
+<b>DC:</b> Thank you. Thank you. Yeah. Yes. But, okay. So, nothing if there was something if there was something where the consensus would be, it seems to be very promising, but their dangers would probably do it. But also with being careful to share my data, you know?<br><br>
+
+<b>SdJ:</b> Hmm.<br><br>
+
+<b>DC:</b> That, that it's not only useful for me or that if it is not working that all people know it<br><br>
+
+<b>SdJ:</b> Also, not working. Yeah. Cause,<br><br>
+
+<b>DC:</b> Cause at the moment we don't share enough health data and especially when there are non-working clinical tests, it's less published. So it's even more interesting, more important when something is not working to share it than when something is working, when something is working, somebody will know probably when something is not working. Well of course, so if I'm testing something and it's not working, I'm not very CA, I will not have directly the tendency to share the information or I was not unsuccessful, but it's important because for other people they will not try the same. So very important, like and there is one website I, well, there are people who push to share results of all critical trials on humans. And I think it's very important.<br><br>
+
+<b>SdJ:</b> Hmm. Yeah. Just like this idea of a technical and technological progress system, but for everyone.<br><br>
+
+<b>DC:</b> Yeah. And also, yeah, this idea that there is one risk and also things that don't work. And it's important to know about these two aspects.<br><br>
+
+<b>SdJ:</b> Hmm.<br><br>
+
+<b>DC:</b> So, thank you for these questions.<br><br>
+
+<b>SdJ:</b> Thank you so much for your time.<br><br>
+ 
+  </div>
+</span>
 </div>
 
 <div class="tooltip-jaime">JAIME <br>DEL VAL
-  <span class="tooltiptext-jaime">Tooltip text</span>
+  <span class="tooltiptext-jaime">
+  <div style="padding: 5%; text-align: justify; margin-left: 5%; margin-right: 5%;">
+	  Date: 11th May 2022
+<div class="subtitles">Interviewee: Jaime Del Val</div><br> 
+
+<div class="subsubtitles">Metahumanist views on xenotransplantation</div><br>
+
+<b>Sophia de Jong:</b> What do you think about xenotransplantation?<br><br>
+ 
+<b>Jaime del Val:</b> First of all let me clarify that I am not specialised in this field, but I will venture some general considerations in trying to shed some light on what I see as wrong and misleading questions and debates being raised around this and other related issues. <br><br>
+ 
+Some time ago I might have felt sympathetic towards xenotransplantation as experimental way of overcoming limited conceptions of the human, but I have developed increasing awareness of the radical animal abuses and the planetary scale problems, actually leading us to extinction, on which many, perhaps unquestioned aspects of xenotransplantation are grounded.<br><br>
+ 
+First of all comes animal abuse. From my metahumanist perspective breeding and killing animals for xenotransplantation is (at least) as unacceptable and criminal as breeding and killing humans for xenotransplantation. This is crucial because it seems to me that at the very core of xenotransplantation, its industry, and the deep assumptions underlying it, is the idea that, since we cannot breed and kill humans for getting organs, let’s do that with animals.<br><br>
+ 
+I could try to imagine a future in which trans-species families of humans and non-humans are a more established fact and all animal abuse is abolished (with a much lower human population)... and could imagine the possibility of having xenotraplantation from our trans-species kinship when they naturally or accidentally die, just as is done with humans, as what could be perhaps the only acceptable option. Then xenotransplantation could help further undoing the specist gap... but this is of course far from what happens today. We can never undo specist divides via xenotransplantation if the technology is grounded on animal breeding, slavery and killing!<br><br>
+
+On the other hand healthcare conceptions are also grounded on an elitist human supremacy, are also highly problematic and need to be redefined. We take for granted that individual human lives (mainly of the rich eurowhite/angloamerican) need to be extended as much as possible at all costs and this is a huge problem, building upon an implicit eugenics that ignores the fact that this suprematism is grounded on a massive planetary killing and slavery that paradoxically drives us to extinction.<br><br>
+ 
+Currently dominant Healthcare systems mostly ignore the structural cause of most human pathologies (physical, mental and emotional) that I suggest are in the atrophied, aligned and toxic ways of living that we have created ourselves, and have been emerging since the origins of agriculture. It is agreed upon by most scholars that agriculture radically impoverished the way of living that gatherer cultures had had throughout hundreds of thousands of years. It also brought about a delirious overpopulation. This toxic civilization that has established itself against the flows of the earth has created a mass extinction. Every single aspect linked to so called technical progress is creating the extinction which exposes the radical inferiority of technologies that determine... (and the superiority of weeds... in the most insignificant of weeds in my garden there is more intelligence than in all our books, human rationality and AI labs put together...)<br><br>
+ 
+On the other hand we also need to deconstruct what these very normative systems have wrongly pathologised and that can be claimed as mere diversity.<br><br>
+ 
+Lastly, illness and death is part of our openness as symbiogenetic bodies that are part of a much larger planetary scale field of evolutionary, neverending variation whose core aspect is indeterminacy. It is this indeterminacy that “civilization” is at war with, as a result we are paralyzing evolution with the cosmic idiocy of “intelligent design”, trying to determine nature.<br><br>
+ 
+What we need instead is a new ethics of radical care, of bodies propriocepting and co-sensing each other, with shorter and richer lives, accepting death and illness, while undoing the systemic sources for most our illnesses that are also radically damaging Planetary Health!<br><br> 
+ 
+Once we analyse all of these assumptions I think there is little room left to defend the xenotransplantation, at least as promoted today, the animal abuse it is grounded upon, the set of human supremacy beliefs, the costly technologies...<br><br>
+ 
+Instead of extending human lives by killing all other life forms and the planet (which is a species suicide) we should put all our efforts in STOPPING TO BE THE PLAGUE!<br><br>
+ 
+Caring for nonhumans is not just a question of compassion, but a core evolutionary responsibility!  Without biodiversity there is no evolution. For most of its existence the Sapiens was one of the 8 million species, contributing to biodiversity, but over the past millennia we are creating a Holocide, a Planetary Holocaust in which all humanity is Nazi (as Jewish Noble prize winning writer Isaac Bashevis Singer said) imbued with human supremacy, a devastation so huge that it is a species suicide and threatens the possibility even of future life on Earth without humans: the worst possible cosmic crime and idiocy.<br><br>
+ 
+ 
+<b>SdJ:</b> What kind of body conceptions or configurations become from xenotransplanted humans?<br><br>
+ 
+<b>JdV:</b> I think in some posthumanist circles too much fuss is made about the chimeric posthuman hybrids that become from xenotransplantation, or from the cyborg trope, and this is because we are still too burdened by humanistic ideas: we still believe too much in the existence of a human species! But the concept itself of the human is a radical ontological chimera! What we need to do is to hack the human as ontological chimera, and the notion of species, both of which have merged as part of the programme of Human Supremacy that drive us and the planet to extinction, as it is a system of massive domination, slavery and killing that is annihilating the entire planetary environment, only comparable to and perhaps worse than previous mass extinctions.<br><br>
+ 
+From the point of view of Symbiogenesis theory as elaborated by Margulis, all of evolution is a question of symbiosis: species are first of all processes of ongoing mutation or variation, and are defined by their relations, to other species and to the environments: these relations are ontogenetic/symbiogenetic or in Barad’s terms intra-active: all species co-emerge in their ongoing relational variation together with the entire ecosystems of the biosphere: this has been the case for 4 billion years!... until the human has tried to impose on the planet and all its life forms the cosmic idiocy of top down design!...<br><br> 
+ 
+There are also many humanities and all of them in variation and relation. The dominant human that is killing the earth is the one that has tried to split itself by defining a set of dogmas that are actually those creating a mass extinction. <br><br>
+ 
+The fact that we can take in organs from other species is part of our symbiogenetic nature, heritage and evolution, the fact that some xenotransplantations don’t work is not ultimately different from the fact that some human transplantations don’t work either.<br><br>
+ 
+But what we need to question is the set of human supremacy assumptions underlying xenotransplantation. This is the purpose of my ontological therapies!<br><br>
+ 
+<b>SdJ:</b> What significance does the relationship between human and non-human animals have in biotechnological advances? And how has it evolved/changed in recent years?<br><br>
+ 
+<b>JdV:</b>As said, I think xenotransplantation is deeply rooted in human supremacy, which is getting worse, where animals are abused in experimentation in ways that should be utterly criminalised. What needs to get stopped is in the Animal Holocaust, instead of perpetuating domination beliefs that drive us to extinction.<br><br>
+ 
+At the same time animal liberation movements advance in some places, for instance by recognising the animal as sentient beings, this I am proposing to use in legal battles against all animal abuse, for an unprecedented metahuman revolution.<br><br>
+  
+<b>SdJ:</b> Are pigs bred for xenotransplantation technology?<br><br>
+ 
+<b>JdV:</b> Of course pigs and so many other animals are massively bred, enslaved and killed in concentration camps euphemistcally called farms, in unimaginable numbers of around 100 billion per year, for all sorts of purposes...now including xenotransplantation.<br><br>
+ 
+<b>SdJ:</b> What can you tell me about planetary health as conditions for proliferation of biodiversity and metaspecies futures?<br><br>
+ 
+<b>JdV:</b> It is the reverse: BIODIVERSITY is the condition for planetary health....and this is what we are killing with the monotechnical stupidity of deterministic human supremacy domination dogmas.<br><br>
+ 
+<b>SdJ:</b> What does meta-humanities mean?<br><br>
+ 
+<b>JdV:</b> It implies ontohacking the ontological chimera of the human, embracing our symbiogenetic nature and its indeterminate variation, undoing human supremacy and its devastation, stopping the planetary Holocasut and its extinction cycle, embracing the multiplicity of humanities as relations to other species, becoming once more on of the 8 million species of the biosphere, contributing to biodiversity instead of killing it... It implies undoing the millennia old atrophy and paralysis on which this process is grounded an regaining a lost capacity to sense and move in variation, not for going back but for unprecedented variations.<br><br>
+ 
+<b>SdJ:</b> How to revert the currently dominant ‘Trash-human Unhacenment’ into a metahuman flourishing?<br><br>
+ 
+<b>JdV:</b> By undoing human supremacy and the sensorimotor poverty on which it is grounded, disaligning from millennia of alignments, by relearning to move and sense, overcoming the fearful self-obsessed, atrophied creature that we have become, and its being dominated by  a reductive rational intelligences that imposes on the world its verbal-numeric abstractions, and embracing symbiotic mutations once again, by broadening our sensitivity and regaining lost proprioception.<br><br>
+ 
+<b>SdJ:</b> What do you think big data and health care have to do with the construction of body intelligence in the age of algorithms?<br><br> 
+ 
+<b>JdV:</b> Big data culture and current health care systems in rich countries are further step in annihiliating BI, by making us more and more dependent on algorithmic, pharmaceutical, and other technical systems that are actually at the core or our discomforts and killing the planet, increasing the dystopian society emerging over millennia since the birth of agriculture, and making us more and more atrophied and incapable of listening to the body, of varying our movement and senses, of relating to the world and its indeterminacy... they are part of the extinction system.<br><br>
+ 
+We need to learn from non humans.<br><br>
+  </div>
+
+</span>
 </div>
 
 <div class="tooltip-benjamin">BENJAMIN<br>SMITH
-  <span class="tooltiptext-benjamin">Tooltip text</span>
+  <span class="tooltiptext-benjamin">
+  
+  <div style="padding: 5%; text-align: justify; margin-left: 5%; margin-right: 5%;">
+  Date: 6th of June 2022
+<div class="subtitles">Interviewee: Benjamin Smith</div><br><br>
+
+
+<b>Sophia de Jong:</b> So first of all, I would like to ask you, how did you actually become interested in xenotransplantation because you were previously working with heart transplantation, right? Cardiovascular?<br><br>
+
+<b>Benjamin Smith:</b> Yeah, I'm from London, England, and I trained in cardiac surgery in Britain. And then, I was very interested in research at the same time. So I took three years off to do a PhD in the preservation of the heart for transplantation. This was a long time ago in the late 1960s and early seventies. And when I finished my training, I wanted to try to stay in transplantation, which was still just developing at that time. And I went to work with a surgeon Chris Barnard, who lived in Cape Town, who did the first-ever heart transplant on a patient back in 1967. And I went to work with him primarily to do research, but in fact, he wanted me to look after the transplant patients as well. So I spent seven years there. And during that time I realized that the biggest problem we had was getting donor organs. We had patients waiting for weeks and weeks and weeks and then dying without a transplant. Yeah. And so I began to look and see what other organs, what other sources of organs we could have. And I was doing quite a lot of work in the research laboratory there, and we had access to baboons because they were caught by the farmers in the area. And they were either shocked or were brought into the main facility. And so we could get baboons, very inexpensively. So we used baboons as our experimental animal model. And a huge advantage because a baboon's immune system is very similar to humans, much more so than say dogs and so on and so I was doing quite a bit of work in the lab. And then when I decided that the big problem was the source of organs, I started to investigate the pig as a potential organ donor for a number of logistical reasons. First of all, we've been living with pigs for hundreds of years, and we've been using the process of possibilities. We haven't picked up any serious infections from pigs even though we've been very close to them, we've used them for food. We now use them for heart valves. We use them for experimental models, all sorts of things. And so I first thought of course, of using non-human primates as the sources of organs, but they have in short supply themselves particularly if they're larger animals, there'd be a lot of ethical backlashes if we were slaughtering hundreds of chimpanzees and so on. And secondly, it takes a baboon, for example, nine years to reach adult size. And even then it's only about 40 kilograms. Whereas many humans of course are a lot bigger than that. So it would be very restrictive in the number of the size of the organs and the breeding of the baboons they breed in ones or twos, whereas pigs breed in tens or twelves at a time. So you could get a herd of pigs very rapidly, whereas if you can't get a herd of the boots very rapidly. So I switched from non-primates, which from an immunological point of view, are much closer to humans. And so the barrier between the two is much weaker. But I switched to looking at pigs. And since then, my main research project has been xenotransplantation. Initially, I was particularly interested obviously in hearts, but in more recent years, I've become interested in other aspects, particularly the kidney eyelets for patients who are diabetic would get a pig, eyelid transplant, cause eyelids produce the insulin that they need. We've looked at red blood cells as a source from pigs rather than humans. And there are a number of other areas that we've been investigating. So that's how I got involved in xenotransplantation. And I don't do any clinical work now. I haven't done it for some time, but I did do heart transplants in humans for 17 years before I switched entirely to research.<br><br>
+
+<b>SdJ:</b> Okay. So you mostly do research, like, you know, you don't do trials or?<br><br>
+
+<b>BS:</b> Yeah. What we do is we'd be working with companies who are making the pigs. We don't make the pigs but we test them by transplanting a heart or a kidney from the pig into a monkey or a baboon. And we tell them whether it's working or not and how long it survives. And then we go back to them from our lab studies and suggest what other things they could do to the pig to make it more, to improve as a universal donor for humans. And that's been, we've been doing that for 30 years. It's taken a long time to get to where we are now, where we have pigs with 10 genetic manipulations all geared to protect the pig organ from the human immune response, the human immune response against the human organ takes about seven days to actually reject it. Even if you gave no expression, but against the pig organ, it takes about five minutes to reject. It's very rapid. And so we've got a big barrier to overcome. The fact we're now getting out to months or years is a big achievement, but of course, it's taken a long time to do that.<br><br>
+
+<b>SdJ:</b> Of course. I was also going to ask you like why are you not using baboons instead of pigs. You already also told me that you actually know these transgenic pigs are manufactured by others, with other companies and you just test them out.<br><br>
+
+<b>BS:</b> We work very closely with the company. We make a lot of input about what we think from our studies or from, you know, what we know about the field, which direction they should go in and then they try to do it. And then we test that and then we go back to something else and so on. But a lot of our work actually, majority of our work is actually in the lab with human serum, human blood and pig cells, because you could tell a lot just from that, if the human serum kills the cells in the lab, you know that the human serum's going to kill the pig organ so that we, there's no point in making a pig with that particular modification. But if the serum doesn't kill the cells and the cells look fine, then we could go back to them and say, this is probably worth doing so I would say the majority of our work is in simple cell serum. Serum cell combination, because the genetic engineering of the pig and the testing in baboons course is very expensive and time-consuming so the more we can save them spending that money and time the better.<br><br>
+
+<b>SdJ:</b> So now I know what happens before you test these pigs, but then what happens after, right? What happens with the animals?<br><br>
+
+<b>BS:</b> There are two aspects to it with most humans. If you're going to put a human organ the response is through cells in the body that attack the organ. That's why they take a week to actually kill them off because the cells have to multiply and attack the organ. That's the main form of rejection. With the pig the main form of rejection are antibodies that we already have in our blood, which immediately destroy the pig organ. Now, why do we have anti pig antibodies in our blood? Well, it's because when we are infants, our gut gets colonized by various viruses and bacteria. And so just in the normal process of life living and we make antibodies against those as a sort of protection. So that those viruses and bacteria that are going to reside in our gut don't cause us any trouble but unfortunately, those viruses and bacteria express on the surface of carbohydrate molecules, which we call antigens which are identical to some of the pig cells express on the pig vascular endothelium of the blood vessels. They have the same sugars on the surface. So when we are exposed to this pig organ, and we've already got antibodies that we've primed against these bacteria, they immediately latch onto the pig organ and destroy it. And you can't get around that with the present drugs that we have available in expressive drugs, they have no effect on that. And so that's where the genetic engineer pig comes in, for example, there are three key carbohydrates that the pig organ expresses and through genetic engineering, we've knocked those out. They're no longer expressed in the pig. So there's no target now for these antibodies and the antibodies activate a process for the complement cascade, which causes the actual destruction. And we know that human complement is very bad for pig cells, but it's not bad for human cells because human cells express a human complement regulatory protein which protects them. So that when you are in your blood, if you've got some bacteria, you're going to destroy those with the compliment. It doesn't destroy your own cells at the same time. Because your own cells express these complement regulators. So we put into the pig these complement regulators, which they're human complement regulators, which protect them against human complement because pigs have pig complimentary regulators to protect against pig complement. It's not very good so we've put in about half a dozen protective genes into the pig. In addition to knocking out the main targets for antibodies, we've put in all these protective genes, and that's why we can do so well. Now, even when you put that pig organ into a boon or a human, the human will try to develop antivirals against other targets on the pig organ, so that you haven't knocked out the ones that don't cause immediate rejection, but will cause rejection if they're left there. And so that's where the inexpressive drugs come in, that we would normally give to a patient to protect patients. Organ. These are still necessary for these patients who are going to get a pig organ transplant, but we use a slightly different drug from the ones we use with humans because we found a different drug that is better for pigs than it is for humans. And the other thing about that is that I think eventually we will be able to genetically manipulate the pig that we won't need to give any drugs at all, because we'll manipulate the pig in such a way that it will be protected, not only from antibody response but also from the later response. And the more we can do to the pig, the less we have to do to the patient. And that's very important because the more you do to the patient, you express the patient, the more the patient is susceptible to infections, latency, and so on. So if we can get to the point that we don't have to do anything to the patient, that would be much better for the patient.<br><br>
+
+<b>SdJ:</b> Work the issues externally, in the pig. So then the human would not have the immunological response, but then this comes into question, like, because you talk about since you're a child, you have the microbiology, like developing in your body, but is there any trials on babies? I guess, right. If you grab actually or put like an organ in a baby, they would have less immunological response somehow because of what?<br><br>
+
+<b>BS:</b> Babies have a weaker immunological response, yes. Because they haven't developed sufficiently to have a strong response. And so babies have a lower response to both pig cells and to human cells than adults do. And that is one thing we are hoping to utilize to our benefit. For example, there are babies born with very complex congenital heart disease that they're probably not going to live more than a few days or weeks. And the idea for them is to do a heart transplant, say immediately in the first week of life, if you do that, they do very, very well. And it's probably because their immune system doesn't try to reject the organ as well as yeah because they're not developed enough. So the immune system is much more flexible and plastic. And so it accepts this news, you need some special therapy, but you don't need so much. And those patients do better than any other patients with any other organ transplant. If you look 25 years later, nearly 60% of those patients are still alive and well with the same organ, the same kidney, and the same heart. I mean, whereas if you are an adult, it's very rare to have that long without some sort of low-grade rejection going on. So we know, but the trouble is, in the United States, it takes about four to six months for a baby to get a heart from another baby. That's about the right size. And so during that time, most of these patients would die, except you can do some palliative operations, which will keep them going for a while. But our approach is that in the first week you put in a pig heart and that keeps them going even for six months. And then when you get the human heart, you replace them. And that way too, we will learn how vigorously the babies reject these pig’s hearts. We may find that we don't need very much inexpressive therapy, or we may find at six months, the pig’s heart looks fine. It's doing well. And then we'll say, well, perhaps next time we'll either pig’s heart in a bit longer. So we'll gradually get to know how long a pig will survive any human.<br><br>
+
+<b>SdJ:</b> So you're doing trials then?<br><br>
+
+<b>BS:</b> We're not doing trials on any babies yet. We're doing them in infants or young baboons, but not in children. We need to do, how long can we get out is six months regularly and consistently, because we don't want to, to do put the pig heart into a baby. And finally it only lasts three months. We think the longest survivor's been about eight months. So we think we'll be able to do that. The other good thing about that is it doesn't commit the baby to have a pig heart there for the rest of its life. It's only a temporary thing. And so that may be a good thing too. And I think that also would appeal to the regulatory authorities like us food and drug administration. You're not committing this baby to this pig heart forever. You're just saying it's going to be there temporary to keep it alive while do you get him a human<br><br>
+
+<b>SdJ:</b> Heart? So why do you think it's better to use like xenotransplantation instead of using like 3d printed as you know, organs or like biomechanical other...?<br><br>
+
+<b>BS:</b> Well, biomechanical organs have progressed very, very well in the last decade. And so most adults who are waiting for a heart transplant, or even if they're not eligible for a heart transplant, could have an assist device in a mechanical assist device to assist their heart. And they do very well, at least for a couple of years. Long term results are not so good, but they're getting better all the time. But in babies, and infants, there are no assist devices or mechanical parts that you can really put in and they do very poorly in them. It's not built for babies. There are some built supposedly for children, so on, but in tiny babies, the results are very poor.<br><br>
+
+<b>SdJ:</b> But also just because of the size of the...?<br><br>
+
+<b>BS:</b> It's mainly just size and, you know, a mechanical thing. You've got everything would've to be small, more like to get blood clotting in them and so on. And so on with all these mechanical devices, you have to bring out a line from the chest to plug it into an electric supply. So that very much limits what you can do as a patient. You can have a portable supply, you can keep you going for a few hours, but for babies that would be really quite difficult to do. I think to pig off would be much better for babies than a mechanical heart.<br><br>
+
+<b>SdJ:</b> Hmm. Interesting. I didn't think about it like that. So I also was going to ask you another question, like if you're actually working or researching any other technologies to cross-species like with the xenotransplantation or maybe?<br><br>
+
+<b>BS:</b> This, we are only looking at xenotransplantation, not, but not just organs we've been looking at big blood cells and so on. The alternative, of course, is apart from artificial organs, and mechanical devices. So are things like, can you make a pig organ or can you make a human organ through stem cells? You take some primitive cells from the patient and you try to manipulate 'em. So they'll develop into a whole heart or a whole kidney and people are working on that. I think it's going to take a long time to do that because you know to develop all the different cells that you've got in a kidney, it's asking a lot of it was a single type of cell, for example, as the beta cells in the eye pancreatic that make the insulin that is much more feasible. And I think that it may become possible within the next few years that you can take the patient's own cells, convert them into these beta cells, expand them and then put them back into the patient. And maybe that will help cure their diabetes. But I think a whole organ is going to take a long, long time to develop. Hmm. And there are other ways of doing regenerative medicine techniques and so on where they take cells and they try to convert them into organs or so, but I think it's going to be a long time and we are very close now to doing big heart and kidney transplants. And so I think we are looking way ahead of the other alternative approaches that could be possible.<br><br>
+
+<b>SdJ:</b> Okay. And so how do you think xenotransplantation would change biodiversity or because you work with crossing species, right? So how do you think this would change biodiversity or the meaning of, you know, longevity or extension of human life?<br><br>
+
+<b>BS:</b> I doubt if it'll change longevity because there are so many factors involved in that. People who are going to die of heart failure or kidney failure or liver failure will get a new lease of life just as they do with a human organ transplant. The big problem with a human organ transplant is just a lack of organs. There are about 120,000 people on the waiting list in the United States. There'll be about 40,000 transplants this year. So that means 80,000 people will still wait unless they die in the meantime. And there are a lot of patients who will wait for a kidney transplant on dialysis. They may wait for eight or 10 years and still not get an organ, or get a transplant. And those patients, if you look at the details, nearly half of them will be dead or be taken off the waiting list within five years because they are no longer suitable. They no longer believe it to be suitable for a transplant. They're not there. They've got too many other problems or they've got too weak or too old or whatever it's. So those are the patients I think that you would first suggest to them that they might consider a xenotransplant if you are probably never going to get a human organ because the organ supply is so bad and you've gotta stay on dialysis. And most patients do not like being on dialysis. It takes up to three days a week of their lives. It limits them significantly, never feeling so well on dialysis as can do with a functioning organ. I think quite a few of those patients would say, well yeah, I'll try a pig kidney. If it functions for a year or two, that's wonderful. You are off dialysis and hopefully, if it doesn't function, you can go back on dialysis. And I think a lot of people would accept that approach. And eventually, just as human organ transplants have improved enormously over the years with better drugs, more experience and so on, I think pig organ transplants will expand and the results will get better and better. And eventually, everybody will have a pig organ transplant.<br><br>
+
+<b>SdJ:</b> How do you think this has to do with biodiversity? Because in the end, it's like genetic chimera or not because I am just trying to understand. You put the human DNA in this pig, right? Then when you put the organ back into the human, or when you put the transplanted organ in the human does it become a chimera from a genetic perspective?<br><br>
+
+<b>BS:</b> Yes. and we did some surveys over the last few years asking patients and families of patients, how they thought about it, would they feel uncomfortable having a pig organ and you probably, you don't remember, but in the early days of human organ transplantation, there was a lot of patients that felt they didn't want to have somebody else's organ in them. Particularly, for example, men didn't want to have a woman's organ, they didn't want to have a woman's heart because they thought that would make them weak because they thought women would be weak. And there were all sorts of things that they didn't want to have. But when the crunch comes and you're going to die, you usually begin to change your mind about these things and think, well, if it's going to keep me alive, I'll go for it. If I had a number of patients who were never going to get a heart transplant until they'd had two cardiac arrests and been resuscitated. And then they realized they were living on a knife-edge. And then they decided that they perhaps like whatever heart transplant. Yeah. So people's attitudes change. But when we carried out these surveys in the last two or three years, we found that most patients, again, and most family patients, realize that the patient might get if children, might get bullied at school or laughed at because they've got a pig, heart, or a pig kidney or something, but they felt that if it would keep them alive and well and that's a big if at the moment, because we don't know how long it will keep them alive. And well, they felt that was worth taking that risk. And that they didn't think they would've too many psychological problems because they had a pig heart in them.<br><br>
+
+<b>BS:</b> They thought that would not be too much. The only group that was very hesitant about it were African Americans because they've in the past, they have been experimented on unethically by some of the medical profession and that's, they have that in the back of their mind, are we experimenting on them? And so they were much more cautious about saying, yes, they would have a pig heart transplant or pig kidney transplant. But that's what I say, is a historical thing just because of the situation they've been in, in the past. But for most people, they felt that if the results were going to be as good as a human heart transplant, then they would go for it. Now at the moment, we can't guarantee that because we haven't got the experience that they are going to survive as long as a patient with a human heart, probably they won't, but they might survive long enough to make it worthwhile. And remember if they begin to reject that heart, there's always another pig. We can always give another pig heart transplant, which is not the case with human hearts because there's a limit.<br><br>
+
+<b>SdJ:</b> Of course you cannot design humans for this.<br><br>
+
+<b>BS:</b> So I think from a psychological perspective, most people would accept it if it's going to be life-saving for them.<br><br>
+
+<b>SdJ:</b> Yeah, for sure. Like, I mean it's like a life or death situation.<br><br>
+
+<b>BS:</b> I remember we had a survey, we actually got a group of ministers and church ministers to come and discuss with them. And this was in Alabama and you know, the black church in the Southern states was very strong, the Southern Baptist church was a very strong influence on the black population there. And I remember one of the reverends said that he said his ultimate aim was to get to heaven, but he wasn't in any hurry. And so he, if we offered him a pig organ transplant, he'd take the pig organ transplant to keep him here a bit longer. So even with very religious faith, people still said, yes, if it's going to keep me alive I'll go for it.<br><br>
+
+<b>SdJ:</b> Yeah, I mean, because as well, we have like this yuck factor, right from like the sociological part of like the pig. You know, like this kind of, oh, it's still kind of disgusting, like the way to say of an animal and, but I understand like people would like totally for sure like life or death situation would agree with the fact that why would they not do it. I think I asked you this already, but to what extent it's possible to break the immunological barrier by putting the human DNA in the pig, but you already mentioned this, do you think that in the future we will have no immunological response or how are you working on this?<br><br>
+
+<b>BS:</b> It's gonna take a few years to not need to give any drugs in expressive drugs because we've gotta adapt the pig more manipulations to the pig. And that always takes time. But I think eventually we'll get to the point. We need very little immunosuppressive therapy if any. The other important, interesting thing is that we have done this in the past. You can put an immunosuppressive drug into the pig. So the pig actually makes the drug. You put the genes for certain drugs, not all drugs, but someone, but some immunosuppressive drugs. And we did this in some pigs some years ago, and the pigs made so much of this drug that it suppressed themselves and they got susceptible to infections. So they didn't live a long life. But we've now got techniques where instead of putting this gene into the whole pig, so the whole pig is making the stroke. You could put the gene just into the organ you wanted, or just into the eyelids you want. So only those would make the drug. So in the pig, it would be a small amount, but when you take that organ out and put it into the patient, it may make enough drugs that you don't have to give the patient any immunosuppressive injections or, or tablets. So there are all sorts of ways we can do this over the next 20 years. I'm sure we'll explore those. And that means the patient will have to have lesser immuno-suppression therapy. And so, because the pig organ will be making it for them or something like that. And there are techniques too. Now you can actually if you give a patient an antibiotic, a certain antibiotic, it will switch on a gene that they've got there, or it will switch it off. So you could put a gene into the pig to make this drug, but unless you take the antibiotic, you're not gonna make the drug. You're not gonna make it, it's not actually gonna produce it and then if you're producing too much, you can stop the antibiotic again and it'll stop producing it. So there are ways we can manipulate how much the level of drug was being produced.<br><br>
+
+<b>SdJ:</b> You know, so this is kind of new, or the most revolutionary new thing that you are working on with xenotransplantation, right?<br><br>
+
+<b>BS:</b> Yes.<br><br>
+
+<b>SdJ:</b> Are there any other techniques or technologies that are involved in the new research or like the research that is being contacted at the moment?<br><br>
+
+<b>BS:</b> Well, one other area, which is a similar area is that if you have a patient who's had to say a heart or human heart transplant or a kidney transplant, or even some people who've just through pregnancies or from blood transfusions, they have made antibodies against other humans. And if in those patients, you can have actually a hundred percent antibodies against anybody, any donor, these people have antibodies. So if you put a pig, if you put a human organ from a donor into that patient, it may immediately reject it just like it would reject a pig organ. And those patients are very difficult to treat because you can't find a human organ that's suitable for them. Maybe they're 95% sensitized. That means they have antibodies and 95% of the community, maybe once a year, you'll have a donor somewhere who might be suitable for them that they're not gonna reject immediately. Now pigs, again, some people have, most, everybody has some antibodies against pigs, but what you can do is you can change the structure of these antigens on the pig cell. And that means that those patients no longer have antibodies against the pig. And if you are, if you have antibodies against humans, some of those cross-react with pigs so that you not only reject the human organ, you'll reject the pig organ. But if you manipulate the pig and take away those targets for those antibodies, the patient will no longer reject that pig organ. It'll still reject the human organ because you've still got the targets there but on the pig organ. So you can manipulate the pig to suit that particular patient. And so there are all sorts of potential ways that eventually pig organs will probably be much better than human organs for the majority of patients.<br><br>
+
+<b>BS:</b> The other thing is we keep and we are breeding the pigs in very clean facilities so that they won't carry any infections with them. The staff who look after them put on a sort of space suit every day so they don't give the pig any infections for themselves. The pigs are tested every month to make sure they've not got any infectious organisms that you could transfer with the graft. Whereas most humans, human donors, you, come into hospital, they're set to be brained. You have literally a few hours to check. Are they carrying any infectious organisms or not? And many major infections have been transferred from donors and human donors to the patients. You know, HIV was transferred in the past, hepatitis transferred, all sorts of things. And there are some viruses like cytomegalovirus, which almost everybody carries and so you're always transferring your cytomegalovirus.<br><br>
+
+<b>SdJ:</b>  What's the name of it?<br><br>
+
+<b>BS:</b> It's called cytomegalovirus. It's a very common virus. It doesn't usually cause a lot of problems for anybody unless you are immunosuppressed. And then your response to it just like your response to coronavirus, the COVID virus is obviously weak. And so then it can cause the problem. So in patients with a kidney transplant, if you transfer cytomegalovirus with it, even if the patient themselves has had cytomegalovirus in the past you transfer a new strain of cytomegalovirus, you even express the patient with the drugs you're giving and then the patient can get sick with his virus. This new virus they're exposed to. Now pigs should be free of all these viruses because that's part of the plan of breeding in these clean facilities. They're not infected with anything that they can transfer. That's the aid eventually.<br><br>
+
+<b>SdJ:</b> Yeah. They're isolated and just like very well.<br><br>
+
+<b>BS:</b> They'll be isolated in this facility until you remove their organs. The other thing to look at is we, in the United States, we kill well over a hundred million pigs each year for food. So it's not as if we are doing something really weird because we've been killing pigs for centuries to eat. And if you go to a commercial pig breeding facility, the conditions are not very good. Whereas these pigs will be housed under very clean, ideal conditions, given the perfect diet. And instead of being slaughtered by having their throats cut or something, they will be anaesthetized and they will die under the anaesthesia when you're taking the organs out. So from a pig's point of view, it's a much more humane life and what you mean by life and death than it is for the average pig.<br><br>
+
+<b>SdJ:</b> Yes.<br><br>
+
+<b>BS:</b> So I don't think from an ethical perspective where you could criticize what these pigs will go through.<br><br>
+
+<b>SdJ:</b> No, I mean, it's like a horrible death instead of, you know, like you cannot compare it at all with like slaughterhouses and this.
+<br><br>
+<b>BS:</b> No, I don't think so. I don't think so.<br><br>
+
+<b>SdJ:</b> That is great.<br><br>
+
+<b>BS:</b> Going back to the busy patients who are waiting, say for a kidney transplant on dialysis, when they are put on the waiting list, they're usually told this, you gotta wait for a donor. It may take some time. It may take some years even. But you just have to be patient until you get the donor organ.<br><br>
+
+<b>SdJ:</b> Yes.<br><br>
+
+<b>BS:</b> What they're not told because it would depress them too much, I think is that within five years, nearly half of them will be dead or not suitable for a transplant anymore.<br><br>
+
+<b>SdJ:</b> Five years.<br><br>
+
+<b>BS:</b> You tell them that because it's too depressing for them, but if you told them that, I think they'd be much more ready than to say, well, maybe I could have a pig kidney instead because I don't wanna wait till I'm gonna be dead or wait till I'm no longer suitable for transplant. I'd rather take my chance with this pig organ. And so I think when you explain to the patient in detail what their long-term prospect is, which I say, I don't think we do at the minute because we don't want to depress them, but then I think they'd be much more ready to say, well, I'll try the pig organ.<br><br>
+
+<b>SdJ:</b> For sure. Like but so you said like, after five years in the United States, people are too old?<br><br>
+
+<b>BS:</b> On the waiting list for a human organ donor organ and you are on dialysis within five years, 45% of the patients on that waiting list will either have died or would be taken off the list because they're no longer suitable for a transplant. They're too fragile or what it is. So nearly half of them are taken off within six years. And so I don't think most people waiting have realized that that's their outlook. They think I've just gotta be patient, I'll get an organ eventually, but they don't realize that they may get too sick, too weak to have a transplant.<br><br>
+
+<b>SdJ:</b> This is great. I actually think it's amazing. You, all the research that you're doing and how it makes you, you know, makes you think like how we can keep on having a life. And it's awesome. In my mind what's the body configuration, do you think it is generated based on a Xenotransplanted person? Like, you know from like, you know, medical or transplantology perspective or point of view?<br><br>
+
+<b>BS:</b> Well, I think probably every patient will look at this rather differently. Some people will say, I don't care if it's a pig organ or what it is, you know, I'm fine. Just go ahead. I want to stay alive. Other people will have some reservations about it. They think of, well, I, I don't want to be a timer, as you say, I don't want to be part pig. What would other people think of me? Or is it my child? Who's gonna have this Pig heart transplant. What will people think about the child? Will they be bullied? Will they be considered different Cetera, Cetera? So I think everybody will have different views on it, but I think the majority when it comes back to what am I gonna be alive or dead, or is my child gonna be alive or dead? I think they come down on the side of wanting to be alive. And so they would say, well, I'll accept these psychological or social problems. Just because I think it's more important to be alive. And I suppose really with children you don't necessarily need to tell people you've got a pig organ. And so it's only if you let people know you have... if you don't tell the child, the child can't tell anybody else and adults you may certainly hear that an adult had a pig organ. And I think the majority of people will be interested in you because you're a little different and it just depends on how you will feel about it. And if you have a supportive family, I'm sure, and you'll come to terms with it, even if you have reservations initially just because you're alive and well. And so that's the key to life, of course. So I think it'll be okay.<br><br>
+
+<b>SdJ:</b> Yeah, of course. Like it's very subjective is a very controversial topic of course. And the very, like, you know, depends on the cultural or sociological kind of the point of view that to take it. But yeah, it's very interesting.<br><br>
+
+<b>BS:</b> The other thing is there will be improvements over the next 20 years regarding immunosuppressant drug therapy. For example, at the minute you're gonna do a human heart, or kidney transplant. Usually, you give two or three drugs up front as a sort of loading shot to weaken the immune system. And then you give the patient daily drugs to keep the immune system suppressed. So you've got two or three drugs up front and you've got two or three drugs that they get every day. My colleagues here have got a new drug and we test its monkeys. You give this single drug, you have to give it by injection of the minute. It's the only available injection. You give it on the day of the transplant. And then basically you give one injection weekly for the next year. One injection of this single drug once a week, no other drugs at all. And those monkeys with heart-kidney transplants are staying a hundred per cent. Well, they're not rejecting at all. Now. That's quite a big change from giving three drugs upfront and three drugs every day. So inexpressive if therapy is slowly getting better and better and better as new drugs are discovered or developed and so on. And I'm using this same drug now with baboons with pig kidney transplants. I haven't done enough yet to know if it's gonna be as successful as with human transplants, but we're getting better and better drugs. And this drug, for example, if you stop it after say six months, you don't give anymore, it takes two or three months for the baboon to reject that or the monkey to reject the organ transport. So you could probably give it once every two weeks or every four weeks for up to six months. And they probably would do well. So we are coming down to the point now that they don't need a lot of inexpressive therapy. The other thing is, that I can't see any side effects from the injection drug. They don't get hypertension, they don't get diabetes, and they don't get this. They're probably more susceptible to infection just as anybody, whose immune system is suppressed, but we're getting better and better drugs and that will make the results of xenotransplantation better and better as we go up as well as the pig, the big, better pig. So I expect in 20 or 30 years, it'll become very common, very commonplace to have a pig organ transplant and just take a drug once a week or something. So you're gonna get a lot of improvements.<br><br>
+
+<b>SdJ:</b> And just one question, like, because if we're talking about genetics from what I understood, like from the previous research that I did, like if you, I don't know, targets like how can I say it? Reproductive cells, as you can, you know, like the generations after can be, have mutations or other kinds of genetic material changes. I don't know, based on what you have, right. If you're a parent. So if you actually become a Chimera having pig DNA in yourself, can that somehow get into reproductive cells?<br><br>
+
+<b>BS:</b> No the FDA and the regulated authorities one of the strictest things is that you have to be sure that you are not going to pass on these pig genes to your offspring.<br><br>
+
+<b>SdJ:</b> Oh yeah. That's super important.<br><br>
+
+<b>BS:</b> So that means you can't manipulate the reproductive cells and they also, you can't change the brain cells. You can't have either the pig being made more intelligent or the human may be less. So those things are sort of built into the system. And if you're just transplanting an organ, like a heart or something, there's no risk of that happening. Now the other thing about it is that because there are viruses or particles of viruses in every pig cell, these so-called porcine retroviruses We have PERVs yeah. We have human endogenous retroviruses in our cells, very similar to the pig’s ones, but obviously different. And they don't seem to do us any harm. And the big ones don't seem to do the pig any harm, but people are worried the pig ones do the human harm when they get into the human. And there's no evidence that they will do any harm, but still, it's unknown. Of course, the company, one of the companies I'm working with now has pigs, they've knocked out all of these viruses. So the pig no longer has these viruses. And so there's no risk of those viruses being transferred to the human recipient. And so that gets around that problem. But there has been a lot of concern about it, whether the pig viruses could cause any problems for the human<br><br>
+
+<b>SdJ:</b> We don't know how long term this would work.<br><br>
+
+<b>BS:</b> And I think when they've knocked it out of one pig, the offspring of that pig would obviously not carry that virus. And so you are gonna breed a herd of pigs that don't have that virus in them anymore.<br><br>
+
+<b>SdJ:</b> And one more question, because the organs that grow in the host, in the pigs, at what speed do they grow?<br><br>
+
+<b>BS:</b> You're talking about the growth of the pig or the pig organ.<br><br>
+
+<b>SdJ:</b> Aha.<br><br>
+
+<b>BS:</b> It's been known for a long time that when you put a pig organ into a monkey or baboon for at least the first few months, it grows as if it's still in the pig. The pig says it grows very rapidly, much more rapidly than a monkey. The monkey might put on a couple of kilograms in the year. The pig will put on 50 kilograms in the year, and this does cause some problems, not so much with the kidney because you've got quite a bit of space in the abdomen, so that if the pig kidney doubles in size, which it does usually within about three months after that, it seems to level out a bit. It doesn't grow so fast, but you've got space in the abdomen for the pig kidney to double in size in three months without causing a lot of problems. But when you put a pig heart into the chest and that doubles in size in the first three months, that can cause problems because the heart can be compressed in the chest, because there's much less room in the chest. And so that is something that we've known about for some time. And one of the companies has knocked out the genes for growth hormone receptors so that the pig itself will grow more slowly when you transport an organ from that pig to the baboon or the monkey or the patient, that organ will grow much more slowly than if it was a normal pig.<br><br>
+
+<b>SdJ:</b> So you like, you have control over the growth, but like, is it the ones that you have once you like take it or remove it from the pig? does it stop growing or<br><br>
+
+<b>BS:</b> No, it will still grow when you take it from the pig, they still grow. It must be something inherent in the organ that keeps it growing at least for a few months. Then I say it levels out of it. Maybe it's still susceptible to pig growth hormone until that's used up. And then it's less susceptible to a baboon. I dunno what it is. So but of course, there are lots of miniature pigs around. There are lots of breeds of miniature pigs that don't grow. Some don't even grow more than 25 kilograms in their lifetime. As adults, others grow up to, you know, 200 pounds instead of a thousand pounds like the ordinary pig would do. And so the other company I'm working with, they're using the basic pig as the miniature pig, which will never grow more than about 200 pounds. So those pigs, the organs grow much more slowly, of course, than they would if they were from a normal pig. So when you transplant those organs, there's very little rapid growth of those organs. They grow at more or less the same speed as the monkey organs grow so it doesn't become a problem. So the various ways of dealing with this problem are to genetically knock out the growth hormone receptors. The other is just to choose a different sort of pig as your background. So but the other thing is if we want the organ to do everything that a human organ would do of course we want the pig organ. If it's a kidney, we want it to get rid of waste materials and all that sort of stuff. The most complex organ from a metabolic or functional point of view, of course, is the liver. The liver makes about 2000 different products that we use in our body all sorts of enzymes, hormones, etcetera. And so well, maybe the pig liver won't make all the same things as the human liver does. And we don't know that yet because we haven't had pig livers surviving long enough in baboons to know whether they do that. But if you have a deficiency, let's say you are not making a certain protein sufficiently well by the pig liver, you could genetically engineer that pig to make the human protein. And so you could solve the functional problems as well as the immunological problems through genetic engineering. So it's an almost unlimited field where you can change the pig to suit what you want,<br><br>
+
+<b>SdJ:</b> Twitching, designing the donor.<br><br>
+
+<b>BS:</b> Yes, that's right<br><br>
+
+<b>SdJ:</b> From a genetic basis.<br><br>
+
+<b>BS:</b> Now we know, for example, that pig kidneys have kept monkeys alive for over three years. And so they must be doing all the things you want to keep a healthy person alive. So we know from the kidney and the heart that they're probably doing functionally, they're doing okay, but we don't know about the liver yet or other organs, but we can genetically manipulate the pig if we needed to offset a deficiency. Or if there's too much of something, we can knock it out. So again, it's quite a huge potential for the future.<br><br>
+
+<b>SdJ:</b>  So the heart is the organ that is the best of the best of the organs to transplant from a pig to a human?<br><br>
+
+<b>BS:</b> Did you say, is the heart the best? Well my colleagues at the University of Maryland and you've probably read in.<br><br>
+
+<b>SdJ:</b> Like David Bennett's.<br><br>
+
+<b>BS:</b> With a heart transplant yeah. With a pig heart transplant. He wasn't the best patient for that. They chose the wrong patient. I think he was too sick, I think at the time. And I think that's why he died eventually because he never really recovered from the operation and so on. And he had a lot of health problems, which I think they made a mistake. It should have chosen somebody who was a likely candidate to stay alive. The pig heart is a really simple organ, and it doesn't have the range of cells that the kidney has. And so in some ways the immune response to it is rather weaker than it is to the kidney. But when you put a pig heart in, you're gonna put it in because there's no other treatment, you can't get a human heart. It's not suitable for an assist device or a mechanical heart for some reason or other. So that's why you're gonna say, we'll put in a Pig heart. There's no alternative. That means if a pig's heart fails, he's dead because you've already ruled out all the alternatives. My feeling is that the first trials should really be in patients who need a kidney because we've already said a lot of them are never gonna get a kidney transplant. So they have the opportunity to stay on dialysis, but it's not a very good lifestyle. And if the kidney fails, the pig kidney fails, they can go back on dialysis. And they just cut their losses. And as long as you make that decision early enough, I mean, if you keep on treating the patient for rejection and especially more and more, they're eventually gonna get an infection or something, and then they're gonna die. But if you say, well, we've given a lot of antirejection therapy, it hasn't had the effect we want therefore let's stop everything, take the kidney out, put it back onto dialysis. Let's cut our losses at this point and keep the patient alive. If you are sensible like that, you could save that patient's life. If you're not too ambitious. And so I think there is that safeguard with the patients having a kidney but we don't have that option with the heart. So that's why I think the kidney would be the right first group. The only exception I think is these babies who need a heart transplant because they've got really no alternative. They can't have an assist device. They kind of, this they're not gonna do well. So in those cases, you just have to try it. But again, it's still a temporary thing. You're trying to keep them alive until they get that human<br><br>
+
+<b>SdJ:</b> Yeah. I mean, as I have always heard, like in the news sometimes, like I don't know, family, saying like, oh my God, I'm praying for another child's heart. Because I want to save my child. And it's quite a little bit weird that you're expecting another child to die so your child keeps living. I don't know. It's a bit weird.<br><br>
+
+<b>BS:</b> But it gets around that ethical dilemma too. Somebody else died. That's right.<br><br>
+
+<b>SdJ:</b> Right. I mean, somebody has to die. So it's weird, but like this, this would actually resolve all of this and then you don't have to get rid of the organ shortage.<br><br>
+
+<b>BS:</b> And the other thing to bear in mind is that with transplants of every organ, big human organs liver, kidneys hearts, lungs, and so on because of the shortage of these organs, we've over the last 10 or 20 years, we've been using organs that we would never have used 20 years ago that because we would have said 20 years ago said these organs are very poor organs. They're borderline, we don't wanna transport that organ, but now we're talking about borderline organs because we're so short of them. So we're actually putting the patients at increased risk really by using organs that are just about gonna keep them alive, but not enough Because we're so short of organs. And we think, well, rather than letting the patient die, we'll try this organ. With the pig, we should have perfectly good organs all the time. And so we, you know, from an ethical perspective, we should be doing better for the patient. If, as long as the organ is gonna survive and function, normally then we will with human organs added to which we're not gonna be transferring infectious organisms that we do from them. Some of these patients know that they have a heart attack and drop dead and they brush him to hospital and they realize they can't resuscitate him. So they call in the transplant people and the transplant people say, okay, well, his kidneys will probably still be okay to transplant, even though they've had no blood supply, no oxygen for an hour or so. We take that as a risk. You obviously have very no time to decide. Is that patient carrying any microorganism? Has he got an infection? So he is gonna transfer. Because we don't have time to do all these tests. So we are actually putting the recipient at increasing risk. First of all, he's got an organ that's not perfect because it's had no option for<br><br>
+
+<b>SdJ:</b> No testing…<br><br>
+
+<b>BS:</b> And we don't know if it's carrying an infection, etcetera. So we're putting him at increasing risk just because we're so short of organs, that won't be the case with the pig, because you'll know ahead of time what pig you are going to use whether it has got an infection, etcetera, etcetera. So eventually it'll be a huge step forward.<br><br>
+
+<b>SdJ:</b> This is great. Well, I think I have actually asked you everything and you said more than I, I actually wanted to know like that's great. But would you actually like to add anything that you think is important for me to know?<br><br>
+
+<b>BS:</b> I think so. I think we've covered most of the topics I think are important. If I think of anything, I'll send you an email. But I think we've covered pretty well now whether we've covered your basic premise as to whether this is gonna affect people's consideration of themselves as a person, if they've got a pig organ or they may have more than one pig organ, they may pig up lungs or something. I don't think they will. I think they wish to stay alive more or less, it takes precedence over almost everything else in patients. And they'll accept the doubts they have in their mind if they know it's the only way they can stay alive. And so I think it outdoes everything else. But they may still have some deep-seated concerns that they're not entirely human. Now they've got some pig organs in, but we can always reassure them that the pig organ has some human genes in it, so that's not bad, you know? But yeah. So it's an interesting topic. What you are looking at is people's attitudes to their own bodies. And obviously, it takes many different roles. I dunno if you're looking at young girls who wanna stay thin and all this sort of stuff because they think that's what's social.<br><br>
+
+<b>SdJ:</b> The social construction of the body.<br><br>
+
+<b>BS:</b> As well. Yeah. Yeah. And this is an offshoot of that really. So it's quite an interesting topic. Okay. Okay. I will, if I think of anything else, I'll send you an email and I will get this to you somehow before the end of this week.<br><br>
+
+<b>SdJ:</b> Thank you so much for your time.<br><br>
+
+  </div>
+
+  </div>
+
+</span>
 </div>
 
 <div class="tooltip-ref">BIBLIOGRA<br>REFERENCES
-  <span class="tooltiptext-ref">Tooltip text</span>
+  <span class="tooltiptext-ref">
+  <div style="padding: 5%; margin-left: 5%; margin-right: 5%">
+Acuto, M., & Curtis, S. (2013). <i>Reassembling International Theory: Assemblage Thinking and International Relations.</i> Palgrave Pilot.<br><br>
+
+Badham, V. (2017, October 6). From Graham to the Skywhale: the unsettling mutations of Patricia Piccinini. <i>The Guardian.</i> <a href="https://www.theguardian.com/artanddesign/2017/oct/07/from-graham-to-the-skywhale-the-unsettling-mutations-of-patricia-piccinini"> https://www.theguardian.com/artanddesign/2017/oct/07/from-graham-to-the-skywhale-the-unsettling-mutations-of-patricia-piccinini</a><br><br>
+
+Barad, K. (2003). Posthumanist Performativity: Toward an Understanding of How Matter Comes to Matter. <i>Signs: Journal of Women in Culture and Society</i>(28), 801-831. doi: https://doi.org/10.1086/345321<br><br>
+
+Barad, K. (2007). <i>Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning.</i> Duke University Press<br><br>
+
+Belmonte, J. (2016). <i>An image of a pig blastocyst being injected with human cells.</i> National Geographic. https://www.nationalgeographic.es/animales/crean-en-un-laboratorio-el-primer-hibrido-humano-cerdo<br><br>
+
+Boccioni, U. (1913-1931). <i>Unique Forms of Continuity with Space.</i> [Plaster]. Museo de Arte Contemporáneo de la Universidad de São Paulo, São Paulo, Brasil.<br><br>
+
+Bourret, R., Martinez, E. Vialla, F., Giquel, C. Thonnat-Marin, A. & De Vos, J. (2016, June 29).  Human–animal chimeras: ethical issues about farming chimeric animals bearing human organs. <i>Stem Cell Research & Therapy</i>(7), 1-7. doi: https://doi.org/10.1186/s13287-016-0345-9<br><br>
+
+Carpentier, L. (2012, May 30). Wim Delvoye, le fils indigne de Walt Disney. <i>Le Monde.</i> https://www.lemonde.fr/culture/article/2012/05/30/wim-delvoye-le-fils-indigne-de-walt-disney_1709600_3246.html<br><br>
+
+Chouinard, M. (2005). <i>‘body_remix/goldberg_variations’.</i> Marie Chouinard Company.<br><br>
+
+Colman, F. (2018, May 18). <i>Agency.</i> New Materialism. https://newmaterialism.eu/almanac/a/agency.html<br><br>
+
+Coole, D., & Frost, S. (2010). <i>New materialisms: Ontology, agency, and politics.</i> Duke University Press<br><br>
+
+Clarke, B. & Parsons, J. (2013). Becoming Rhizome Researchers. Reconceptualizing Educational Research Methodology, 4(1), 35-43. doi: http://dx.doi.org/10.7577/rerm.685<br><br>
+
+de la Casa, E. (2017). Intensive Pig Farming: Ethical Considerations. Derecho Animal Forum of Animal Law Studies 8(3). doi: http://dx.doi.org/10.5565/rev/da.6<br><br>
+
+De Landa, M. (2006). A New Philosophy of Society: Assemblage Theory and Social Complexity. Bloomsbury.<br><br>
+
+De Landa, M. (2016). Assemblage Theory. Edinburgh University Press.<br><br>
+
+de Medici, C. (c. 400 BCE). Chimera of Arezzo. [Bronze]. Museo Archeologico Nazionale, Florence, Italy.<br><br>
+
+Deleuze, G. & Guattari, F. (1987). A Thousand Plateaus: Capitalism and Schizophrenia. University of Minnesota Press.<br><br> 
+
+Delvoye, W. (2010). Drawings and Models. [Pigs skin, tattoo ink]. Museum of Modern and Contemporary Art, Nice, France.<br><br>
+
+Ferrando, F. (2013). Posthumanism, Transhumanism, Antihumanism, Metahumanism, and New Materialisms: Differences and Relations. Existenz.<br><br>
+
+EIT Health. (2022, May 23). Using big data to improve healthcare. https://eithealth.eu/think-tank-topic/using-big-data-to-improve-healthcare/<br><br>
+
+Edwards, M., & Kirkham, N. (2014). Situating ‘giving voice to values’: A metatheoretical evaluation of a new approach to business ethics. Journal of Business Ethics, 121(3), 477–495. doi: 10.1007/s10551-013-1738-7<br><br>
+
+Fishman, J. , Scobie, L., & Takeuchi, Y. (2012). Xenotransplantation-associated infectious risk: a WHO consultation. Xenotransplantation, 19(2), 72–81. doi: https://doi.org/10.1111/j.1399-3089.2012.00693.<br><br>
+
+Fox, N. & Alldred, P. (2015). New materialist social inquiry: designs, methods and the research-assemblage. International Journal of Social Research Methodology, 18(4), 399-414. doi: https://doi.org/10.1080/13645579.2014.921458<br><br>
+
+Gáldy, A. (2003). The Chimera from Arezzo and Renaissance Etruscology. Common Ground: Archaeology, Art, Science, and Humanities.<br><br> 
+
+Geerts, E. (2016, August 14). Ethico-onto-epistem-ology. New Materialism. https://newmaterialism.eu/almanac/e/ethico-onto-epistem-ology.html
+
+Grün, G. (2003). Ovo Nero. [Oil on paint]. Museo Sivori, Buenos Aires, Argentina.<br><br>
+
+Haddow, G. (n.d.). Background to Animal, Mechanical and Me. Animal, mechanical and me: the search for replaceable hearts. https://animalmechanicalandme.com/<br><br>
+
+Haddow, G. (2021). Embodiment and everyday cyborgs: Technologies that alter subjectivity. Manchester University Press. doi: https://doi.org/10.7765/9781526114198<br><br>
+
+Merriam Webster. (n.d.). Bodied. In Merriam-Webster.com. https://www.merriam-webster.com/dictionary/<br><br>
+
+Haines, A. (n.d.) Mainsite. https://www.agihaines.com/home<br><br>
+
+Haines, A. (2013) Circumventive Organs. [3D bioprinting material]. Science Gallery, Dublin, Ireland.<br><br>
+
+Hamilton, D. (2012). A History of Organ Transplantation: Ancient Legends to Modern Practice. University of Pittsburgh Press.<br><br> 
+
+Haraway, D. (2003). The Companion Species Manifesto: Dogs, People and Significant Otherness. Prickly Paradigm Press.<br><br>
+
+Hood, E. & Kraehe, A. (2017). Creative Matter: New Materialism in Art Education Research, Teaching, and Learning. Art Education, 70(2), 32-38. doi: 10.1080/00043125.2017.1274196<br><br>
+
+Holowaty Krales, A. (2019, April 26). Sarah Sitkin’s bodysuits presents the human form as it really is. The Verge.  https://www.theverge.com/2019/4/26/18516520/sarah-sitkin-bodysuits-sculptures-superchief-art<br><br>
+
+Lee, S., Lee, H., Bong Oh, K., Hwang, I., Yang, H.  Park, M., Ock, S., Woo, J., Im, G. & Hwang, S. (2017). Transgenic cloned piglets. National Institute of Animal Science, Republic of Korea. doi: https://doi.org/10.12717/DR.2017.21.2.157<br><br>
+
+Johnson, L. (2022, January 19). Xenotransplantation: Three Areas of Concern. The Hasting Center. https://www.thehastingscenter.org/xenotransplantation-three-areas-of-concern/<br><br>
+
+Kapoor, A. (2012). All inside myself. [Silicone on canvas]. Venice Art Biennale, Venice, Italy.<br><br>
+
+Kapoor, A. (2008-2009). Shooting into the Corner. [Mixed media]. CorpArtes, Santiago de Chile, Chile.<br><br>
+
+Karpowicz, P., Cohen, C. & van der Kooy, D. (2004). It is ethical to transplant human stem cells into nonhuman embryos. Nature Medicine 10(4), 331-5. doi: 10.1038/nm0404-331<br><br>
+
+Klymiuk, N., Aigner, B., Brem, G., & Wolf, E. (2010). Genetic modification of pigs as organ donors for xenotransplantation. Molecular reproduction and development, 77(3), 209–221. https://doi.org/10.1002/mrd.21127<br><br>
+
+Koo, O., Jang, G. & Chun Lee, B. (2012). Minipigs as Laboratory Animals: Facility. Reproduction Development Biology 36(1), 79-85.<br><br>
+
+Lesage, J. (2022, February 8). The ethical and legal issues of xenotransplantation. Village de la Justice. https://www.village-justice.com/articles/les-enjeux-ethiques-juridiques-xenotransplantation,41559.html<br><br>
+
+Lind, M. (2019). Post-qualitative inquiry in art education research. Interest Group 61(4). 32.<br><br>
+ 
+Lu, T., Yang, B., Wang, R. & Qin, C. ( 2020, January 23). Xenotransplantation: Current Status in Preclinical Research. Frontiers in Immunology. https://doi.org/10.3389/fimmu.2019.03060<br><br>
+
+Madison, S. (2020). Soul Science: Know your Soul. Lulu Press.<br><br> 
+
+Mazzei, L. (2013). A voice without organs: interviewing in posthumanist research. International Journal of Qualitative Studies in Education, 26(6), 732-740. doi: https://doi.org/10.1080/09518398.2013.788761<br><br>
+
+Mazzei, L. (2016). Voice Without a Subject. Cultural Studies Critical Methodologies 16(2), 151-162. doi: 10.1177/1532708616636893<br><br>
+
+Mckinley, J. (2020). Introduction: Theorizing research methods in the ‘golden age’ of applied linguistics research. Routledge.<br><br> 
+
+Metabody. (n.d.). Jaime del Val.  https://metabody.eu/jaime-del-val/<br><br>
+
+Moran, B. M., Payne, C. , Langdon, Q., Powell, D., Brandvain, Y. & Schumer, M. (2021). The genomic consequences of hybridization. eLife (10). doi: https://doi.org/10.7554/eLife.69016<br><br>
+
+Muse Firenze. (n.d.). Taming the beast. the chimera of arezzo, cosimo i and baccio bandinelli. Muse Firenze. https://musefirenze.it/en/vincere-il-mostro-la-chimera-darezzo-cosimo-i-e-baccio-bandinelli/<br><br>
+
+Nikolov, L. & Tsiantis, M. (2015). Interspecies Gene Transfer as a Method for Understanding the Genetic Basis for Evolutionary Change: Progress, Pitfalls, and Prospects. Frontiers in Plant Science(6), 1-8. doi: 10.3389/fpls.2015.01135<br><br>
+
+Norton, A. & Zehner, O. (2008). Which Half Is Mommy?: Tetragametic Chimerism and Trans-Subjectivity. Women’s Studies Quarterly(4), 106–127. doi: 10.1353/wsq.0.0115. S2CID 55282978<br><br>
+
+NLTK. (n.d.). Natural Language Toolkit. https://www.nltk.org/<br><br>
+
+Piccinini, P. (2002). The Young Family. [Silicone, fibreglass, leather, human hair, and plywood]. National Museum of Women in the Arts, Washington, United States.<br><br>
+
+Powell, A. (2011). A transplant makes history. The Harvard Gazette. https://news.harvard.edu/gazette/story/2011/09/a-transplant-makes-history/
+
+Rabin, R. (2022, March 9). Patient Who Received Groundbreaking Pig Heart Transplant Dies. New York Times. https://www.nytimes.com/2022/03/09/health/heart-transplant-pig-bennett.html<br><br>
+
+Rogowska-Stangret, M. (2017). Corpor(e)al Cartographies of New Materialism: Meeting the Elsewhere Halfway. The Minnesota Review (88), 59–68. doi: https://doi.org/10.1215/00265667-3787390<br><br>
+
+Sellers, M. (2015). ...Working with (a) rhizoanalysis...and working (with) a rhizoanalysis. RMIT University.<br><br>
+
+Sitkin, S. (2018). Bodysuits. [Silicone, human hair and fabric]. Superchief Gallery, Los Angeles, United States of America.<br><br>
+
+St Pierre, E. (2017). Qualitative inquiry in neoliberal times. Routledge.<br><br>
+
+St Pierre, E. (2019). Post qualitative inquiry in an ontology of immanence. Qualitative Inquiry, 25(1), 3-16. doi: https://doi.org/10.1177/1077800418772634<br><br>
+
+St Pierre, E., & Jackson, A.(2014). Qualitative Data Analysis After Coding. Qualitative Inquiry, 20(6), 715–719. doi: 10.1177/1077800414532435 <br><br>
+
+Stelarc (2008). The Ear on Arm. [3D bioprinting material, human arm, mice]. Melbourne, Australia.<br><br>
+
+Sweet, L. (n.d.). More Swine Art by Wim Delvoye : Tattooed Pigs & Pigskins. ifitshipitshere. https://www.ifitshipitshere.com/more-swine-art-by-wim-delvoye-tattooed-pigs-pigskins/<br><br>
+
+Tilney, N. (2003). Transplant: From Myth to Reality. Yale University.<br><br>
+
+University of Maryland School of Medicine. (2022, January 10). University of Maryland School of Medicine Faculty Scientists and Clinicians Perform Historic First Successful Transplant of Porcine Heart into Adult Human with End-Stage Heart Disease. https://www.medschool.umaryland.edu/news/2022/University-of-Maryland-School-of-Medicine-Faculty-Scientists-and-Clinicians-Perform-Historic-First-Successful-Transplant-of-Porcine-Heart-into-Adult-Human-with-End-Stage-Heart-Disease.html<br><br>
+
+Ullman, E. (1902). Experimentelle nierentransplantation. Wien Klin Wschr, 15, 281.<br><br>
+
+U.S. Food and Drug Administration. (2021). Xenotransplantation. https://www.fda.gov/vaccines-blood-biologics/xenotransplantation#:~:text=Xenotransplantation%20is%20any%20procedure%20that,nonhuman%20animal%20cells%2C%20tissues%20or<br><br>
+
+Vancon, L. (2019). Transgenic baby pigs under a light. MIT Technology Review. https://www.technologyreview.com/2019/11/01/132110/meet-the-pigs-that-could-solve-the-human-organ-transplant-crises/<br><br>
+
+Webb, P. (1959). Control of the human environment. IRE Transactions on Automatic Control, 4(3), 36-36. doi: 10.1109/TAC.1959.1104891<br><br>
+  
+  </div></div>
+</span>
 </div>
+
 
 
 
