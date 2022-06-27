@@ -662,20 +662,20 @@ svg text {
 /*   color: white; */
 }
 
-.content3 {
-  border: 1px solid;
+.content1 {
+  border: 1px dotted;
   padding: 15px;
   position: absolute;
   z-index: 9999;
   width: 85%;
-  height: 65%;
+  height: 50%;
   background-color: white;
 }
 
 #edit_content {
   position: absolute;
   z-index: 10000;	
-  top: 105%;
+  margin-top: 35%;
   background-color: white;
   border: 1px solid black;
   margin-bottom: 5%;
@@ -725,12 +725,12 @@ figcaption {
 */
 
 .tooltip-ref {
-  position: relative;
+  position: absolute;
   display: inline-block;
-  top: -22%;
-  left: 65%;
+  top: 80%;
+  left: 83%;
   text-align: right;
-  color: transparent;
+/*   color: transparent; */
 }
 
 .tooltip-ref .tooltiptext-ref {
@@ -739,7 +739,7 @@ figcaption {
   color: black;
   text-align: center;
   border-radius: 50px;
-  left: -76vw;
+  left: -74vw;
   text-align: justify;
   visibility: hidden;
   width: 80vw;
@@ -763,9 +763,9 @@ figcaption {
 }
 
 .tooltip-didier {
-  position: relative;
+  position: absolute;
   display: inline-block;
-  color: transparent;
+/*   color: transparent; */
   top: 10vh;
   left: 4%;
 }
@@ -799,12 +799,12 @@ figcaption {
 }
 
 .tooltip-jaime {
-  position: relative;
+  position: absolute;
   display: inline-block;
   top: 10%;
   text-align: right;
-  left: 80%;
-   color: transparent;
+  left: 87.5%;
+/*    color: transparent; */
 }
 
 .tooltip-jaime .tooltiptext-jaime {
@@ -836,11 +836,11 @@ figcaption {
 }
 
 .tooltip-benjamin {
-  position: relative;
+  position: absolute;
   display: inline-block;
-  top: 80%;
-  left: -9%;
-  color: transparent;
+  top: 78%;
+  left: 6%;
+/*   color: transparent; */
 }
 
 .tooltip-benjamin .tooltiptext-benjamin {
@@ -849,7 +849,7 @@ figcaption {
   color: black;
   text-align: center;
   border-radius: 50px;
-  left: 5vw;
+  left: 4vw;
   text-align: justify;
   visibility: hidden;
   width: 80vw;
@@ -1283,11 +1283,13 @@ The fonts used are two because it reflects back on the cross-species or interspe
 <!-- SUBMITTING FORM -->
 <div class="subtitles" style="margin-bottom: 2%;">Leave your own outcome or comments below</div>
 
-<div class="content3">
-<button id="edit_content">Submit</button>
+<div class="content1">
+Write here... 
 </div>
+<br>
+<button id="edit_content">Edit</button>
 
-<div class="space" style="height: 5vh; width: 80%; position: absolute; margin-bottom: 5%;"></div>
+<div class="space" style="height: 5vh; width: 80%; position: relative; margin-bottom: 5%;"></div>
   
 </div>
   	</div>
@@ -2097,11 +2099,7 @@ Webb, P. (1959). Control of the human environment. <i>IRE Transactions on Automa
 </div>
 
 
-
-
 <!-- <div class="references">References</div> -->
-
-
 
 
 <script>
@@ -2196,24 +2194,21 @@ soundTrigger.addEventListener("mouseleave", function (e) {
 	audio.currentTime = 0;
 });
 
-
-/*
 window.onload = function() {
-	if(localStorage.getItem('content3')) {
-		document.querySelector('.content3').innerHTML = localStorage.getItem('content3');
+	if(localStorage.getItem('content1')) {
+		document.querySelector('.content1').innerHTML = localStorage.getItem('content1');
   }
 }
 
 let editBtn = document.querySelector('#edit_content');
-let content = document.querySelector('.content3');
+let content = document.querySelector('.content1');
 
 editBtn.addEventListener('click', () => {
 	content.contentEditable = !content.isContentEditable;
   if(content.contentEditable === 'false') {
-  	localStorage.setItem('content3', content.innerHTML);
+  	localStorage.setItem('content1', content.innerHTML);
   }
 });
-*/
 
 </script>
 
