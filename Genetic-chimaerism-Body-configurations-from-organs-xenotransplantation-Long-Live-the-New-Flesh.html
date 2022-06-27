@@ -240,37 +240,6 @@ h2 {
 	top: -30vh;left: 5.5vw;
 }
 
-.tooltip-ref {
-  display: inline;
-  position: relative;
-}
-
-.tooltip-ref:hover:after{
-  display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: center;
-  justify-content: center;
-  background: #444;
-  border-radius: 8px;
-  color: #fff;
-  content: attr(title);
-  margin: -82px auto 0;
-  font-size: 16px;
-  padding: 13px;
-  width: 220px;
-  
-}
-.tooltip-ref:hover:before{
-  border: solid;
-  border-color: #444 transparent;
-  border-width: 12px 6px 0 6px;
-  content: "";
-  left: 45%;
-  bottom: 30px;
-  position: absolute;
-}
-
-
 .tooltiptext, .tooltiptext2, .tooltiptext3, .tooltiptext4, .tooltiptext5, .tooltiptext6, .tooltiptext7, .tooltiptext8, .tooltiptext9, .tooltiptext10, .tooltiptext11, .tooltiptext12, .tooltiptext13, .tooltiptext14, .tooltiptext15, .tooltiptext16, .tooltiptext17, .column {
 	overflow-y: auto;
 }
@@ -628,6 +597,7 @@ text {
   width: 28%;
   padding: 10px;
   margin: 1%;
+  font-size: 0.8rem;
   height: 60vh; /* Should be removed. Only for demonstration */
 }
 
@@ -707,18 +677,54 @@ svg text {
 }
 
 .captions {
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 	margin-bottom: 3vh;
+	text-align: left;
 }
 
 figcaption {
 	font-size: 0.7rem;
 }
 
+/*
+.tooltip-ref {
+  display: inline;
+  position: relative;
+}
+
+.tooltip-ref:hover:after{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  background: #444;
+  border-radius: 8px;
+  color: #fff;
+  content: attr(title);
+  margin: -82px auto 0;
+  font-size: 16px;
+  padding: 13px;
+  width: 220px;
+  
+}
+.tooltip-ref:hover:before{
+  border: solid;
+  border-color: #444 transparent;
+  border-width: 12px 6px 0 6px;
+  content: "";
+  left: 45%;
+  bottom: 30px;
+  position: absolute;
+}
+*/
+
 .tooltip-ref {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
+  top: 82%;
+  left: 67%;
+  text-align: right;
 }
 
 .tooltip-ref .tooltiptext-ref {
@@ -743,6 +749,8 @@ figcaption {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
+  top: 10%;
+  left: 3%;
 }
 
 .tooltip-didier .tooltiptext-didier {
@@ -767,6 +775,9 @@ figcaption {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
+  top: 10%;
+  text-align: right;
+  left: 82%;
 }
 
 .tooltip-jaime .tooltiptext-jaime {
@@ -791,6 +802,8 @@ figcaption {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
+  top: 84%;
+  left: -10%;
 }
 
 .tooltip-benjamin .tooltiptext-benjamin {
@@ -913,7 +926,7 @@ figcaption {
 <span class="tooltiptext">   
   <div> 
   	<div class="one-row">
-<div class="two-columns" style="text-align:left; margin-top: 3%"><div class="subtitles">Background of the research problem and state of the art</div><br><br>Attempts to treat people using animal material, such as tissues or organs, are not new. In 1628, Colle de Belluno of Padua performed the first human blood transfusions, and in 1682, a doctor attempted to transplant a part of a dog’s skull onto a Russian man who had been injured. The earliest verified attempts at xenotransplantation were made as early as the 18th century, and the first dog or cat corneal transplants were unsuccessfully attempted to heal patients who eventually went blind (Ullman, 1902). The U.S. Food and Drug Administration defines xenotransplantation as “any procedure that involves the transplantation, implantation, or infusion into a human recipient of either (a) live cells, tissues, or organs from a nonhuman animal source, or (b) human body fluids, cells, tissues, or organs that have had ex vivo contact with live nonhuman animal cells, tissues, or organs” (U.S. FDA, 2021).<br><br>
+<div class="two-columns" style="margin-top: 2%"><div class="subtitles" style="text-align:left;">Background of the research problem and state of the art</div><br>Attempts to treat people using animal material, such as tissues or organs, are not new. In 1628, Colle de Belluno of Padua performed the first human blood transfusions, and in 1682, a doctor attempted to transplant a part of a dog’s skull onto a Russian man who had been injured. The earliest verified attempts at xenotransplantation were made as early as the 18th century, and the first dog or cat corneal transplants were unsuccessfully attempted to heal patients who eventually went blind (Ullman, 1902). The U.S. Food and Drug Administration defines xenotransplantation as “any procedure that involves the transplantation, implantation, or infusion into a human recipient of either (a) live cells, tissues, or organs from a nonhuman animal source, or (b) human body fluids, cells, tissues, or organs that have had ex vivo contact with live nonhuman animal cells, tissues, or organs” (U.S. FDA, 2021).<br><br>
 Grafts of animal skin tissue were accomplished around the end of the nineteenth century. It was particularly around the early 1900s when the trials multiplied. Mathieu Jaboulay, in 1906, accomplished the first two animal organ transplants on humans. The first patient was a woman who had kidney failure by transplanting. A pig kidney was placed outside the human body, at the bend of the elbow, but the graft did not work. He repeated the experiment a few months later using a goat kidney, which was also a failure. It was then the turn of monkeys reputed to be close to humans to serve as raw material for Serge Voronoff for tissue grafts from their testicles on men in order to restore their vitality. It was then necessary to wait until the beginning of the 1960s for new xenografts to be attempted. (Hamilton, 2012) In 1954, the first human organs successful transplant was from the identical twin brother kidney’s deceased patient Richard Herrick. Previously this would be considered a deadly illness, but with the help of the new transplant the first recipient could live eight more years (Powell, 2011).<br><br> 
 From Friday January 7, 2022, a 57-year-old man lived with a genetically modified pig’s heart for two months (Rabin, 2022). The xenotranspla3ntation on this patient was announced Monday, January 10 by a team from the University of Maryland School of Medicine in the United States of America. (University of Maryland School, 2022). David Bennett, a sufferer of an end-stage heart failure and arrhythmia, was ineligible for a conventional heart transplant, or even an artificial heart pump system. The U.S. Food and Drug Administration (FDA) therefore authorised this experimental strategy on a compassionate basis, in this consenting patient and without any other therapeutic option. He became the first human being whose life could have been saved thanks to a xenotransplantation.<br><br>
 Nicholas L. Tilney in his book ‘Transplant: From Myth to Reality’ wrote: “When I got here in 1964, the early mortality rate following transplantation was as high as 50 percent. By the end of the year, there were virtually no survivors. Now, if someone dies, it’s a cause of great angst” (Tilney, 2003, p. 86). What kind of questions can the author ask now that with the help of genome editing technologies is it possible to design a molecular fairy-tale in the field of genetic engineering to end the battle of immunological response in organ transplantation and create a personalised bio-formulated and controlled one in a lab?<br><br>
@@ -931,30 +944,35 @@ In an interview the artist explained, “I show the world works of art that are 
 To explore the insides, what scares us in the unknown, the concepts of opening the body, the tangible self, the artist’s Anish Kapoor artworks ‘All inside myself’ (Kapoor, 2012) and ‘Shooting into the Corner’ (Kapoor, 2008-2009) (Kapoor, n.d) are an example of the the eagerness to discover and fantasises about a body without a human body. The material exploration that resembles a quartered body and breaks the bounds between physicality and the limits of the body form and figure.<br><br>
 Sarah Sitkin in her artwork ‘Bodysuits’ (Sitkin, 2018) as in Figure 10 uses her special effects materials to create hyper-realistic figures of human torsos that function as a vest that allows you to experience another body. It also questions whether the body somehow defines our identity, making the suit function as a garment and not as a person. With her interactive art, the artist makes it possible for people who use her artwork to try on several different bodies and be surprised first by the visual impact, and then realise that the person wearing it is still the same (Holowaty Krales, 2019).<br><br>
 Umberto Boccioni’s famous futurist sculpture ‘Unique Forms of Continuity with Space’ (Boccioni, 1913-1931) in Figure 11 depicts a hybrid of human forms and mechanical ones. How to time and space, meaning the environment and the actions, a body becomes in movement and (re)shapes the human form. The material is inorganic yet the shapes look like a mixture of organic bodily movements. 
-The last artwork I will mention is the ballet <a href="https://youtu.be/o9RkpKbkrlo">‘body_remix/goldberg_variations’</a> by choreographer Marie Chouinard (Compagnie Marie Chouinard, 2005). In Figures 12 and 13 the dancers use crutches and other technological devices that are made for disabled people. Their movements and bodily tensions are based on the interaction with this apparatus and as well, how the lack of this interaction as well, makes another discovery of how their bodies should or can move in a different way: a desired relationship with the non-human.<br><br>
+The last artwork I will mention is the ballet ‘<a href="https://youtu.be/o9RkpKbkrlo">body_remix/goldberg_variations</a>’ by choreographer Marie Chouinard (Compagnie Marie Chouinard, 2005). In Figures 12 and 13 the dancers use crutches and other technological devices that are made for disabled people. Their movements and bodily tensions are based on the interaction with this apparatus and as well, how the lack of this interaction as well, makes another discovery of how their bodies should or can move in a different way: a desired relationship with the non-human.<br><br>
 <br><br></div>
 
  <div div class="two-columns">
  	<img class="images-thesis-columns" src="images-thesis/agi-haines.jpg">
-	 	<div class="captions"><b>Figure 2</b> Agi Haines. (2013). <i>Circumventive Organs.</i> [3D bioprinting material] Science Gallery, Dublin, Ireland.</div>
+	 	<div class="captions"><b>Figure 2.</b> Agi Haines. (2013). <i>Circumventive Organs.</i> [3D bioprinting material] Science Gallery, Dublin, Ireland.</div>
  	<img class="images-thesis-columns" src="images-thesis/paccini.png">
- 	 	<div class="captions"><b>Figure 2</b> Agi Haines. (2013). <i>Circumventive Organs.</i> [3D bioprinting material] Science Gallery, Dublin, Ireland.</div>
+ 	 	<div class="captions"><b>Figure 3.</b> Patricia Piccinini. (2002). <i>The Young Family.</i> [Silicone, fibreglass, leather, human hair, and plywood]. National Museum of Women in the Arts, Washington, United States.</div>
  	<img class="images-thesis-columns" src="images-thesis/stelarc.jpeg">
  	<img class="images-thesis-columns" src="images-thesis/mice.jpeg">
- 	 	<div class="captions"><b>Figure 2</b> Agi Haines. (2013). <i>Circumventive Organs.</i> [3D bioprinting material] Science Gallery, Dublin, Ireland.</div>
+ 	 	<div class="captions"><b>Figures 4 & 5.</b> Stelarc. (2008). <i>The Ear on Arm.</i>[3D bioprinting material, human arm, mice]. Melbourne, Australia.</div>
  	<img class="images-thesis-columns" src="images-thesis/wim1.png">
  	<img class="images-thesis-columns" src="images-thesis/wim2.jpeg">
- 	 	<div class="captions"><b>Figure 2</b> Agi Haines. (2013). <i>Circumventive Organs.</i> [3D bioprinting material] Science Gallery, Dublin, Ireland.</div>
+ 	 	<div class="captions"><b>Figures 6 & 7.</b> Wim Delvoye. (2010). <i>Drawings and Models.</i> [Pigs skin, tattoo ink]. 
+Museum of Modern and Contemporary Art, Nice, France.</div>
  	<img class="images-thesis-columns" src="images-thesis/anish1.jpeg">
- 	<img class="images-thesis-columns" src="images-thesis/anish2.jpeg">
- 	 	<div class="captions"><b>Figure 2</b> Agi Haines. (2013). <i>Circumventive Organs.</i> [3D bioprinting material] Science Gallery, Dublin, Ireland.</div>
+ 	 	<div class="captions"><b>Figure 8. </b>Anish Kapoor. (2012). <i>All inside myself.</i> [Silicone on canvas]. Venice Art Biennale, Venice, Italy.</div>
+ 	 	 <img class="images-thesis-columns" src="images-thesis/anish2.jpeg">
+ 	<div class="captions"><b>Figure 9.</b>Anish Kapoor. (2008-2009). <i>Shooting into the Corner.</i> [Mixed media]. 
+CorpArtes, Santiago de Chile, Chile.</div>
  	<img class="images-thesis-columns" src="images-thesis/sitkin.jpeg">
- 	 	<div class="captions"><b>Figure 2</b> Agi Haines. (2013). <i>Circumventive Organs.</i> [3D bioprinting material] Science Gallery, Dublin, Ireland.</div>
+ 	 	<div class="captions"><b>Figure 10.</b> Sarah Sitkin. (2018). <i>Bodysuits.</i> [silicone, human hair and fabric]. Superchief Gallery, 
+Los Angeles, United States of America.</div>
  	<img class="images-thesis-columns" src="images-thesis/boccioni.jpeg">
- 	 	<div class="captions"><b>Figure 2</b> Agi Haines. (2013). <i>Circumventive Organs.</i> [3D bioprinting material] Science Gallery, Dublin, Ireland.</div>
+ 	 	<div class="captions"><b>Figure 11.</b> Umberto Boccioni. (1913-1931). <i>Unique Forms of Continuity with Space.</i> [Plaster]. Museo de Arte Contemporáneo de la Universidad de São Paulo, São Paulo, Brasil.</div>
  	<img class="images-thesis-columns" src="images-thesis/bodyremix1.jpeg">
  	<img class="images-thesis-columns" src="images-thesis/bodyremix2.jpeg">
- 	 	<div class="captions"><b>Figure 2</b> Agi Haines. (2013). <i>Circumventive Organs.</i> [3D bioprinting material] Science Gallery, Dublin, Ireland.</div>
+ 	 	<div class="captions"><b>Figures 12 & 13.</b> Marie Chouinard. (2005). <i>‘body_remix/goldberg_variations’.</i><br> 
+Marie Chouinard Company.</div>
 
 </div> 
 
@@ -1000,7 +1018,7 @@ Starting from the hypothesis that the definition of the human body can no longer
 
 Thus, this thesis is oriented towards how genetic chimaerism can generate a definition of "human body" and "human nature" that is divergent and more open than the conception rooted in the humanist and positivist tradition. In this bodily problem, it must be conceived, both from the ontological, epistemological, and ethical aspect, to avoid the single understanding of its biological and psychosocial status and being open to its relational dimension, as a human and non-human bond (animals for xenotransplantation).<br><br> 
 
-From this point, the primary research question, and some secondary questions that I wanted to explore the answers for were generated. I understood that a research question is not an arrival point, but a starting point, which opens the door to unexpected events that emerge during the research process.<br><br> 
+From this point, the primary research question, and some secondary questions that I wanted to explore the answers for were generated. I understood that a research question is not an arrival point, but a starting point, which opens the door to unexpected events that emerge during the research process.<br><br><br>  
 
 <div class="subtitles">Research Questions:</div><br><br>
 
@@ -1016,7 +1034,7 @@ To explore these questions and see where the research is taking out, I set out  
 
 <div class="subsubtitles">Main objective:</div>To reveal the diversity of body conceptions and configurations, emerged from xenotransplanted humans’ discussion.<br><br>
 
-<div class="subsubtitles">Specific objectives:</div><br>
+<div class="subsubtitles">Specific objectives:</div>
 <div class="indent"> To conduct an exhaustive theoretical and bibliographical literature review.<br>
 To perform a set of interviews with specialists in the field of my research topic.<br>
 To generate knowledge based on the combination of the outcomes of the interviews and the theoretical and bibliographical literature.<br>
@@ -1070,7 +1088,7 @@ New materialisms and posthuman thinking allow me to create new possibilities of 
 The human does not necessarily have to be the centre of enquiry, but we can understand how the human connects with the non-human (Hood & Kraehe, 2017). This has to do with the theory of agency which focuses on what we can observe and what we can investigate and does not necessarily have to do with people or with the human, but rather with an interaction and intra-action (Barad, 2007). The assemblage theory is what causes assemblages. It can help us understand the idea of the body as a puzzle in which editing, inserting, and hiding DNA meets the concept of interspecies. The assemblages are what we go through and what helps us understand the relationships between complementary elements and what the axes of power are, as well as hierarchies and inequalities. How elements, or in this case, two different DNAs are connected with each other and co-habitate / live in the same body.<br><br>
 Assemblies cause movement and give the ability to modify a situation, they can be dynamically configured and reconfigured (De Landa, 2006). This always has to do with the territory, limits, frontiers, borders, ways of doing things based on the configuration of this territory. The arrangement of material objects and the relationship between them, something that invites you or provokes something determined, how objects affect a future that opens the possibility of creating or not an action to create various movements, possibilities and tensions based on the various assemblies.<br><br>
 Then I can say that the context is an intra-action with agency power in the future (Barad, 2003). In the assemblage, what matters is not only the final process of the things that come together to generate an assemblage, but also the process in which things occur (De Landa, 2016; Acuto & Curtis, 2013). The becoming that allows an agency to take place. Agency is also a product that consists of composing various pieces together and that conjunction allows us to do something. It is not only the product but also the process which takes shape, or one could say that it is the process in which that product is established and generated. Agency can always change; it never has a finished character, and it has different multiple dynamic intensities and are in constant motion (Deleuze & Parnet, 1980; Fox & Aldred, 2015).<br><br> 
-Introducing ‘Long live the New Flesh’ as a hypothesis, a bio-constructed body, is an attempt to resolve the thanatophobia and anxiety through an embodied performance (Haddow, 2021). With the use of xenotransplantation, the research will explore forms, conceptions, and concepts to determine the knowledge of this type of body / human without precedent.<br><br>
+Introducing ‘Long live the New Flesh’ as a hypothesis, a bio-constructed body, is an attempt to resolve the thanatophobia and anxiety through an embodied performance (Haddow, 2021). With the use of xenotransplantation, the research will explore forms, conceptions, and concepts to determine the knowledge of this type of body / human without precedent.
 <br><br>
 		</div>		
 	</span>
@@ -1106,7 +1124,7 @@ Dignity arguments fail for a similar reason: it is difficult to articulate a con
 			 				 	
 <br><br> <br> 
 
-			<div class="subtitles">Breeding transgenic pigs: Animals that are technology</div><br>
+	<div class="subtitles">Breeding transgenic pigs: Animals that are technology</div><br>
 			
 <figure style="margin: 0px">
     <img style="width: 50%; float: left; margin-right: 3%; margin-bottom: 6%;" src="images-thesis/pigs.jpeg" alt='Ovo Nero' />
@@ -1124,25 +1142,59 @@ To optimise the benefits of xenotransplantation, the most recent advances in sev
 
 <div class="hybridbodies">Bio-constructed/hybrid bodies:<br>The quantification of organic matter<br>Longevity: Seeking human expansion <br>or retraction through pigs?
 	<span class="tooltiptext9">   
- 
-		<div style="padding: 5%">
+		<div style="padding: 5%; font-size: 1rem">
+<div class="subtitles">Bio-constructed/hybrid bodies: The quantification of organic matter</div><br> 
+
+<figure style="margin: 0px">
+    <img style="width: 50%; float: left; margin-right: 3%; margin-bottom: 8%;" src="images-thesis/blastocyt.png" alt='Ovo Nero' />
+    <figcaption style="position: absolute; margin-top: 31%"><b>Figure 17.</b> Juan Carlos Izpisua Belmonte. (2016). <i>An image <br>of a pig blastocyst being injected with human cells.</i></figcaption>
+</figure>
+Even though the organs from a pig have a similar size and look like human ones, the rejection risk of xenotransplanted material has been an issue that scientists were confronted to tackle. Genetic engineering technologies such as CRISPR-Cas9 with the help of immunosuppressive therapies open the door to avoid the potential rejection of the organ that is grown in an animal host (Haddow, 2021). The human that would receive the organ can make it recognised as a part of itself due to the fact that the DNA is the same as the person. This procedures of adding and subtracting or thinking the body as a replaceable and interchangeable thing related to the ‘The Ship of Theseus’ paradox which “is a thought experiment that raises the question of whether an object that has had all of its components replaced remains fundamentally the same object” (Madison, 2020, p. 89).<br><br> 
+
+The history and relationship between humans and the eagerness to control over the environment from micro to macro and the things that surround them is an old story (Webb, 1959). This brings to the light the thought of the body as a database driven machine, where even the biological essence of it all, the DNA, can be controlled, manipulated, and most importantly constructed by the data that constitutes identities. Now with the scientific application of Big Data and health research questions the idea of freedom as the all the genetic database that has information to do with the construction of bodies and the possibility to make hybrid creatures be created (EIT Health, n.d.). Health Big Data is shared knowledge of organic material, human and non-human, which then a computer reads, processes, reads and allows humans to shape by their agential realism of its own evolution.<br><br>
+
+Darwinian species storyline and networks are a thing from the past using methods of quantification of the body. If the body becomes a measurable thing in which adding and subtracting parts of it based on biometric information, what does this mean for the constitution of the human and any organic material? Ulfried Reichardt and Regina Schober wrote the following related to the construction of bodies and data:<br><br>
+
+<div class="indent"> The use of data in conceptualizing the human body has been present in narratives of the self for much longer than current discourses on self-quantification would suggest. What Don DeLillo depicts in his 1984 novel White Noise already indicates the measurability of biometric data in relation to individual risk assessment, while it may not be self-tracking as we know it today. Jack Gladney, the protagonist of DeLillo’s novel, exposed to toxic fumes, tries to reach certainty about his health status – a desire that is denied to him. The novel thus exemplifies a central paradox in relation to quantified self-experience: Although numbers may seem reliable, they simultaneously create more uncertainty. While numbers provide the illusion of objectivity, like DeLillo’s protagonist, we are always left with the question of “What does this mean?” Personal data has to be interpreted to generate meaningful narratives about ourselves. Yet, what this passage also addresses is the ambivalence of probabilistic knowledge and the incalculable effects of predictions on individuals. How much data do we want to aggregate about our bodies? Under which circumstances can too much data generate problems (for example, when a prediction becomes a self-fulfilling prophecy)? (Reichardt & Schober, 2020, p. 7).</div><br>
+
+Genetic engineering technologies allow the use of bodies as true interfaces between man and animal, making the relationship between both more indirect and complex. The complexity, density and amplitude that it has acquired poses the risk of isolating and completely enclosing the human, blocking his perception of what nature has offered to itself. To avoid this, a clarification effort is required that makes it comprehensible and controllable; in other words, to make it transparent. The layers of visibility and invisibility of the man by becoming chimeras makes us question the belief that our biological identities are interchangeable.<br><br>
+
+
 		</div>
 		
 	</span>
 </div>
 
 <div class="methodology">Methodology
-		<span class="tooltiptext10">   
- 
-		<div>
+		<span class="tooltiptext10">    
+		<div style="padding: 5%; font-size: 1rem;">
+<div class="subtitles">Methodology</div><br>
+
+The paper is in search of both conceptual clarification, as well as sharing ideas and ways of doing research based on a bibliographic study and on generating knowledge with and from the sum of interviews with specialists in the field of my research topic: Didier Coeurnelle, vice-president of the French Transhumanist Association Technoprog - co-founder of International Longevity Alliance. Jaime del Val, a post-queer philosopher and metahumanist, transdisciplinary and digital artist, activist and ontohacker. Jaime  promotes the Metabody Project, Forum and Institute and the Reverso association. They develop transdisciplinary projects at the convergence of the arts, technologies, critical theory, and activism. Their projects, which have been presented in more than 30 countries in Europe, North and South America, Asia, and Africa, propose redefinitions of the body, perception, and space, questioning digital control and systems of violence and normativity and mobilising in its place a formless body (Metabody, n.d). The third person that was interviewed is a pioneering xenotransplantation researcher and heart transplant surgeon that will remain anonymous and will use a fictitious name which is Benjamin Smith. The three interviews lasted from 60 to 90 minutes and they were audio recorded and transcripted.<br><br>
+
+The research is proposed from a post-qualitative approach. It aims to generate the bases that allow projecting the knowledge and experiences that are shared within them. They are not proposed ‘against’, but ‘from’ based on interviews based on an entanglement of voices. The research process and interviews will entangle what Deleuze and Guattari (1987) refer to as a rhizome, an assemblage of voices, objects, subjects, ideas, and structures that move in dynamic motion performing waves of intensities that create new understandings and meanings.<br><br> 
+
+By means of paradigms based on entanglements that “opening the body to connections that presuppose an entire assemblage” (Deleuze & Guattari, 1987, p. 177) the research and the researcher are in the process of becoming (Clarke & Parsons, 2013). The becoming voice and the concept of time-duration show a past entanglement of bodies or sequences of phenomena and the simultaneity of empirical existence of them at a specific and precise moment in time. I will use Mazzei’s concept of a “Voice without Organs […] as a voice that does not emanate from a singular subject but is produced in an enactment among research-data-participants-theory-analysis.” (Mazzei, 2013, p. 2).<br><br> 
+
+A present voice that is bounded and it does not belong to a singular subject but to the collective forces of the voices and their material discursive forces, the precedent to a voice without subject (Mazzei, 2016). Subjectivity and the construction of knowledge is understood as multidimensional, collective, and plural: a collective voice.  As well, I would take a rhizomatic post-coding analysis (St Pierre & Jackson, 2014) approach and perspective as “open and connectable in all its dimensions; it is detachable, reversible, susceptible to constant modification” (Deleuze & Guattari, 1987, p. 12). The questions that I intend to do are conferred not from an illusory objectivity and a predetermined a priori, where rigour is related to reflexivity, but avoiding totalitarian understandings. It is what O’Sullivan calls the construction of the new as “an ‘escape’ from the fixed habits and impasses of the present through recourse to a ‘time’ undetermined by that present” contained within the possibility of a different future (O’Sullivan, 2011, p. 93).<br><br> 
+
+For instance, in the course of the enquiry process, I was supposed to interview someone that wrote a book and researched about xenotransplantation. She was very eager at the beginning to be interviewed and was flattered and enthusiastic about it. At the last moment, the day before the interview she told me that she thought she wasn’t not the right person for me to interview. Instead, she said that she didn’t have much else to say about what she has already written, and she recommended to me someone else to be interviewed. What happened to her voice? Was this all she wanted to say? Does the rigidity of her becoming-voice (Mazzei, 2016) take away from her the possibility of discovering new ideas on the subject? If research becomes itself from existential questions that we are confronted with in life, is her stopping from talking to me a resistance to new questions that could lead to new knowledge?<br><br>
+
+If I’m the selector of the person that I think is relevant for my thesis, what does control have to do with this? And what do I think is important to select relevant data? Meanwhile, while writing this thesis, I realised how myself was in the constant process of becoming and would have to ethically perform my intrinsically role in the investigation, meaning having<br>
+<div class="indent"> the ability for discourse and conversation to produce new ethical realities and, in turn, to be guided by that productive process. Performative ethics focuses on the communicative activity involved in creating and shaping moral futures. Hence, it lies outside of the normative– descriptive spectrum of theories defined by what is and wh at ought to be and creates a space for experimenting with what might be. (Edwards & Kirkham, 2014, p. 486).</div><br>
+
+Therefore, I should speak of the active and involved creation of data by the researcher, since all decisions are based on the researcher’s subjectivities (needs, tastes, preferences, what appears and what does not, etc.). This does not mean that the researcher controls everything (because it is impossible), nor that we cannot allow ourselves to get lost in the research, or to be open to the unexpected and the unknown in order to construct knowledge and theory theorising from there. Post-qualitative research and rhizomatic methodology bring to my research process the quality of linking ideas and concepts freely without the pressure of looking for only one conclusion. They allow me to let the collective subjectivity of the collection of voices that I selected as bibliographical material and the interviews I made as a self transformative-oriented  ontology of the research in itself and the outcome of it  (St. Pierre, 2017 & 2019). Post-qualitative research with rhizomatic methodology focuses on the theory calling for a philosophy of immanence that abandons the use of “be” and replaces it with the conjunction “and”. It creates the opportunities of a constant becoming of ongoing relations moving “away from epistemology (knowledge) and instead focus on ontology (being)” (Lind, 2019, p.32).<br><br>			
 		</div>
 		
 	</span>
 </div>
 <div class="methods">Research methods and decisions<br>of a rhizomatic methodology
 		<span class="tooltiptext11">   
- 
-		<div>
+		<div style="padding: 5%; font-size: 1rem;">
+<div class="subtitles">Research methods and decisions of a rhizomatic methodology</div><br>
+Approaching my research with a rhizomatic perspective to understand my investigation topic and all of the resources of information that surrounded and had to do with it, I began to write words in papers to connect what I considered a relevant reference to write about as you can see in Figure 18. But the issue I came across with is that I was writing with permanent ink and a pen, which then didn’t allow me to move the words in the paper, a non-interchangeable material. So, I thought that perhaps it would be better to put all the content of the thesis into a website as in figure 19 where the content could be interactive and strive for a  non-linear index. Rhizomatic thinking allowed me to evaluate myself as the researcher being in the in-betweenness of the research topic, its intra-action, in constant movement and becoming escaping reductive rationalism.<br><br>
+How I selected my interviewees was rhizomatic in itself by means of a network of relationships. The first participant was recommended to me by a person I wanted to interview but told me he didn’t have time but said that Didider Cournelle was a great candidate to ask questions about my research topic. Jaime del Val was suggested to me to interview by an ex classmate of mine who worked together with the candidate some years ago in a performance and that was considered after reading his work to have a lot of academic research done related to body configurations. The third candidate was discovered by doing research on scientific papers related to xenotransplantation and was precisely chosen due to his diligence and many years in-the-making work in the field of transplantation and the origins of xenotransplantation and who is still conducting research on the topic. With Didier Cournelle and Benjamin Smith the questions were related to xenotransplantation and its relation to their expertise and they were asked during the interview (<a href="https://drive.google.com/drive/folders/13-w4iUg31uUuAPdhcP8Bz0h8AZByEK00?usp=sharing">see attachments</a>). With Jaime del Val things were different since he requested to previously have the questions via email (<a href="https://docs.google.com/document/d/1IibsBCcIrspsR36n36dKYamZEszHP0d89fjkG0lvZ1U/edit?usp=sharing">see attachments</a>) and he very thoughtfully replied.<br><br>
+
 		</div>
 		
 	</span>
@@ -1150,13 +1202,13 @@ To optimise the benefits of xenotransplantation, the most recent advances in sev
 
 <div class="interviews">Interviews: Entanglement <br>of voices without organs	
 <span class="tooltiptext2">   
-  <div style="padding: 5%"> 
+  <div style="padding: 5%; font-size: 1rem;"> 
 	    
 <div class="subtitles">Interviews: Entanglement of voices without organs</div><br>
 
 The voices, the data and the intra-actions, body action and intertwining of the assemblages of agential voices from the interviewees shape a part of the thesis body of work. The voices are built together and the resultant data is built on a website (see reference) where its own network and the entanglement of the concepts and theories that I come across appear. The voices work as living systems (Parsons, 1937) that through my choices and agency and the later data analysis I made, they become related to each other based on my own subjectivity. The possible outcomes of the interviews are four because there will be one for each of them and one of my own. As well I will leave a blank editable sheet for people to be able to add their own comments and conclusions about the research topic. The website will be approached as an expressed body-becoming and as a platform where encounters between a bodily form and agencies that are non-human interact.<br><br> 
 
-In the next page I present in Figure 20 a screenshot via Zoom with Didider Cournelle and in Figure 21 another with the interview I conducted with Jaime del Val via email. As the third interviewee wants to remain anonymous, obviously I cannot present similar evidence, but rather the transcript of the complete interview that can be found in the following annexs (see reference).<br><br>
+In the next page I present in Figure 20 a screenshot via Zoom with Didider Cournelle and in Figure 21 another with the interview I conducted with Jaime del Val via email. As the third interviewee wants to remain anonymous, obviously I cannot present similar evidence, but rather the transcript of the complete interview that can be found in the following annexs (<a href="https://docs.google.com/document/d/1GSNN3y-7P4zIfji-49vgXFZ2_Zj-nYDQSUT7ElGfKtI/edit?usp=sharing">see reference</a>).<br><br>
 
 I chose to design a website and put all the content in such media due to thinking of it as a good way to achieve a visual representation of my thesis. The web is a network space that allows to display the entanglement of all concepts and ideas. It is a body of work where many languages live as its source of existence is a fusion of coding languages which are: HTML, CSS, JavaScript and Python. The coding can be seen as the genotype of the body and the visual expression as the phenotype. Superposition of layers co-exist in cells looking like points of access to the content creating a new material where the summary’s hierarchy does not matter, but what does, is the in-between links and the way they relate to each other thinking.<br><br>
 
@@ -1186,8 +1238,25 @@ The fonts used are two because it reflects back on the cross-species or interspe
   	
 <div class="data">Data analysis	
 	<span class="tooltiptext12">   
- 
-		<div>
+		<div style="padding: 5%; font-size: 1rem;">
+<div class="subtitles">Data analysis</div>
+
+<figure style="margin: 0px">
+    <img style="width: 50%; float: left; margin-right: 3%; margin-bottom: 2%;" src="images-thesis/result-didier.png"/>
+    <img style="width: 50%; float: left; margin-right: 3%; margin-bottom: 2%;" src="images-thesis/result-jaime.png"/>
+    <img style="width: 50%; float: left; margin-right: 3%; margin-bottom: 8%;" src="images-thesis/result-benjamin.png"/>
+
+    <figcaption style="position: absolute; margin-top: 72%"><b>Figure 1.</b>  Gabriel Grün. (2003). <i>Ovo Nero.</i> [Oil on paint].<br> 
+Museo Sivori, Buenos Aires, Argentina.</figcaption>
+</figure>
+
+The interviews were transcripted and the analysis method for dismembering the content of its elements was focused on the discourses and the themes that I considered relevant for the thesis. I used Natural Language Processing (NLTK, n.d) with Python, which is a programming language to realise a speech or discourse analysis of the words that were repeated more frequently in the interviews. NLP allowed me to design a cartography of words, analysing linguistic structure and categorising text and concepts. I omitted the words that were connectors and I highlighted the words that expressed adjectives and subjects, because this allows you to focus precisely on the basic concepts that have been touched on and sometimes have been reiterated. The data organisation enabled structures and assemblages because the words are linked and have agency on each other as you can see in figures 22, 23 and 24.<br><br>
+
+As well I made a thematic analysis myself to study the components that the code skipped and were still relevant to highlight to discover new connections and intra-actions of words that I initially didn’t look upon. The entanglement and assemblages of the voices of the participants in the research process, as you can see in Figure 18 and 19 (see reference), placed me in an active position and role, and I was able to build the entanglement. Knowledge was constructed upon space-time structuralisation or a network of subjectivities. Being proactively open to change and displacements for the elaboration of the research in itself during its process,  I used a posthumanist and new materialist approach to connect the words and concepts as you can see in Table 1 (see reference). The construction of the intra-actions is coming from a non-dualist approach, meaning the body in relation to something else, but instead, how it is connected to everything that surrounds it.<br><br>
+	
+This allowed me to reflect back on my own research and the process that it itself is involved in and how new data is built as a new body of work from a social construction point of view. All the content and the elements operating in the research will be made available as new material in a website that leaves room for new interpretations. The result of this process is a textual reconstruction and reconfiguration of reality and it proposes layers of transparency that build it and upon it during the research process.<br><br>
+
+Based on the transcripts and notes, I created a new reality and body of work that I, the researcher, interpreted, linked and constructed and that now is materialised as a representation of  the conjunction of voices without organs. I applied the post-qualitative approach not only by evading the words that have no relevance based on words counter but as well I performed a discursive filter from the quantified words highlighting only the ones that are conditional and I considered based on my own subjectivity to be relevant.<br><br>
 		</div>
 		
 	</span>	
@@ -1207,17 +1276,17 @@ Xenotransplantation is such a controversial topic and it’s very important to d
 
 I didn’t conduct the research process by seeking a fixed conclusion but instead I looked for reflections. What I realized during the research process is that more I investigated about the topic, more questions were generated based on the research itself:<br><br>
 
-Is human life more relevant than any other life forms? Why yes or no?<br>
-How much will we be able to replace body parts to extend lives and / or borrow biological time from xenotransplantation?<br>
-If other species kill each other for food and protection, what does xenotransplantation and taking the survival of the fittest theory (reference) into human hands mean for the future of biodiversity and transpecies relations?<br>
-If we get to a point that the rejection of xenotransplantation organs is totally reduced, does this mean that we could become closer to animals genetically speaking or are we vanishing the meaning of the human species?<br>
-What are the variables or the intra-actions that bound the biological and psychosocial aspects of the construction and configurations of a body?<br>
-How much can we reject our own biological predestination and body?<br>
-How much does it affect what we think about ourselves more than what we “actually” are?<br>
-How can this dissertation might later on become a PhD research topic to keep on inquiring about?<br>
+<div class="indent">-Is human life more relevant than any other life forms? Why yes or no?<br>
+- How much will we be able to replace body parts to extend lives and / or borrow biological time from xenotransplantation?<br>
+- If other species kill each other for food and protection, what does xenotransplantation and taking the survival of the fittest theory (reference) into human hands mean for the future of biodiversity and transpecies relations?<br>
+- If we get to a point that the rejection of xenotransplantation organs is totally reduced, does this mean that we could become closer to animals genetically speaking or are we vanishing the meaning of the human species?<br>
+- What are the variables or the intra-actions that bound the biological and psychosocial aspects of the construction and configurations of a body?<br>
+- How much can we reject our own biological predestination and body?<br>
+- How much does it affect what we think about ourselves more than what we “actually” are?<br>
+- How can this dissertation might later on become a PhD research topic to keep on inquiring about?<br></div>
 
 <div id='parent_div_1'>
-<div class ='child_div_1' style="text-align:left; margin-top: 3%; text-align: justify; width: 100%;">
+<div class ='child_div_1' style="text-align:left; margin-top: 3%; text-align: justify; width: 100%; margin-bottom: 3%;">
   <div class="column">
     <h2>Didier Cournelle</h2>
     <p>Didier Cournelle: The average lifespan is rising for people all around the world but the maximal lifespan is not rising. Big Data in healthcare is a tool that binds all the information from quantified bodies and what can bind bodies information and the relation to one another. A web of thousands and millions of input data from humans all around the world. The issue with Big Data is the shared knowledge if private companies decide to not make public or share their research health data that could and or should be a common public good. There’s no public organization in the world that has officially the goal to fight against diseases of old age or that make people live longer and big companies like Google are working in the field of genetics and rejuvenation but there’s still no big progress. Altos Labs is something very new, they work specially in the rejuvenation of cells and they are starting with big names in the genetic field there is hope that it would be useful. <br><br>
@@ -1249,7 +1318,7 @@ The psychological and sociological aspects of a genetic chimerism based on pig t
   
 </div>
 
-	<p style="font-size: 1rem">Making a table of content based on the comparison of the voices of the interviewees and the topics and criteria that are manifested related to the xenotransplantation, allows to establish an entanglement of them which is the results of concepts that sometimes overlap and sometimes oppose:<br><br></p>
+<p style="font-size: 1rem; margin-top: 5%;">Making a table of content based on the comparison of the voices of the interviewees and the topics and criteria that are manifested related to the xenotransplantation, allows to establish an entanglement of them which is the results of concepts that sometimes overlap and sometimes oppose:<br><br></p>
     
 <div class="grid-container">
 	
@@ -1288,13 +1357,13 @@ Trying to define what body type or configuration is generated in xenotransplanta
 
 From this thoughts I propose a new concept of body that is generated upon the creation of a xenotransplanted human:<br><br>
 
-Xeno-in-bodied: The meaning of bodied is “having a body of a specified kind — used in combination” (reference). From this premise I argue that the body is seen as a quantifiable matter and can be self-organized or organised by agency forces from humans even at a genetic level. We are striving for designed bodies where DNA is put in another host and the human is genetically living in another body. A body that is gestated in a lab and it grows inside an animal, a non-human body. This reflects on a question: are we our DNA? To explain the term ‘Xeno-in-bodied’ I used the term ‘xeno’ because the organs develop outside the human, ‘in’ because it comes back to the human body, and ‘bodied’ because it’s a quantifiable organised and controlled matter, a voluntary body modification of the individual. The transferred encoded data becomes a new flesh in which structures are interchangeable from outside sources. The body can be understood as a systematic organism with modular structures with mechanical assistance. The xenotransplanted human is a new material that is an assemblage directed and the. The reconfiguration of the human body that is created upon using the pig as a technological tool that is inserted into the human by xenotransplantation, changes the definition of pigs and the notion of their animal nature as well. A limitless and boundless encoded body emerges among the expansion of DNA xeno-living where sub-organisms create a whole-organism system. This creates a report to ecological and evolutionary success, in which human supremacy is a core concept of the created body and animal sacrifice is due to speciesism hierarchy. If we get to a point where immunological response from xenotransplants is nonexistent, the biological barrier that exists in between transgenic pigs and humans will disappear.<br><br> 
+<b>Xeno-in-bodied:</b> The meaning of bodied is “having a body of a specified kind — used in combination” (reference). From this premise I argue that the body is seen as a quantifiable matter and can be self-organized or organised by agency forces from humans even at a genetic level. We are striving for designed bodies where DNA is put in another host and the human is genetically living in another body. A body that is gestated in a lab and it grows inside an animal, a non-human body. This reflects on a question: are we our DNA? To explain the term ‘Xeno-in-bodied’ I used the term ‘xeno’ because the organs develop outside the human, ‘in’ because it comes back to the human body, and ‘bodied’ because it’s a quantifiable organised and controlled matter, a voluntary body modification of the individual. The transferred encoded data becomes a new flesh in which structures are interchangeable from outside sources. The body can be understood as a systematic organism with modular structures with mechanical assistance. The xenotransplanted human is a new material that is an assemblage directed and the. The reconfiguration of the human body that is created upon using the pig as a technological tool that is inserted into the human by xenotransplantation, changes the definition of pigs and the notion of their animal nature as well. A limitless and boundless encoded body emerges among the expansion of DNA xeno-living where sub-organisms create a whole-organism system. This creates a report to ecological and evolutionary success, in which human supremacy is a core concept of the created body and animal sacrifice is due to speciesism hierarchy. If we get to a point where immunological response from xenotransplants is nonexistent, the biological barrier that exists in between transgenic pigs and humans will disappear.<br><br> 
 
-Ambivalent body configuration from a social standpoint: Socially speaking, pigs can be seen as repulsive or dirty animals. There are two important issues related to both the societal and individual response to xenotransplantation and the xenotransplanted person. The individual may be aware that this is the only resource that will allow him to survive, in which case his positive reaction will contribute to the success of the surgical intervention. This can vary according to the life experience, ideas and emotions of each individual. On the other hand, the collective social reaction towards a xenotransplanted being will vary rhizomatically. For example: a person whose criterion is to equate animals with human beings will reject any intervention of this type, considering it cruel towards the former. The opposite will happen if human life is considered the most relevant in the chain of species. In any case, the xenotransplanted human will be seen as an ambivalent and new being. In addition, one of the possible results is mockery, bullying or bewilderment towards the unknown.<br><br>
+<b>Ambivalent body configuration from a social standpoint:</b> Socially speaking, pigs can be seen as repulsive or dirty animals. There are two important issues related to both the societal and individual response to xenotransplantation and the xenotransplanted person. The individual may be aware that this is the only resource that will allow him to survive, in which case his positive reaction will contribute to the success of the surgical intervention. This can vary according to the life experience, ideas and emotions of each individual. On the other hand, the collective social reaction towards a xenotransplanted being will vary rhizomatically. For example: a person whose criterion is to equate animals with human beings will reject any intervention of this type, considering it cruel towards the former. The opposite will happen if human life is considered the most relevant in the chain of species. In any case, the xenotransplanted human will be seen as an ambivalent and new being. In addition, one of the possible results is mockery, bullying or bewilderment towards the unknown.<br><br>
 
-The age of genetic-chimeras: The creation of human-pig chimeras highlights speciesism as an ethical ideal and the concept of human and animal dignity. Scientific possibilities allow the combination of human and non-human species and that does not rely on categorization into human and nonhuman categories. As xenotransplantation procedures progress the definitions of human will mutate and vary depending on the immunological response. The xenotransplanted person will be considered in the scientific field as a human being, and will not be treated as an animalistic creature. The idea of the mythological chimeric creature will lose its power as xenotransplantation becomes a not so extraordinary process. This changed the human-animal relationship to the core, where the pigs now are not companion species anymore but they are a tool for human life extension.<br><br>   
+<b>The age of genetic-chimeras:</b> The creation of human-pig chimeras highlights speciesism as an ethical ideal and the concept of human and animal dignity. Scientific possibilities allow the combination of human and non-human species and that does not rely on categorization into human and nonhuman categories. As xenotransplantation procedures progress the definitions of human will mutate and vary depending on the immunological response. The xenotransplanted person will be considered in the scientific field as a human being, and will not be treated as an animalistic creature. The idea of the mythological chimeric creature will lose its power as xenotransplantation becomes a not so extraordinary process. This changed the human-animal relationship to the core, where the pigs now are not companion species anymore but they are a tool for human life extension.<br><br>   
 
-Long live the new flesh: Another concept that emerges is a post-cyborg body. Petkovsek & Zalec say that “cyborgization is the connection of mechanic and organic, as two autonomous systems benefiting the host system. Contemporary technology can combine the artificial mechanic parts and the artificial biological parts in some medical operations such as a sex limb change, prosthetic ears or skin implantation made by using 3D bioprinting. In this way cyborgization spread from combining artificial machine systems to connecting the body with artificial systems, where both the biological and mechanical can be artificially produced by technology. Still, this does not include transplantation or any chemical influence to the psychological or emotional state of a human” (Petkovsek & Zalec, 2021).<br><br>
+<b>Long Live the New Flesh:</b> Another concept that emerges is a post-cyborg body. Petkovsek & Zalec say that “cyborgization is the connection of mechanic and organic, as two autonomous systems benefiting the host system. Contemporary technology can combine the artificial mechanic parts and the artificial biological parts in some medical operations such as a sex limb change, prosthetic ears or skin implantation made by using 3D bioprinting. In this way cyborgization spread from combining artificial machine systems to connecting the body with artificial systems, where both the biological and mechanical can be artificially produced by technology. Still, this does not include transplantation or any chemical influence to the psychological or emotional state of a human” (Petkovsek & Zalec, 2021).<br><br>
 
 What can be argued about the premises of the previously mentioned authors is that transplantation does not take part in the cyborgization process, but xenotransplantation does. Due to the fact that the pigs that are being bred for hosting human organs are technology in itself, the xenotransplanted human would become a post-cyborg even though the organ is a biological material. A xenotransplanted human would not be separate from the designed organ which is technology in itself but he would be actually a part of it. This body is thoughtfully controlled and escapes randomness and nature’s adversity. Genetically engineering technologies create a different quest for immortalisation where death due to degenerative organs is not inevitable. If a new organ is needed, it can be created in a laboratory and will replace the failed organ.<br><br> 
 
@@ -1333,23 +1402,21 @@ Having Sara Carrasco Segovia as a tutor has allowed the formation and moulding o
 </div>
 
 
-<!--
-<div class="tooltip-didier">DIDIER COURNELLLE
+<div class="tooltip-didier">DIDIER<br>COURNELLLE
   <span class="tooltiptext-didier">Tooltip text</span>
 </div>
 
-<div class="tooltip-jaime">JAIME DEL VAL
+<div class="tooltip-jaime">JAIME <br>DEL VAL
   <span class="tooltiptext-jaime">Tooltip text</span>
 </div>
 
-<div class="tooltip-benjamin">BENJAMIN SMITH
+<div class="tooltip-benjamin">BENJAMIN<br>SMITH
   <span class="tooltiptext-benjamin">Tooltip text</span>
 </div>
 
-<div class="tooltip-ref">BIBLIOGRAPHICAL REF
+<div class="tooltip-ref">BIBLIOGRA<br>REFERENCES
   <span class="tooltiptext-ref">Tooltip text</span>
 </div>
--->
 
 
 
