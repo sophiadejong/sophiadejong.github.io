@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+  }
+
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Create two equal columns that floats next to each other */
+.column-1 {
+    float: left;
+    width: 25%;
+    padding: 3%;
+    height: 100vh; /* Should be removed. Only for demonstration */
+  }
+
+  .column-2 {
+    float: left;
+    width: 75%;
+    /* padding: 3%; */
+    margin: 0;
+    height: 100vh; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+  /* .container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+    background: #021919;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+}
+
+.tab {
+    width: calc(10vh + 8px);
+    height: calc(10vh + 8px);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0% 50%, 15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%);
+    shape-outside: polygon(0% 50%, 15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%);
+    z-index: 0;
+    transition: width 0.5s;
+}
+
+.tab img {
+    width: 10vh;
+    height: 10vh;
+    z-index: 10;
+    cursor: pointer;
+    clip-path: polygon(0% 50%, 15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%);
+    shape-outside: polygon(0% 50%, 15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%);
+    transition: width 0.5s;
+}
+
+[type=radio] {
+    display: none;   
+}
+
+.preview-list {
+    background: linear-gradient(
+        #021919,
+        #021919 var(--line-offset),
+        #efefef var(--line-offset)
+    );
+}
+
+.tab {
+    background: linear-gradient(
+        #efefef,
+        #efefef var(--line-offset),
+        #021919 var(--line-offset)
+    );
+}
+
+[type=radio]:checked ~ label ~ .content{
+    text-align: center;
+    z-index: 8;
+}
+
+
+[type=radio]:checked ~ label .tab{
+    width: 0;
+}
+
+.content {
+    position: absolute;
+    background: #021919;
+    top: 1vh;
+    left: 10vw;
+    width: 80vw;
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.content img {
+    height: auto;
+    width: 100vw;  
+} */
+
+html{
+	align-items: center;
+	background-color: #fefdf4;
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+	min-height: 100vh;
+}
+
+#Wrapper{
+	align-items: center;
+	background-color: #EEEFF7;
+	display: flex;
+	height: 500px;
+	justify-content: center;
+	width: 1000px;
+}
+
+#Slideshow{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: hidden;
+	position: relative;
+}
+
+#Slider{
+	border: 20px solid #1C1D21;
+	height: 300px;
+	overflow: hidden;
+	width: 600px;
+}
+
+#Slider img{
+	height: 300px;
+	width: 600px;
+	transition: all 1s;
+}
+
+#Arrows{
+	display: flex;
+	justify-content: space-between;
+	height: 30px;
+	position: absolute;
+	width: 600px;
+}
+
+#Arrows i{
+	background-color: rgba(255, 255, 255, .25);
+	color: #1C1D21;
+	cursor: pointer;
+	height: 30px;
+	padding: 15px;
+
+	transition: background-color .5s, color .5s;
+}
+
+#Arrows i:first-of-type{ 
+	padding-right: 20px;
+}
+
+#Arrows i:last-of-type{ 
+	padding-left: 20px;
+}
+
+#Arrows i:hover{
+	background-color: rgba(28,29,33, .75);
+	color: #EEEFF7;
+}
+
+h1{
+	color: #1C1D21;
+	/* font-family: righteous; */
+	font-size: 2.5em;
+	padding: 20px;
+}
+
+h2{
+	color: #1C1D21;
+	/* font-family: "Open Sans"; */
+	font-size: 1.5em;
+	padding: 20px;
+}
+
+#MeLink{
+  background-color: rgba(255,255,255, 0);
+  border: 10px solid #1C1D21;
+  border-radius: 80px;
+  bottom: 20px;
+  height: 80px;
+  overflow: hidden;
+  position: fixed;
+  right: 20px;
+  width: 80px;
+  z-index: 2;
+  
+  transition: background-color .5s;
+}
+
+#MeLink:hover{
+  background-color: rgba(255,255,255, .25);
+}
+
+#Me{
+  border: 10px solid #1C1D21;
+  border-radius: 80px;
+  bottom: 20px;
+  height: 80px;
+  position: fixed;
+  right: 20px;
+  width: 80px;
+  z-index: 1;
+}
+
+.hover-link a {
+    text-decoration: underline;
+    color: black;
+    transition: 0.5s;
+    opacity: 0.65;
+}
+
+.hover-link a:hover {
+    opacity: 1;
+}
